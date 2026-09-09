@@ -1,0 +1,62 @@
+<!doctype html><html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>The Cardano Record</title>
+<meta name="description" content="Cardano on-chain data, measured from a local node and scored in public.">
+<link rel="stylesheet" href="_style.css">
+</head><body><div class="wrap">
+<header>
+  <div class="bar"></div>
+  <h1>The Cardano Record</h1>
+  <div class="tag">measured on-chain, scored in public</div>
+</header>
+
+<p><strong>The Cardano Record</strong> publishes short, data-only briefings on the Cardano
+blockchain — two most days, and one longer summary each week.</p>
+
+<p>Every figure is computed from a <strong>local Cardano node and a full
+<code>cardano-db-sync</code> database</strong>. No third-party API is trusted for anything that
+reaches the screen, and each number is cross-checked against a second independent source
+before it airs. When a source is unavailable or a figure cannot be verified, the video
+says so rather than rounding the gap away.</p>
+
+<div class="card">
+  <span class="pill">Daily</span><span class="pill">Weekly summary</span><span class="pill">No price targets</span>
+  <p style="margin-top:16px;margin-bottom:0">Watch on YouTube:
+  <a href="https://www.youtube.com/@CardanoRecord">@CardanoRecord</a></p>
+</div>
+
+<h2>What makes it different</h2>
+
+<h3>Every episode logs one falsifiable claim</h3>
+<p>Each briefing ends with a single, specific, checkable claim — a named metric, a
+comparison and a resolution date. On that date the claim is scored automatically against
+the archived data, and the result is published whether it was right or wrong. Claims that
+cannot be resolved are marked void and shown as void. The running record, including the
+misses, appears in every weekly episode.</p>
+
+<h3>The full Indigo loan book, not the public slice</h3>
+<p>Indigo Protocol's public API exposes only its newest set of collateralised debt
+positions. The complete book is reconstructed here by decoding the lending validator's
+on-chain datums directly, then reconciled against chain-wide mint history before anything
+is reported. That is what makes the liquidation-cascade segment possible.</p>
+
+<h3>Uncertainty is stated, not hidden</h3>
+<p>Hit rates are reported alongside a confidence floor, because a good record over a small
+number of claims does not mean much and pretending otherwise would defeat the point.</p>
+
+<h2>What it is not</h2>
+<p>This is not financial advice, and it contains no price predictions, targets or trading
+recommendations. It is a measurement channel. Nothing here should be relied upon for
+investment decisions, and the operator is not affiliated with the Cardano Foundation,
+Input Output, Intersect, Indigo Protocol, or any project covered.</p>
+
+<h2>Corrections</h2>
+<p>Errors are corrected on the record. If you find a wrong number, raise it on the relevant
+video and it will be addressed in a later episode rather than quietly edited away.</p>
+
+<footer>
+  <p><a href="privacy.html">Privacy policy</a> · <a href="https://www.youtube.com/@CardanoRecord">YouTube</a></p>
+  <p class="meta" style="margin-top:10px">Operated by an independent individual. Contact: see the
+  channel's About page on YouTube.</p>
+</footer>
+</div></body></html>
