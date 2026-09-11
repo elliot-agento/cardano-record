@@ -1,0 +1,121 @@
+{
+ "episode_id": "20260911-171253-daily",
+ "mode": "daily",
+ "published": "2026-09-11T17:16:10",
+ "video_url": "https://youtu.be/OpvaQZDgWCc",
+ "title": "44% Drop Required: The Risk Floor in Cardano's Loan Book",
+ "data_generated_at": "2026-09-11T17:12:02",
+ "claim": {
+  "metric": "iusd_supply",
+  "horizon_days": 7,
+  "op": ">",
+  "threshold": 1336790.0,
+  "text": "iUSD supply stays above 1.3 million for a week"
+ },
+ "market": {
+  "ada_usd": 0.20501876292960497,
+  "source": "coingecko",
+  "cross_checked": true,
+  "change_24h_pct": -0.7276232584881649
+ },
+ "indigo": {
+  "tvl_usd": 4004004.0,
+  "indy_price_usd": 0.096047
+ },
+ "loan_book": {
+  "positions": 290,
+  "debt_usd": 1761307.0074469694,
+  "collateral_ada": 18620763.231849004,
+  "book_ratio": 2.1674846159457517,
+  "price_10pct_at_risk_usd": 0.15581431483205974,
+  "price_50pct_at_risk_usd": 0.11481058724866598,
+  "decoded_utxos": 310,
+  "validator_utxos": 313
+ },
+ "coverage": {
+  "iADA": {
+   "decoded_iasset": 233.450484,
+   "chain_supply_iasset": 233.450484,
+   "coverage_pct": 100.0
+  },
+  "iBTC": {
+   "decoded_iasset": 5.284895000000001,
+   "chain_supply_iasset": 5.284895,
+   "coverage_pct": 100.00000000000003
+  },
+  "iETH": {
+   "decoded_iasset": 35.425859,
+   "chain_supply_iasset": 35.425859,
+   "coverage_pct": 100.0
+  },
+  "iEUR": {
+   "decoded_iasset": 67.51553,
+   "chain_supply_iasset": 67.51553,
+   "coverage_pct": 100.0
+  },
+  "iJPY": {
+   "decoded_iasset": 76515.967958,
+   "chain_supply_iasset": 76515.967958,
+   "coverage_pct": 100.0
+  },
+  "iSOL": {
+   "decoded_iasset": 86.357929,
+   "chain_supply_iasset": 86.357929,
+   "coverage_pct": 100.0
+  },
+  "iUSD": {
+   "decoded_iasset": 1269028.4338920002,
+   "chain_supply_iasset": 1378133.966331,
+   "coverage_pct": 92.08309677400443
+  },
+  "_worst_pct": 92.08309677400443
+ },
+ "governance": {
+  "epoch": 655,
+  "open_actions": [
+   {
+    "id": 156,
+    "type": "TreasuryWithdrawals",
+    "withdrawal_ada": 103000.0,
+    "expiration_epoch": 656,
+    "drep_yes_pct_of_decisive": 95.87369830073102,
+    "drep_participation_pct": 22.935290791952106
+   },
+   {
+    "id": 155,
+    "type": "TreasuryWithdrawals",
+    "withdrawal_ada": 4207967.0,
+    "expiration_epoch": 656,
+    "drep_yes_pct_of_decisive": 3.0753939760411266,
+    "drep_participation_pct": 21.027586789694354
+   },
+   {
+    "id": 158,
+    "type": "ParameterChange",
+    "withdrawal_ada": null,
+    "expiration_epoch": 661,
+    "drep_yes_pct_of_decisive": 100.0,
+    "drep_participation_pct": 0.0006390822871707308
+   },
+   {
+    "id": 157,
+    "type": "TreasuryWithdrawals",
+    "withdrawal_ada": 11787063.0,
+    "expiration_epoch": 661,
+    "drep_yes_pct_of_decisive": 0.8665979583284279,
+    "drep_participation_pct": 0.712898949828659
+   }
+  ],
+  "decided_counts": {
+   "enacted": 3,
+   "expired": 9,
+   "dropped": 0
+  }
+ },
+ "monetary": {
+  "decay_per_epoch_pct": 0.16203187018184462,
+  "half_life_years": 5.851304652744548,
+  "treasury_accrual_per_epoch_ada": 3740534.1255960464
+ },
+ "_note": "Compact record of the figures used in this episode. Full current snapshot: https://elliot-agento.github.io/cardano-record/data/latest.json"
+}
