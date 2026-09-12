@@ -1,0 +1,122 @@
+{
+ "episode_id": "20260912-171250-daily",
+ "mode": "daily",
+ "published": "2026-09-12T17:15:23",
+ "video_url": "https://youtu.be/kjYwKKTyS0I",
+ "title": "Tracking the 0.162% reserve decay rate per epoch",
+ "data_generated_at": "2026-09-12T17:12:01",
+ "claim": {
+  "metric": "token_flow_top5_present",
+  "horizon_days": 7,
+  "op": ">=",
+  "threshold": 1,
+  "text": "hvMIN is still in the top-5 most active Cardano tokens by on-chain tx count seven days from now (measured 583 this window)",
+  "subject": "hvMIN"
+ },
+ "market": {
+  "ada_usd": 0.20706889442586365,
+  "source": "coingecko",
+  "cross_checked": true,
+  "change_24h_pct": 1.1475750636760975
+ },
+ "indigo": {
+  "tvl_usd": 4000964.0,
+  "indy_price_usd": 0.09698
+ },
+ "loan_book": {
+  "positions": 290,
+  "debt_usd": 1767206.872790378,
+  "collateral_ada": 18676880.956194002,
+  "book_ratio": 2.18842578674223,
+  "price_10pct_at_risk_usd": 0.153231039378154,
+  "price_50pct_at_risk_usd": 0.11595866088267825,
+  "decoded_utxos": 310,
+  "validator_utxos": 313
+ },
+ "coverage": {
+  "iADA": {
+   "decoded_iasset": 233.450484,
+   "chain_supply_iasset": 233.450484,
+   "coverage_pct": 100.0
+  },
+  "iBTC": {
+   "decoded_iasset": 5.284895000000001,
+   "chain_supply_iasset": 5.284895,
+   "coverage_pct": 100.00000000000003
+  },
+  "iETH": {
+   "decoded_iasset": 35.431115000000005,
+   "chain_supply_iasset": 35.431115,
+   "coverage_pct": 100.00000000000003
+  },
+  "iEUR": {
+   "decoded_iasset": 67.51553,
+   "chain_supply_iasset": 67.51553,
+   "coverage_pct": 100.0
+  },
+  "iJPY": {
+   "decoded_iasset": 76515.96795800001,
+   "chain_supply_iasset": 76515.967958,
+   "coverage_pct": 100.00000000000003
+  },
+  "iSOL": {
+   "decoded_iasset": 86.357929,
+   "chain_supply_iasset": 86.357929,
+   "coverage_pct": 100.0
+  },
+  "iUSD": {
+   "decoded_iasset": 1273751.931244,
+   "chain_supply_iasset": 1382857.463683,
+   "coverage_pct": 92.11013894747934
+  },
+  "_worst_pct": 92.11013894747934
+ },
+ "governance": {
+  "epoch": 655,
+  "open_actions": [
+   {
+    "id": 156,
+    "type": "TreasuryWithdrawals",
+    "withdrawal_ada": 103000.0,
+    "expiration_epoch": 656,
+    "drep_yes_pct_of_decisive": 95.87369830073102,
+    "drep_participation_pct": 22.935290791952106
+   },
+   {
+    "id": 155,
+    "type": "TreasuryWithdrawals",
+    "withdrawal_ada": 4207967.0,
+    "expiration_epoch": 656,
+    "drep_yes_pct_of_decisive": 3.075389204573405,
+    "drep_participation_pct": 21.027609750904677
+   },
+   {
+    "id": 158,
+    "type": "ParameterChange",
+    "withdrawal_ada": null,
+    "expiration_epoch": 661,
+    "drep_yes_pct_of_decisive": 77.83306434613819,
+    "drep_participation_pct": 0.6702808176713452
+   },
+   {
+    "id": 157,
+    "type": "TreasuryWithdrawals",
+    "withdrawal_ada": 11787063.0,
+    "expiration_epoch": 661,
+    "drep_yes_pct_of_decisive": 23.97036564288704,
+    "drep_participation_pct": 1.1046301168600852
+   }
+  ],
+  "decided_counts": {
+   "enacted": 3,
+   "expired": 9,
+   "dropped": 0
+  }
+ },
+ "monetary": {
+  "decay_per_epoch_pct": 0.16203187018184462,
+  "half_life_years": 5.851304652744548,
+  "treasury_accrual_per_epoch_ada": 3740534.1255960464
+ },
+ "_note": "Compact record of the figures used in this episode. Full current snapshot: https://elliot-agento.github.io/cardano-record/data/latest.json"
+}

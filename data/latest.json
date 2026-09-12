@@ -1,15 +1,15 @@
 {
- "generated_at": "2026-09-12T16:23:58",
+ "generated_at": "2026-09-12T17:12:01",
  "date": "2026-09-12",
  "schema_version": 2,
  "dbsync": {
   "tip": {
    "available": true,
-   "block": 13932882,
+   "block": 13933020,
    "epoch": 655,
-   "slot": 197681940,
-   "tip_time": "2026-09-12 21:23:51",
-   "sync_lag_seconds": 8
+   "slot": 197684818,
+   "tip_time": "2026-09-12 22:11:49",
+   "sync_lag_seconds": 12
   },
   "iasset_supply_iasset": {
    "iADA": 233.450484,
@@ -18,18 +18,10 @@
    "iEUR": 67.51553,
    "iJPY": 76515.967958,
    "iSOL": 86.357929,
-   "iUSD": 1380764.342331
+   "iUSD": 1382857.463683
   },
   "cdp_book": {
    "positions": [
-    {
-     "asset": "iUSD",
-     "collateral_ada": 9.993179,
-     "collateral_asset": "ADA",
-     "debt_iasset": 1.0,
-     "owner": "c29d5528eb46fe3ba5ba0749ef46def4b38eb1cd0bf8c43596c3ff75",
-     "interest_updated_ms": 1779981941000
-    },
     {
      "asset": "iUSD",
      "collateral_ada": 10.964874,
@@ -40,19 +32,19 @@
     },
     {
      "asset": "iUSD",
+     "collateral_ada": 9.993179,
+     "collateral_asset": "ADA",
+     "debt_iasset": 1.0,
+     "owner": "c29d5528eb46fe3ba5ba0749ef46def4b38eb1cd0bf8c43596c3ff75",
+     "interest_updated_ms": 1779981941000
+    },
+    {
+     "asset": "iUSD",
      "collateral_ada": 249.144284,
      "collateral_asset": "ADA",
      "debt_iasset": 30.0,
      "owner": "395443de213ccefd2126d203b80f6ebdcde3caa758e3643f84b4b100",
      "interest_updated_ms": 1779983210000
-    },
-    {
-     "asset": "iUSD",
-     "collateral_ada": 19.970514,
-     "collateral_asset": "ADA",
-     "debt_iasset": 1.0,
-     "owner": "20d5a7318403f47d2e69563f9e441426433c71a7e50dacf3ffc2bed9",
-     "interest_updated_ms": 1779983384000
     },
     {
      "asset": "iUSD",
@@ -71,12 +63,12 @@
      "interest_updated_ms": 1779983360000
     },
     {
-     "asset": "iBTC",
-     "collateral_ada": 30.0,
+     "asset": "iUSD",
+     "collateral_ada": 19.970514,
      "collateral_asset": "ADA",
-     "debt_iasset": 4e-05,
-     "owner": "5721cf31d38c3d51711c43f9fdefcdc81ac47d8df0b1a1026bb34fd9",
-     "interest_updated_ms": 1779988048000
+     "debt_iasset": 1.0,
+     "owner": "20d5a7318403f47d2e69563f9e441426433c71a7e50dacf3ffc2bed9",
+     "interest_updated_ms": 1779983384000
     },
     {
      "asset": "iUSD",
@@ -87,20 +79,12 @@
      "interest_updated_ms": 1779985406000
     },
     {
-     "asset": "iUSD",
-     "collateral_ada": 112.031608,
+     "asset": "iBTC",
+     "collateral_ada": 30.0,
      "collateral_asset": "ADA",
-     "debt_iasset": 13.538151,
-     "owner": "0c9e8fdce6a75d5202f0adb8c51df9ae4259b2818fa464e43ee773aa",
-     "interest_updated_ms": 1779988471000
-    },
-    {
-     "asset": "iUSD",
-     "collateral_ada": 19.29576,
-     "collateral_asset": "ADA",
-     "debt_iasset": 0.292422,
-     "owner": "94275840268d6b1ef5de783596d50183aeca94277944210de3e2ee30",
-     "interest_updated_ms": 1779988355000
+     "debt_iasset": 4e-05,
+     "owner": "5721cf31d38c3d51711c43f9fdefcdc81ac47d8df0b1a1026bb34fd9",
+     "interest_updated_ms": 1779988048000
     },
     {
      "asset": "iBTC",
@@ -109,6 +93,14 @@
      "debt_iasset": 1e-06,
      "owner": "9c8cc3ac2810e440ae1d0d41c4d7cbf79b860b5f315f8d4ed8350d81",
      "interest_updated_ms": 1779990419000
+    },
+    {
+     "asset": "iUSD",
+     "collateral_ada": 19.29576,
+     "collateral_asset": "ADA",
+     "debt_iasset": 0.292422,
+     "owner": "94275840268d6b1ef5de783596d50183aeca94277944210de3e2ee30",
+     "interest_updated_ms": 1779988355000
     },
     {
      "asset": "iBTC",
@@ -135,20 +127,20 @@
      "interest_updated_ms": 1779990472000
     },
     {
-     "asset": "iBTC",
-     "collateral_ada": 10.000014,
-     "collateral_asset": "ADA",
-     "debt_iasset": 1e-06,
-     "owner": "59d807d7905ab3658b9adaa0f9325ded5b85e31df3a0e83c4b3c173e",
-     "interest_updated_ms": 1779990771000
-    },
-    {
      "asset": "iUSD",
      "collateral_ada": 19.964816,
      "collateral_asset": "ADA",
      "debt_iasset": 0.019443,
      "owner": "0c43b0add02d034b854b764426b4a24898aaf3375403bb2d979d7093",
      "interest_updated_ms": 1779990667000
+    },
+    {
+     "asset": "iUSD",
+     "collateral_ada": 112.031608,
+     "collateral_asset": "ADA",
+     "debt_iasset": 13.538151,
+     "owner": "0c9e8fdce6a75d5202f0adb8c51df9ae4259b2818fa464e43ee773aa",
+     "interest_updated_ms": 1779988471000
     },
     {
      "asset": "iBTC",
@@ -167,6 +159,14 @@
      "interest_updated_ms": 1779990727000
     },
     {
+     "asset": "iBTC",
+     "collateral_ada": 10.000014,
+     "collateral_asset": "ADA",
+     "debt_iasset": 1e-06,
+     "owner": "59d807d7905ab3658b9adaa0f9325ded5b85e31df3a0e83c4b3c173e",
+     "interest_updated_ms": 1779990771000
+    },
+    {
      "asset": "iUSD",
      "collateral_ada": 9.818971,
      "collateral_asset": "ADA",
@@ -176,11 +176,19 @@
     },
     {
      "asset": "iETH",
-     "collateral_ada": 9.131996,
+     "collateral_ada": 9.974188,
      "collateral_asset": "ADA",
-     "debt_iasset": 0.000431,
-     "owner": "d74a6efc13c28b96e80fa23036353ec62897443d0ee58a7cae63cb0b",
-     "interest_updated_ms": 1779991086000
+     "debt_iasset": 1.6e-05,
+     "owner": "2dbce9a05ff3ecdedbaf202ea14e89a4396560be74f4f5748aa289f6",
+     "interest_updated_ms": 1779990832000
+    },
+    {
+     "asset": "iETH",
+     "collateral_ada": 32.326424,
+     "collateral_asset": "ADA",
+     "debt_iasset": 0.00115,
+     "owner": "4e230f37c10a94a0051fd2fb18931021943e8194a95e3d677715101f",
+     "interest_updated_ms": 1779990932000
     },
     {
      "asset": "iSOL",
@@ -200,6 +208,22 @@
     },
     {
      "asset": "iUSD",
+     "collateral_ada": 8.794872,
+     "collateral_asset": "ADA",
+     "debt_iasset": 0.667461,
+     "owner": "fd85a7d0ba9624bbed523a947035d63f63badf8d827df917fa71f1c0",
+     "interest_updated_ms": 1779991164000
+    },
+    {
+     "asset": "iETH",
+     "collateral_ada": 9.131996,
+     "collateral_asset": "ADA",
+     "debt_iasset": 0.000431,
+     "owner": "d74a6efc13c28b96e80fa23036353ec62897443d0ee58a7cae63cb0b",
+     "interest_updated_ms": 1779991086000
+    },
+    {
+     "asset": "iUSD",
      "collateral_ada": 10.427756,
      "collateral_asset": "ADA",
      "debt_iasset": 0.119068,
@@ -207,28 +231,20 @@
      "interest_updated_ms": 1779991142000
     },
     {
-     "asset": "iETH",
-     "collateral_ada": 9.974188,
-     "collateral_asset": "ADA",
-     "debt_iasset": 1.6e-05,
-     "owner": "2dbce9a05ff3ecdedbaf202ea14e89a4396560be74f4f5748aa289f6",
-     "interest_updated_ms": 1779990832000
-    },
-    {
-     "asset": "iETH",
-     "collateral_ada": 32.326424,
-     "collateral_asset": "ADA",
-     "debt_iasset": 0.00115,
-     "owner": "4e230f37c10a94a0051fd2fb18931021943e8194a95e3d677715101f",
-     "interest_updated_ms": 1779990932000
-    },
-    {
      "asset": "iUSD",
-     "collateral_ada": 8.794872,
+     "collateral_ada": 9.955627,
      "collateral_asset": "ADA",
-     "debt_iasset": 0.667461,
-     "owner": "fd85a7d0ba9624bbed523a947035d63f63badf8d827df917fa71f1c0",
-     "interest_updated_ms": 1779991164000
+     "debt_iasset": 0.024598,
+     "owner": "0016f0095d4272c17a64a2234dd6e9c3ae6bda2ae42394a012d8f34e",
+     "interest_updated_ms": 1779991218000
+    },
+    {
+     "asset": "iBTC",
+     "collateral_ada": 1014.238086,
+     "collateral_asset": "ADA",
+     "debt_iasset": 6.4e-05,
+     "owner": "ca0f77040a2b74ee79cb3a2c8046083e364c853648d64885a75ae35e",
+     "interest_updated_ms": 1779991218000
     },
     {
      "asset": "iUSD",
@@ -240,14 +256,6 @@
     },
     {
      "asset": "iUSD",
-     "collateral_ada": 9.955627,
-     "collateral_asset": "ADA",
-     "debt_iasset": 0.024598,
-     "owner": "0016f0095d4272c17a64a2234dd6e9c3ae6bda2ae42394a012d8f34e",
-     "interest_updated_ms": 1779991218000
-    },
-    {
-     "asset": "iUSD",
      "collateral_ada": 10.0,
      "collateral_asset": "ADA",
      "debt_iasset": 1e-06,
@@ -255,28 +263,12 @@
      "interest_updated_ms": 1779991284000
     },
     {
-     "asset": "iBTC",
-     "collateral_ada": 1014.238086,
-     "collateral_asset": "ADA",
-     "debt_iasset": 6.4e-05,
-     "owner": "ca0f77040a2b74ee79cb3a2c8046083e364c853648d64885a75ae35e",
-     "interest_updated_ms": 1779991218000
-    },
-    {
-     "asset": "iETH",
-     "collateral_ada": 8.981471,
-     "collateral_asset": "ADA",
-     "debt_iasset": 0.000516,
-     "owner": "1afd04309c9cec5379334d59ff7f7bd182a7948cccf56808221b1b07",
-     "interest_updated_ms": 1779991408000
-    },
-    {
      "asset": "iUSD",
-     "collateral_ada": 14.328586,
+     "collateral_ada": 92.923256,
      "collateral_asset": "ADA",
-     "debt_iasset": 0.489494,
-     "owner": "0dcbeed337d833d3642b28c19cdc84b4a6bd454170bc39dd5b8fd27f",
-     "interest_updated_ms": 1779991408000
+     "debt_iasset": 5.000001,
+     "owner": "2d7bdad2855f7e784073b2c9d5ca723b11fcf91253acece71eb39499",
+     "interest_updated_ms": 1779991411000
     },
     {
      "asset": "iUSD",
@@ -287,12 +279,20 @@
      "interest_updated_ms": 1779991287000
     },
     {
-     "asset": "iUSD",
-     "collateral_ada": 9.990138,
+     "asset": "iBTC",
+     "collateral_ada": 138.08089,
      "collateral_asset": "ADA",
-     "debt_iasset": 0.005491,
-     "owner": "b057eb3fcd56ee72340767dc15fa82c0f7c1068f2b5eadff93d00a7f",
-     "interest_updated_ms": 1779991554000
+     "debt_iasset": 0.000164,
+     "owner": "30f730fb260aed1721ae7ec3d6ba003509bc8d125ddbf93ddf51cfac",
+     "interest_updated_ms": 1779991431000
+    },
+    {
+     "asset": "iETH",
+     "collateral_ada": 13.651157,
+     "collateral_asset": "ADA",
+     "debt_iasset": 0.000577,
+     "owner": "82f241eb5dadcc19e9990f85c9e7a93bb655b2c07ed3fe375509b417",
+     "interest_updated_ms": 1779991622000
     },
     {
      "asset": "iETH",
@@ -352,43 +352,51 @@
     },
     {
      "asset": "iUSD",
-     "collateral_ada": 92.923256,
+     "collateral_ada": 8.440025,
      "collateral_asset": "ADA",
-     "debt_iasset": 5.000001,
-     "owner": "2d7bdad2855f7e784073b2c9d5ca723b11fcf91253acece71eb39499",
-     "interest_updated_ms": 1779991411000
+     "debt_iasset": 0.871268,
+     "owner": "583b2c59a9b7d356745f0a1a03982acf2ef69764628e633cbc3484ba",
+     "interest_updated_ms": 1779991879000
     },
     {
      "asset": "iUSD",
-     "collateral_ada": 8.848877,
+     "collateral_ada": 49.543822,
      "collateral_asset": "ADA",
-     "debt_iasset": 1.008441,
-     "owner": "4a2c7b350c362ca9652c45c2e8758803511b13f820c24d0904329df3",
-     "interest_updated_ms": 1779991596000
-    },
-    {
-     "asset": "iUSD",
-     "collateral_ada": 49.971376,
-     "collateral_asset": "ADA",
-     "debt_iasset": 0.015933,
-     "owner": "cf85115658e6716b4fec64cbb9878c06edb3ce5b5015eb4c8970fca4",
-     "interest_updated_ms": 1779991596000
+     "debt_iasset": 0.254693,
+     "owner": "2f9ea3c084a6c0c4b7a306bd5e30c6230eecdc91e4f581e1be3375c6",
+     "interest_updated_ms": 1779991955000
     },
     {
      "asset": "iBTC",
-     "collateral_ada": 138.08089,
+     "collateral_ada": 19.514309,
      "collateral_asset": "ADA",
-     "debt_iasset": 0.000164,
-     "owner": "30f730fb260aed1721ae7ec3d6ba003509bc8d125ddbf93ddf51cfac",
-     "interest_updated_ms": 1779991431000
+     "debt_iasset": 2.7e-05,
+     "owner": "6ae0e33912ce074d3df833c621df945eefa9924016fc0d62d7a1075b",
+     "interest_updated_ms": 1779992055000
     },
     {
      "asset": "iETH",
-     "collateral_ada": 13.651157,
+     "collateral_ada": 8.981471,
      "collateral_asset": "ADA",
-     "debt_iasset": 0.000577,
-     "owner": "82f241eb5dadcc19e9990f85c9e7a93bb655b2c07ed3fe375509b417",
-     "interest_updated_ms": 1779991622000
+     "debt_iasset": 0.000516,
+     "owner": "1afd04309c9cec5379334d59ff7f7bd182a7948cccf56808221b1b07",
+     "interest_updated_ms": 1779991408000
+    },
+    {
+     "asset": "iUSD",
+     "collateral_ada": 14.328586,
+     "collateral_asset": "ADA",
+     "debt_iasset": 0.489494,
+     "owner": "0dcbeed337d833d3642b28c19cdc84b4a6bd454170bc39dd5b8fd27f",
+     "interest_updated_ms": 1779991408000
+    },
+    {
+     "asset": "iUSD",
+     "collateral_ada": 9.990138,
+     "collateral_asset": "ADA",
+     "debt_iasset": 0.005491,
+     "owner": "b057eb3fcd56ee72340767dc15fa82c0f7c1068f2b5eadff93d00a7f",
+     "interest_updated_ms": 1779991554000
     },
     {
      "asset": "iUSD",
@@ -439,22 +447,6 @@
      "interest_updated_ms": 1779991955000
     },
     {
-     "asset": "iUSD",
-     "collateral_ada": 8.440025,
-     "collateral_asset": "ADA",
-     "debt_iasset": 0.871268,
-     "owner": "583b2c59a9b7d356745f0a1a03982acf2ef69764628e633cbc3484ba",
-     "interest_updated_ms": 1779991879000
-    },
-    {
-     "asset": "iUSD",
-     "collateral_ada": 49.543822,
-     "collateral_asset": "ADA",
-     "debt_iasset": 0.254693,
-     "owner": "2f9ea3c084a6c0c4b7a306bd5e30c6230eecdc91e4f581e1be3375c6",
-     "interest_updated_ms": 1779991955000
-    },
-    {
      "asset": "iBTC",
      "collateral_ada": 86.498336,
      "collateral_asset": "ADA",
@@ -487,14 +479,6 @@
      "interest_updated_ms": 1779991872000
     },
     {
-     "asset": "iBTC",
-     "collateral_ada": 19.514309,
-     "collateral_asset": "ADA",
-     "debt_iasset": 2.7e-05,
-     "owner": "6ae0e33912ce074d3df833c621df945eefa9924016fc0d62d7a1075b",
-     "interest_updated_ms": 1779992055000
-    },
-    {
      "asset": "iUSD",
      "collateral_ada": 394.84327,
      "collateral_asset": "ADA",
@@ -504,19 +488,11 @@
     },
     {
      "asset": "iUSD",
-     "collateral_ada": 9.433236,
+     "collateral_ada": 9.98837,
      "collateral_asset": "ADA",
-     "debt_iasset": 0.316321,
-     "owner": "bdf57ec373e27ac789fcee276285feddbb5dd6df94b7161641cb5ed3",
-     "interest_updated_ms": 1779991925000
-    },
-    {
-     "asset": "iUSD",
-     "collateral_ada": 194.032634,
-     "collateral_asset": "ADA",
-     "debt_iasset": 3.330433,
-     "owner": "076fe746635376963ae1c07c98dfa6a84168ff429673d2546ee5e744",
-     "interest_updated_ms": 1779992106000
+     "debt_iasset": 0.006502,
+     "owner": "b047f6e52e71cb2d4319a1eaf6b410ba007ea37c2431529560136b59",
+     "interest_updated_ms": 1779992355000
     },
     {
      "asset": "iUSD",
@@ -536,19 +512,19 @@
     },
     {
      "asset": "iUSD",
-     "collateral_ada": 9.98837,
+     "collateral_ada": 9.795812,
      "collateral_asset": "ADA",
-     "debt_iasset": 0.006502,
-     "owner": "b047f6e52e71cb2d4319a1eaf6b410ba007ea37c2431529560136b59",
-     "interest_updated_ms": 1779992355000
+     "debt_iasset": 0.114038,
+     "owner": "609f0057e77766add23faadf0f04065651a7e59a5000f5bf7a6dc17b",
+     "interest_updated_ms": 1779992405000
     },
     {
      "asset": "iUSD",
-     "collateral_ada": 10.0,
+     "collateral_ada": 9.943437,
      "collateral_asset": "ADA",
-     "debt_iasset": 1e-06,
-     "owner": "0dbb67ed102393b0bf27cb9d1c2f8f83ad7a9f1689904879a5191c92",
-     "interest_updated_ms": 1779992239000
+     "debt_iasset": 0.031591,
+     "owner": "e1a8082c47e07a5033dac58e317d904b814c3a3d26d9abe1647274b7",
+     "interest_updated_ms": 1779992403000
     },
     {
      "asset": "iETH",
@@ -584,19 +560,51 @@
     },
     {
      "asset": "iUSD",
-     "collateral_ada": 52.095854,
-     "collateral_asset": "ADA",
-     "debt_iasset": 6.04995,
-     "owner": "946953263763d75c0f145c181776db79cbde145fd73c782889661c19",
-     "interest_updated_ms": 1779992513000
-    },
-    {
-     "asset": "iUSD",
      "collateral_ada": 9.784718,
      "collateral_asset": "ADA",
      "debt_iasset": 0.643584,
      "owner": "3ff519be3e3dedfb871d2c9c6fc28a8f821037265f1f0f2d955205a8",
      "interest_updated_ms": 1779992613000
+    },
+    {
+     "asset": "iUSD",
+     "collateral_ada": 9.619463,
+     "collateral_asset": "ADA",
+     "debt_iasset": 0.212188,
+     "owner": "cf16cf016f4a4952403e22ae1c02c02bc9413b7edb705640cb78ea10",
+     "interest_updated_ms": 1779992718000
+    },
+    {
+     "asset": "iUSD",
+     "collateral_ada": 468.153024,
+     "collateral_asset": "ADA",
+     "debt_iasset": 45.636959,
+     "owner": "a2b2868b4ed8cb7d64c181d43729fc2d1ee6349d19244491006b16d1",
+     "interest_updated_ms": 1779992735000
+    },
+    {
+     "asset": "iBTC",
+     "collateral_ada": 10.0,
+     "collateral_asset": "ADA",
+     "debt_iasset": 3e-06,
+     "owner": "d278504ff6b1e2f12d21c2860ef79d67e96d80d66beb213077a4a268",
+     "interest_updated_ms": 1779992820000
+    },
+    {
+     "asset": "iUSD",
+     "collateral_ada": 9.433236,
+     "collateral_asset": "ADA",
+     "debt_iasset": 0.316321,
+     "owner": "bdf57ec373e27ac789fcee276285feddbb5dd6df94b7161641cb5ed3",
+     "interest_updated_ms": 1779991925000
+    },
+    {
+     "asset": "iUSD",
+     "collateral_ada": 194.032634,
+     "collateral_asset": "ADA",
+     "debt_iasset": 3.330433,
+     "owner": "076fe746635376963ae1c07c98dfa6a84168ff429673d2546ee5e744",
+     "interest_updated_ms": 1779992106000
     },
     {
      "asset": "iETH",
@@ -608,11 +616,11 @@
     },
     {
      "asset": "iUSD",
-     "collateral_ada": 9.943437,
+     "collateral_ada": 10.0,
      "collateral_asset": "ADA",
-     "debt_iasset": 0.031591,
-     "owner": "e1a8082c47e07a5033dac58e317d904b814c3a3d26d9abe1647274b7",
-     "interest_updated_ms": 1779992403000
+     "debt_iasset": 1e-06,
+     "owner": "0dbb67ed102393b0bf27cb9d1c2f8f83ad7a9f1689904879a5191c92",
+     "interest_updated_ms": 1779992239000
     },
     {
      "asset": "iUSD",
@@ -621,6 +629,14 @@
      "debt_iasset": 0.555589,
      "owner": "65831d01d19e07456b879985d84e7421cc9225f6b02e854b3447b2d5",
      "interest_updated_ms": 1779992503000
+    },
+    {
+     "asset": "iUSD",
+     "collateral_ada": 52.095854,
+     "collateral_asset": "ADA",
+     "debt_iasset": 6.04995,
+     "owner": "946953263763d75c0f145c181776db79cbde145fd73c782889661c19",
+     "interest_updated_ms": 1779992513000
     },
     {
      "asset": "iBTC",
@@ -656,38 +672,6 @@
     },
     {
      "asset": "iUSD",
-     "collateral_ada": 9.619463,
-     "collateral_asset": "ADA",
-     "debt_iasset": 0.212188,
-     "owner": "cf16cf016f4a4952403e22ae1c02c02bc9413b7edb705640cb78ea10",
-     "interest_updated_ms": 1779992718000
-    },
-    {
-     "asset": "iUSD",
-     "collateral_ada": 468.153024,
-     "collateral_asset": "ADA",
-     "debt_iasset": 45.636959,
-     "owner": "a2b2868b4ed8cb7d64c181d43729fc2d1ee6349d19244491006b16d1",
-     "interest_updated_ms": 1779992735000
-    },
-    {
-     "asset": "iBTC",
-     "collateral_ada": 10.0,
-     "collateral_asset": "ADA",
-     "debt_iasset": 3e-06,
-     "owner": "d278504ff6b1e2f12d21c2860ef79d67e96d80d66beb213077a4a268",
-     "interest_updated_ms": 1779992820000
-    },
-    {
-     "asset": "iUSD",
-     "collateral_ada": 9.795812,
-     "collateral_asset": "ADA",
-     "debt_iasset": 0.114038,
-     "owner": "609f0057e77766add23faadf0f04065651a7e59a5000f5bf7a6dc17b",
-     "interest_updated_ms": 1779992405000
-    },
-    {
-     "asset": "iUSD",
      "collateral_ada": 49.353155,
      "collateral_asset": "ADA",
      "debt_iasset": 0.360219,
@@ -701,6 +685,14 @@
      "debt_iasset": 1e-06,
      "owner": "31310d10cca7193929bebbe2394dc5f4ac665dacfa1f99947251b3af",
      "interest_updated_ms": 1779992987000
+    },
+    {
+     "asset": "iBTC",
+     "collateral_ada": 9.066697,
+     "collateral_asset": "ADA",
+     "debt_iasset": 1.4e-05,
+     "owner": "02b80d9935da7f00d97323735ff2641d938b14f3ecd24b01a990afe5",
+     "interest_updated_ms": 1779993083000
     },
     {
      "asset": "iBTC",
@@ -736,11 +728,19 @@
     },
     {
      "asset": "iBTC",
-     "collateral_ada": 9.066697,
+     "collateral_ada": 10.292499,
      "collateral_asset": "ADA",
-     "debt_iasset": 1.4e-05,
-     "owner": "02b80d9935da7f00d97323735ff2641d938b14f3ecd24b01a990afe5",
-     "interest_updated_ms": 1779993083000
+     "debt_iasset": 1e-06,
+     "owner": "01e9d7c747941ea8d10b5ab2961e9d269babe72bd77496e7bfa138f5",
+     "interest_updated_ms": 1779993522000
+    },
+    {
+     "asset": "iUSD",
+     "collateral_ada": 9.999928,
+     "collateral_asset": "ADA",
+     "debt_iasset": 4.3e-05,
+     "owner": "176a19a67d4218f6e88164e11fb4154de8ebeadc9f1cb0bbcaaeb042",
+     "interest_updated_ms": 1779993546000
     },
     {
      "asset": "iETH",
@@ -768,30 +768,6 @@
     },
     {
      "asset": "iBTC",
-     "collateral_ada": 10.292499,
-     "collateral_asset": "ADA",
-     "debt_iasset": 1e-06,
-     "owner": "01e9d7c747941ea8d10b5ab2961e9d269babe72bd77496e7bfa138f5",
-     "interest_updated_ms": 1779993522000
-    },
-    {
-     "asset": "iUSD",
-     "collateral_ada": 166.810973,
-     "collateral_asset": "ADA",
-     "debt_iasset": 8.220475,
-     "owner": "b20de7f5406b18392abd5add30dae633d58be064dc4cc71df1a9baf3",
-     "interest_updated_ms": 1781072071000
-    },
-    {
-     "asset": "iUSD",
-     "collateral_ada": 9.999928,
-     "collateral_asset": "ADA",
-     "debt_iasset": 4.3e-05,
-     "owner": "176a19a67d4218f6e88164e11fb4154de8ebeadc9f1cb0bbcaaeb042",
-     "interest_updated_ms": 1779993546000
-    },
-    {
-     "asset": "iBTC",
      "collateral_ada": 9.688012,
      "collateral_asset": "ADA",
      "debt_iasset": 5e-06,
@@ -800,11 +776,27 @@
     },
     {
      "asset": "iUSD",
-     "collateral_ada": 570.41677,
+     "collateral_ada": 8.848877,
      "collateral_asset": "ADA",
-     "debt_iasset": 35.54273,
-     "owner": "77a0f812356b1ebdcd5fd5e8e308e0de66bfb0ae22ef714404dfa8cb",
-     "interest_updated_ms": 1780572677000
+     "debt_iasset": 1.008441,
+     "owner": "4a2c7b350c362ca9652c45c2e8758803511b13f820c24d0904329df3",
+     "interest_updated_ms": 1779991596000
+    },
+    {
+     "asset": "iUSD",
+     "collateral_ada": 49.971376,
+     "collateral_asset": "ADA",
+     "debt_iasset": 0.015933,
+     "owner": "cf85115658e6716b4fec64cbb9878c06edb3ce5b5015eb4c8970fca4",
+     "interest_updated_ms": 1779991596000
+    },
+    {
+     "asset": "iUSD",
+     "collateral_ada": 166.810973,
+     "collateral_asset": "ADA",
+     "debt_iasset": 8.220475,
+     "owner": "b20de7f5406b18392abd5add30dae633d58be064dc4cc71df1a9baf3",
+     "interest_updated_ms": 1781072071000
     },
     {
      "asset": "iBTC",
@@ -824,11 +816,11 @@
     },
     {
      "asset": "iUSD",
-     "collateral_ada": 21.0,
+     "collateral_ada": 570.41677,
      "collateral_asset": "ADA",
-     "debt_iasset": 1.858269,
-     "owner": "f2be475ec7851493f4ee587762935d96079aa807cc0788b07ca81463",
-     "interest_updated_ms": 1781589234000
+     "debt_iasset": 35.54273,
+     "owner": "77a0f812356b1ebdcd5fd5e8e308e0de66bfb0ae22ef714404dfa8cb",
+     "interest_updated_ms": 1780572677000
     },
     {
      "asset": "iBTC",
@@ -848,19 +840,27 @@
     },
     {
      "asset": "iUSD",
+     "collateral_ada": 664.884443,
+     "collateral_asset": "ADA",
+     "debt_iasset": 65.349905,
+     "owner": "5dab3fd5d3fcd16456322797fb97bfffb7fe5422621e5fbcb24a8e4b",
+     "interest_updated_ms": 1782742719000
+    },
+    {
+     "asset": "iUSD",
+     "collateral_ada": 21.0,
+     "collateral_asset": "ADA",
+     "debt_iasset": 1.858269,
+     "owner": "f2be475ec7851493f4ee587762935d96079aa807cc0788b07ca81463",
+     "interest_updated_ms": 1781589234000
+    },
+    {
+     "asset": "iUSD",
      "collateral_ada": 21.0,
      "collateral_asset": "ADA",
      "debt_iasset": 1.858017,
      "owner": "f2be475ec7851493f4ee587762935d96079aa807cc0788b07ca81463",
      "interest_updated_ms": 1781589284000
-    },
-    {
-     "asset": "iADA",
-     "collateral_ada": 1.84468,
-     "collateral_asset": "0691b2fecca1ac4f53cb6dfb00b7013e561d1f34403b957cbb5af1fa",
-     "debt_iasset": 6.26247,
-     "owner": "8da58319444934e340dd24bcc27459c9e4c3e1df39d93a0dd0a16d74",
-     "interest_updated_ms": 1783952160000
     },
     {
      "asset": "iUSD",
@@ -871,12 +871,20 @@
      "interest_updated_ms": 1781892101000
     },
     {
+     "asset": "iADA",
+     "collateral_ada": 1.84468,
+     "collateral_asset": "1f3aec8bfe7ea4fe14c5f121e2a92e301afe414147860d557cac7e34",
+     "debt_iasset": 20.992707,
+     "owner": "8da58319444934e340dd24bcc27459c9e4c3e1df39d93a0dd0a16d74",
+     "interest_updated_ms": 1784465692000
+    },
+    {
      "asset": "iUSD",
-     "collateral_ada": 664.884443,
+     "collateral_ada": 2000.0,
      "collateral_asset": "ADA",
-     "debt_iasset": 65.349905,
-     "owner": "5dab3fd5d3fcd16456322797fb97bfffb7fe5422621e5fbcb24a8e4b",
-     "interest_updated_ms": 1782742719000
+     "debt_iasset": 100.000014,
+     "owner": "c5c88840c8d5c3808e8f8439a75470aaf5a8e1736a72fabc1d2b420d",
+     "interest_updated_ms": 1784461444000
     },
     {
      "asset": "iUSD",
@@ -905,18 +913,10 @@
     {
      "asset": "iADA",
      "collateral_ada": 1.84468,
-     "collateral_asset": "1f3aec8bfe7ea4fe14c5f121e2a92e301afe414147860d557cac7e34",
-     "debt_iasset": 20.992707,
+     "collateral_asset": "0691b2fecca1ac4f53cb6dfb00b7013e561d1f34403b957cbb5af1fa",
+     "debt_iasset": 6.26247,
      "owner": "8da58319444934e340dd24bcc27459c9e4c3e1df39d93a0dd0a16d74",
-     "interest_updated_ms": 1784465692000
-    },
-    {
-     "asset": "iUSD",
-     "collateral_ada": 2000.0,
-     "collateral_asset": "ADA",
-     "debt_iasset": 100.000014,
-     "owner": "c5c88840c8d5c3808e8f8439a75470aaf5a8e1736a72fabc1d2b420d",
-     "interest_updated_ms": 1784461444000
+     "interest_updated_ms": 1783952160000
     },
     {
      "asset": "iJPY",
@@ -967,6 +967,14 @@
      "interest_updated_ms": 1785774836000
     },
     {
+     "asset": "iADA",
+     "collateral_ada": 1.84468,
+     "collateral_asset": "1f3aec8bfe7ea4fe14c5f121e2a92e301afe414147860d557cac7e34",
+     "debt_iasset": 200.239306,
+     "owner": "c590affd526db47b19bcb411793bba5d639c1f5885fafc47838cd22e",
+     "interest_updated_ms": 1785927521000
+    },
+    {
      "asset": "iJPY",
      "collateral_ada": 120.0,
      "collateral_asset": "ADA",
@@ -991,36 +999,12 @@
      "interest_updated_ms": 1785774836000
     },
     {
-     "asset": "iEUR",
-     "collateral_ada": 1.84468,
-     "collateral_asset": "1f3aec8bfe7ea4fe14c5f121e2a92e301afe414147860d557cac7e34",
-     "debt_iasset": 3.381458,
-     "owner": "ced92ef7fdd5dd83f9c7f610f1db15fa125ce78c696c023b23a2ffdb",
-     "interest_updated_ms": 1787601283000
-    },
-    {
-     "asset": "iADA",
-     "collateral_ada": 1.84468,
-     "collateral_asset": "1f3aec8bfe7ea4fe14c5f121e2a92e301afe414147860d557cac7e34",
-     "debt_iasset": 200.239306,
-     "owner": "c590affd526db47b19bcb411793bba5d639c1f5885fafc47838cd22e",
-     "interest_updated_ms": 1785927521000
-    },
-    {
      "asset": "iJPY",
      "collateral_ada": 647.956943,
      "collateral_asset": "ADA",
      "debt_iasset": 11078.575865,
      "owner": "25f2b6e8273673fa147f150644a62517d248bba31bbb8c35963fcb94",
      "interest_updated_ms": 1786025870000
-    },
-    {
-     "asset": "iADA",
-     "collateral_ada": 12.0,
-     "collateral_asset": "ADA",
-     "debt_iasset": 5.956001,
-     "owner": "ea7dc30e14914d49a2cc0ae81ce3b46e354e13537ca90c404c6ae6ae",
-     "interest_updated_ms": 1786977887000
     },
     {
      "asset": "iUSD",
@@ -1031,12 +1015,12 @@
      "interest_updated_ms": 1786219520000
     },
     {
-     "asset": "iUSD",
-     "collateral_ada": 4106.691902,
+     "asset": "iADA",
+     "collateral_ada": 12.0,
      "collateral_asset": "ADA",
-     "debt_iasset": 407.34282,
-     "owner": "0feb2d66680dd2c8ef55cff3f1f7a06ead08eb99572818586280704a",
-     "interest_updated_ms": 1787306531000
+     "debt_iasset": 5.956001,
+     "owner": "ea7dc30e14914d49a2cc0ae81ce3b46e354e13537ca90c404c6ae6ae",
+     "interest_updated_ms": 1786977887000
     },
     {
      "asset": "iSOL",
@@ -1045,6 +1029,22 @@
      "debt_iasset": 5.917868,
      "owner": "c590affd526db47b19bcb411793bba5d639c1f5885fafc47838cd22e",
      "interest_updated_ms": 1787625675000
+    },
+    {
+     "asset": "iUSD",
+     "collateral_ada": 4106.691902,
+     "collateral_asset": "ADA",
+     "debt_iasset": 407.34282,
+     "owner": "0feb2d66680dd2c8ef55cff3f1f7a06ead08eb99572818586280704a",
+     "interest_updated_ms": 1787306531000
+    },
+    {
+     "asset": "iEUR",
+     "collateral_ada": 1.84468,
+     "collateral_asset": "1f3aec8bfe7ea4fe14c5f121e2a92e301afe414147860d557cac7e34",
+     "debt_iasset": 3.381458,
+     "owner": "ced92ef7fdd5dd83f9c7f610f1db15fa125ce78c696c023b23a2ffdb",
+     "interest_updated_ms": 1787601283000
     },
     {
      "asset": "iETH",
@@ -1072,14 +1072,6 @@
     },
     {
      "asset": "iUSD",
-     "collateral_ada": 207562.538955,
-     "collateral_asset": "ADA",
-     "debt_iasset": 27147.035612,
-     "owner": "c1847df694146357cb67166b11ec706348cb02d268b09c7ca0567a2a",
-     "interest_updated_ms": 1788259474000
-    },
-    {
-     "asset": "iUSD",
      "collateral_ada": 65812.964293,
      "collateral_asset": "ADA",
      "debt_iasset": 5997.297853,
@@ -1088,251 +1080,91 @@
     },
     {
      "asset": "iUSD",
-     "collateral_ada": 53762.305965,
+     "collateral_ada": 1749.972307,
      "collateral_asset": "ADA",
-     "debt_iasset": 6210.684295,
-     "owner": "2a8f72452e663bb59bfb77272eec0b72556f3f3b7a4de91d4cfebd54",
-     "interest_updated_ms": 1788259554000
+     "debt_iasset": 136.249009,
+     "owner": "7ea4b43b947f8104aaf0cb0753c1ed8ffa6b5761886dd873bbed8ce4",
+     "interest_updated_ms": 1788017961000
     },
     {
      "asset": "iUSD",
-     "collateral_ada": 444853.542534,
+     "collateral_ada": 154085.135653,
      "collateral_asset": "ADA",
-     "debt_iasset": 50994.247534,
-     "owner": "0396b4c0a352a7665ce69f0a43ba445ae29e3fba94aec65fad5c8340",
+     "debt_iasset": 16181.488551,
+     "owner": "c253fd3865d23be11053f9c0f6d53de8e2c687126065185645a115a8",
      "interest_updated_ms": 1788259630000
     },
     {
      "asset": "iUSD",
-     "collateral_ada": 64612.904274,
+     "collateral_ada": 8158.793289,
      "collateral_asset": "ADA",
-     "debt_iasset": 4693.42697,
-     "owner": "3afa612c1bef384caa2dfa6c02a2b90515ea5daaaaafbf63421a4288",
+     "debt_iasset": 602.51444,
+     "owner": "d683ff7b8b7ec25d210d61d015c0aa66c0befccaa031851d067af87b",
      "interest_updated_ms": 1788259630000
     },
     {
      "asset": "iUSD",
-     "collateral_ada": 4000.0,
+     "collateral_ada": 143582.652734,
      "collateral_asset": "ADA",
-     "debt_iasset": 203.965158,
-     "owner": "98c7d6c111e406d11e6cb4b37cc94be3e44851aadb360f231c10db41",
+     "debt_iasset": 15297.295744,
+     "owner": "29b30a0c0c370231689f6205c8479d274c88ba6cf30ec4615da858c6",
      "interest_updated_ms": 1788259630000
     },
     {
      "asset": "iUSD",
-     "collateral_ada": 57013.100211,
+     "collateral_ada": 4099.999999,
      "collateral_asset": "ADA",
-     "debt_iasset": 6214.894753,
-     "owner": "e1adb2d62927f4ad62b82d8593808a9a3bbd446521e91d72286b9a41",
+     "debt_iasset": 451.566366,
+     "owner": "058f356380a71f1d3d1e14c7f1abba5f716847dfe200f36c3a5aa949",
      "interest_updated_ms": 1788259630000
     },
     {
-     "asset": "iBTC",
-     "collateral_ada": 15785.171753,
+     "asset": "iUSD",
+     "collateral_ada": 6509.314414,
      "collateral_asset": "ADA",
-     "debt_iasset": 0.033948,
-     "owner": "76bd0706659b380bf2acb2259850bdd90488151424877d178eaa4c2d",
-     "interest_updated_ms": 1788259815000
+     "debt_iasset": 485.011991,
+     "owner": "93fc1d5eda11f4e015acabe138fdf310674c33e9d82a7dc8a7d73d99",
+     "interest_updated_ms": 1788259630000
     },
     {
-     "asset": "iBTC",
-     "collateral_ada": 55558.861541,
+     "asset": "iUSD",
+     "collateral_ada": 2899.554882,
      "collateral_asset": "ADA",
-     "debt_iasset": 0.076392,
-     "owner": "ea0c004d92aceb90803942b0e0d01265e4d1e9807ef8c959d62db035",
-     "interest_updated_ms": 1788259815000
-    },
-    {
-     "asset": "iBTC",
-     "collateral_ada": 60706.81024,
-     "collateral_asset": "ADA",
-     "debt_iasset": 0.118231,
-     "owner": "31ab20da63adf95f5a9e4ecf297d1d3eb8730f6d8d17946696e8ed91",
-     "interest_updated_ms": 1788259815000
-    },
-    {
-     "asset": "iBTC",
-     "collateral_ada": 7995.195289,
-     "collateral_asset": "ADA",
-     "debt_iasset": 0.016074,
-     "owner": "202a05658b2d4f335ac72de9060a6c71c91ccff518723d7fd614899c",
-     "interest_updated_ms": 1788259815000
-    },
-    {
-     "asset": "iBTC",
-     "collateral_ada": 20556.169839,
-     "collateral_asset": "ADA",
-     "debt_iasset": 0.028599,
-     "owner": "c835248f41cb65303bec60d767f0299ea458a19c8c04beb125513487",
-     "interest_updated_ms": 1788259815000
-    },
-    {
-     "asset": "iBTC",
-     "collateral_ada": 1624811.008813,
-     "collateral_asset": "ADA",
-     "debt_iasset": 1.94716,
-     "owner": "fcc20a843a102f03b5a67e2d9567fc74c70c2c2c294b85fa83086611",
-     "interest_updated_ms": 1788259815000
-    },
-    {
-     "asset": "iBTC",
-     "collateral_ada": 444857.598043,
-     "collateral_asset": "ADA",
-     "debt_iasset": 0.722277,
-     "owner": "eec5ad5a9d70a725818ba37c46169907269ff46d002f489871daad65",
-     "interest_updated_ms": 1788259815000
-    },
-    {
-     "asset": "iBTC",
-     "collateral_ada": 376778.482977,
-     "collateral_asset": "ADA",
-     "debt_iasset": 0.386314,
-     "owner": "30f71e8f66d9f908f0a47173cccb4127341e557e9f3d9d60e0d60178",
-     "interest_updated_ms": 1788259815000
-    },
-    {
-     "asset": "iBTC",
-     "collateral_ada": 348894.015901,
-     "collateral_asset": "ADA",
-     "debt_iasset": 0.264729,
-     "owner": "1d78675c4c641307a6ee67c1632f84df8df0a86997fd07f1c2722d5b",
-     "interest_updated_ms": 1788259815000
-    },
-    {
-     "asset": "iBTC",
-     "collateral_ada": 5576.215171,
-     "collateral_asset": "ADA",
-     "debt_iasset": 0.011991,
-     "owner": "78278bcb9c677979118fb293f6b2ea731711d27c4c00a6c6477081c8",
-     "interest_updated_ms": 1788259815000
-    },
-    {
-     "asset": "iBTC",
-     "collateral_ada": 491775.487746,
-     "collateral_asset": "ADA",
-     "debt_iasset": 0.829021,
-     "owner": "e6926c176666e9fd9ca952aba71247472a1ab5358f38204d1ddfc79e",
-     "interest_updated_ms": 1788259815000
-    },
-    {
-     "asset": "iBTC",
-     "collateral_ada": 11065.828946,
-     "collateral_asset": "ADA",
-     "debt_iasset": 0.006651,
-     "owner": "4d5da618c7b48388366354c11d5e897d2449b087b523fd083fa0970f",
-     "interest_updated_ms": 1788259815000
-    },
-    {
-     "asset": "iBTC",
-     "collateral_ada": 4334.513488,
-     "collateral_asset": "ADA",
-     "debt_iasset": 0.006986,
-     "owner": "f67e67f47efa19968005038cdbbd51e3205135bbcede552eddca941a",
-     "interest_updated_ms": 1788259815000
-    },
-    {
-     "asset": "iBTC",
-     "collateral_ada": 131063.444932,
-     "collateral_asset": "ADA",
-     "debt_iasset": 0.217041,
-     "owner": "c7ebe5d764cf43b3e96199c836bf7d11b37a2d42395a130e71dbcdac",
-     "interest_updated_ms": 1788259815000
-    },
-    {
-     "asset": "iETH",
-     "collateral_ada": 66697.125056,
-     "collateral_asset": "ADA",
-     "debt_iasset": 3.363808,
-     "owner": "c7ebe5d764cf43b3e96199c836bf7d11b37a2d42395a130e71dbcdac",
-     "interest_updated_ms": 1788260182000
-    },
-    {
-     "asset": "iETH",
-     "collateral_ada": 7323.901963,
-     "collateral_asset": "ADA",
-     "debt_iasset": 0.280833,
-     "owner": "775ef1ace4264239a1f7713dfcf2509b35664a69ff58631d9ca7b43d",
-     "interest_updated_ms": 1788260182000
-    },
-    {
-     "asset": "iETH",
-     "collateral_ada": 540.183531,
-     "collateral_asset": "ADA",
-     "debt_iasset": 0.023133,
-     "owner": "dbf5237efea8d4014dd9dd124d0c1f8798e92e1e2016cf670eaf1424",
-     "interest_updated_ms": 1788260182000
-    },
-    {
-     "asset": "iETH",
-     "collateral_ada": 95478.843955,
-     "collateral_asset": "ADA",
-     "debt_iasset": 0.698927,
-     "owner": "cb7e89fcaadfed571c5ed0b22579cce20b89e0407cfc051d8d97fc89",
-     "interest_updated_ms": 1788260182000
-    },
-    {
-     "asset": "iETH",
-     "collateral_ada": 59761.315675,
-     "collateral_asset": "ADA",
-     "debt_iasset": 3.173067,
-     "owner": "0e0e12df3f3f5a2cd59f3d2b767cbe947e7e4892e027033457eeaa75",
-     "interest_updated_ms": 1788260182000
-    },
-    {
-     "asset": "iETH",
-     "collateral_ada": 4229.966209,
-     "collateral_asset": "ADA",
-     "debt_iasset": 0.227125,
+     "debt_iasset": 309.531365,
      "owner": "69af353f2cb9ab695b429cff0e80203bc8e9e47548f28176e9bf99a0",
-     "interest_updated_ms": 1788260182000
+     "interest_updated_ms": 1788259630000
     },
     {
-     "asset": "iETH",
-     "collateral_ada": 2242.342407,
+     "asset": "iUSD",
+     "collateral_ada": 4955.049054,
      "collateral_asset": "ADA",
-     "debt_iasset": 0.124216,
-     "owner": "e4a3572c85228edfa7ee4d015fa55fd6c93d181597f86859aaabca91",
-     "interest_updated_ms": 1788260182000
+     "debt_iasset": 441.17596,
+     "owner": "cc976afd956c344b68e27c7948a38826f9fb2799c39bf6ba25cd3a29",
+     "interest_updated_ms": 1788259630000
     },
     {
-     "asset": "iETH",
-     "collateral_ada": 122450.347055,
+     "asset": "iUSD",
+     "collateral_ada": 25900.682702,
      "collateral_asset": "ADA",
-     "debt_iasset": 5.301083,
-     "owner": "5015aba4d3c982a18669bf8a76082f6563b3bb7872f876d3e910644d",
-     "interest_updated_ms": 1788260182000
+     "debt_iasset": 2210.610538,
+     "owner": "a837d32597883d0983722c167ee58bf3990a0916adbab5f6ab59971a",
+     "interest_updated_ms": 1788259630000
     },
     {
-     "asset": "iETH",
-     "collateral_ada": 1728.055042,
+     "asset": "iUSD",
+     "collateral_ada": 38900.555858,
      "collateral_asset": "ADA",
-     "debt_iasset": 0.122527,
-     "owner": "cbed178d14006e55bebe3a18e998c522c63c5ee85ee5615dc92a5d61",
-     "interest_updated_ms": 1788260182000
+     "debt_iasset": 722.051254,
+     "owner": "4d5da618c7b48388366354c11d5e897d2449b087b523fd083fa0970f",
+     "interest_updated_ms": 1788259630000
     },
     {
-     "asset": "iETH",
-     "collateral_ada": 58183.537099,
+     "asset": "iUSD",
+     "collateral_ada": 2815.233331,
      "collateral_asset": "ADA",
-     "debt_iasset": 1.433099,
-     "owner": "690b0a92962d8e5940212f11e4e414db2a6a773f06923adaa063bf7a",
-     "interest_updated_ms": 1788260182000
-    },
-    {
-     "asset": "iETH",
-     "collateral_ada": 52368.04232,
-     "collateral_asset": "ADA",
-     "debt_iasset": 3.717937,
-     "owner": "e8efeaa8e932f8ad63d3ec8f75f68926e93f66ffc1fc602e3b28bfa4",
-     "interest_updated_ms": 1788260182000
-    },
-    {
-     "asset": "iETH",
-     "collateral_ada": 247841.630506,
-     "collateral_asset": "ADA",
-     "debt_iasset": 9.244583,
-     "owner": "fcc20a843a102f03b5a67e2d9567fc74c70c2c2c294b85fa83086611",
-     "interest_updated_ms": 1788260182000
+     "debt_iasset": 185.590599,
+     "owner": "63c7d9bc269bc711e0baccc180eb774a2a1e7456e60a1a28daac6ba4",
+     "interest_updated_ms": 1788259630000
     },
     {
      "asset": "iUSD",
@@ -1469,550 +1301,6 @@
      "debt_iasset": 0.007918,
      "owner": "bf0e8705a74db81f5bf1c5795dada0b6c522bc454feeb079d250ac5b",
      "interest_updated_ms": 1788260567000
-    },
-    {
-     "asset": "iUSD",
-     "collateral_ada": 128744.46948,
-     "collateral_asset": "ADA",
-     "debt_iasset": 9767.369015,
-     "owner": "3afa612c1bef384caa2dfa6c02a2b90515ea5daaaaafbf63421a4288",
-     "interest_updated_ms": 1788260944000
-    },
-    {
-     "asset": "iUSD",
-     "collateral_ada": 22238.838976,
-     "collateral_asset": "ADA",
-     "debt_iasset": 2048.358207,
-     "owner": "6d91ded3bc55d5fe46f7be9a95a0dfa56704ad466462c01d843530f9",
-     "interest_updated_ms": 1788260944000
-    },
-    {
-     "asset": "iUSD",
-     "collateral_ada": 30405.190782,
-     "collateral_asset": "ADA",
-     "debt_iasset": 3059.740816,
-     "owner": "8483a7097fb05a73ea111e73d55031c74917d21c5cf2d5f4a8d49ab7",
-     "interest_updated_ms": 1788260944000
-    },
-    {
-     "asset": "iUSD",
-     "collateral_ada": 4987.574278,
-     "collateral_asset": "ADA",
-     "debt_iasset": 544.11987,
-     "owner": "a7f79572dce483259853583258d9d81c91d64b82d0491406f16b7978",
-     "interest_updated_ms": 1788260944000
-    },
-    {
-     "asset": "iUSD",
-     "collateral_ada": 14223.660968,
-     "collateral_asset": "ADA",
-     "debt_iasset": 834.758298,
-     "owner": "087ab91012e3b840ad3f53111921d087cb33e2592aa7d9d78a0b645f",
-     "interest_updated_ms": 1788260944000
-    },
-    {
-     "asset": "iUSD",
-     "collateral_ada": 70106.806737,
-     "collateral_asset": "ADA",
-     "debt_iasset": 6299.195897,
-     "owner": "69cc71ae506283df9ddbc57cdbf9a22e090ac05fcb9ba3d1c88445b6",
-     "interest_updated_ms": 1788260944000
-    },
-    {
-     "asset": "iUSD",
-     "collateral_ada": 304000.0,
-     "collateral_asset": "ADA",
-     "debt_iasset": 13360.579352,
-     "owner": "7bbb000cc92e6a495e37067af615bac3d370d7fc70bc058ad831df2f",
-     "interest_updated_ms": 1788260944000
-    },
-    {
-     "asset": "iUSD",
-     "collateral_ada": 19994.07825,
-     "collateral_asset": "ADA",
-     "debt_iasset": 1870.634701,
-     "owner": "9ef82b39ec0521ee2054f18b3811007af895c6a3248eb9bf458ebedd",
-     "interest_updated_ms": 1788260944000
-    },
-    {
-     "asset": "iUSD",
-     "collateral_ada": 16000.000825,
-     "collateral_asset": "ADA",
-     "debt_iasset": 1723.003168,
-     "owner": "7328ab6d917830c7db07347e34d628bd76421d260b9064231a34955e",
-     "interest_updated_ms": 1788260944000
-    },
-    {
-     "asset": "iUSD",
-     "collateral_ada": 308108.284746,
-     "collateral_asset": "ADA",
-     "debt_iasset": 36138.099659,
-     "owner": "6bb9c690917ff628a681c5553c80701593c4e638b387d9aade73a648",
-     "interest_updated_ms": 1788260944000
-    },
-    {
-     "asset": "iUSD",
-     "collateral_ada": 45685.005401,
-     "collateral_asset": "ADA",
-     "debt_iasset": 3443.346796,
-     "owner": "bbc6d8e0a8f8fa47238a3df22e1b9a0e39a0de2330ba5b49d69a6bc0",
-     "interest_updated_ms": 1788260944000
-    },
-    {
-     "asset": "iUSD",
-     "collateral_ada": 263779.834472,
-     "collateral_asset": "ADA",
-     "debt_iasset": 31084.912198,
-     "owner": "8cfa9db8ab74f9e14bc7dbd3a33407879a99cef8da9391f6f2d79e08",
-     "interest_updated_ms": 1788260944000
-    },
-    {
-     "asset": "iUSD",
-     "collateral_ada": 2261.716836,
-     "collateral_asset": "ADA",
-     "debt_iasset": 234.551197,
-     "owner": "5a22248acd76b04db2a4f0804b465d7e0e6f9c13d3be980b3f7ef9e7",
-     "interest_updated_ms": 1788260944000
-    },
-    {
-     "asset": "iUSD",
-     "collateral_ada": 295414.886866,
-     "collateral_asset": "ADA",
-     "debt_iasset": 24869.522709,
-     "owner": "d8bdf81a5500719b824526db28d3d5ac421e182a3654a07026f008a4",
-     "interest_updated_ms": 1788260944000
-    },
-    {
-     "asset": "iUSD",
-     "collateral_ada": 32867.393091,
-     "collateral_asset": "ADA",
-     "debt_iasset": 2601.169466,
-     "owner": "bf0e8705a74db81f5bf1c5795dada0b6c522bc454feeb079d250ac5b",
-     "interest_updated_ms": 1788261166000
-    },
-    {
-     "asset": "iUSD",
-     "collateral_ada": 63505.104187,
-     "collateral_asset": "ADA",
-     "debt_iasset": 5579.549162,
-     "owner": "8732d6ae48c07b2694e9918fcdfff84e0995b165d4615c32fc76a978",
-     "interest_updated_ms": 1788261166000
-    },
-    {
-     "asset": "iUSD",
-     "collateral_ada": 109843.863491,
-     "collateral_asset": "ADA",
-     "debt_iasset": 5971.171247,
-     "owner": "b3f6fd4895d5145d55e82ab81c7f6d97470f5affcd28bfc318bc3056",
-     "interest_updated_ms": 1788261166000
-    },
-    {
-     "asset": "iUSD",
-     "collateral_ada": 20108.553594,
-     "collateral_asset": "ADA",
-     "debt_iasset": 1753.722775,
-     "owner": "d596cd0652abd857d22f22d465b75c4cda6d5650d5688a1677d0e839",
-     "interest_updated_ms": 1788261166000
-    },
-    {
-     "asset": "iUSD",
-     "collateral_ada": 15982.104648,
-     "collateral_asset": "ADA",
-     "debt_iasset": 1429.950255,
-     "owner": "616a8e0bef9c2f34daef6471c9d262e67f23b3f2a9d025989cb9f1b1",
-     "interest_updated_ms": 1788261166000
-    },
-    {
-     "asset": "iUSD",
-     "collateral_ada": 12572.907622,
-     "collateral_asset": "ADA",
-     "debt_iasset": 915.669958,
-     "owner": "17d29d0c794995d71da6ea5934500e087a6a17455de61b289c09386b",
-     "interest_updated_ms": 1788261166000
-    },
-    {
-     "asset": "iUSD",
-     "collateral_ada": 1654779.44329,
-     "collateral_asset": "ADA",
-     "debt_iasset": 161286.880484,
-     "owner": "efc55477cca027cbb12c7ae0df08a7730b258856c7ec5ac6c4759003",
-     "interest_updated_ms": 1788261166000
-    },
-    {
-     "asset": "iUSD",
-     "collateral_ada": 54245.099906,
-     "collateral_asset": "ADA",
-     "debt_iasset": 3366.997325,
-     "owner": "a2d70cfaa0036c4e8ff9d67d82c708bedb8555d2d26d27953aa72b89",
-     "interest_updated_ms": 1788261166000
-    },
-    {
-     "asset": "iUSD",
-     "collateral_ada": 361908.036744,
-     "collateral_asset": "ADA",
-     "debt_iasset": 32948.23968,
-     "owner": "b524fc08da69d180acce80c946bb336bb7ed96cfd7f7f1b38721953e",
-     "interest_updated_ms": 1788261166000
-    },
-    {
-     "asset": "iUSD",
-     "collateral_ada": 99270.925718,
-     "collateral_asset": "ADA",
-     "debt_iasset": 7620.211517,
-     "owner": "672792f810a3042e7144571549c8971618fb0207945d98ae77d9aa22",
-     "interest_updated_ms": 1788261166000
-    },
-    {
-     "asset": "iUSD",
-     "collateral_ada": 11968.961752,
-     "collateral_asset": "ADA",
-     "debt_iasset": 773.073645,
-     "owner": "f2df240ff5f756ecda335877af189536d385229a073d79ffa00f61f3",
-     "interest_updated_ms": 1788261166000
-    },
-    {
-     "asset": "iUSD",
-     "collateral_ada": 10000.0,
-     "collateral_asset": "ADA",
-     "debt_iasset": 663.823223,
-     "owner": "54205b91a81af1dec73f178a2d2b72d0e061988f251812e7b79533a1",
-     "interest_updated_ms": 1788261166000
-    },
-    {
-     "asset": "iUSD",
-     "collateral_ada": 5334.1708,
-     "collateral_asset": "ADA",
-     "debt_iasset": 353.399571,
-     "owner": "a5979c9662c7afff1bc7d6022d2aeabf06f64539c5bd127145b3e9f2",
-     "interest_updated_ms": 1788261251000
-    },
-    {
-     "asset": "iUSD",
-     "collateral_ada": 27750.0,
-     "collateral_asset": "ADA",
-     "debt_iasset": 1946.258429,
-     "owner": "29e488ce06564319363103ad82d4baf330edf37d78b7ec6203a853fd",
-     "interest_updated_ms": 1788261251000
-    },
-    {
-     "asset": "iUSD",
-     "collateral_ada": 643.856056,
-     "collateral_asset": "ADA",
-     "debt_iasset": 57.679493,
-     "owner": "af350112892e7a6b63800ac394548afe1112c24355369c587acc65f3",
-     "interest_updated_ms": 1788261380000
-    },
-    {
-     "asset": "iUSD",
-     "collateral_ada": 620.808355,
-     "collateral_asset": "ADA",
-     "debt_iasset": 58.028063,
-     "owner": "a2ce7aaa30b38973bd8847cfee140f6a17296ec634a9ce9f51855536",
-     "interest_updated_ms": 1788261380000
-    },
-    {
-     "asset": "iUSD",
-     "collateral_ada": 1250.0,
-     "collateral_asset": "ADA",
-     "debt_iasset": 151.324339,
-     "owner": "08abc365d15eb5a450ff8ed2a6207bfa3cb5a0df4ec1ddd0e6636026",
-     "interest_updated_ms": 1788261380000
-    },
-    {
-     "asset": "iUSD",
-     "collateral_ada": 525.833427,
-     "collateral_asset": "ADA",
-     "debt_iasset": 58.785685,
-     "owner": "8f949023bd7eaa7f381c2ad298b345b7750cf9d04a1f53d0adcab6c2",
-     "interest_updated_ms": 1788261380000
-    },
-    {
-     "asset": "iSOL",
-     "collateral_ada": 1709.00579,
-     "collateral_asset": "ADA",
-     "debt_iasset": 3.051325,
-     "owner": "4e230f37c10a94a0051fd2fb18931021943e8194a95e3d677715101f",
-     "interest_updated_ms": 1788435053000
-    },
-    {
-     "asset": "iUSD",
-     "collateral_ada": 1.86192,
-     "collateral_asset": "0691b2fecca1ac4f53cb6dfb00b7013e561d1f34403b957cbb5af1fa",
-     "debt_iasset": 378.382063,
-     "owner": "827fd20a266c60693962eb00379579b34cb3bf621fb13abd7ba55da5",
-     "interest_updated_ms": 1788452838000
-    },
-    {
-     "asset": "iBTC",
-     "collateral_ada": 15407.18,
-     "collateral_asset": "ADA",
-     "debt_iasset": 0.02,
-     "owner": "7611bdfaa85bd1fde316e6f46405c59283469e5d7f9049e256dd062c",
-     "interest_updated_ms": 1788518437000
-    },
-    {
-     "asset": "iJPY",
-     "collateral_ada": 1479.0,
-     "collateral_asset": "ADA",
-     "debt_iasset": 25771.915283,
-     "owner": "ee3bfaad4224d328d77fdb81d14379142c542e83b2bedbf53b1ddd1c",
-     "interest_updated_ms": 1788531808000
-    },
-    {
-     "asset": "iUSD",
-     "collateral_ada": 272840.102594,
-     "collateral_asset": "ADA",
-     "debt_iasset": 36627.455172,
-     "owner": "1ee35346257cc3977c0fdedd925f37c3db2688eb6c2a9c872619ff93",
-     "interest_updated_ms": 1788535675000
-    },
-    {
-     "asset": "iEUR",
-     "collateral_ada": 10.0,
-     "collateral_asset": "ADA",
-     "debt_iasset": 1.103338,
-     "owner": "3be87b19c9045b5374602403d34efa47377fc7e6d3a163401642d905",
-     "interest_updated_ms": 1788681658000
-    },
-    {
-     "asset": "iEUR",
-     "collateral_ada": 428.338365,
-     "collateral_asset": "ADA",
-     "debt_iasset": 0.326297,
-     "owner": "b0d55e734b02ba0570c224a1a2a708e9309fa831c7f3f5caf301e885",
-     "interest_updated_ms": 1789043752000
-    },
-    {
-     "asset": "iUSD",
-     "collateral_ada": 134514.283627,
-     "collateral_asset": "ADA",
-     "debt_iasset": 18048.852042,
-     "owner": "5f2cddf3b09fadf280d8e91c3c0df5f2b0679e003bcc50d68b8ed668",
-     "interest_updated_ms": 1789247738000
-    },
-    {
-     "asset": "iUSD",
-     "collateral_ada": 1749.972307,
-     "collateral_asset": "ADA",
-     "debt_iasset": 136.249009,
-     "owner": "7ea4b43b947f8104aaf0cb0753c1ed8ffa6b5761886dd873bbed8ce4",
-     "interest_updated_ms": 1788017961000
-    },
-    {
-     "asset": "iUSD",
-     "collateral_ada": 934363.82521,
-     "collateral_asset": "ADA",
-     "debt_iasset": 71083.837824,
-     "owner": "fcc20a843a102f03b5a67e2d9567fc74c70c2c2c294b85fa83086611",
-     "interest_updated_ms": 1788259554000
-    },
-    {
-     "asset": "iUSD",
-     "collateral_ada": 399619.805808,
-     "collateral_asset": "ADA",
-     "debt_iasset": 20410.251825,
-     "owner": "b165eae246233a0df1f77480a37205ad350412962639f811164dfd32",
-     "interest_updated_ms": 1788259554000
-    },
-    {
-     "asset": "iUSD",
-     "collateral_ada": 46435.708901,
-     "collateral_asset": "ADA",
-     "debt_iasset": 3754.033946,
-     "owner": "9d94c36c0ba08524969fb2fa100dce63e0eefda22b75eca8ec3e30c4",
-     "interest_updated_ms": 1788259554000
-    },
-    {
-     "asset": "iUSD",
-     "collateral_ada": 3989.857004,
-     "collateral_asset": "ADA",
-     "debt_iasset": 263.025814,
-     "owner": "63c7d9bc269bc711e0baccc180eb774a2a1e7456e60a1a28daac6ba4",
-     "interest_updated_ms": 1788259554000
-    },
-    {
-     "asset": "iUSD",
-     "collateral_ada": 29661.163027,
-     "collateral_asset": "ADA",
-     "debt_iasset": 2470.473076,
-     "owner": "4eb075bf75869acc1947e993eda1e843f907a87ed6a01b022bc3c1bb",
-     "interest_updated_ms": 1788259554000
-    },
-    {
-     "asset": "iUSD",
-     "collateral_ada": 20012.554285,
-     "collateral_asset": "ADA",
-     "debt_iasset": 1458.469877,
-     "owner": "5375703a1815206253bce83d4c52cc18b6571def1bedf6c257575293",
-     "interest_updated_ms": 1788259554000
-    },
-    {
-     "asset": "iUSD",
-     "collateral_ada": 145003.579582,
-     "collateral_asset": "ADA",
-     "debt_iasset": 7700.496236,
-     "owner": "1dcf2ff550a25d0092a088dff3224ad87395ff430c36057417fcfa9f",
-     "interest_updated_ms": 1788259554000
-    },
-    {
-     "asset": "iUSD",
-     "collateral_ada": 154085.135653,
-     "collateral_asset": "ADA",
-     "debt_iasset": 16181.488551,
-     "owner": "c253fd3865d23be11053f9c0f6d53de8e2c687126065185645a115a8",
-     "interest_updated_ms": 1788259630000
-    },
-    {
-     "asset": "iUSD",
-     "collateral_ada": 8158.793289,
-     "collateral_asset": "ADA",
-     "debt_iasset": 602.51444,
-     "owner": "d683ff7b8b7ec25d210d61d015c0aa66c0befccaa031851d067af87b",
-     "interest_updated_ms": 1788259630000
-    },
-    {
-     "asset": "iUSD",
-     "collateral_ada": 143582.652734,
-     "collateral_asset": "ADA",
-     "debt_iasset": 15297.295744,
-     "owner": "29b30a0c0c370231689f6205c8479d274c88ba6cf30ec4615da858c6",
-     "interest_updated_ms": 1788259630000
-    },
-    {
-     "asset": "iUSD",
-     "collateral_ada": 4099.999999,
-     "collateral_asset": "ADA",
-     "debt_iasset": 451.566366,
-     "owner": "058f356380a71f1d3d1e14c7f1abba5f716847dfe200f36c3a5aa949",
-     "interest_updated_ms": 1788259630000
-    },
-    {
-     "asset": "iUSD",
-     "collateral_ada": 6509.314414,
-     "collateral_asset": "ADA",
-     "debt_iasset": 485.011991,
-     "owner": "93fc1d5eda11f4e015acabe138fdf310674c33e9d82a7dc8a7d73d99",
-     "interest_updated_ms": 1788259630000
-    },
-    {
-     "asset": "iUSD",
-     "collateral_ada": 2899.554882,
-     "collateral_asset": "ADA",
-     "debt_iasset": 309.531365,
-     "owner": "69af353f2cb9ab695b429cff0e80203bc8e9e47548f28176e9bf99a0",
-     "interest_updated_ms": 1788259630000
-    },
-    {
-     "asset": "iUSD",
-     "collateral_ada": 4955.049054,
-     "collateral_asset": "ADA",
-     "debt_iasset": 441.17596,
-     "owner": "cc976afd956c344b68e27c7948a38826f9fb2799c39bf6ba25cd3a29",
-     "interest_updated_ms": 1788259630000
-    },
-    {
-     "asset": "iUSD",
-     "collateral_ada": 25900.682702,
-     "collateral_asset": "ADA",
-     "debt_iasset": 2210.610538,
-     "owner": "a837d32597883d0983722c167ee58bf3990a0916adbab5f6ab59971a",
-     "interest_updated_ms": 1788259630000
-    },
-    {
-     "asset": "iUSD",
-     "collateral_ada": 38900.555858,
-     "collateral_asset": "ADA",
-     "debt_iasset": 722.051254,
-     "owner": "4d5da618c7b48388366354c11d5e897d2449b087b523fd083fa0970f",
-     "interest_updated_ms": 1788259630000
-    },
-    {
-     "asset": "iUSD",
-     "collateral_ada": 2815.233331,
-     "collateral_asset": "ADA",
-     "debt_iasset": 185.590599,
-     "owner": "63c7d9bc269bc711e0baccc180eb774a2a1e7456e60a1a28daac6ba4",
-     "interest_updated_ms": 1788259630000
-    },
-    {
-     "asset": "iETH",
-     "collateral_ada": 961.595029,
-     "collateral_asset": "ADA",
-     "debt_iasset": 0.067038,
-     "owner": "884df3e0fff4afb4776085f7cbcafd4daafdbb92efd54a094938a24a",
-     "interest_updated_ms": 1788260262000
-    },
-    {
-     "asset": "iETH",
-     "collateral_ada": 398.225095,
-     "collateral_asset": "ADA",
-     "debt_iasset": 0.009762,
-     "owner": "a31b2f49c9159216d7faae34717ee8bfc01450705deba7bd6c50966a",
-     "interest_updated_ms": 1788260262000
-    },
-    {
-     "asset": "iETH",
-     "collateral_ada": 2638.048555,
-     "collateral_asset": "ADA",
-     "debt_iasset": 0.123655,
-     "owner": "4c280a0658d12681a25a144cb48236bb832ba5dec02c1572bbe0174e",
-     "interest_updated_ms": 1788260262000
-    },
-    {
-     "asset": "iETH",
-     "collateral_ada": 907.604932,
-     "collateral_asset": "ADA",
-     "debt_iasset": 0.056895,
-     "owner": "f09508247e043a250758c76b5ccb0e00df48f5caa7d61518dcb96707",
-     "interest_updated_ms": 1788260262000
-    },
-    {
-     "asset": "iETH",
-     "collateral_ada": 777.194411,
-     "collateral_asset": "ADA",
-     "debt_iasset": 0.052569,
-     "owner": "5dab3fd5d3fcd16456322797fb97bfffb7fe5422621e5fbcb24a8e4b",
-     "interest_updated_ms": 1788260262000
-    },
-    {
-     "asset": "iETH",
-     "collateral_ada": 1402.941988,
-     "collateral_asset": "ADA",
-     "debt_iasset": 0.05101,
-     "owner": "c001e4f82899a30025266b88a116b2e4ee6b3b295b77adbda81559a1",
-     "interest_updated_ms": 1788260262000
-    },
-    {
-     "asset": "iETH",
-     "collateral_ada": 1407.829955,
-     "collateral_asset": "ADA",
-     "debt_iasset": 0.050557,
-     "owner": "49feae4dc1653ac5bdce66e473a1fc83080d1c5f12fcba5d3273ed58",
-     "interest_updated_ms": 1788260262000
-    },
-    {
-     "asset": "iSOL",
-     "collateral_ada": 3086.161185,
-     "collateral_asset": "ADA",
-     "debt_iasset": 4.832494,
-     "owner": "69af353f2cb9ab695b429cff0e80203bc8e9e47548f28176e9bf99a0",
-     "interest_updated_ms": 1788260339000
-    },
-    {
-     "asset": "iSOL",
-     "collateral_ada": 76574.961873,
-     "collateral_asset": "ADA",
-     "debt_iasset": 55.228385,
-     "owner": "f5fc2163bd928f1bd4be6463323d1341eb5709ad2fc7780f3a0110bf",
-     "interest_updated_ms": 1788260339000
-    },
-    {
-     "asset": "iSOL",
-     "collateral_ada": 3924.559363,
-     "collateral_asset": "ADA",
-     "debt_iasset": 6.606242,
-     "owner": "73d77d6dcfd986c5b02da42231ba9b8215d7d5e68b8a2cc774e2e2b0",
-     "interest_updated_ms": 1788260339000
     },
     {
      "asset": "iUSD",
@@ -2232,83 +1520,83 @@
     },
     {
      "asset": "iUSD",
-     "collateral_ada": 13150.765488,
+     "collateral_ada": 99270.925718,
      "collateral_asset": "ADA",
-     "debt_iasset": 1089.608969,
-     "owner": "233d582530b5049a84b458fcf216c992aea2c6682f787e7d16b02cc7",
-     "interest_updated_ms": 1788261251000
+     "debt_iasset": 7620.211517,
+     "owner": "672792f810a3042e7144571549c8971618fb0207945d98ae77d9aa22",
+     "interest_updated_ms": 1788261166000
     },
     {
      "asset": "iUSD",
-     "collateral_ada": 56200.406083,
+     "collateral_ada": 11968.961752,
      "collateral_asset": "ADA",
-     "debt_iasset": 4725.01905,
-     "owner": "3d1a58cebecdb0438ecfca3282dae61aa698c1e04023c0901802aa07",
-     "interest_updated_ms": 1788261251000
-    },
-    {
-     "asset": "iUSD",
-     "collateral_ada": 195980.702715,
-     "collateral_asset": "ADA",
-     "debt_iasset": 12371.44449,
-     "owner": "cb7e89fcaadfed571c5ed0b22579cce20b89e0407cfc051d8d97fc89",
-     "interest_updated_ms": 1788261251000
-    },
-    {
-     "asset": "iUSD",
-     "collateral_ada": 6400.0,
-     "collateral_asset": "ADA",
-     "debt_iasset": 590.522735,
-     "owner": "0465ac35c95535d657d37dddc24ca3610192126b27fcf6a554373725",
-     "interest_updated_ms": 1788261251000
-    },
-    {
-     "asset": "iUSD",
-     "collateral_ada": 37376.629157,
-     "collateral_asset": "ADA",
-     "debt_iasset": 1242.380667,
-     "owner": "0b810400efccdf35c3e2a25572669b73a78cadce80731dedb7849d8c",
-     "interest_updated_ms": 1788261251000
+     "debt_iasset": 773.073645,
+     "owner": "f2df240ff5f756ecda335877af189536d385229a073d79ffa00f61f3",
+     "interest_updated_ms": 1788261166000
     },
     {
      "asset": "iUSD",
      "collateral_ada": 10000.0,
      "collateral_asset": "ADA",
-     "debt_iasset": 544.948947,
-     "owner": "43d968a55cc01ceb6b904bf436bd28da4da90b992eefd326824a6a35",
+     "debt_iasset": 663.823223,
+     "owner": "54205b91a81af1dec73f178a2d2b72d0e061988f251812e7b79533a1",
+     "interest_updated_ms": 1788261166000
+    },
+    {
+     "asset": "iUSD",
+     "collateral_ada": 5334.1708,
+     "collateral_asset": "ADA",
+     "debt_iasset": 353.399571,
+     "owner": "a5979c9662c7afff1bc7d6022d2aeabf06f64539c5bd127145b3e9f2",
      "interest_updated_ms": 1788261251000
     },
     {
      "asset": "iUSD",
-     "collateral_ada": 300000.0,
+     "collateral_ada": 27750.0,
      "collateral_asset": "ADA",
-     "debt_iasset": 28005.790888,
-     "owner": "79a447f6c1e5cf838b612cd23d9875951a89baacc8c33e30ec984d0c",
+     "debt_iasset": 1946.258429,
+     "owner": "29e488ce06564319363103ad82d4baf330edf37d78b7ec6203a853fd",
      "interest_updated_ms": 1788261251000
     },
     {
      "asset": "iUSD",
-     "collateral_ada": 5600.0,
+     "collateral_ada": 643.856056,
      "collateral_asset": "ADA",
-     "debt_iasset": 315.468806,
-     "owner": "18c8774d9d3288c92faf9cd37c41dbd79851ed6f35f49ea3ac5cf0a0",
-     "interest_updated_ms": 1788261251000
+     "debt_iasset": 57.679493,
+     "owner": "af350112892e7a6b63800ac394548afe1112c24355369c587acc65f3",
+     "interest_updated_ms": 1788261380000
     },
     {
      "asset": "iUSD",
-     "collateral_ada": 100000.0,
+     "collateral_ada": 620.808355,
      "collateral_asset": "ADA",
-     "debt_iasset": 4234.496434,
-     "owner": "e47511274e9643992bb51041dcd9b3eddbdb39b7ccccd1fad563701f",
-     "interest_updated_ms": 1788261251000
+     "debt_iasset": 58.028063,
+     "owner": "a2ce7aaa30b38973bd8847cfee140f6a17296ec634a9ce9f51855536",
+     "interest_updated_ms": 1788261380000
     },
     {
      "asset": "iUSD",
-     "collateral_ada": 15000.0,
+     "collateral_ada": 1250.0,
      "collateral_asset": "ADA",
-     "debt_iasset": 831.155249,
-     "owner": "f2df240ff5f756ecda335877af189536d385229a073d79ffa00f61f3",
-     "interest_updated_ms": 1788261251000
+     "debt_iasset": 151.324339,
+     "owner": "08abc365d15eb5a450ff8ed2a6207bfa3cb5a0df4ec1ddd0e6636026",
+     "interest_updated_ms": 1788261380000
+    },
+    {
+     "asset": "iUSD",
+     "collateral_ada": 525.833427,
+     "collateral_asset": "ADA",
+     "debt_iasset": 58.785685,
+     "owner": "8f949023bd7eaa7f381c2ad298b345b7750cf9d04a1f53d0adcab6c2",
+     "interest_updated_ms": 1788261380000
+    },
+    {
+     "asset": "iSOL",
+     "collateral_ada": 1709.00579,
+     "collateral_asset": "ADA",
+     "debt_iasset": 3.051325,
+     "owner": "4e230f37c10a94a0051fd2fb18931021943e8194a95e3d677715101f",
+     "interest_updated_ms": 1788435053000
     },
     {
      "asset": "iUSD",
@@ -2317,38 +1605,6 @@
      "debt_iasset": 13998.892178,
      "owner": "5b4404b491d2c60ab1f763af4b21419beab6bdab4637d9ad67e0301f",
      "interest_updated_ms": 1788440056000
-    },
-    {
-     "asset": "iUSD",
-     "collateral_ada": 3879.0,
-     "collateral_asset": "ADA",
-     "debt_iasset": 371.589391,
-     "owner": "f2e928c59bfa5b701a6f2c6858bd01d906b70cc7c139793ddb917238",
-     "interest_updated_ms": 1788659417000
-    },
-    {
-     "asset": "iUSD",
-     "collateral_ada": 1.86192,
-     "collateral_asset": "0691b2fecca1ac4f53cb6dfb00b7013e561d1f34403b957cbb5af1fa",
-     "debt_iasset": 187.673978,
-     "owner": "f2e928c59bfa5b701a6f2c6858bd01d906b70cc7c139793ddb917238",
-     "interest_updated_ms": 1788659594000
-    },
-    {
-     "asset": "iUSD",
-     "collateral_ada": 7000.0,
-     "collateral_asset": "ADA",
-     "debt_iasset": 679.820014,
-     "owner": "e96c4cf8b02109d85133448d4af20b3987c75e298c0e0ebba2af2857",
-     "interest_updated_ms": 1788666026000
-    },
-    {
-     "asset": "iUSD",
-     "collateral_ada": 30454.137061,
-     "collateral_asset": "ADA",
-     "debt_iasset": 2245.962367,
-     "owner": "546380cf0043465da28cf2b7382c4c9f92bd9a51a81ace3e38999ef1",
-     "interest_updated_ms": 1788677330000
     },
     {
      "asset": "iUSD",
@@ -2367,20 +1623,12 @@
      "interest_updated_ms": 1788883880000
     },
     {
-     "asset": "iUSD",
-     "collateral_ada": 10.0,
+     "asset": "iEUR",
+     "collateral_ada": 428.338365,
      "collateral_asset": "ADA",
-     "debt_iasset": 1.452301,
-     "owner": "ea7dc30e14914d49a2cc0ae81ce3b46e354e13537ca90c404c6ae6ae",
-     "interest_updated_ms": 1788947517000
-    },
-    {
-     "asset": "iUSD",
-     "collateral_ada": 151999.999998,
-     "collateral_asset": "ADA",
-     "debt_iasset": 23429.032993,
+     "debt_iasset": 0.326297,
      "owner": "b0d55e734b02ba0570c224a1a2a708e9309fa831c7f3f5caf301e885",
-     "interest_updated_ms": 1789043937000
+     "interest_updated_ms": 1789043752000
     },
     {
      "asset": "iSOL",
@@ -2399,12 +1647,28 @@
      "interest_updated_ms": 1789190728000
     },
     {
-     "asset": "iETH",
-     "collateral_ada": 134033.483873,
+     "asset": "iUSD",
+     "collateral_ada": 148250.000001,
      "collateral_asset": "ADA",
-     "debt_iasset": 7.196678,
-     "owner": "c1b6645d779259c35eb76b24c1246268cab805bccea9e202efa61910",
-     "interest_updated_ms": 1789232832000
+     "debt_iasset": 18048.918016,
+     "owner": "5f2cddf3b09fadf280d8e91c3c0df5f2b0679e003bcc50d68b8ed668",
+     "interest_updated_ms": 1789249275000
+    },
+    {
+     "asset": "iUSD",
+     "collateral_ada": 20000.0,
+     "collateral_asset": "ADA",
+     "debt_iasset": 2093.055378,
+     "owner": "1f5ac226ebd7dad21fe1b02a1fda2e77c5cef6d0507f957fffba7ff8",
+     "interest_updated_ms": 1789251030000
+    },
+    {
+     "asset": "iUSD",
+     "collateral_ada": 207562.538955,
+     "collateral_asset": "ADA",
+     "debt_iasset": 27147.035612,
+     "owner": "c1847df694146357cb67166b11ec706348cb02d268b09c7ca0567a2a",
+     "interest_updated_ms": 1788259474000
     },
     {
      "asset": "iUSD",
@@ -2493,26 +1757,770 @@
      "debt_iasset": 10969.484378,
      "owner": "8332e19630997c4f2818828d00bf0e8a54954c087d6733f8faf96841",
      "interest_updated_ms": 1788259474000
+    },
+    {
+     "asset": "iUSD",
+     "collateral_ada": 934363.82521,
+     "collateral_asset": "ADA",
+     "debt_iasset": 71083.837824,
+     "owner": "fcc20a843a102f03b5a67e2d9567fc74c70c2c2c294b85fa83086611",
+     "interest_updated_ms": 1788259554000
+    },
+    {
+     "asset": "iUSD",
+     "collateral_ada": 399619.805808,
+     "collateral_asset": "ADA",
+     "debt_iasset": 20410.251825,
+     "owner": "b165eae246233a0df1f77480a37205ad350412962639f811164dfd32",
+     "interest_updated_ms": 1788259554000
+    },
+    {
+     "asset": "iUSD",
+     "collateral_ada": 46435.708901,
+     "collateral_asset": "ADA",
+     "debt_iasset": 3754.033946,
+     "owner": "9d94c36c0ba08524969fb2fa100dce63e0eefda22b75eca8ec3e30c4",
+     "interest_updated_ms": 1788259554000
+    },
+    {
+     "asset": "iUSD",
+     "collateral_ada": 3989.857004,
+     "collateral_asset": "ADA",
+     "debt_iasset": 263.025814,
+     "owner": "63c7d9bc269bc711e0baccc180eb774a2a1e7456e60a1a28daac6ba4",
+     "interest_updated_ms": 1788259554000
+    },
+    {
+     "asset": "iUSD",
+     "collateral_ada": 29661.163027,
+     "collateral_asset": "ADA",
+     "debt_iasset": 2470.473076,
+     "owner": "4eb075bf75869acc1947e993eda1e843f907a87ed6a01b022bc3c1bb",
+     "interest_updated_ms": 1788259554000
+    },
+    {
+     "asset": "iUSD",
+     "collateral_ada": 20012.554285,
+     "collateral_asset": "ADA",
+     "debt_iasset": 1458.469877,
+     "owner": "5375703a1815206253bce83d4c52cc18b6571def1bedf6c257575293",
+     "interest_updated_ms": 1788259554000
+    },
+    {
+     "asset": "iUSD",
+     "collateral_ada": 145003.579582,
+     "collateral_asset": "ADA",
+     "debt_iasset": 7700.496236,
+     "owner": "1dcf2ff550a25d0092a088dff3224ad87395ff430c36057417fcfa9f",
+     "interest_updated_ms": 1788259554000
+    },
+    {
+     "asset": "iBTC",
+     "collateral_ada": 15785.171753,
+     "collateral_asset": "ADA",
+     "debt_iasset": 0.033948,
+     "owner": "76bd0706659b380bf2acb2259850bdd90488151424877d178eaa4c2d",
+     "interest_updated_ms": 1788259815000
+    },
+    {
+     "asset": "iBTC",
+     "collateral_ada": 55558.861541,
+     "collateral_asset": "ADA",
+     "debt_iasset": 0.076392,
+     "owner": "ea0c004d92aceb90803942b0e0d01265e4d1e9807ef8c959d62db035",
+     "interest_updated_ms": 1788259815000
+    },
+    {
+     "asset": "iBTC",
+     "collateral_ada": 60706.81024,
+     "collateral_asset": "ADA",
+     "debt_iasset": 0.118231,
+     "owner": "31ab20da63adf95f5a9e4ecf297d1d3eb8730f6d8d17946696e8ed91",
+     "interest_updated_ms": 1788259815000
+    },
+    {
+     "asset": "iBTC",
+     "collateral_ada": 7995.195289,
+     "collateral_asset": "ADA",
+     "debt_iasset": 0.016074,
+     "owner": "202a05658b2d4f335ac72de9060a6c71c91ccff518723d7fd614899c",
+     "interest_updated_ms": 1788259815000
+    },
+    {
+     "asset": "iBTC",
+     "collateral_ada": 20556.169839,
+     "collateral_asset": "ADA",
+     "debt_iasset": 0.028599,
+     "owner": "c835248f41cb65303bec60d767f0299ea458a19c8c04beb125513487",
+     "interest_updated_ms": 1788259815000
+    },
+    {
+     "asset": "iBTC",
+     "collateral_ada": 1624811.008813,
+     "collateral_asset": "ADA",
+     "debt_iasset": 1.94716,
+     "owner": "fcc20a843a102f03b5a67e2d9567fc74c70c2c2c294b85fa83086611",
+     "interest_updated_ms": 1788259815000
+    },
+    {
+     "asset": "iBTC",
+     "collateral_ada": 444857.598043,
+     "collateral_asset": "ADA",
+     "debt_iasset": 0.722277,
+     "owner": "eec5ad5a9d70a725818ba37c46169907269ff46d002f489871daad65",
+     "interest_updated_ms": 1788259815000
+    },
+    {
+     "asset": "iBTC",
+     "collateral_ada": 376778.482977,
+     "collateral_asset": "ADA",
+     "debt_iasset": 0.386314,
+     "owner": "30f71e8f66d9f908f0a47173cccb4127341e557e9f3d9d60e0d60178",
+     "interest_updated_ms": 1788259815000
+    },
+    {
+     "asset": "iBTC",
+     "collateral_ada": 348894.015901,
+     "collateral_asset": "ADA",
+     "debt_iasset": 0.264729,
+     "owner": "1d78675c4c641307a6ee67c1632f84df8df0a86997fd07f1c2722d5b",
+     "interest_updated_ms": 1788259815000
+    },
+    {
+     "asset": "iBTC",
+     "collateral_ada": 5576.215171,
+     "collateral_asset": "ADA",
+     "debt_iasset": 0.011991,
+     "owner": "78278bcb9c677979118fb293f6b2ea731711d27c4c00a6c6477081c8",
+     "interest_updated_ms": 1788259815000
+    },
+    {
+     "asset": "iBTC",
+     "collateral_ada": 491775.487746,
+     "collateral_asset": "ADA",
+     "debt_iasset": 0.829021,
+     "owner": "e6926c176666e9fd9ca952aba71247472a1ab5358f38204d1ddfc79e",
+     "interest_updated_ms": 1788259815000
+    },
+    {
+     "asset": "iBTC",
+     "collateral_ada": 11065.828946,
+     "collateral_asset": "ADA",
+     "debt_iasset": 0.006651,
+     "owner": "4d5da618c7b48388366354c11d5e897d2449b087b523fd083fa0970f",
+     "interest_updated_ms": 1788259815000
+    },
+    {
+     "asset": "iBTC",
+     "collateral_ada": 4334.513488,
+     "collateral_asset": "ADA",
+     "debt_iasset": 0.006986,
+     "owner": "f67e67f47efa19968005038cdbbd51e3205135bbcede552eddca941a",
+     "interest_updated_ms": 1788259815000
+    },
+    {
+     "asset": "iBTC",
+     "collateral_ada": 131063.444932,
+     "collateral_asset": "ADA",
+     "debt_iasset": 0.217041,
+     "owner": "c7ebe5d764cf43b3e96199c836bf7d11b37a2d42395a130e71dbcdac",
+     "interest_updated_ms": 1788259815000
+    },
+    {
+     "asset": "iETH",
+     "collateral_ada": 66697.125056,
+     "collateral_asset": "ADA",
+     "debt_iasset": 3.363808,
+     "owner": "c7ebe5d764cf43b3e96199c836bf7d11b37a2d42395a130e71dbcdac",
+     "interest_updated_ms": 1788260182000
+    },
+    {
+     "asset": "iETH",
+     "collateral_ada": 7323.901963,
+     "collateral_asset": "ADA",
+     "debt_iasset": 0.280833,
+     "owner": "775ef1ace4264239a1f7713dfcf2509b35664a69ff58631d9ca7b43d",
+     "interest_updated_ms": 1788260182000
+    },
+    {
+     "asset": "iETH",
+     "collateral_ada": 540.183531,
+     "collateral_asset": "ADA",
+     "debt_iasset": 0.023133,
+     "owner": "dbf5237efea8d4014dd9dd124d0c1f8798e92e1e2016cf670eaf1424",
+     "interest_updated_ms": 1788260182000
+    },
+    {
+     "asset": "iETH",
+     "collateral_ada": 95478.843955,
+     "collateral_asset": "ADA",
+     "debt_iasset": 0.698927,
+     "owner": "cb7e89fcaadfed571c5ed0b22579cce20b89e0407cfc051d8d97fc89",
+     "interest_updated_ms": 1788260182000
+    },
+    {
+     "asset": "iETH",
+     "collateral_ada": 59761.315675,
+     "collateral_asset": "ADA",
+     "debt_iasset": 3.173067,
+     "owner": "0e0e12df3f3f5a2cd59f3d2b767cbe947e7e4892e027033457eeaa75",
+     "interest_updated_ms": 1788260182000
+    },
+    {
+     "asset": "iETH",
+     "collateral_ada": 4229.966209,
+     "collateral_asset": "ADA",
+     "debt_iasset": 0.227125,
+     "owner": "69af353f2cb9ab695b429cff0e80203bc8e9e47548f28176e9bf99a0",
+     "interest_updated_ms": 1788260182000
+    },
+    {
+     "asset": "iETH",
+     "collateral_ada": 2242.342407,
+     "collateral_asset": "ADA",
+     "debt_iasset": 0.124216,
+     "owner": "e4a3572c85228edfa7ee4d015fa55fd6c93d181597f86859aaabca91",
+     "interest_updated_ms": 1788260182000
+    },
+    {
+     "asset": "iETH",
+     "collateral_ada": 122450.347055,
+     "collateral_asset": "ADA",
+     "debt_iasset": 5.301083,
+     "owner": "5015aba4d3c982a18669bf8a76082f6563b3bb7872f876d3e910644d",
+     "interest_updated_ms": 1788260182000
+    },
+    {
+     "asset": "iETH",
+     "collateral_ada": 1728.055042,
+     "collateral_asset": "ADA",
+     "debt_iasset": 0.122527,
+     "owner": "cbed178d14006e55bebe3a18e998c522c63c5ee85ee5615dc92a5d61",
+     "interest_updated_ms": 1788260182000
+    },
+    {
+     "asset": "iETH",
+     "collateral_ada": 58183.537099,
+     "collateral_asset": "ADA",
+     "debt_iasset": 1.433099,
+     "owner": "690b0a92962d8e5940212f11e4e414db2a6a773f06923adaa063bf7a",
+     "interest_updated_ms": 1788260182000
+    },
+    {
+     "asset": "iETH",
+     "collateral_ada": 52368.04232,
+     "collateral_asset": "ADA",
+     "debt_iasset": 3.717937,
+     "owner": "e8efeaa8e932f8ad63d3ec8f75f68926e93f66ffc1fc602e3b28bfa4",
+     "interest_updated_ms": 1788260182000
+    },
+    {
+     "asset": "iETH",
+     "collateral_ada": 247841.630506,
+     "collateral_asset": "ADA",
+     "debt_iasset": 9.244583,
+     "owner": "fcc20a843a102f03b5a67e2d9567fc74c70c2c2c294b85fa83086611",
+     "interest_updated_ms": 1788260182000
+    },
+    {
+     "asset": "iETH",
+     "collateral_ada": 961.595029,
+     "collateral_asset": "ADA",
+     "debt_iasset": 0.067038,
+     "owner": "884df3e0fff4afb4776085f7cbcafd4daafdbb92efd54a094938a24a",
+     "interest_updated_ms": 1788260262000
+    },
+    {
+     "asset": "iETH",
+     "collateral_ada": 398.225095,
+     "collateral_asset": "ADA",
+     "debt_iasset": 0.009762,
+     "owner": "a31b2f49c9159216d7faae34717ee8bfc01450705deba7bd6c50966a",
+     "interest_updated_ms": 1788260262000
+    },
+    {
+     "asset": "iETH",
+     "collateral_ada": 2638.048555,
+     "collateral_asset": "ADA",
+     "debt_iasset": 0.123655,
+     "owner": "4c280a0658d12681a25a144cb48236bb832ba5dec02c1572bbe0174e",
+     "interest_updated_ms": 1788260262000
+    },
+    {
+     "asset": "iETH",
+     "collateral_ada": 907.604932,
+     "collateral_asset": "ADA",
+     "debt_iasset": 0.056895,
+     "owner": "f09508247e043a250758c76b5ccb0e00df48f5caa7d61518dcb96707",
+     "interest_updated_ms": 1788260262000
+    },
+    {
+     "asset": "iETH",
+     "collateral_ada": 777.194411,
+     "collateral_asset": "ADA",
+     "debt_iasset": 0.052569,
+     "owner": "5dab3fd5d3fcd16456322797fb97bfffb7fe5422621e5fbcb24a8e4b",
+     "interest_updated_ms": 1788260262000
+    },
+    {
+     "asset": "iETH",
+     "collateral_ada": 1402.941988,
+     "collateral_asset": "ADA",
+     "debt_iasset": 0.05101,
+     "owner": "c001e4f82899a30025266b88a116b2e4ee6b3b295b77adbda81559a1",
+     "interest_updated_ms": 1788260262000
+    },
+    {
+     "asset": "iETH",
+     "collateral_ada": 1407.829955,
+     "collateral_asset": "ADA",
+     "debt_iasset": 0.050557,
+     "owner": "49feae4dc1653ac5bdce66e473a1fc83080d1c5f12fcba5d3273ed58",
+     "interest_updated_ms": 1788260262000
+    },
+    {
+     "asset": "iSOL",
+     "collateral_ada": 3086.161185,
+     "collateral_asset": "ADA",
+     "debt_iasset": 4.832494,
+     "owner": "69af353f2cb9ab695b429cff0e80203bc8e9e47548f28176e9bf99a0",
+     "interest_updated_ms": 1788260339000
+    },
+    {
+     "asset": "iSOL",
+     "collateral_ada": 76574.961873,
+     "collateral_asset": "ADA",
+     "debt_iasset": 55.228385,
+     "owner": "f5fc2163bd928f1bd4be6463323d1341eb5709ad2fc7780f3a0110bf",
+     "interest_updated_ms": 1788260339000
+    },
+    {
+     "asset": "iSOL",
+     "collateral_ada": 3924.559363,
+     "collateral_asset": "ADA",
+     "debt_iasset": 6.606242,
+     "owner": "73d77d6dcfd986c5b02da42231ba9b8215d7d5e68b8a2cc774e2e2b0",
+     "interest_updated_ms": 1788260339000
+    },
+    {
+     "asset": "iUSD",
+     "collateral_ada": 128744.46948,
+     "collateral_asset": "ADA",
+     "debt_iasset": 9767.369015,
+     "owner": "3afa612c1bef384caa2dfa6c02a2b90515ea5daaaaafbf63421a4288",
+     "interest_updated_ms": 1788260944000
+    },
+    {
+     "asset": "iUSD",
+     "collateral_ada": 22238.838976,
+     "collateral_asset": "ADA",
+     "debt_iasset": 2048.358207,
+     "owner": "6d91ded3bc55d5fe46f7be9a95a0dfa56704ad466462c01d843530f9",
+     "interest_updated_ms": 1788260944000
+    },
+    {
+     "asset": "iUSD",
+     "collateral_ada": 30405.190782,
+     "collateral_asset": "ADA",
+     "debt_iasset": 3059.740816,
+     "owner": "8483a7097fb05a73ea111e73d55031c74917d21c5cf2d5f4a8d49ab7",
+     "interest_updated_ms": 1788260944000
+    },
+    {
+     "asset": "iUSD",
+     "collateral_ada": 4987.574278,
+     "collateral_asset": "ADA",
+     "debt_iasset": 544.11987,
+     "owner": "a7f79572dce483259853583258d9d81c91d64b82d0491406f16b7978",
+     "interest_updated_ms": 1788260944000
+    },
+    {
+     "asset": "iUSD",
+     "collateral_ada": 14223.660968,
+     "collateral_asset": "ADA",
+     "debt_iasset": 834.758298,
+     "owner": "087ab91012e3b840ad3f53111921d087cb33e2592aa7d9d78a0b645f",
+     "interest_updated_ms": 1788260944000
+    },
+    {
+     "asset": "iUSD",
+     "collateral_ada": 70106.806737,
+     "collateral_asset": "ADA",
+     "debt_iasset": 6299.195897,
+     "owner": "69cc71ae506283df9ddbc57cdbf9a22e090ac05fcb9ba3d1c88445b6",
+     "interest_updated_ms": 1788260944000
+    },
+    {
+     "asset": "iUSD",
+     "collateral_ada": 304000.0,
+     "collateral_asset": "ADA",
+     "debt_iasset": 13360.579352,
+     "owner": "7bbb000cc92e6a495e37067af615bac3d370d7fc70bc058ad831df2f",
+     "interest_updated_ms": 1788260944000
+    },
+    {
+     "asset": "iUSD",
+     "collateral_ada": 19994.07825,
+     "collateral_asset": "ADA",
+     "debt_iasset": 1870.634701,
+     "owner": "9ef82b39ec0521ee2054f18b3811007af895c6a3248eb9bf458ebedd",
+     "interest_updated_ms": 1788260944000
+    },
+    {
+     "asset": "iUSD",
+     "collateral_ada": 16000.000825,
+     "collateral_asset": "ADA",
+     "debt_iasset": 1723.003168,
+     "owner": "7328ab6d917830c7db07347e34d628bd76421d260b9064231a34955e",
+     "interest_updated_ms": 1788260944000
+    },
+    {
+     "asset": "iUSD",
+     "collateral_ada": 308108.284746,
+     "collateral_asset": "ADA",
+     "debt_iasset": 36138.099659,
+     "owner": "6bb9c690917ff628a681c5553c80701593c4e638b387d9aade73a648",
+     "interest_updated_ms": 1788260944000
+    },
+    {
+     "asset": "iUSD",
+     "collateral_ada": 45685.005401,
+     "collateral_asset": "ADA",
+     "debt_iasset": 3443.346796,
+     "owner": "bbc6d8e0a8f8fa47238a3df22e1b9a0e39a0de2330ba5b49d69a6bc0",
+     "interest_updated_ms": 1788260944000
+    },
+    {
+     "asset": "iUSD",
+     "collateral_ada": 263779.834472,
+     "collateral_asset": "ADA",
+     "debt_iasset": 31084.912198,
+     "owner": "8cfa9db8ab74f9e14bc7dbd3a33407879a99cef8da9391f6f2d79e08",
+     "interest_updated_ms": 1788260944000
+    },
+    {
+     "asset": "iUSD",
+     "collateral_ada": 2261.716836,
+     "collateral_asset": "ADA",
+     "debt_iasset": 234.551197,
+     "owner": "5a22248acd76b04db2a4f0804b465d7e0e6f9c13d3be980b3f7ef9e7",
+     "interest_updated_ms": 1788260944000
+    },
+    {
+     "asset": "iUSD",
+     "collateral_ada": 295414.886866,
+     "collateral_asset": "ADA",
+     "debt_iasset": 24869.522709,
+     "owner": "d8bdf81a5500719b824526db28d3d5ac421e182a3654a07026f008a4",
+     "interest_updated_ms": 1788260944000
+    },
+    {
+     "asset": "iUSD",
+     "collateral_ada": 32867.393091,
+     "collateral_asset": "ADA",
+     "debt_iasset": 2601.169466,
+     "owner": "bf0e8705a74db81f5bf1c5795dada0b6c522bc454feeb079d250ac5b",
+     "interest_updated_ms": 1788261166000
+    },
+    {
+     "asset": "iUSD",
+     "collateral_ada": 63505.104187,
+     "collateral_asset": "ADA",
+     "debt_iasset": 5579.549162,
+     "owner": "8732d6ae48c07b2694e9918fcdfff84e0995b165d4615c32fc76a978",
+     "interest_updated_ms": 1788261166000
+    },
+    {
+     "asset": "iUSD",
+     "collateral_ada": 109843.863491,
+     "collateral_asset": "ADA",
+     "debt_iasset": 5971.171247,
+     "owner": "b3f6fd4895d5145d55e82ab81c7f6d97470f5affcd28bfc318bc3056",
+     "interest_updated_ms": 1788261166000
+    },
+    {
+     "asset": "iUSD",
+     "collateral_ada": 20108.553594,
+     "collateral_asset": "ADA",
+     "debt_iasset": 1753.722775,
+     "owner": "d596cd0652abd857d22f22d465b75c4cda6d5650d5688a1677d0e839",
+     "interest_updated_ms": 1788261166000
+    },
+    {
+     "asset": "iUSD",
+     "collateral_ada": 15982.104648,
+     "collateral_asset": "ADA",
+     "debt_iasset": 1429.950255,
+     "owner": "616a8e0bef9c2f34daef6471c9d262e67f23b3f2a9d025989cb9f1b1",
+     "interest_updated_ms": 1788261166000
+    },
+    {
+     "asset": "iUSD",
+     "collateral_ada": 12572.907622,
+     "collateral_asset": "ADA",
+     "debt_iasset": 915.669958,
+     "owner": "17d29d0c794995d71da6ea5934500e087a6a17455de61b289c09386b",
+     "interest_updated_ms": 1788261166000
+    },
+    {
+     "asset": "iUSD",
+     "collateral_ada": 1654779.44329,
+     "collateral_asset": "ADA",
+     "debt_iasset": 161286.880484,
+     "owner": "efc55477cca027cbb12c7ae0df08a7730b258856c7ec5ac6c4759003",
+     "interest_updated_ms": 1788261166000
+    },
+    {
+     "asset": "iUSD",
+     "collateral_ada": 54245.099906,
+     "collateral_asset": "ADA",
+     "debt_iasset": 3366.997325,
+     "owner": "a2d70cfaa0036c4e8ff9d67d82c708bedb8555d2d26d27953aa72b89",
+     "interest_updated_ms": 1788261166000
+    },
+    {
+     "asset": "iUSD",
+     "collateral_ada": 361908.036744,
+     "collateral_asset": "ADA",
+     "debt_iasset": 32948.23968,
+     "owner": "b524fc08da69d180acce80c946bb336bb7ed96cfd7f7f1b38721953e",
+     "interest_updated_ms": 1788261166000
+    },
+    {
+     "asset": "iUSD",
+     "collateral_ada": 13150.765488,
+     "collateral_asset": "ADA",
+     "debt_iasset": 1089.608969,
+     "owner": "233d582530b5049a84b458fcf216c992aea2c6682f787e7d16b02cc7",
+     "interest_updated_ms": 1788261251000
+    },
+    {
+     "asset": "iUSD",
+     "collateral_ada": 56200.406083,
+     "collateral_asset": "ADA",
+     "debt_iasset": 4725.01905,
+     "owner": "3d1a58cebecdb0438ecfca3282dae61aa698c1e04023c0901802aa07",
+     "interest_updated_ms": 1788261251000
+    },
+    {
+     "asset": "iUSD",
+     "collateral_ada": 195980.702715,
+     "collateral_asset": "ADA",
+     "debt_iasset": 12371.44449,
+     "owner": "cb7e89fcaadfed571c5ed0b22579cce20b89e0407cfc051d8d97fc89",
+     "interest_updated_ms": 1788261251000
+    },
+    {
+     "asset": "iUSD",
+     "collateral_ada": 6400.0,
+     "collateral_asset": "ADA",
+     "debt_iasset": 590.522735,
+     "owner": "0465ac35c95535d657d37dddc24ca3610192126b27fcf6a554373725",
+     "interest_updated_ms": 1788261251000
+    },
+    {
+     "asset": "iUSD",
+     "collateral_ada": 37376.629157,
+     "collateral_asset": "ADA",
+     "debt_iasset": 1242.380667,
+     "owner": "0b810400efccdf35c3e2a25572669b73a78cadce80731dedb7849d8c",
+     "interest_updated_ms": 1788261251000
+    },
+    {
+     "asset": "iUSD",
+     "collateral_ada": 10000.0,
+     "collateral_asset": "ADA",
+     "debt_iasset": 544.948947,
+     "owner": "43d968a55cc01ceb6b904bf436bd28da4da90b992eefd326824a6a35",
+     "interest_updated_ms": 1788261251000
+    },
+    {
+     "asset": "iUSD",
+     "collateral_ada": 300000.0,
+     "collateral_asset": "ADA",
+     "debt_iasset": 28005.790888,
+     "owner": "79a447f6c1e5cf838b612cd23d9875951a89baacc8c33e30ec984d0c",
+     "interest_updated_ms": 1788261251000
+    },
+    {
+     "asset": "iUSD",
+     "collateral_ada": 5600.0,
+     "collateral_asset": "ADA",
+     "debt_iasset": 315.468806,
+     "owner": "18c8774d9d3288c92faf9cd37c41dbd79851ed6f35f49ea3ac5cf0a0",
+     "interest_updated_ms": 1788261251000
+    },
+    {
+     "asset": "iUSD",
+     "collateral_ada": 100000.0,
+     "collateral_asset": "ADA",
+     "debt_iasset": 4234.496434,
+     "owner": "e47511274e9643992bb51041dcd9b3eddbdb39b7ccccd1fad563701f",
+     "interest_updated_ms": 1788261251000
+    },
+    {
+     "asset": "iUSD",
+     "collateral_ada": 15000.0,
+     "collateral_asset": "ADA",
+     "debt_iasset": 831.155249,
+     "owner": "f2df240ff5f756ecda335877af189536d385229a073d79ffa00f61f3",
+     "interest_updated_ms": 1788261251000
+    },
+    {
+     "asset": "iUSD",
+     "collateral_ada": 1.86192,
+     "collateral_asset": "0691b2fecca1ac4f53cb6dfb00b7013e561d1f34403b957cbb5af1fa",
+     "debt_iasset": 378.382063,
+     "owner": "827fd20a266c60693962eb00379579b34cb3bf621fb13abd7ba55da5",
+     "interest_updated_ms": 1788452838000
+    },
+    {
+     "asset": "iBTC",
+     "collateral_ada": 15407.18,
+     "collateral_asset": "ADA",
+     "debt_iasset": 0.02,
+     "owner": "7611bdfaa85bd1fde316e6f46405c59283469e5d7f9049e256dd062c",
+     "interest_updated_ms": 1788518437000
+    },
+    {
+     "asset": "iJPY",
+     "collateral_ada": 1479.0,
+     "collateral_asset": "ADA",
+     "debt_iasset": 25771.915283,
+     "owner": "ee3bfaad4224d328d77fdb81d14379142c542e83b2bedbf53b1ddd1c",
+     "interest_updated_ms": 1788531808000
+    },
+    {
+     "asset": "iUSD",
+     "collateral_ada": 272840.102594,
+     "collateral_asset": "ADA",
+     "debt_iasset": 36627.455172,
+     "owner": "1ee35346257cc3977c0fdedd925f37c3db2688eb6c2a9c872619ff93",
+     "interest_updated_ms": 1788535675000
+    },
+    {
+     "asset": "iUSD",
+     "collateral_ada": 3879.0,
+     "collateral_asset": "ADA",
+     "debt_iasset": 371.589391,
+     "owner": "f2e928c59bfa5b701a6f2c6858bd01d906b70cc7c139793ddb917238",
+     "interest_updated_ms": 1788659417000
+    },
+    {
+     "asset": "iUSD",
+     "collateral_ada": 1.86192,
+     "collateral_asset": "0691b2fecca1ac4f53cb6dfb00b7013e561d1f34403b957cbb5af1fa",
+     "debt_iasset": 187.673978,
+     "owner": "f2e928c59bfa5b701a6f2c6858bd01d906b70cc7c139793ddb917238",
+     "interest_updated_ms": 1788659594000
+    },
+    {
+     "asset": "iUSD",
+     "collateral_ada": 7000.0,
+     "collateral_asset": "ADA",
+     "debt_iasset": 679.820014,
+     "owner": "e96c4cf8b02109d85133448d4af20b3987c75e298c0e0ebba2af2857",
+     "interest_updated_ms": 1788666026000
+    },
+    {
+     "asset": "iUSD",
+     "collateral_ada": 30454.137061,
+     "collateral_asset": "ADA",
+     "debt_iasset": 2245.962367,
+     "owner": "546380cf0043465da28cf2b7382c4c9f92bd9a51a81ace3e38999ef1",
+     "interest_updated_ms": 1788677330000
+    },
+    {
+     "asset": "iEUR",
+     "collateral_ada": 10.0,
+     "collateral_asset": "ADA",
+     "debt_iasset": 1.103338,
+     "owner": "3be87b19c9045b5374602403d34efa47377fc7e6d3a163401642d905",
+     "interest_updated_ms": 1788681658000
+    },
+    {
+     "asset": "iUSD",
+     "collateral_ada": 10.0,
+     "collateral_asset": "ADA",
+     "debt_iasset": 1.452301,
+     "owner": "ea7dc30e14914d49a2cc0ae81ce3b46e354e13537ca90c404c6ae6ae",
+     "interest_updated_ms": 1788947517000
+    },
+    {
+     "asset": "iUSD",
+     "collateral_ada": 151999.999998,
+     "collateral_asset": "ADA",
+     "debt_iasset": 23429.032993,
+     "owner": "b0d55e734b02ba0570c224a1a2a708e9309fa831c7f3f5caf301e885",
+     "interest_updated_ms": 1789043937000
+    },
+    {
+     "asset": "iETH",
+     "collateral_ada": 134033.483873,
+     "collateral_asset": "ADA",
+     "debt_iasset": 7.196678,
+     "owner": "c1b6645d779259c35eb76b24c1246268cab805bccea9e202efa61910",
+     "interest_updated_ms": 1789232832000
+    },
+    {
+     "asset": "iUSD",
+     "collateral_ada": 53762.305965,
+     "collateral_asset": "ADA",
+     "debt_iasset": 6210.684295,
+     "owner": "2a8f72452e663bb59bfb77272eec0b72556f3f3b7a4de91d4cfebd54",
+     "interest_updated_ms": 1788259554000
+    },
+    {
+     "asset": "iUSD",
+     "collateral_ada": 444853.542534,
+     "collateral_asset": "ADA",
+     "debt_iasset": 50994.247534,
+     "owner": "0396b4c0a352a7665ce69f0a43ba445ae29e3fba94aec65fad5c8340",
+     "interest_updated_ms": 1788259630000
+    },
+    {
+     "asset": "iUSD",
+     "collateral_ada": 64612.904274,
+     "collateral_asset": "ADA",
+     "debt_iasset": 4693.42697,
+     "owner": "3afa612c1bef384caa2dfa6c02a2b90515ea5daaaaafbf63421a4288",
+     "interest_updated_ms": 1788259630000
+    },
+    {
+     "asset": "iUSD",
+     "collateral_ada": 4000.0,
+     "collateral_asset": "ADA",
+     "debt_iasset": 203.965158,
+     "owner": "98c7d6c111e406d11e6cb4b37cc94be3e44851aadb360f231c10db41",
+     "interest_updated_ms": 1788259630000
+    },
+    {
+     "asset": "iUSD",
+     "collateral_ada": 57013.100211,
+     "collateral_asset": "ADA",
+     "debt_iasset": 6214.894753,
+     "owner": "e1adb2d62927f4ad62b82d8593808a9a3bbd446521e91d72286b9a41",
+     "interest_updated_ms": 1788259630000
     }
    ],
    "meta": {
-    "utxos_at_validator": 312,
-    "decoded": 309,
+    "utxos_at_validator": 313,
+    "decoded": 310,
     "undecoded": 3,
     "no_datum": 0,
     "validator_cred": "ff0b10bff20e4b68b491492e5ba6c8048a704763b0a45ce2995da0be",
-    "collateral_ada_total": 18740513.578443
+    "collateral_ada_total": 18774249.294817
    }
   },
   "epoch_economics": {
    "current": {
     "epoch": 655,
-    "blocks": 4181,
-    "txs": 14869,
-    "out_sum_ada": 3771799205.93415,
-    "fees_ada": 4303.455903,
+    "blocks": 4319,
+    "txs": 15410,
+    "out_sum_ada": 3890188496.251128,
+    "fees_ada": 4473.265728,
     "start": "2026-09-11 21:45:03",
-    "end": "2026-09-12 21:24:05"
+    "end": "2026-09-12 22:12:09"
    },
    "previous": {
     "epoch": 654,
@@ -2527,12 +2535,12 @@
   "network_vitals": {
    "current_epoch": {
     "epoch": 655,
-    "blocks": 4181,
-    "txs": 14869,
-    "fees_ada": 4303.455903,
-    "out_sum_ada": 3771799205.93415,
+    "blocks": 4319,
+    "txs": 15410,
+    "fees_ada": 4473.265728,
+    "out_sum_ada": 3890188496.251128,
     "start": "2026-09-11 21:45:03",
-    "end": "2026-09-12 21:24:05"
+    "end": "2026-09-12 22:12:09"
    },
    "last_complete": {
     "epoch": 654,
@@ -2949,8 +2957,8 @@
   "epoch_boundary": {
    "epoch": 655,
    "start": "2026-09-11 21:45:03",
-   "seconds_to_next": 346851,
-   "hours_to_next": 96.3475,
+   "seconds_to_next": 343966,
+   "hours_to_next": 95.54611111111112,
    "next_epoch": 656
   }
  },
@@ -2962,28 +2970,28 @@
   "tvl_change_90d_pct": 5.439165586834454,
   "tvl_change_365d_pct": -89.5085268307746,
   "iasset_prices_usd": {
-   "iADA": 0.2073846,
-   "iBTC": 77169.20834709845,
-   "iETH": 2523.437479977408,
-   "iEUR": 1.159983166067,
-   "iJPY": 0.006512054468,
-   "iUSD": 1.000129456756
+   "iADA": 0.20709546,
+   "iBTC": 77251.93054874867,
+   "iETH": 2523.458450196543,
+   "iEUR": 1.159910814123,
+   "iJPY": 0.00651164829,
+   "iUSD": 1.000052432749
   },
   "asset_count": 7,
-  "ada_price_usd_oracle": 0.20730365,
-  "indy_price_usd": 0.096768,
-  "indy_price_ada": 0.46667342,
-  "indy_staked": 11758185.408869,
+  "ada_price_usd_oracle": 0.20700492,
+  "indy_price_usd": 0.09698,
+  "indy_price_ada": 0.4683463,
+  "indy_staked": 11757851.522515,
   "staking_snapshot_ada": 1423157.470784,
   "order_book_open_n": 39,
-  "order_book_ada": 224580.339259
+  "order_book_ada": 200894.506565
  },
  "price": {
-  "price_usd": 0.20739078326542407,
+  "price_usd": 0.20706889442586365,
   "source": "coingecko",
-  "change_30d_pct": 14.169764238661955,
-  "change_7d_pct": -5.934881256382791,
-  "change_24h_pct": 1.4184264270007618,
+  "change_30d_pct": 13.67095535024943,
+  "change_7d_pct": -5.67338742492709,
+  "change_24h_pct": 1.1475750636760975,
   "price_cross_checked": true
  },
  "governance": {
@@ -3936,8 +3944,8 @@
    {
     "policy": "1f3aec8bfe7ea4fe14c5f121e2a92e301afe414147860d557cac7e34",
     "name": "USDCx",
-    "vol_raw_units_window": 4727440492613,
-    "txs_in_window": 113
+    "vol_raw_units_window": 4728575422592,
+    "txs_in_window": 115
    },
    {
     "policy": "d195ca7db29f0f13a00cac7fca70426ff60bad4e1e87d3757fae8484",
@@ -3948,7 +3956,7 @@
    {
     "policy": "d195ca7db29f0f13a00cac7fca70426ff60bad4e1e87d3757fae8484",
     "name": "hvMIN",
-    "vol_raw_units_window": 951023209468,
+    "vol_raw_units_window": 952061921934,
     "txs_in_window": 583
    },
    {
@@ -3978,8 +3986,8 @@
    {
     "policy": "e0302560ced2fdcbfcb2602697df970cd0d6a38f94b32703f51c312b",
     "name": "/6fum-)|4hGs",
-    "vol_raw_units_window": 215958502862,
-    "txs_in_window": 3
+    "vol_raw_units_window": 221417481753,
+    "txs_in_window": 4
    },
    {
     "policy": "d195ca7db29f0f13a00cac7fca70426ff60bad4e1e87d3757fae8484",
@@ -4002,8 +4010,8 @@
    {
     "policy": "d195ca7db29f0f13a00cac7fca70426ff60bad4e1e87d3757fae8484",
     "name": "hvFLUID",
-    "vol_raw_units_window": 104366108408,
-    "txs_in_window": 66
+    "vol_raw_units_window": 105142996710,
+    "txs_in_window": 68
    },
    {
     "policy": "d195ca7db29f0f13a00cac7fca70426ff60bad4e1e87d3757fae8484",
@@ -4020,14 +4028,20 @@
    {
     "policy": "f66d78b4a3cb3d37afa0ec36461e51ecbde00f26c8f0a68f94b69880",
     "name": "iUSD",
-    "vol_raw_units_window": 64495834319,
-    "txs_in_window": 21
+    "vol_raw_units_window": 66588955671,
+    "txs_in_window": 24
    },
    {
     "policy": "a3437274f93dfdf36e949a4d9533e964aebde7a1cd229baeca7bdafa",
     "name": "C-LP: ADA x CSWAP",
     "vol_raw_units_window": 48459012882,
     "txs_in_window": 5
+   },
+   {
+    "policy": "d195ca7db29f0f13a00cac7fca70426ff60bad4e1e87d3757fae8484",
+    "name": "hvROLL",
+    "vol_raw_units_window": 44642978914,
+    "txs_in_window": 10
    },
    {
     "policy": "3bcd70a4e1128f4cd0979a75ca2ca20c2636212c1d0952d6c5fd4cdd",
@@ -4040,12 +4054,6 @@
     "name": "stMIN",
     "vol_raw_units_window": 37022402044,
     "txs_in_window": 142
-   },
-   {
-    "policy": "d195ca7db29f0f13a00cac7fca70426ff60bad4e1e87d3757fae8484",
-    "name": "hvROLL",
-    "vol_raw_units_window": 35835200632,
-    "txs_in_window": 8
    }
   ],
   "window_days": 7
@@ -4057,11 +4065,11 @@
     "symbol": "ADA",
     "name": "Cardano",
     "coingecko_id": "cardano",
-    "price_usd": 0.207347,
-    "market_cap_usd": 7780623129,
-    "fdv_usd": 9332585247,
-    "volume_24h_usd": 238083528,
-    "change_24h_pct": 0.192,
+    "price_usd": 0.207024,
+    "market_cap_usd": 7768546913,
+    "fdv_usd": 9318100249,
+    "volume_24h_usd": 234228272,
+    "change_24h_pct": 0.704,
     "group": "ada"
    },
    {
@@ -4069,11 +4077,11 @@
     "symbol": "NIGHT",
     "name": "Midnight",
     "coingecko_id": "midnight-3",
-    "price_usd": 0.020745,
-    "market_cap_usd": 344551440,
-    "fdv_usd": 497924711,
-    "volume_24h_usd": 4260139,
-    "change_24h_pct": -1.388,
+    "price_usd": 0.020777,
+    "market_cap_usd": 345141547,
+    "fdv_usd": 498777499,
+    "volume_24h_usd": 4269398,
+    "change_24h_pct": -0.844,
     "group": "other"
    },
    {
@@ -4081,11 +4089,11 @@
     "symbol": "USDCX",
     "name": "Circle xReserve Bridged USDC (Cardano)",
     "coingecko_id": "cicle-xreserve-bridged-usdc-cardano",
-    "price_usd": 0.999876,
-    "market_cap_usd": 39917747,
-    "fdv_usd": 39917747,
-    "volume_24h_usd": 10373,
-    "change_24h_pct": 0.006,
+    "price_usd": 0.999886,
+    "market_cap_usd": 39918273,
+    "fdv_usd": 39918273,
+    "volume_24h_usd": 7025,
+    "change_24h_pct": 0.002,
     "group": "stable"
    },
    {
@@ -4094,10 +4102,10 @@
     "name": "Snek",
     "coingecko_id": "snek",
     "price_usd": 0.000443,
-    "market_cap_usd": 33068121,
-    "fdv_usd": 33310123,
-    "volume_24h_usd": 687308,
-    "change_24h_pct": -1.893,
+    "market_cap_usd": 33084772,
+    "fdv_usd": 33326896,
+    "volume_24h_usd": 688286,
+    "change_24h_pct": -1.432,
     "group": "other"
    },
    {
@@ -4105,11 +4113,11 @@
     "symbol": "WMTX",
     "name": "World Mobile Token",
     "coingecko_id": "world-mobile-token",
-    "price_usd": 0.033449,
-    "market_cap_usd": 28486592,
-    "fdv_usd": 66879764,
-    "volume_24h_usd": 473728,
-    "change_24h_pct": 0.317,
+    "price_usd": 0.033421,
+    "market_cap_usd": 28481615,
+    "fdv_usd": 66868080,
+    "volume_24h_usd": 464470,
+    "change_24h_pct": 0.557,
     "group": "other"
    },
    {
@@ -4117,11 +4125,11 @@
     "symbol": "RSERG",
     "name": "rsERG",
     "coingecko_id": "rserg",
-    "price_usd": 0.248925,
-    "market_cap_usd": 24329899,
-    "fdv_usd": 24329899,
-    "volume_24h_usd": 821,
-    "change_24h_pct": 0.569,
+    "price_usd": 0.250453,
+    "market_cap_usd": 24479787,
+    "fdv_usd": 24479787,
+    "volume_24h_usd": 699,
+    "change_24h_pct": 1.622,
     "group": "other"
    },
    {
@@ -4129,11 +4137,11 @@
     "symbol": "IAG",
     "name": "Iagon",
     "coingecko_id": "iagon",
-    "price_usd": 0.020513,
-    "market_cap_usd": 9990629,
-    "fdv_usd": 20513473,
-    "volume_24h_usd": 275043,
-    "change_24h_pct": 4.803,
+    "price_usd": 0.020517,
+    "market_cap_usd": 9992510,
+    "fdv_usd": 20517294,
+    "volume_24h_usd": 256465,
+    "change_24h_pct": 5.093,
     "group": "other"
    },
    {
@@ -4141,11 +4149,11 @@
     "symbol": "IUSD",
     "name": "Indigo Protocol iUSD",
     "coingecko_id": "iusd",
-    "price_usd": 0.979847,
-    "market_cap_usd": 9330573,
-    "fdv_usd": 9330573,
-    "volume_24h_usd": 3191,
-    "change_24h_pct": -0.169,
+    "price_usd": 0.980951,
+    "market_cap_usd": 9341227,
+    "fdv_usd": 9341227,
+    "volume_24h_usd": 3141,
+    "change_24h_pct": 0.481,
     "group": "stable"
    },
    {
@@ -4153,11 +4161,11 @@
     "symbol": "STRIKE",
     "name": "Strike",
     "coingecko_id": "strike-2",
-    "price_usd": 0.509899,
-    "market_cap_usd": 9178256,
-    "fdv_usd": 12747577,
-    "volume_24h_usd": 22126,
-    "change_24h_pct": -0.924,
+    "price_usd": 0.509137,
+    "market_cap_usd": 9164660,
+    "fdv_usd": 12728695,
+    "volume_24h_usd": 19401,
+    "change_24h_pct": -0.481,
     "group": "other"
    },
    {
@@ -4165,11 +4173,11 @@
     "symbol": "USDM",
     "name": "USDM",
     "coingecko_id": "usdm-2",
-    "price_usd": 0.993626,
-    "market_cap_usd": 8621683,
-    "fdv_usd": 8621683,
-    "volume_24h_usd": 49565,
-    "change_24h_pct": -0.618,
+    "price_usd": 1.0,
+    "market_cap_usd": 8678122,
+    "fdv_usd": 8678122,
+    "volume_24h_usd": 53692,
+    "change_24h_pct": 0.07,
     "group": "stable"
    },
    {
@@ -4177,11 +4185,11 @@
     "symbol": "USDA",
     "name": "Anzens USDA",
     "coingecko_id": "anzens-usda",
-    "price_usd": 0.997669,
-    "market_cap_usd": 6743987,
-    "fdv_usd": 6743987,
-    "volume_24h_usd": 13190,
-    "change_24h_pct": -0.809,
+    "price_usd": 0.997798,
+    "market_cap_usd": 6744957,
+    "fdv_usd": 6744957,
+    "volume_24h_usd": 10713,
+    "change_24h_pct": -0.497,
     "group": "stable"
    },
    {
@@ -4190,10 +4198,10 @@
     "name": "Hosky",
     "coingecko_id": "hosky",
     "price_usd": 0.0,
-    "market_cap_usd": 6321163,
-    "fdv_usd": 6321163,
-    "volume_24h_usd": 3341,
-    "change_24h_pct": -1.954,
+    "market_cap_usd": 6313103,
+    "fdv_usd": 6313103,
+    "volume_24h_usd": 3330,
+    "change_24h_pct": -1.671,
     "group": "other"
    },
    {
@@ -4201,11 +4209,11 @@
     "symbol": "MIN",
     "name": "Minswap",
     "coingecko_id": "minswap",
-    "price_usd": 0.003437,
-    "market_cap_usd": 5902112,
-    "fdv_usd": 8445399,
-    "volume_24h_usd": 87974,
-    "change_24h_pct": 1.057,
+    "price_usd": 0.003416,
+    "market_cap_usd": 5870583,
+    "fdv_usd": 8400283,
+    "volume_24h_usd": 86520,
+    "change_24h_pct": 1.083,
     "group": "other"
    },
    {
@@ -4213,11 +4221,11 @@
     "symbol": "LQ",
     "name": "Liqwid Finance",
     "coingecko_id": "liqwid-finance",
-    "price_usd": 0.248106,
-    "market_cap_usd": 5039719,
-    "fdv_usd": 5210262,
-    "volume_24h_usd": 6009,
-    "change_24h_pct": 1.607,
+    "price_usd": 0.247739,
+    "market_cap_usd": 5032337,
+    "fdv_usd": 5202630,
+    "volume_24h_usd": 5980,
+    "change_24h_pct": 2.08,
     "group": "other"
    },
    {
@@ -4225,11 +4233,11 @@
     "symbol": "RISE",
     "name": "Infinity Rising",
     "coingecko_id": "infinity-rising",
-    "price_usd": 0.00145,
-    "market_cap_usd": 4337824,
-    "fdv_usd": 4350173,
-    "volume_24h_usd": 2970,
-    "change_24h_pct": 0.356,
+    "price_usd": 0.001444,
+    "market_cap_usd": 4319885,
+    "fdv_usd": 4332183,
+    "volume_24h_usd": 2975,
+    "change_24h_pct": 0.554,
     "group": "other"
    },
    {
@@ -4237,11 +4245,11 @@
     "symbol": "DJED",
     "name": "Djed",
     "coingecko_id": "djed",
-    "price_usd": 0.990111,
-    "market_cap_usd": 3979392,
-    "fdv_usd": 3979392,
-    "volume_24h_usd": 4042,
-    "change_24h_pct": -0.895,
+    "price_usd": 0.991457,
+    "market_cap_usd": 3984857,
+    "fdv_usd": 3984857,
+    "volume_24h_usd": 4308,
+    "change_24h_pct": -0.184,
     "group": "stable"
    },
    {
@@ -4261,11 +4269,11 @@
     "symbol": "ASCEND",
     "name": "Ascend",
     "coingecko_id": "ascend-3",
-    "price_usd": 0.201451,
-    "market_cap_usd": 3102371,
-    "fdv_usd": 4431959,
-    "volume_24h_usd": 42529,
-    "change_24h_pct": 14.941,
+    "price_usd": 0.20006,
+    "market_cap_usd": 3080988,
+    "fdv_usd": 4401411,
+    "volume_24h_usd": 42976,
+    "change_24h_pct": 16.819,
     "group": "other"
    },
    {
@@ -4273,11 +4281,11 @@
     "symbol": "NVL",
     "name": "Nuvola Digital",
     "coingecko_id": "nuvola-digital",
-    "price_usd": 0.143806,
-    "market_cap_usd": 2440735,
-    "fdv_usd": 3019946,
-    "volume_24h_usd": 68,
-    "change_24h_pct": 0.304,
+    "price_usd": 0.143597,
+    "market_cap_usd": 2437228,
+    "fdv_usd": 3015608,
+    "volume_24h_usd": 57,
+    "change_24h_pct": 0.772,
     "group": "other"
    },
    {
@@ -4285,11 +4293,11 @@
     "symbol": "STUFF",
     "name": "STUFF.io",
     "coingecko_id": "book-2",
-    "price_usd": 0.000683,
-    "market_cap_usd": 2282700,
-    "fdv_usd": 6833805,
-    "volume_24h_usd": 1221,
-    "change_24h_pct": -0.901,
+    "price_usd": 0.000682,
+    "market_cap_usd": 2276648,
+    "fdv_usd": 6815686,
+    "volume_24h_usd": 1238,
+    "change_24h_pct": -0.435,
     "group": "other"
    },
    {
@@ -4306,26 +4314,26 @@
    },
    {
     "rank": 22,
-    "symbol": "INDY",
-    "name": "Indigo Protocol",
-    "coingecko_id": "indigo-dao-governance-token",
-    "price_usd": 0.096767,
-    "market_cap_usd": 1849571,
-    "fdv_usd": 3386858,
-    "volume_24h_usd": 23,
-    "change_24h_pct": -0.119,
-    "group": "other"
-   },
-   {
-    "rank": 23,
     "symbol": "NTX",
     "name": "NuNet",
     "coingecko_id": "nunet",
     "price_usd": 0.002136,
-    "market_cap_usd": 1848255,
-    "fdv_usd": 2134737,
-    "volume_24h_usd": 31380,
-    "change_24h_pct": -4.374,
+    "market_cap_usd": 1848992,
+    "fdv_usd": 2135588,
+    "volume_24h_usd": 30390,
+    "change_24h_pct": -3.998,
+    "group": "other"
+   },
+   {
+    "rank": 23,
+    "symbol": "INDY",
+    "name": "Indigo Protocol",
+    "coingecko_id": "indigo-dao-governance-token",
+    "price_usd": 0.09698,
+    "market_cap_usd": 1848503,
+    "fdv_usd": 3384901,
+    "volume_24h_usd": 159,
+    "change_24h_pct": 0.46,
     "group": "other"
    },
    {
@@ -4333,11 +4341,11 @@
     "symbol": "SURF",
     "name": "Surf Lending",
     "coingecko_id": "flow-lending",
-    "price_usd": 0.077637,
-    "market_cap_usd": 1552750,
-    "fdv_usd": 1940939,
-    "volume_24h_usd": 16519,
-    "change_24h_pct": 8.964,
+    "price_usd": 0.077564,
+    "market_cap_usd": 1551167,
+    "fdv_usd": 1938960,
+    "volume_24h_usd": 16214,
+    "change_24h_pct": 9.502,
     "group": "other"
    },
    {
@@ -4346,10 +4354,10 @@
     "name": "Cornucopias",
     "coingecko_id": "cornucopias",
     "price_usd": 0.001461,
-    "market_cap_usd": 1508049,
-    "fdv_usd": 5608722,
-    "volume_24h_usd": 268,
-    "change_24h_pct": -4.161,
+    "market_cap_usd": 1507687,
+    "fdv_usd": 5607376,
+    "volume_24h_usd": 176,
+    "change_24h_pct": -3.621,
     "group": "other"
    },
    {
@@ -4358,10 +4366,10 @@
     "name": "Palm Economy",
     "coingecko_id": "palm-economy",
     "price_usd": 9.6e-05,
-    "market_cap_usd": 1145470,
-    "fdv_usd": 4799803,
+    "market_cap_usd": 1143825,
+    "fdv_usd": 4792907,
     "volume_24h_usd": 29,
-    "change_24h_pct": 0.957,
+    "change_24h_pct": 0.853,
     "group": "other"
    },
    {
@@ -4369,11 +4377,11 @@
     "symbol": "COCK",
     "name": "CockCardano",
     "coingecko_id": "cockcardano",
-    "price_usd": 0.000797,
-    "market_cap_usd": 797128,
-    "fdv_usd": 797128,
-    "volume_24h_usd": 451,
-    "change_24h_pct": -2.993,
+    "price_usd": 0.000796,
+    "market_cap_usd": 795982,
+    "fdv_usd": 795982,
+    "volume_24h_usd": 409,
+    "change_24h_pct": -2.847,
     "group": "other"
    },
    {
@@ -4381,11 +4389,11 @@
     "symbol": "SURGE",
     "name": "Surge",
     "coingecko_id": "surge-3",
-    "price_usd": 0.028191,
-    "market_cap_usd": 704771,
-    "fdv_usd": 704771,
-    "volume_24h_usd": 1125,
-    "change_24h_pct": -0.641,
+    "price_usd": 0.02815,
+    "market_cap_usd": 703758,
+    "fdv_usd": 703758,
+    "volume_24h_usd": 1124,
+    "change_24h_pct": -0.165,
     "group": "other"
    },
    {
@@ -4406,10 +4414,10 @@
     "name": "BabySNEK",
     "coingecko_id": "babysnek",
     "price_usd": 6e-06,
-    "market_cap_usd": 477393,
-    "fdv_usd": 477393,
-    "volume_24h_usd": 1137,
-    "change_24h_pct": 0.925,
+    "market_cap_usd": 476707,
+    "fdv_usd": 476707,
+    "volume_24h_usd": 1136,
+    "change_24h_pct": 1.409,
     "group": "other"
    },
    {
@@ -4417,11 +4425,11 @@
     "symbol": "WRT",
     "name": "WingRiders",
     "coingecko_id": "wingriders",
-    "price_usd": 0.004636,
-    "market_cap_usd": 438031,
-    "fdv_usd": 455844,
-    "volume_24h_usd": 1929,
-    "change_24h_pct": 3.42,
+    "price_usd": 0.004514,
+    "market_cap_usd": 433741,
+    "fdv_usd": 451380,
+    "volume_24h_usd": 2533,
+    "change_24h_pct": 1.075,
     "group": "other"
    },
    {
@@ -4441,11 +4449,11 @@
     "symbol": "TITAN",
     "name": "TITAN",
     "coingecko_id": "titan-3",
-    "price_usd": 0.012919,
-    "market_cap_usd": 341054,
-    "fdv_usd": 516748,
-    "volume_24h_usd": 2872,
-    "change_24h_pct": 2.061,
+    "price_usd": 0.0129,
+    "market_cap_usd": 340564,
+    "fdv_usd": 516006,
+    "volume_24h_usd": 2868,
+    "change_24h_pct": 14.3,
     "group": "other"
    },
    {
@@ -4453,11 +4461,11 @@
     "symbol": "XER",
     "name": "Xerberus",
     "coingecko_id": "xerberus",
-    "price_usd": 0.001008,
-    "market_cap_usd": 300371,
-    "fdv_usd": 1007656,
+    "price_usd": 0.001006,
+    "market_cap_usd": 299940,
+    "fdv_usd": 1006209,
     "volume_24h_usd": 503,
-    "change_24h_pct": 0.133,
+    "change_24h_pct": 0.613,
     "group": "other"
    },
    {
@@ -4465,35 +4473,35 @@
     "symbol": "BODEGA",
     "name": "Bodega",
     "coingecko_id": "bodega",
-    "price_usd": 0.013202,
-    "market_cap_usd": 270642,
-    "fdv_usd": 330051,
-    "volume_24h_usd": 8279,
-    "change_24h_pct": 16.63,
+    "price_usd": 0.013028,
+    "market_cap_usd": 267073,
+    "fdv_usd": 325699,
+    "volume_24h_usd": 8850,
+    "change_24h_pct": 17.264,
     "group": "other"
    },
    {
     "rank": 36,
-    "symbol": "C3",
-    "name": "Charli3",
-    "coingecko_id": "charli3",
-    "price_usd": 0.002658,
-    "market_cap_usd": 265833,
-    "fdv_usd": 265833,
-    "volume_24h_usd": 173,
-    "change_24h_pct": 2.18,
+    "symbol": "REVU",
+    "name": "Revuto",
+    "coingecko_id": "revuto",
+    "price_usd": 0.001436,
+    "market_cap_usd": 261478,
+    "fdv_usd": 402202,
+    "volume_24h_usd": 11139,
+    "change_24h_pct": 23.491,
     "group": "other"
    },
    {
     "rank": 37,
-    "symbol": "REVU",
-    "name": "Revuto",
-    "coingecko_id": "revuto",
-    "price_usd": 0.001421,
-    "market_cap_usd": 258796,
-    "fdv_usd": 398077,
-    "volume_24h_usd": 10685,
-    "change_24h_pct": 20.967,
+    "symbol": "C3",
+    "name": "Charli3",
+    "coingecko_id": "charli3",
+    "price_usd": 0.002612,
+    "market_cap_usd": 261185,
+    "fdv_usd": 261185,
+    "volume_24h_usd": 1,
+    "change_24h_pct": null,
     "group": "other"
    },
    {
@@ -4505,7 +4513,7 @@
     "market_cap_usd": 204603,
     "fdv_usd": 204603,
     "volume_24h_usd": 265,
-    "change_24h_pct": -0.689,
+    "change_24h_pct": null,
     "group": "other"
    },
    {
@@ -4526,10 +4534,10 @@
     "name": "Rejuve.AI",
     "coingecko_id": "rejuve-ai",
     "price_usd": 0.000268,
-    "market_cap_usd": 180599,
-    "fdv_usd": 268373,
-    "volume_24h_usd": 3011,
-    "change_24h_pct": 5.448,
+    "market_cap_usd": 180598,
+    "fdv_usd": 268372,
+    "volume_24h_usd": 3010,
+    "change_24h_pct": 3.477,
     "group": "other"
    },
    {
@@ -4537,11 +4545,11 @@
     "symbol": "ATLAS",
     "name": "ATLAS",
     "coingecko_id": "atlas-2",
-    "price_usd": 0.082999,
-    "market_cap_usd": 170739,
-    "fdv_usd": 2489980,
-    "volume_24h_usd": 1675,
-    "change_24h_pct": -4.936,
+    "price_usd": 0.08322,
+    "market_cap_usd": 171197,
+    "fdv_usd": 2496665,
+    "volume_24h_usd": 1731,
+    "change_24h_pct": -4.085,
     "group": "other"
    },
    {
@@ -4553,7 +4561,7 @@
     "market_cap_usd": 137518,
     "fdv_usd": 137518,
     "volume_24h_usd": 87,
-    "change_24h_pct": 1.062,
+    "change_24h_pct": 1.647,
     "group": "other"
    },
    {
@@ -4562,10 +4570,10 @@
     "name": "NMKR",
     "coingecko_id": "nft-maker",
     "price_usd": 7e-05,
-    "market_cap_usd": 131497,
-    "fdv_usd": 697035,
+    "market_cap_usd": 131308,
+    "fdv_usd": 696034,
     "volume_24h_usd": 10,
-    "change_24h_pct": 0.547,
+    "change_24h_pct": 1.029,
     "group": "other"
    },
    {
@@ -4586,14 +4594,26 @@
     "name": "OccamFi",
     "coingecko_id": "occamfi",
     "price_usd": 0.000981,
-    "market_cap_usd": 83315,
-    "fdv_usd": 97600,
+    "market_cap_usd": 83333,
+    "fdv_usd": 97621,
     "volume_24h_usd": 1,
     "change_24h_pct": null,
     "group": "other"
    },
    {
     "rank": 46,
+    "symbol": "VIPER",
+    "name": "VIPER",
+    "coingecko_id": "viper-2",
+    "price_usd": 1e-06,
+    "market_cap_usd": 70097,
+    "fdv_usd": 70097,
+    "volume_24h_usd": 81,
+    "change_24h_pct": null,
+    "group": "other"
+   },
+   {
+    "rank": 47,
     "symbol": "CRAWJU",
     "name": "CRAWJU",
     "coingecko_id": "crawju",
@@ -4601,19 +4621,7 @@
     "market_cap_usd": 70045,
     "fdv_usd": 70045,
     "volume_24h_usd": 10,
-    "change_24h_pct": 0.425,
-    "group": "other"
-   },
-   {
-    "rank": 47,
-    "symbol": "VIPER",
-    "name": "VIPER",
-    "coingecko_id": "viper-2",
-    "price_usd": 1e-06,
-    "market_cap_usd": 69305,
-    "fdv_usd": 69305,
-    "volume_24h_usd": 120,
-    "change_24h_pct": null,
+    "change_24h_pct": 1.006,
     "group": "other"
    },
    {
@@ -4656,31 +4664,31 @@
   "groups": {
    "ada": {
     "count": 1,
-    "total_market_cap_usd": 7780623129,
-    "share_of_top_n_market_cap_pct": 93.2
+    "total_market_cap_usd": 7768546913,
+    "share_of_top_n_market_cap_pct": 93.18
    },
    "stable": {
     "count": 6,
-    "total_market_cap_usd": 72401669,
+    "total_market_cap_usd": 72475723,
     "share_of_top_n_market_cap_pct": 0.87
    },
    "other": {
     "count": 43,
-    "total_market_cap_usd": 495054980,
-    "share_of_top_n_market_cap_pct": 5.93
+    "total_market_cap_usd": 495682648,
+    "share_of_top_n_market_cap_pct": 5.95
    }
   },
   "liquidity_flags": {
    "ADA": {
-    "market_cap_to_volume_24h_ratio": 32.7,
+    "market_cap_to_volume_24h_ratio": 33.2,
     "thin_liquidity_flagged": false
    },
    "NIGHT": {
-    "market_cap_to_volume_24h_ratio": 80.9,
+    "market_cap_to_volume_24h_ratio": 80.8,
     "thin_liquidity_flagged": true
    },
    "USDCX": {
-    "market_cap_to_volume_24h_ratio": 3848.2,
+    "market_cap_to_volume_24h_ratio": 5682.3,
     "thin_liquidity_flagged": true
    },
    "SNEK": {
@@ -4688,51 +4696,51 @@
     "thin_liquidity_flagged": false
    },
    "WMTX": {
-    "market_cap_to_volume_24h_ratio": 60.1,
+    "market_cap_to_volume_24h_ratio": 61.3,
     "thin_liquidity_flagged": true
    },
    "RSERG": {
-    "market_cap_to_volume_24h_ratio": 29634.5,
+    "market_cap_to_volume_24h_ratio": 35021.2,
     "thin_liquidity_flagged": true
    },
    "IAG": {
-    "market_cap_to_volume_24h_ratio": 36.3,
+    "market_cap_to_volume_24h_ratio": 39.0,
     "thin_liquidity_flagged": false
    },
    "IUSD": {
-    "market_cap_to_volume_24h_ratio": 2924.0,
+    "market_cap_to_volume_24h_ratio": 2974.0,
     "thin_liquidity_flagged": true
    },
    "STRIKE": {
-    "market_cap_to_volume_24h_ratio": 414.8,
+    "market_cap_to_volume_24h_ratio": 472.4,
     "thin_liquidity_flagged": true
    },
    "USDM": {
-    "market_cap_to_volume_24h_ratio": 173.9,
+    "market_cap_to_volume_24h_ratio": 161.6,
     "thin_liquidity_flagged": true
    },
    "USDA": {
-    "market_cap_to_volume_24h_ratio": 511.3,
+    "market_cap_to_volume_24h_ratio": 629.6,
     "thin_liquidity_flagged": true
    },
    "HOSKY": {
-    "market_cap_to_volume_24h_ratio": 1892.0,
+    "market_cap_to_volume_24h_ratio": 1895.8,
     "thin_liquidity_flagged": true
    },
    "MIN": {
-    "market_cap_to_volume_24h_ratio": 67.1,
+    "market_cap_to_volume_24h_ratio": 67.9,
     "thin_liquidity_flagged": true
    },
    "LQ": {
-    "market_cap_to_volume_24h_ratio": 838.7,
+    "market_cap_to_volume_24h_ratio": 841.5,
     "thin_liquidity_flagged": true
    },
    "RISE": {
-    "market_cap_to_volume_24h_ratio": 1460.5,
+    "market_cap_to_volume_24h_ratio": 1452.1,
     "thin_liquidity_flagged": true
    },
    "DJED": {
-    "market_cap_to_volume_24h_ratio": 984.5,
+    "market_cap_to_volume_24h_ratio": 925.0,
     "thin_liquidity_flagged": true
    },
    "USDC": {
@@ -4740,47 +4748,47 @@
     "thin_liquidity_flagged": true
    },
    "ASCEND": {
-    "market_cap_to_volume_24h_ratio": 72.9,
+    "market_cap_to_volume_24h_ratio": 71.7,
     "thin_liquidity_flagged": true
    },
    "NVL": {
-    "market_cap_to_volume_24h_ratio": 35893.2,
+    "market_cap_to_volume_24h_ratio": 42758.4,
     "thin_liquidity_flagged": true
    },
    "STUFF": {
-    "market_cap_to_volume_24h_ratio": 1869.5,
+    "market_cap_to_volume_24h_ratio": 1839.0,
     "thin_liquidity_flagged": true
    },
    "XNK": {
     "market_cap_to_volume_24h_ratio": 56.8,
     "thin_liquidity_flagged": true
    },
-   "INDY": {
-    "market_cap_to_volume_24h_ratio": 80416.1,
+   "NTX": {
+    "market_cap_to_volume_24h_ratio": 60.8,
     "thin_liquidity_flagged": true
    },
-   "NTX": {
-    "market_cap_to_volume_24h_ratio": 58.9,
+   "INDY": {
+    "market_cap_to_volume_24h_ratio": 11625.8,
     "thin_liquidity_flagged": true
    },
    "SURF": {
-    "market_cap_to_volume_24h_ratio": 94.0,
+    "market_cap_to_volume_24h_ratio": 95.7,
     "thin_liquidity_flagged": true
    },
    "COPI": {
-    "market_cap_to_volume_24h_ratio": 5627.0,
+    "market_cap_to_volume_24h_ratio": 8566.4,
     "thin_liquidity_flagged": true
    },
    "PALM": {
-    "market_cap_to_volume_24h_ratio": 39499.0,
+    "market_cap_to_volume_24h_ratio": 39442.2,
     "thin_liquidity_flagged": true
    },
    "COCK": {
-    "market_cap_to_volume_24h_ratio": 1767.5,
+    "market_cap_to_volume_24h_ratio": 1946.2,
     "thin_liquidity_flagged": true
    },
    "SURGE": {
-    "market_cap_to_volume_24h_ratio": 626.5,
+    "market_cap_to_volume_24h_ratio": 626.1,
     "thin_liquidity_flagged": true
    },
    "O": {
@@ -4788,11 +4796,11 @@
     "thin_liquidity_flagged": true
    },
    "BBSNEK": {
-    "market_cap_to_volume_24h_ratio": 419.9,
+    "market_cap_to_volume_24h_ratio": 419.6,
     "thin_liquidity_flagged": true
    },
    "WRT": {
-    "market_cap_to_volume_24h_ratio": 227.1,
+    "market_cap_to_volume_24h_ratio": 171.2,
     "thin_liquidity_flagged": true
    },
    "NIKEPIG": {
@@ -4800,24 +4808,24 @@
     "thin_liquidity_flagged": true
    },
    "TITAN": {
-    "market_cap_to_volume_24h_ratio": 118.8,
+    "market_cap_to_volume_24h_ratio": 118.7,
     "thin_liquidity_flagged": true
    },
    "XER": {
-    "market_cap_to_volume_24h_ratio": 597.2,
+    "market_cap_to_volume_24h_ratio": 596.3,
     "thin_liquidity_flagged": true
    },
    "BODEGA": {
-    "market_cap_to_volume_24h_ratio": 32.7,
+    "market_cap_to_volume_24h_ratio": 30.2,
+    "thin_liquidity_flagged": false
+   },
+   "REVU": {
+    "market_cap_to_volume_24h_ratio": 23.5,
     "thin_liquidity_flagged": false
    },
    "C3": {
-    "market_cap_to_volume_24h_ratio": 1536.6,
+    "market_cap_to_volume_24h_ratio": 261185.0,
     "thin_liquidity_flagged": true
-   },
-   "REVU": {
-    "market_cap_to_volume_24h_ratio": 24.2,
-    "thin_liquidity_flagged": false
    },
    "FGLD": {
     "market_cap_to_volume_24h_ratio": 772.1,
@@ -4832,7 +4840,7 @@
     "thin_liquidity_flagged": true
    },
    "ATLAS": {
-    "market_cap_to_volume_24h_ratio": 101.9,
+    "market_cap_to_volume_24h_ratio": 98.9,
     "thin_liquidity_flagged": true
    },
    "FREN": {
@@ -4840,7 +4848,7 @@
     "thin_liquidity_flagged": true
    },
    "$NMKR": {
-    "market_cap_to_volume_24h_ratio": 13149.7,
+    "market_cap_to_volume_24h_ratio": 13130.8,
     "thin_liquidity_flagged": true
    },
    "CHAD": {
@@ -4848,15 +4856,15 @@
     "thin_liquidity_flagged": true
    },
    "OCC": {
-    "market_cap_to_volume_24h_ratio": 83315.0,
+    "market_cap_to_volume_24h_ratio": 83333.0,
+    "thin_liquidity_flagged": true
+   },
+   "VIPER": {
+    "market_cap_to_volume_24h_ratio": 865.4,
     "thin_liquidity_flagged": true
    },
    "CRAWJU": {
     "market_cap_to_volume_24h_ratio": 7004.5,
-    "thin_liquidity_flagged": true
-   },
-   "VIPER": {
-    "market_cap_to_volume_24h_ratio": 577.5,
     "thin_liquidity_flagged": true
    },
    "$LOBSTER": {
@@ -4936,11 +4944,11 @@
    "XNK": {
     "onchain_activity_matched_last_7d": false
    },
-   "INDY": {
-    "onchain_activity_matched_last_7d": false
-   },
    "NTX": {
     "onchain_activity_matched_last_7d": true
+   },
+   "INDY": {
+    "onchain_activity_matched_last_7d": false
    },
    "SURF": {
     "onchain_activity_matched_last_7d": false
@@ -4978,10 +4986,10 @@
    "BODEGA": {
     "onchain_activity_matched_last_7d": false
    },
-   "C3": {
+   "REVU": {
     "onchain_activity_matched_last_7d": false
    },
-   "REVU": {
+   "C3": {
     "onchain_activity_matched_last_7d": false
    },
    "FGLD": {
@@ -5008,10 +5016,10 @@
    "OCC": {
     "onchain_activity_matched_last_7d": false
    },
-   "CRAWJU": {
+   "VIPER": {
     "onchain_activity_matched_last_7d": false
    },
-   "VIPER": {
+   "CRAWJU": {
     "onchain_activity_matched_last_7d": false
    },
    "$LOBSTER": {
@@ -5030,7 +5038,7 @@
    "singularitynet"
   ],
   "total_candidates_considered": 57,
-  "generated_at": "2026-09-12T16:24:45.474710-05:00"
+  "generated_at": "2026-09-12T17:12:48.096181-05:00"
  },
  "cnt_valuation": {
   "tokens": [
@@ -5048,10 +5056,10 @@
     "liquidity_hhi_frac": 0.599637547448428,
     "ref_deviation_pct": 0.7624526205269835,
     "float_confidence": "unverified",
-    "market_cap_usd": 501881301.38988733,
+    "market_cap_usd": 500271767.54478234,
     "float_pct": 100.0,
     "holders": 60810,
-    "mcap_per_holder_usd": 8253.269222001107,
+    "mcap_per_holder_usd": 8226.80097919392,
     "nakamoto_coeff": 10,
     "top10_pct": 52.18282884679151,
     "gini_frac": 0.9842,
@@ -5072,10 +5080,10 @@
     "liquidity_hhi_frac": 0.667984455474065,
     "ref_deviation_pct": 0.21021713600643208,
     "float_confidence": "unverified",
-    "market_cap_usd": 33976696.0932,
+    "market_cap_usd": 33953681.3292,
     "float_pct": 100.0,
     "holders": 39325,
-    "mcap_per_holder_usd": 863.9973577418945,
+    "mcap_per_holder_usd": 863.4121126306421,
     "nakamoto_coeff": 152,
     "top10_pct": 20.622251260220075,
     "gini_frac": 0.9499,
@@ -5111,10 +5119,10 @@
     "liquidity_hhi_frac": 0.5156933884972036,
     "ref_deviation_pct": 0.5182193948176331,
     "float_confidence": "unverified",
-    "market_cap_usd": 12811510.48275561,
+    "market_cap_usd": 12765256.425384397,
     "float_pct": 100.0,
     "holders": 3090,
-    "mcap_per_holder_usd": 4146.119897331913,
+    "mcap_per_holder_usd": 4131.150946726342,
     "nakamoto_coeff": 46,
     "top10_pct": 23.9726315064325,
     "gini_frac": 0.9243,
@@ -5150,10 +5158,10 @@
     "liquidity_hhi_frac": 0.29575709803524697,
     "ref_deviation_pct": 1.502659037942877,
     "float_confidence": "inferred",
-    "market_cap_usd": 10503517.63121409,
+    "market_cap_usd": 10492213.787559785,
     "float_pct": 51.4021861739342,
     "holders": 17693,
-    "mcap_per_holder_usd": 593.6538535700045,
+    "mcap_per_holder_usd": 593.0149656677661,
     "nakamoto_coeff": 2,
     "top10_pct": 69.94143477015572,
     "gini_frac": 0.9811,
@@ -5174,10 +5182,10 @@
     "liquidity_hhi_frac": 0.7610465601022677,
     "ref_deviation_pct": 0.9022289483148337,
     "float_confidence": "unverified",
-    "market_cap_usd": 10314150.0,
+    "market_cap_usd": 10241850.0,
     "float_pct": 100.0,
     "holders": 31480,
-    "mcap_per_holder_usd": 327.6413595933926,
+    "mcap_per_holder_usd": 325.3446632782719,
     "nakamoto_coeff": 51,
     "top10_pct": 24.67628698381472,
     "gini_frac": 0.9634,
@@ -5198,10 +5206,10 @@
     "liquidity_hhi_frac": 0.4833909359945509,
     "ref_deviation_pct": 0.05368872554184506,
     "float_confidence": "unverified",
-    "market_cap_usd": 8590389.93901486,
+    "market_cap_usd": 8587425.003735531,
     "float_pct": 100.0,
     "holders": 5825,
-    "mcap_per_holder_usd": 1474.7450539081303,
+    "mcap_per_holder_usd": 1474.2360521434389,
     "nakamoto_coeff": 3,
     "top10_pct": 76.64230824923754,
     "gini_frac": 0.9934,
@@ -5252,10 +5260,10 @@
     "liquidity_hhi_frac": 0.6471199368094248,
     "ref_deviation_pct": 0.7353561050438912,
     "float_confidence": "unverified",
-    "market_cap_usd": 5183695.038751173,
+    "market_cap_usd": 5164980.077073547,
     "float_pct": 100.0,
     "holders": 8960,
-    "mcap_per_holder_usd": 578.5373927177649,
+    "mcap_per_holder_usd": 576.448669316244,
     "nakamoto_coeff": 27,
     "top10_pct": 33.08200253848131,
     "gini_frac": 0.9581,
@@ -5321,10 +5329,10 @@
     "liquidity_hhi_frac": 0.497218086062574,
     "ref_deviation_pct": 0.15398936760641427,
     "float_confidence": "unverified",
-    "market_cap_usd": 4249001.090227023,
+    "market_cap_usd": 4233071.989179552,
     "float_pct": 100.0,
     "holders": 607,
-    "mcap_per_holder_usd": 7000.001796090647,
+    "mcap_per_holder_usd": 6973.759454991024,
     "nakamoto_coeff": 2,
     "top10_pct": 92.5504415595028,
     "gini_frac": 0.9882,
@@ -5483,8 +5491,8 @@
    }
   ],
   "source": "db-sync pools (price+depth) x ma_tx_mint (supply), DefiLlama cross-checked",
-  "generated_at": "2026-09-12T21:24:45.476116+00:00",
-  "universe_age_min": 17.7,
+  "generated_at": "2026-09-12T22:12:48.097900+00:00",
+  "universe_age_min": 65.8,
   "price_stale": false,
   "tokens_discovered": 561,
   "tokens_ranked": 46,
@@ -5587,715 +5595,715 @@
   "top5_share_pct": 74.61572663593982
  },
  "cascade": {
-  "as_of_ada_price_usd": 0.20739078326542407,
-  "positions_used": 289,
+  "as_of_ada_price_usd": 0.20706889442586365,
+  "positions_used": 290,
   "positions_skipped": 20,
   "skipped_reasons": {
    "no verified USD price for iSOL": 7,
    "liquidation remnant (min-UTxO collateral, stale debt field)": 9,
    "ADA-denominated debt, ratio invariant to ADA price": 4
   },
-  "total_debt_usd": 1764773.3314840985,
-  "total_collateral_ada": 18643145.239820004,
-  "total_collateral_usd": 3866416.4938173327,
-  "book_ratio_now": 2.190885608275734,
-  "min_ratio_observed": 0.5628903603159943,
-  "median_ratio": 2.491804822406269,
+  "total_debt_usd": 1767206.872790378,
+  "total_collateral_ada": 18676880.956194002,
+  "total_collateral_usd": 3867401.090922559,
+  "book_ratio_now": 2.18842578674223,
+  "min_ratio_observed": 0.5620517616834689,
+  "median_ratio": 2.4881289417735566,
   "at_risk_now": {
    "1.10": {
     "n": 1,
-    "debt_usd": 0.6796521259651636,
+    "debt_usd": 0.6796097338533382,
     "collateral_ada": 1.84468
    },
    "1.20": {
     "n": 4,
-    "debt_usd": 9861.016652012648,
+    "debt_usd": 9861.098550793746,
     "collateral_ada": 55059.537071
    },
    "1.30": {
-    "n": 9,
-    "debt_usd": 15369.046782731415,
-    "collateral_ada": 88255.970573
+    "n": 10,
+    "debt_usd": 15377.735901969685,
+    "collateral_ada": 88273.808208
    },
    "1.50": {
     "n": 20,
-    "debt_usd": 49728.61032839232,
+    "debt_usd": 49743.85921073328,
     "collateral_ada": 312809.689177
    }
   },
-  "first_blood_price_usd": 0.24886893991850886,
-  "price_10pct_book_usd": 0.15346923712385757,
-  "price_50pct_book_usd": 0.11613891863899399,
+  "first_blood_price_usd": 0.24848267331103638,
+  "price_10pct_book_usd": 0.153231039378154,
+  "price_50pct_book_usd": 0.11595866088267825,
   "curve": [
    {
-    "ada_price_usd": 1.5001941851339998e-07,
-    "debt_usd_below_1.10": 1764773.331482098,
-    "n_below_1.10": 287,
-    "debt_usd_below_1.20": 1764773.331482098,
-    "n_below_1.20": 287,
-    "debt_usd_below_1.30": 1764773.331482098,
-    "n_below_1.30": 287,
-    "debt_usd_below_1.50": 1764773.331482098,
-    "n_below_1.50": 287
+    "ada_price_usd": 1.5000786491234997e-07,
+    "debt_usd_below_1.10": 1767206.872788378,
+    "n_below_1.10": 288,
+    "debt_usd_below_1.20": 1767206.872788378,
+    "n_below_1.20": 288,
+    "debt_usd_below_1.30": 1767206.872788378,
+    "n_below_1.30": 288,
+    "debt_usd_below_1.50": 1767206.872788378,
+    "n_below_1.50": 288
    },
    {
-    "ada_price_usd": 0.004147963184403353,
-    "debt_usd_below_1.10": 1764762.6254128453,
-    "n_below_1.10": 265,
-    "debt_usd_below_1.20": 1764762.6254128453,
-    "n_below_1.20": 265,
-    "debt_usd_below_1.30": 1764772.4807541834,
-    "n_below_1.30": 267,
-    "debt_usd_below_1.50": 1764772.512349273,
-    "n_below_1.50": 268
+    "ada_price_usd": 0.004141525396251104,
+    "debt_usd_below_1.10": 1767196.1672628464,
+    "n_below_1.10": 266,
+    "debt_usd_below_1.20": 1767196.1672628464,
+    "n_below_1.20": 266,
+    "debt_usd_below_1.30": 1767206.0218484146,
+    "n_below_1.30": 268,
+    "debt_usd_below_1.50": 1767206.053441071,
+    "n_below_1.50": 269
    },
    {
-    "ada_price_usd": 0.008295776349388191,
-    "debt_usd_below_1.10": 1764749.8253747434,
-    "n_below_1.10": 257,
-    "debt_usd_below_1.20": 1764750.2628095846,
-    "n_below_1.20": 259,
-    "debt_usd_below_1.30": 1764750.2628095846,
-    "n_below_1.30": 259,
-    "debt_usd_below_1.50": 1764750.3183917792,
-    "n_below_1.50": 260
+    "ada_price_usd": 0.008282900784637295,
+    "debt_usd_below_1.10": 1767183.3623551715,
+    "n_below_1.10": 258,
+    "debt_usd_below_1.20": 1767183.7998449893,
+    "n_below_1.20": 260,
+    "debt_usd_below_1.30": 1767183.7998449893,
+    "n_below_1.30": 260,
+    "debt_usd_below_1.50": 1767183.8554229033,
+    "n_below_1.50": 261
    },
    {
-    "ada_price_usd": 0.01244358951437303,
-    "debt_usd_below_1.10": 1764749.168979361,
-    "n_below_1.10": 249,
-    "debt_usd_below_1.20": 1764749.168979361,
-    "n_below_1.20": 249,
-    "debt_usd_below_1.30": 1764749.2689923067,
-    "n_below_1.30": 250,
-    "debt_usd_below_1.50": 1764749.3623594935,
-    "n_below_1.50": 251
+    "ada_price_usd": 0.012424276173023486,
+    "debt_usd_below_1.10": 1767182.7054703827,
+    "n_below_1.10": 250,
+    "debt_usd_below_1.20": 1767182.7054703827,
+    "n_below_1.20": 250,
+    "debt_usd_below_1.30": 1767182.805475626,
+    "n_below_1.30": 251,
+    "debt_usd_below_1.50": 1767182.8988435885,
+    "n_below_1.50": 252
    },
    {
-    "ada_price_usd": 0.01659140267935787,
-    "debt_usd_below_1.10": 1764748.8222884974,
-    "n_below_1.10": 246,
-    "debt_usd_below_1.20": 1764748.8222884974,
-    "n_below_1.20": 246,
-    "debt_usd_below_1.30": 1764748.8222884974,
+    "ada_price_usd": 0.016565651561409676,
+    "debt_usd_below_1.10": 1767182.35879653,
+    "n_below_1.10": 247,
+    "debt_usd_below_1.20": 1767182.35879653,
+    "n_below_1.20": 247,
+    "debt_usd_below_1.30": 1767182.35879653,
+    "n_below_1.30": 247,
+    "debt_usd_below_1.50": 1767182.7054703827,
+    "n_below_1.50": 250
+   },
+   {
+    "ada_price_usd": 0.020707026949795867,
+    "debt_usd_below_1.10": 1764692.9333942211,
+    "n_below_1.10": 243,
+    "debt_usd_below_1.20": 1767178.7357515737,
+    "n_below_1.20": 245,
+    "debt_usd_below_1.30": 1767182.0663591975,
     "n_below_1.30": 246,
-    "debt_usd_below_1.50": 1764749.168979361,
-    "n_below_1.50": 249
+    "debt_usd_below_1.50": 1767182.35879653,
+    "n_below_1.50": 247
    },
    {
-    "ada_price_usd": 0.02073921584434271,
-    "debt_usd_below_1.10": 1762259.355648513,
+    "ada_price_usd": 0.024848402338182057,
+    "debt_usd_below_1.10": 1764692.7211950955,
     "n_below_1.10": 242,
-    "debt_usd_below_1.20": 1764745.1989644943,
-    "n_below_1.20": 244,
-    "debt_usd_below_1.30": 1764748.5298286413,
-    "n_below_1.30": 245,
-    "debt_usd_below_1.50": 1764748.8222884974,
+    "debt_usd_below_1.20": 1764692.9333942211,
+    "n_below_1.20": 243,
+    "debt_usd_below_1.30": 1764692.9333942211,
+    "n_below_1.30": 243,
+    "debt_usd_below_1.50": 1767182.0663591975,
     "n_below_1.50": 246
    },
    {
-    "ada_price_usd": 0.024887029009327547,
-    "debt_usd_below_1.10": 1762259.1434330437,
-    "n_below_1.10": 241,
-    "debt_usd_below_1.20": 1762259.355648513,
-    "n_below_1.20": 242,
-    "debt_usd_below_1.30": 1762259.355648513,
+    "ada_price_usd": 0.028989777726568248,
+    "debt_usd_below_1.10": 1764692.0169648912,
+    "n_below_1.10": 239,
+    "debt_usd_below_1.20": 1764692.257683512,
+    "n_below_1.20": 240,
+    "debt_usd_below_1.30": 1764692.7211950955,
     "n_below_1.30": 242,
-    "debt_usd_below_1.50": 1764748.5298286413,
-    "n_below_1.50": 245
+    "debt_usd_below_1.50": 1764692.9333942211,
+    "n_below_1.50": 243
    },
    {
-    "ada_price_usd": 0.029034842174312382,
-    "debt_usd_below_1.10": 1762258.4396806327,
-    "n_below_1.10": 238,
-    "debt_usd_below_1.20": 1762258.6804177938,
-    "n_below_1.20": 239,
-    "debt_usd_below_1.30": 1762259.1434330437,
-    "n_below_1.30": 241,
-    "debt_usd_below_1.50": 1762259.355648513,
+    "ada_price_usd": 0.033131153114954445,
+    "debt_usd_below_1.10": 1764671.8207513916,
+    "n_below_1.10": 237,
+    "debt_usd_below_1.20": 1764671.8207513916,
+    "n_below_1.20": 237,
+    "debt_usd_below_1.30": 1764692.0169648912,
+    "n_below_1.30": 239,
+    "debt_usd_below_1.50": 1764692.7211950955,
     "n_below_1.50": 242
    },
    {
-    "ada_price_usd": 0.03318265533929723,
-    "debt_usd_below_1.10": 1762238.2419155196,
-    "n_below_1.10": 236,
-    "debt_usd_below_1.20": 1762238.2419155196,
-    "n_below_1.20": 236,
-    "debt_usd_below_1.30": 1762258.4396806327,
-    "n_below_1.30": 238,
-    "debt_usd_below_1.50": 1762259.1434330437,
-    "n_below_1.50": 241
+    "ada_price_usd": 0.03727252850334063,
+    "debt_usd_below_1.10": 1763392.0083265512,
+    "n_below_1.10": 232,
+    "debt_usd_below_1.20": 1764634.7704725706,
+    "n_below_1.20": 234,
+    "debt_usd_below_1.30": 1764671.8207513916,
+    "n_below_1.30": 237,
+    "debt_usd_below_1.50": 1764692.257683512,
+    "n_below_1.50": 240
    },
    {
-    "ada_price_usd": 0.037330468504282066,
-    "debt_usd_below_1.10": 1760958.330971245,
-    "n_below_1.10": 231,
-    "debt_usd_below_1.20": 1762201.1888347657,
-    "n_below_1.20": 233,
-    "debt_usd_below_1.30": 1762238.2419155196,
-    "n_below_1.30": 236,
-    "debt_usd_below_1.50": 1762258.6804177938,
-    "n_below_1.50": 239
+    "ada_price_usd": 0.041413903891726826,
+    "debt_usd_below_1.10": 1763320.8693931394,
+    "n_below_1.10": 230,
+    "debt_usd_below_1.20": 1763391.5188068857,
+    "n_below_1.20": 231,
+    "debt_usd_below_1.30": 1764634.7704725706,
+    "n_below_1.30": 234,
+    "debt_usd_below_1.50": 1764671.8207513916,
+    "n_below_1.50": 237
    },
    {
-    "ada_price_usd": 0.041478281669266905,
-    "debt_usd_below_1.10": 1760887.1875932207,
-    "n_below_1.10": 229,
-    "debt_usd_below_1.20": 1760957.8414138767,
+    "ada_price_usd": 0.04555527928011302,
+    "debt_usd_below_1.10": 1763304.015505089,
+    "n_below_1.10": 227,
+    "debt_usd_below_1.20": 1763320.8693931394,
     "n_below_1.20": 230,
-    "debt_usd_below_1.30": 1762201.1888347657,
-    "n_below_1.30": 233,
-    "debt_usd_below_1.50": 1762238.2419155196,
-    "n_below_1.50": 236
+    "debt_usd_below_1.30": 1763391.5188068857,
+    "n_below_1.30": 231,
+    "debt_usd_below_1.50": 1764671.8207513916,
+    "n_below_1.50": 237
    },
    {
-    "ada_price_usd": 0.045626094834251736,
-    "debt_usd_below_1.10": 1760870.3328504448,
-    "n_below_1.10": 226,
-    "debt_usd_below_1.20": 1760887.1875932207,
-    "n_below_1.20": 229,
-    "debt_usd_below_1.30": 1760957.8414138767,
+    "ada_price_usd": 0.04969665466849921,
+    "debt_usd_below_1.10": 1745707.5906964187,
+    "n_below_1.10": 224,
+    "debt_usd_below_1.20": 1763304.015505089,
+    "n_below_1.20": 227,
+    "debt_usd_below_1.30": 1763320.8693931394,
     "n_below_1.30": 230,
-    "debt_usd_below_1.50": 1762238.2419155196,
-    "n_below_1.50": 236
+    "debt_usd_below_1.50": 1764634.7704725706,
+    "n_below_1.50": 234
    },
    {
-    "ada_price_usd": 0.04977390799923658,
-    "debt_usd_below_1.10": 1743272.552802078,
-    "n_below_1.10": 223,
-    "debt_usd_below_1.20": 1760870.3328504448,
-    "n_below_1.20": 226,
-    "debt_usd_below_1.30": 1760887.1875932207,
-    "n_below_1.30": 229,
-    "debt_usd_below_1.50": 1762201.1888347657,
-    "n_below_1.50": 233
+    "ada_price_usd": 0.0538380300568854,
+    "debt_usd_below_1.10": 1730241.053875484,
+    "n_below_1.10": 219,
+    "debt_usd_below_1.20": 1745707.5906964187,
+    "n_below_1.20": 224,
+    "debt_usd_below_1.30": 1763304.015505089,
+    "n_below_1.30": 227,
+    "debt_usd_below_1.50": 1763320.8693931394,
+    "n_below_1.50": 230
    },
    {
-    "ada_price_usd": 0.05392172116422142,
-    "debt_usd_below_1.10": 1727805.4145073849,
-    "n_below_1.10": 218,
-    "debt_usd_below_1.20": 1743272.552802078,
-    "n_below_1.20": 223,
-    "debt_usd_below_1.30": 1760870.3328504448,
-    "n_below_1.30": 226,
-    "debt_usd_below_1.50": 1760887.1875932207,
-    "n_below_1.50": 229
+    "ada_price_usd": 0.05797940544527159,
+    "debt_usd_below_1.10": 1707888.0638342719,
+    "n_below_1.10": 212,
+    "debt_usd_below_1.20": 1730241.053875484,
+    "n_below_1.20": 219,
+    "debt_usd_below_1.30": 1745707.5906964187,
+    "n_below_1.30": 224,
+    "debt_usd_below_1.50": 1763320.8693931394,
+    "n_below_1.50": 230
    },
    {
-    "ada_price_usd": 0.05806953432920625,
-    "debt_usd_below_1.10": 1704978.5251867305,
-    "n_below_1.10": 210,
-    "debt_usd_below_1.20": 1727805.4145073849,
-    "n_below_1.20": 218,
-    "debt_usd_below_1.30": 1743272.552802078,
-    "n_below_1.30": 223,
-    "debt_usd_below_1.50": 1760887.1875932207,
-    "n_below_1.50": 229
+    "ada_price_usd": 0.06212078083365778,
+    "debt_usd_below_1.10": 1686000.689072214,
+    "n_below_1.10": 203,
+    "debt_usd_below_1.20": 1707888.0638342719,
+    "n_below_1.20": 212,
+    "debt_usd_below_1.30": 1730241.053875484,
+    "n_below_1.30": 219,
+    "debt_usd_below_1.50": 1763304.015505089,
+    "n_below_1.50": 227
    },
    {
-    "ada_price_usd": 0.0622173474941911,
-    "debt_usd_below_1.10": 1683561.6437566173,
-    "n_below_1.10": 202,
-    "debt_usd_below_1.20": 1705450.7042835925,
-    "n_below_1.20": 211,
-    "debt_usd_below_1.30": 1727805.4145073849,
-    "n_below_1.30": 218,
-    "debt_usd_below_1.50": 1760870.3328504448,
-    "n_below_1.50": 226
+    "ada_price_usd": 0.06626215622204397,
+    "debt_usd_below_1.10": 1664715.060683302,
+    "n_below_1.10": 201,
+    "debt_usd_below_1.20": 1687147.3732478654,
+    "n_below_1.20": 205,
+    "debt_usd_below_1.30": 1730033.2120073894,
+    "n_below_1.30": 215,
+    "debt_usd_below_1.50": 1745707.5906964187,
+    "n_below_1.50": 224
    },
    {
-    "ada_price_usd": 0.06636516065917594,
-    "debt_usd_below_1.10": 1662297.8500369969,
-    "n_below_1.10": 200,
-    "debt_usd_below_1.20": 1684708.4162498477,
-    "n_below_1.20": 204,
-    "debt_usd_below_1.30": 1727393.5665126601,
-    "n_below_1.30": 213,
-    "debt_usd_below_1.50": 1743272.552802078,
-    "n_below_1.50": 223
+    "ada_price_usd": 0.07040353161043016,
+    "debt_usd_below_1.10": 1645202.511760201,
+    "n_below_1.10": 193,
+    "debt_usd_below_1.20": 1665549.8627499745,
+    "n_below_1.20": 202,
+    "debt_usd_below_1.30": 1693664.3348501618,
+    "n_below_1.30": 208,
+    "debt_usd_below_1.50": 1737023.468873502,
+    "n_below_1.50": 221
    },
    {
-    "ada_price_usd": 0.07051297382416077,
-    "debt_usd_below_1.10": 1642784.1364331546,
-    "n_below_1.10": 192,
-    "debt_usd_below_1.20": 1662297.8500369969,
-    "n_below_1.20": 200,
-    "debt_usd_below_1.30": 1691225.8797883224,
-    "n_below_1.30": 207,
-    "debt_usd_below_1.50": 1734588.3518867933,
-    "n_below_1.50": 220
+    "ada_price_usd": 0.07454490699881634,
+    "debt_usd_below_1.10": 1635551.7852966134,
+    "n_below_1.10": 185,
+    "debt_usd_below_1.20": 1661298.7490993845,
+    "n_below_1.20": 197,
+    "debt_usd_below_1.30": 1686000.689072214,
+    "n_below_1.30": 203,
+    "debt_usd_below_1.50": 1730134.2173170978,
+    "n_below_1.50": 217
    },
    {
-    "ada_price_usd": 0.07466078698914562,
-    "debt_usd_below_1.10": 1633132.6666709173,
-    "n_below_1.10": 184,
-    "debt_usd_below_1.20": 1655264.9691901356,
-    "n_below_1.20": 195,
-    "debt_usd_below_1.30": 1683561.6437566173,
-    "n_below_1.30": 202,
-    "debt_usd_below_1.50": 1727698.5711644622,
-    "n_below_1.50": 216
+    "ada_price_usd": 0.07868628238720253,
+    "debt_usd_below_1.10": 1625107.8948402205,
+    "n_below_1.10": 179,
+    "debt_usd_below_1.20": 1644429.3975808248,
+    "n_below_1.20": 192,
+    "debt_usd_below_1.30": 1664715.060683302,
+    "n_below_1.30": 201,
+    "debt_usd_below_1.50": 1707888.0638342719,
+    "n_below_1.50": 212
    },
    {
-    "ada_price_usd": 0.07880860015413045,
-    "debt_usd_below_1.10": 1622688.5180468091,
-    "n_below_1.10": 178,
-    "debt_usd_below_1.20": 1642010.9627085484,
-    "n_below_1.20": 191,
-    "debt_usd_below_1.30": 1662297.8500369969,
-    "n_below_1.30": 200,
-    "debt_usd_below_1.50": 1705450.7042835925,
-    "n_below_1.50": 211
+    "ada_price_usd": 0.08282765777558873,
+    "debt_usd_below_1.10": 1596333.596616652,
+    "n_below_1.10": 165,
+    "debt_usd_below_1.20": 1635551.7852966134,
+    "n_below_1.20": 185,
+    "debt_usd_below_1.30": 1645202.511760201,
+    "n_below_1.30": 193,
+    "debt_usd_below_1.50": 1687147.3732478654,
+    "n_below_1.50": 205
    },
    {
-    "ada_price_usd": 0.0829564133191153,
-    "debt_usd_below_1.10": 1589988.9132271516,
-    "n_below_1.10": 162,
-    "debt_usd_below_1.20": 1633132.6666709173,
-    "n_below_1.20": 184,
-    "debt_usd_below_1.30": 1642784.1364331546,
-    "n_below_1.30": 192,
-    "debt_usd_below_1.50": 1684708.4162498477,
-    "n_below_1.50": 204
+    "ada_price_usd": 0.08696903316397492,
+    "debt_usd_below_1.10": 1452127.190219663,
+    "n_below_1.10": 155,
+    "debt_usd_below_1.20": 1624020.0786812862,
+    "n_below_1.20": 176,
+    "debt_usd_below_1.30": 1636336.3841331303,
+    "n_below_1.30": 186,
+    "debt_usd_below_1.50": 1686000.689072214,
+    "n_below_1.50": 203
    },
    {
-    "ada_price_usd": 0.08710422648410013,
-    "debt_usd_below_1.10": 1417281.989555133,
-    "n_below_1.10": 152,
-    "debt_usd_below_1.20": 1621600.6181622313,
-    "n_below_1.20": 175,
-    "debt_usd_below_1.30": 1633917.325937212,
+    "ada_price_usd": 0.09111040855236112,
+    "debt_usd_below_1.10": 1385146.338230012,
+    "n_below_1.10": 147,
+    "debt_usd_below_1.20": 1582641.7088948707,
+    "n_below_1.20": 161,
+    "debt_usd_below_1.30": 1635551.7852966134,
     "n_below_1.30": 185,
-    "debt_usd_below_1.50": 1683561.6437566173,
-    "n_below_1.50": 202
+    "debt_usd_below_1.50": 1664715.060683302,
+    "n_below_1.50": 201
    },
    {
-    "ada_price_usd": 0.09125203964908496,
-    "debt_usd_below_1.10": 1381676.10881478,
-    "n_below_1.10": 145,
-    "debt_usd_below_1.20": 1580219.612212837,
-    "n_below_1.20": 160,
-    "debt_usd_below_1.30": 1623272.4495334197,
-    "n_below_1.30": 181,
-    "debt_usd_below_1.50": 1662297.8500369969,
-    "n_below_1.50": 200
+    "ada_price_usd": 0.0952517839407473,
+    "debt_usd_below_1.10": 1327813.5655608145,
+    "n_below_1.10": 138,
+    "debt_usd_below_1.20": 1416573.4410344097,
+    "n_below_1.20": 152,
+    "debt_usd_below_1.30": 1616952.14130433,
+    "n_below_1.30": 173,
+    "debt_usd_below_1.50": 1645202.511760201,
+    "n_below_1.50": 193
    },
    {
-    "ada_price_usd": 0.09539985281406982,
-    "debt_usd_below_1.10": 1325428.6722640453,
-    "n_below_1.10": 137,
-    "debt_usd_below_1.20": 1414172.8090698137,
-    "n_below_1.20": 151,
-    "debt_usd_below_1.30": 1611971.810114326,
-    "n_below_1.30": 170,
-    "debt_usd_below_1.50": 1642784.1364331546,
-    "n_below_1.50": 192
+    "ada_price_usd": 0.09939315932913349,
+    "debt_usd_below_1.10": 1306932.9037962728,
+    "n_below_1.10": 124,
+    "debt_usd_below_1.20": 1385146.338230012,
+    "n_below_1.20": 147,
+    "debt_usd_below_1.30": 1500584.0844116232,
+    "n_below_1.30": 159,
+    "debt_usd_below_1.50": 1643626.6959271773,
+    "n_below_1.50": 188
    },
    {
-    "ada_price_usd": 0.09954766597905465,
-    "debt_usd_below_1.10": 1304548.2294313756,
-    "n_below_1.10": 123,
-    "debt_usd_below_1.20": 1381676.10881478,
-    "n_below_1.20": 145,
-    "debt_usd_below_1.30": 1498155.6676539255,
-    "n_below_1.30": 158,
-    "debt_usd_below_1.50": 1641208.1992308446,
-    "n_below_1.50": 187
+    "ada_price_usd": 0.1035345347175197,
+    "debt_usd_below_1.10": 1050792.675609114,
+    "n_below_1.10": 107,
+    "debt_usd_below_1.20": 1327813.5655608145,
+    "n_below_1.20": 138,
+    "debt_usd_below_1.30": 1408614.2732722443,
+    "n_below_1.30": 151,
+    "debt_usd_below_1.50": 1635551.7852966134,
+    "n_below_1.50": 185
    },
    {
-    "ada_price_usd": 0.10369547914403948,
-    "debt_usd_below_1.10": 999878.4692304609,
-    "n_below_1.10": 104,
-    "debt_usd_below_1.20": 1325428.6722640453,
-    "n_below_1.20": 137,
-    "debt_usd_below_1.30": 1406213.028292797,
-    "n_below_1.30": 150,
-    "debt_usd_below_1.50": 1633132.6666709173,
-    "n_below_1.50": 184
+    "ada_price_usd": 0.10767591010590588,
+    "debt_usd_below_1.10": 823922.945529803,
+    "n_below_1.10": 98,
+    "debt_usd_below_1.20": 1314345.670255685,
+    "n_below_1.20": 128,
+    "debt_usd_below_1.30": 1385146.338230012,
+    "n_below_1.30": 147,
+    "debt_usd_below_1.50": 1625107.2160298973,
+    "n_below_1.50": 178
    },
    {
-    "ada_price_usd": 0.10784329230902433,
-    "debt_usd_below_1.10": 821676.0020989928,
-    "n_below_1.10": 97,
-    "debt_usd_below_1.20": 1305658.6532506337,
-    "n_below_1.20": 125,
-    "debt_usd_below_1.30": 1381676.10881478,
-    "n_below_1.30": 145,
-    "debt_usd_below_1.50": 1622687.839242127,
-    "n_below_1.50": 177
+    "ada_price_usd": 0.11181728549429207,
+    "debt_usd_below_1.10": 814115.0059734888,
+    "n_below_1.10": 90,
+    "debt_usd_below_1.20": 1080903.980754218,
+    "n_below_1.20": 111,
+    "debt_usd_below_1.30": 1327813.5655608145,
+    "n_below_1.30": 138,
+    "debt_usd_below_1.50": 1596367.2812391177,
+    "n_below_1.50": 167
    },
    {
-    "ada_price_usd": 0.11199110547400916,
-    "debt_usd_below_1.10": 811869.081731078,
-    "n_below_1.10": 89,
-    "debt_usd_below_1.20": 1078674.7639594655,
-    "n_below_1.20": 110,
-    "debt_usd_below_1.30": 1325428.6722640453,
-    "n_below_1.30": 137,
-    "debt_usd_below_1.50": 1593945.690902471,
-    "n_below_1.50": 166
-   },
-   {
-    "ada_price_usd": 0.11613891863899399,
-    "debt_usd_below_1.10": 776675.9416077546,
+    "ada_price_usd": 0.11595866088267825,
+    "debt_usd_below_1.10": 776830.7054947459,
     "n_below_1.10": 80,
-    "debt_usd_below_1.20": 995103.3276398578,
-    "n_below_1.20": 101,
-    "debt_usd_below_1.30": 1313449.3889059236,
-    "n_below_1.30": 129,
-    "debt_usd_below_1.50": 1490534.4696490625,
-    "n_below_1.50": 157
+    "debt_usd_below_1.20": 998045.5851391437,
+    "n_below_1.20": 103,
+    "debt_usd_below_1.30": 1317424.999529298,
+    "n_below_1.30": 131,
+    "debt_usd_below_1.50": 1492963.4733459854,
+    "n_below_1.50": 158
    },
    {
-    "ada_price_usd": 0.12028673180397885,
-    "debt_usd_below_1.10": 667217.745712473,
-    "n_below_1.10": 67,
-    "debt_usd_below_1.20": 814933.2191690252,
-    "n_below_1.20": 91,
-    "debt_usd_below_1.30": 1094382.4821684966,
-    "n_below_1.30": 111,
-    "debt_usd_below_1.50": 1406181.0562413346,
-    "n_below_1.50": 149
+    "ada_price_usd": 0.12010003627106444,
+    "debt_usd_below_1.10": 680747.5441717004,
+    "n_below_1.10": 68,
+    "debt_usd_below_1.20": 818723.9460408171,
+    "n_below_1.20": 93,
+    "debt_usd_below_1.30": 1247032.358335759,
+    "n_below_1.30": 113,
+    "debt_usd_below_1.50": 1408582.3036830786,
+    "n_below_1.50": 150
    },
    {
-    "ada_price_usd": 0.12443454496896368,
-    "debt_usd_below_1.10": 610477.6091220755,
-    "n_below_1.10": 60,
-    "debt_usd_below_1.20": 793563.1158225699,
-    "n_below_1.20": 84,
-    "debt_usd_below_1.30": 999878.4692304609,
-    "n_below_1.30": 104,
-    "debt_usd_below_1.50": 1381676.10881478,
-    "n_below_1.50": 145
+    "ada_price_usd": 0.12424141165945064,
+    "debt_usd_below_1.10": 649370.4006949756,
+    "n_below_1.10": 61,
+    "debt_usd_below_1.20": 809342.3444129728,
+    "n_below_1.20": 86,
+    "debt_usd_below_1.30": 1002111.7490361166,
+    "n_below_1.30": 105,
+    "debt_usd_below_1.50": 1385146.338230012,
+    "n_below_1.50": 147
    },
    {
-    "ada_price_usd": 0.12858235813394853,
-    "debt_usd_below_1.10": 553087.0634250815,
+    "ada_price_usd": 0.12838278704783684,
+    "debt_usd_below_1.10": 553248.5849315618,
     "n_below_1.10": 53,
-    "debt_usd_below_1.20": 755168.4443334428,
+    "debt_usd_below_1.20": 755318.0887607668,
     "n_below_1.20": 75,
-    "debt_usd_below_1.30": 821610.6437340061,
-    "n_below_1.30": 96,
-    "debt_usd_below_1.50": 1325428.6722640453,
-    "n_below_1.50": 137
+    "debt_usd_below_1.30": 823857.5921983279,
+    "n_below_1.30": 97,
+    "debt_usd_below_1.50": 1327813.5655608145,
+    "n_below_1.50": 138
    },
    {
-    "ada_price_usd": 0.13273017129893339,
-    "debt_usd_below_1.10": 376932.3990605508,
+    "ada_price_usd": 0.13252416243622303,
+    "debt_usd_below_1.10": 377100.3503376828,
     "n_below_1.10": 44,
-    "debt_usd_below_1.20": 649374.2384319064,
+    "debt_usd_below_1.20": 649528.3484001206,
     "n_below_1.20": 65,
-    "debt_usd_below_1.30": 811869.081731078,
-    "n_below_1.30": 89,
-    "debt_usd_below_1.50": 1315484.255945806,
-    "n_below_1.50": 133
+    "debt_usd_below_1.30": 814115.0059734888,
+    "n_below_1.30": 90,
+    "debt_usd_below_1.50": 1317869.9151022215,
+    "n_below_1.50": 134
    },
    {
-    "ada_price_usd": 0.13687798446391822,
-    "debt_usd_below_1.10": 375349.2856744755,
+    "ada_price_usd": 0.13666553782460922,
+    "debt_usd_below_1.10": 358006.557074103,
     "n_below_1.10": 39,
-    "debt_usd_below_1.20": 610308.7724344584,
-    "n_below_1.20": 58,
-    "debt_usd_below_1.30": 776675.9416077546,
+    "debt_usd_below_1.20": 610466.8955768008,
+    "n_below_1.20": 59,
+    "debt_usd_below_1.30": 776830.7054947459,
     "n_below_1.30": 80,
-    "debt_usd_below_1.50": 1265320.2131743922,
-    "n_below_1.50": 118
+    "debt_usd_below_1.50": 1273855.3580606251,
+    "n_below_1.50": 122
    },
    {
-    "ada_price_usd": 0.14102579762890305,
-    "debt_usd_below_1.10": 292584.99480824923,
-    "n_below_1.10": 34,
-    "debt_usd_below_1.20": 516944.28544493165,
+    "ada_price_usd": 0.1408069132129954,
+    "debt_usd_below_1.10": 274624.94902654714,
+    "n_below_1.10": 33,
+    "debt_usd_below_1.20": 517108.59045265306,
     "n_below_1.20": 52,
-    "debt_usd_below_1.30": 750292.9918793408,
+    "debt_usd_below_1.30": 750440.471064854,
     "n_below_1.30": 71,
-    "debt_usd_below_1.50": 1048561.1545994062,
-    "n_below_1.50": 106
+    "debt_usd_below_1.50": 1050967.9575565231,
+    "n_below_1.50": 108
    },
    {
-    "ada_price_usd": 0.1451736107938879,
-    "debt_usd_below_1.10": 160313.88959838494,
-    "n_below_1.10": 29,
-    "debt_usd_below_1.20": 376918.85915694566,
-    "n_below_1.20": 43,
-    "debt_usd_below_1.30": 649302.0941424457,
+    "ada_price_usd": 0.1449482886013816,
+    "debt_usd_below_1.10": 142290.51836125366,
+    "n_below_1.10": 28,
+    "debt_usd_below_1.20": 377100.3503376828,
+    "n_below_1.20": 44,
+    "debt_usd_below_1.30": 649456.2086105336,
     "n_below_1.30": 64,
-    "debt_usd_below_1.50": 995103.3276398578,
-    "n_below_1.50": 101
+    "debt_usd_below_1.50": 998045.5851391437,
+    "n_below_1.50": 103
    },
    {
-    "ada_price_usd": 0.14932142395887274,
-    "debt_usd_below_1.10": 49729.83924244507,
+    "ada_price_usd": 0.14908966398976778,
+    "debt_usd_below_1.10": 49745.08813499853,
     "n_below_1.10": 21,
-    "debt_usd_below_1.20": 375349.2856744755,
+    "debt_usd_below_1.20": 358006.557074103,
     "n_below_1.20": 39,
-    "debt_usd_below_1.30": 559306.7757056337,
-    "n_below_1.30": 56,
-    "debt_usd_below_1.50": 821203.2481807261,
-    "n_below_1.50": 95
+    "debt_usd_below_1.30": 559468.965780344,
+    "n_below_1.30": 57,
+    "debt_usd_below_1.50": 823450.228020224,
+    "n_below_1.50": 96
    },
    {
-    "ada_price_usd": 0.15346923712385757,
-    "debt_usd_below_1.10": 49716.071367554316,
-    "n_below_1.10": 19,
-    "debt_usd_below_1.20": 292586.2746617557,
+    "ada_price_usd": 0.153231039378154,
+    "debt_usd_below_1.10": 49743.85921073328,
+    "n_below_1.10": 20,
+    "debt_usd_below_1.20": 291393.0650584559,
     "n_below_1.20": 35,
-    "debt_usd_below_1.30": 485855.34909503796,
+    "debt_usd_below_1.30": 486022.0483872541,
     "n_below_1.30": 51,
-    "debt_usd_below_1.50": 811869.081731078,
-    "n_below_1.50": 89
+    "debt_usd_below_1.50": 814115.0059734888,
+    "n_below_1.50": 90
    },
    {
-    "ada_price_usd": 0.1576170502888424,
-    "debt_usd_below_1.10": 49402.62005754144,
+    "ada_price_usd": 0.15737241476654015,
+    "debt_usd_below_1.10": 49417.866230844644,
     "n_below_1.10": 18,
-    "debt_usd_below_1.20": 160393.03973838192,
-    "n_below_1.20": 30,
-    "debt_usd_below_1.30": 376767.5152279876,
-    "n_below_1.30": 42,
-    "debt_usd_below_1.50": 776675.9416077546,
-    "n_below_1.50": 80
+    "debt_usd_below_1.20": 142369.66915900251,
+    "n_below_1.20": 29,
+    "debt_usd_below_1.30": 377086.81147684035,
+    "n_below_1.30": 43,
+    "debt_usd_below_1.50": 793013.0424856736,
+    "n_below_1.50": 81
    },
    {
-    "ada_price_usd": 0.16176486345382723,
-    "debt_usd_below_1.10": 49397.39606012449,
+    "ada_price_usd": 0.16151379015492637,
+    "debt_usd_below_1.10": 49412.63968735865,
     "n_below_1.10": 15,
-    "debt_usd_below_1.20": 97619.15289465273,
+    "debt_usd_below_1.20": 97649.72486295049,
     "n_below_1.20": 25,
-    "debt_usd_below_1.30": 375349.2856744755,
+    "debt_usd_below_1.30": 358006.557074103,
     "n_below_1.30": 39,
-    "debt_usd_below_1.50": 750351.3665585652,
-    "n_below_1.50": 72
+    "debt_usd_below_1.50": 753108.7607990031,
+    "n_below_1.50": 74
    },
    {
-    "ada_price_usd": 0.1659126766188121,
-    "debt_usd_below_1.10": 40273.6033880387,
+    "ada_price_usd": 0.16565516554331255,
+    "debt_usd_below_1.10": 40279.066686649545,
     "n_below_1.10": 14,
-    "debt_usd_below_1.20": 49728.61032839232,
+    "debt_usd_below_1.20": 49743.85921073328,
     "n_below_1.20": 20,
-    "debt_usd_below_1.30": 309335.1568106183,
-    "n_below_1.30": 36,
-    "debt_usd_below_1.50": 649374.2384319064,
+    "debt_usd_below_1.30": 291393.0650584559,
+    "n_below_1.30": 35,
+    "debt_usd_below_1.50": 649528.3484001206,
     "n_below_1.50": 65
    },
    {
-    "ada_price_usd": 0.17006048978379693,
-    "debt_usd_below_1.10": 16755.879527165926,
+    "ada_price_usd": 0.16979654093169877,
+    "debt_usd_below_1.10": 16763.055602134205,
     "n_below_1.10": 12,
-    "debt_usd_below_1.20": 49402.62005754144,
+    "debt_usd_below_1.20": 49417.866230844644,
     "n_below_1.20": 18,
-    "debt_usd_below_1.30": 160393.03973838192,
+    "debt_usd_below_1.30": 169518.12816470684,
     "n_below_1.30": 30,
-    "debt_usd_below_1.50": 610477.6091220755,
+    "debt_usd_below_1.50": 610634.7132248834,
     "n_below_1.50": 60
    },
    {
-    "ada_price_usd": 0.17420830294878176,
-    "debt_usd_below_1.10": 15371.89069677135,
-    "n_below_1.10": 10,
-    "debt_usd_below_1.20": 49398.848549134666,
-    "n_below_1.20": 16,
-    "debt_usd_below_1.30": 152302.5383260147,
+    "ada_price_usd": 0.17393791632008493,
+    "debt_usd_below_1.10": 15521.308070493618,
+    "n_below_1.10": 11,
+    "debt_usd_below_1.20": 49415.39416906708,
+    "n_below_1.20": 17,
+    "debt_usd_below_1.30": 142286.20324730384,
     "n_below_1.30": 27,
-    "debt_usd_below_1.50": 553093.1141582885,
+    "debt_usd_below_1.50": 553254.6351987773,
     "n_below_1.50": 54
    },
    {
-    "ada_price_usd": 0.1783561161137666,
-    "debt_usd_below_1.10": 15233.8463297073,
+    "ada_price_usd": 0.17807929170847112,
+    "debt_usd_below_1.10": 15239.546581974906,
     "n_below_1.10": 8,
-    "debt_usd_below_1.20": 49397.39606012449,
+    "debt_usd_below_1.20": 49412.63968735865,
     "n_below_1.20": 15,
-    "debt_usd_below_1.30": 49728.61032839232,
+    "debt_usd_below_1.30": 49743.85921073328,
     "n_below_1.30": 20,
-    "debt_usd_below_1.50": 377433.06517859944,
+    "debt_usd_below_1.50": 377601.51751864643,
     "n_below_1.50": 48
    },
    {
-    "ada_price_usd": 0.18250392927875142,
-    "debt_usd_below_1.10": 15233.8463297073,
+    "ada_price_usd": 0.18222066709685733,
+    "debt_usd_below_1.10": 15239.546581974906,
     "n_below_1.10": 8,
-    "debt_usd_below_1.20": 40273.6033880387,
+    "debt_usd_below_1.20": 40279.066686649545,
     "n_below_1.20": 14,
-    "debt_usd_below_1.30": 49402.62005754144,
+    "debt_usd_below_1.30": 49417.866230844644,
     "n_below_1.30": 18,
-    "debt_usd_below_1.50": 376767.5152279876,
+    "debt_usd_below_1.50": 376935.47920348926,
     "n_below_1.50": 42
    },
    {
-    "ada_price_usd": 0.18665174244373628,
-    "debt_usd_below_1.10": 9993.67123689758,
+    "ada_price_usd": 0.1863620424852435,
+    "debt_usd_below_1.10": 9993.754238062127,
     "n_below_1.10": 5,
-    "debt_usd_below_1.20": 15515.461672194664,
-    "n_below_1.20": 11,
-    "debt_usd_below_1.30": 49402.62005754144,
+    "debt_usd_below_1.20": 16763.055602134205,
+    "n_below_1.20": 12,
+    "debt_usd_below_1.30": 49417.866230844644,
     "n_below_1.30": 18,
-    "debt_usd_below_1.50": 375349.2856744755,
+    "debt_usd_below_1.50": 358006.557074103,
     "n_below_1.50": 39
    },
    {
-    "ada_price_usd": 0.19079955560872114,
-    "debt_usd_below_1.10": 9861.016652012648,
+    "ada_price_usd": 0.1905034178736297,
+    "debt_usd_below_1.10": 9861.098550793746,
     "n_below_1.10": 4,
-    "debt_usd_below_1.20": 15371.89069677135,
+    "debt_usd_below_1.20": 15377.735901969685,
     "n_below_1.20": 10,
-    "debt_usd_below_1.30": 49397.39606012449,
+    "debt_usd_below_1.30": 49412.63968735865,
     "n_below_1.30": 15,
-    "debt_usd_below_1.50": 317823.51599326613,
-    "n_below_1.50": 37
+    "debt_usd_below_1.50": 299881.49478089466,
+    "n_below_1.50": 36
    },
    {
-    "ada_price_usd": 0.19494736877370597,
-    "debt_usd_below_1.10": 9691.850450229922,
+    "ada_price_usd": 0.1946447932620159,
+    "debt_usd_below_1.10": 9691.93094320947,
     "n_below_1.10": 3,
-    "debt_usd_below_1.20": 15233.8463297073,
+    "debt_usd_below_1.20": 15239.546581974906,
     "n_below_1.20": 8,
-    "debt_usd_below_1.30": 49397.39606012449,
+    "debt_usd_below_1.30": 49412.63968735865,
     "n_below_1.30": 15,
-    "debt_usd_below_1.50": 251518.48399066716,
-    "n_below_1.50": 32
+    "debt_usd_below_1.50": 233561.60088016102,
+    "n_below_1.50": 31
    },
    {
-    "ada_price_usd": 0.1990951819386908,
-    "debt_usd_below_1.10": 0.6796521259651636,
+    "ada_price_usd": 0.19878616865040208,
+    "debt_usd_below_1.10": 0.6796097338533382,
     "n_below_1.10": 1,
-    "debt_usd_below_1.20": 15233.8463297073,
+    "debt_usd_below_1.20": 15239.546581974906,
     "n_below_1.20": 8,
-    "debt_usd_below_1.30": 40273.6033880387,
+    "debt_usd_below_1.30": 40279.066686649545,
     "n_below_1.30": 14,
-    "debt_usd_below_1.50": 160309.57452029418,
+    "debt_usd_below_1.50": 142290.51836125366,
     "n_below_1.50": 28
    },
    {
-    "ada_price_usd": 0.20324299510367563,
-    "debt_usd_below_1.10": 0.6796521259651636,
+    "ada_price_usd": 0.20292754403878827,
+    "debt_usd_below_1.10": 0.6796097338533382,
     "n_below_1.10": 1,
-    "debt_usd_below_1.20": 9993.67123689758,
+    "debt_usd_below_1.20": 9993.754238062127,
     "n_below_1.20": 5,
-    "debt_usd_below_1.30": 15515.461672194664,
+    "debt_usd_below_1.30": 15521.308070493618,
     "n_below_1.30": 11,
-    "debt_usd_below_1.50": 49729.83924244507,
-    "n_below_1.50": 21
+    "debt_usd_below_1.50": 68478.74654794298,
+    "n_below_1.50": 23
    },
    {
-    "ada_price_usd": 0.20739080826866046,
-    "debt_usd_below_1.10": 0.6796521259651636,
+    "ada_price_usd": 0.20706891942717448,
+    "debt_usd_below_1.10": 0.6796097338533382,
     "n_below_1.10": 1,
-    "debt_usd_below_1.20": 9861.016652012648,
+    "debt_usd_below_1.20": 9861.098550793746,
     "n_below_1.20": 4,
-    "debt_usd_below_1.30": 15369.046782731415,
-    "n_below_1.30": 9,
-    "debt_usd_below_1.50": 49728.61032839232,
+    "debt_usd_below_1.30": 15377.735901969685,
+    "n_below_1.30": 10,
+    "debt_usd_below_1.50": 49743.85921073328,
     "n_below_1.50": 20
    },
    {
-    "ada_price_usd": 0.21153862143364532,
-    "debt_usd_below_1.10": 0.6796521259651636,
+    "ada_price_usd": 0.21121029481556067,
+    "debt_usd_below_1.10": 0.6796097338533382,
     "n_below_1.10": 1,
-    "debt_usd_below_1.20": 9691.850450229922,
+    "debt_usd_below_1.20": 9691.93094320947,
     "n_below_1.20": 3,
-    "debt_usd_below_1.30": 15233.8463297073,
+    "debt_usd_below_1.30": 15239.546581974906,
     "n_below_1.30": 8,
-    "debt_usd_below_1.50": 49402.62005754144,
+    "debt_usd_below_1.50": 49417.866230844644,
     "n_below_1.50": 18
    },
    {
-    "ada_price_usd": 0.21568643459863016,
-    "debt_usd_below_1.10": 0.6796521259651636,
+    "ada_price_usd": 0.21535167020394685,
+    "debt_usd_below_1.10": 0.6796097338533382,
     "n_below_1.10": 1,
-    "debt_usd_below_1.20": 0.6796521259651636,
+    "debt_usd_below_1.20": 0.6796097338533382,
     "n_below_1.20": 1,
-    "debt_usd_below_1.30": 15233.8463297073,
+    "debt_usd_below_1.30": 15239.546581974906,
     "n_below_1.30": 8,
-    "debt_usd_below_1.50": 49400.15064287433,
-    "n_below_1.50": 17
+    "debt_usd_below_1.50": 49417.866230844644,
+    "n_below_1.50": 18
    },
    {
-    "ada_price_usd": 0.219834247763615,
-    "debt_usd_below_1.10": 0.6796521259651636,
+    "ada_price_usd": 0.21949304559233304,
+    "debt_usd_below_1.10": 0.6796097338533382,
     "n_below_1.10": 1,
-    "debt_usd_below_1.20": 0.6796521259651636,
+    "debt_usd_below_1.20": 0.6796097338533382,
     "n_below_1.20": 1,
-    "debt_usd_below_1.30": 9993.67123689758,
+    "debt_usd_below_1.30": 9993.754238062127,
     "n_below_1.30": 5,
-    "debt_usd_below_1.50": 49397.39606012449,
+    "debt_usd_below_1.50": 49412.63968735865,
     "n_below_1.50": 15
    },
    {
-    "ada_price_usd": 0.22398206092859982,
-    "debt_usd_below_1.10": 0.6796521259651636,
+    "ada_price_usd": 0.22363442098071923,
+    "debt_usd_below_1.10": 0.6796097338533382,
     "n_below_1.10": 1,
-    "debt_usd_below_1.20": 0.6796521259651636,
+    "debt_usd_below_1.20": 0.6796097338533382,
     "n_below_1.20": 1,
-    "debt_usd_below_1.30": 9861.016652012648,
+    "debt_usd_below_1.30": 9861.098550793746,
     "n_below_1.30": 4,
-    "debt_usd_below_1.50": 49397.39606012449,
+    "debt_usd_below_1.50": 49412.63968735865,
     "n_below_1.50": 15
    },
    {
-    "ada_price_usd": 0.22812987409358465,
-    "debt_usd_below_1.10": 0.6796521259651636,
+    "ada_price_usd": 0.22777579636910542,
+    "debt_usd_below_1.10": 0.6796097338533382,
     "n_below_1.10": 1,
-    "debt_usd_below_1.20": 0.6796521259651636,
+    "debt_usd_below_1.20": 0.6796097338533382,
     "n_below_1.20": 1,
-    "debt_usd_below_1.30": 9861.016652012648,
+    "debt_usd_below_1.30": 9861.098550793746,
     "n_below_1.30": 4,
-    "debt_usd_below_1.50": 40273.6033880387,
+    "debt_usd_below_1.50": 40279.066686649545,
     "n_below_1.50": 14
    },
    {
-    "ada_price_usd": 0.23227768725856948,
-    "debt_usd_below_1.10": 0.6796521259651636,
+    "ada_price_usd": 0.2319171717574916,
+    "debt_usd_below_1.10": 0.6796097338533382,
     "n_below_1.10": 1,
-    "debt_usd_below_1.20": 0.6796521259651636,
+    "debt_usd_below_1.20": 0.6796097338533382,
     "n_below_1.20": 1,
-    "debt_usd_below_1.30": 9691.850450229922,
+    "debt_usd_below_1.30": 9691.93094320947,
     "n_below_1.30": 3,
-    "debt_usd_below_1.50": 16755.879527165926,
+    "debt_usd_below_1.50": 16763.055602134205,
     "n_below_1.50": 12
    },
    {
-    "ada_price_usd": 0.23642550042355437,
-    "debt_usd_below_1.10": 0.6796521259651636,
+    "ada_price_usd": 0.23605854714587782,
+    "debt_usd_below_1.10": 0.6796097338533382,
     "n_below_1.10": 1,
-    "debt_usd_below_1.20": 0.6796521259651636,
+    "debt_usd_below_1.20": 0.6796097338533382,
     "n_below_1.20": 1,
-    "debt_usd_below_1.30": 0.6796521259651636,
+    "debt_usd_below_1.30": 0.6796097338533382,
     "n_below_1.30": 1,
-    "debt_usd_below_1.50": 15515.461672194664,
+    "debt_usd_below_1.50": 15521.308070493618,
     "n_below_1.50": 11
    },
    {
-    "ada_price_usd": 0.2405733135885392,
-    "debt_usd_below_1.10": 0.6796521259651636,
+    "ada_price_usd": 0.24019992253426398,
+    "debt_usd_below_1.10": 0.6796097338533382,
     "n_below_1.10": 1,
-    "debt_usd_below_1.20": 0.6796521259651636,
+    "debt_usd_below_1.20": 0.6796097338533382,
     "n_below_1.20": 1,
-    "debt_usd_below_1.30": 0.6796521259651636,
+    "debt_usd_below_1.30": 0.6796097338533382,
     "n_below_1.30": 1,
-    "debt_usd_below_1.50": 15233.8463297073,
+    "debt_usd_below_1.50": 15374.891964296314,
+    "n_below_1.50": 9
+   },
+   {
+    "ada_price_usd": 0.2443412979226502,
+    "debt_usd_below_1.10": 0.6796097338533382,
+    "n_below_1.10": 1,
+    "debt_usd_below_1.20": 0.6796097338533382,
+    "n_below_1.20": 1,
+    "debt_usd_below_1.30": 0.6796097338533382,
+    "n_below_1.30": 1,
+    "debt_usd_below_1.50": 15239.546581974906,
     "n_below_1.50": 8
    },
    {
-    "ada_price_usd": 0.24472112675352403,
-    "debt_usd_below_1.10": 0.6796521259651636,
+    "ada_price_usd": 0.24848267331103638,
+    "debt_usd_below_1.10": 0.6796097338533382,
     "n_below_1.10": 1,
-    "debt_usd_below_1.20": 0.6796521259651636,
+    "debt_usd_below_1.20": 0.6796097338533382,
     "n_below_1.20": 1,
-    "debt_usd_below_1.30": 0.6796521259651636,
+    "debt_usd_below_1.30": 0.6796097338533382,
     "n_below_1.30": 1,
-    "debt_usd_below_1.50": 15233.8463297073,
-    "n_below_1.50": 8
-   },
-   {
-    "ada_price_usd": 0.24886893991850886,
-    "debt_usd_below_1.10": 0.6796521259651636,
-    "n_below_1.10": 1,
-    "debt_usd_below_1.20": 0.6796521259651636,
-    "n_below_1.20": 1,
-    "debt_usd_below_1.30": 0.6796521259651636,
-    "n_below_1.30": 1,
-    "debt_usd_below_1.50": 15233.8463297073,
+    "debt_usd_below_1.50": 15239.546581974906,
     "n_below_1.50": 8
    }
   ],
@@ -6308,138 +6316,138 @@
   "remnants": {
    "n": 9,
    "collateral_ada": 16.70556,
-   "debt_usd": 4866.063157360695
+   "debt_usd": 4865.689878265056
   },
   "riskiest": [
    {
     "asset": "iJPY",
     "collateral_ada": 1.84468,
     "debt_iasset": 104.368311,
-    "debt_usd": 0.6796521259651636,
-    "ratio_now": 0.5628903603159943,
+    "debt_usd": 0.6796097338533382,
+    "ratio_now": 0.5620517616834689,
     "cross_price": {
-     "1.10": 0.40528294260342174,
-     "1.20": 0.44212684647645994,
-     "1.30": 0.4789707503494984,
-     "1.50": 0.552658558095575
+     "1.10": 0.40525766378920575,
+     "1.20": 0.4420992695882244,
+     "1.30": 0.47894087538724317,
+     "1.50": 0.5526240869852805
     }
    },
    {
     "asset": "iETH",
     "collateral_ada": 52368.04232,
     "debt_iasset": 3.717937,
-    "debt_usd": 9381.981573994764,
-    "ratio_now": 1.157607188754828,
+    "debt_usd": 9382.059539948385,
+    "ratio_now": 1.1558008750932418,
     "cross_price": {
-     "1.10": 0.19707018391735523,
-     "1.20": 0.21498565518256932,
-     "1.30": 0.23290112644778344,
-     "1.50": 0.2687320689782116
+     "1.10": 0.19707182160601383,
+     "1.20": 0.2149874417520151,
+     "1.30": 0.23290306189801635,
+     "1.50": 0.26873430219001887
     }
    },
    {
     "asset": "iETH",
     "collateral_ada": 1728.055042,
     "debt_iasset": 0.122527,
-    "debt_usd": 309.1892241091919,
-    "ratio_now": 1.159104718861678,
+    "debt_usd": 309.19179352723177,
+    "ratio_now": 1.1572960684755826,
     "cross_price": {
-     "1.10": 0.19681557488266113,
-     "1.20": 0.21470789987199393,
-     "1.30": 0.23260022486132678,
-     "1.50": 0.26838487483999246
+     "1.10": 0.19681721045547285,
+     "1.20": 0.2147096841332431,
+     "1.30": 0.23260215781101334,
+     "1.50": 0.26838710516655384
     }
    },
    {
     "asset": "iETH",
     "collateral_ada": 961.595029,
     "debt_iasset": 0.067038,
-    "debt_usd": 169.1662017827255,
-    "ratio_now": 1.1788758283087057,
+    "debt_usd": 169.16760758427583,
+    "ratio_now": 1.1770363273668725,
     "cross_price": {
-     "1.10": 0.19351475033571336,
-     "1.20": 0.21110700036623276,
-     "1.30": 0.22869925039675218,
-     "1.50": 0.26388375045779094
+     "1.10": 0.1935163584780797,
+     "1.20": 0.21110875470335966,
+     "1.30": 0.22870115092863963,
+     "1.50": 0.2638859433791995
     }
    },
    {
     "asset": "iETH",
     "collateral_ada": 777.194411,
     "debt_iasset": 0.052569,
-    "debt_usd": 132.65458488493238,
-    "ratio_now": 1.2150575706570088,
+    "debt_usd": 132.65568726838205,
+    "ratio_now": 1.213161612243126,
     "cross_price": {
-     "1.10": 0.18775230664059114,
-     "1.20": 0.20482069815337217,
-     "1.30": 0.22188908966615317,
-     "1.50": 0.2560258726917152
+     "1.10": 0.18775386689601437,
+     "1.20": 0.20482240025019743,
+     "1.30": 0.2218909336043806,
+     "1.50": 0.25602800031274686
     }
    },
    {
     "asset": "iBTC",
     "collateral_ada": 10213.070726,
     "debt_iasset": 0.021966,
-    "debt_usd": 1695.0988305523645,
-    "ratio_now": 1.2495417371741746,
+    "debt_usd": 1696.9159064338132,
+    "ratio_now": 1.2462663918157213,
     "cross_price": {
-     "1.10": 0.18257082161007263,
-     "1.20": 0.19916816902917012,
-     "1.30": 0.21576551644826764,
-     "1.50": 0.24896021128646267
+     "1.10": 0.18276652998448986,
+     "1.20": 0.1993816690739889,
+     "1.30": 0.215996808163488,
+     "1.50": 0.2492270863424862
     }
    },
    {
     "asset": "iBTC",
     "collateral_ada": 15785.171753,
     "debt_iasset": 0.033948,
-    "debt_usd": 2619.740284967298,
-    "ratio_now": 1.2496273591008975,
+    "debt_usd": 2622.54853826892,
+    "ratio_now": 1.2463517893070597,
     "cross_price": {
-     "1.10": 0.18255831222845917,
-     "1.20": 0.19915452243104634,
-     "1.30": 0.21575073263363354,
-     "1.50": 0.24894315303880793
+     "1.10": 0.18275400719333634,
+     "1.20": 0.199368007847276,
+     "1.30": 0.21598200850121568,
+     "1.50": 0.249210009809095
     }
    },
    {
     "asset": "iBTC",
     "collateral_ada": 5576.215171,
     "debt_iasset": 0.011991,
-    "debt_usd": 925.3359772900575,
-    "ratio_now": 1.2497683656016823,
+    "debt_usd": 926.3278992100453,
+    "ratio_now": 1.2464924261963508,
     "cross_price": {
-     "1.10": 0.18253771488457926,
-     "1.20": 0.19913205260135916,
-     "1.30": 0.21572639031813912,
-     "1.50": 0.24891506575169894
+     "1.10": 0.18273338776995518,
+     "1.20": 0.1993455139308602,
+     "1.30": 0.2159576400917652,
+     "1.50": 0.24918189241357522
     }
    }
   ],
   "by_asset": {
    "iJPY": {
     "n": 9,
-    "debt_usd": 498.27615101423874,
+    "debt_usd": 498.2450719114055,
     "collateral_ada": 5928.801622999999
    },
    "iETH": {
     "n": 45,
-    "debt_usd": 89408.20354838973,
+    "debt_usd": 89408.94654663549,
     "collateral_ada": 864225.381246
    },
    "iBTC": {
     "n": 48,
-    "debt_usd": 407829.9286402052,
+    "debt_usd": 408267.10546654026,
     "collateral_ada": 4073569.7896030014
    },
    "iUSD": {
-    "n": 182,
-    "debt_usd": 1266962.5287005978,
-    "collateral_ada": 13696958.928982997
+    "n": 183,
+    "debt_usd": 1268958.1859016244,
+    "collateral_ada": 13730694.645356996
    },
    "iEUR": {
     "n": 5,
-    "debt_usd": 74.39444389132893,
+    "debt_usd": 74.3898036665431,
     "collateral_ada": 2462.338365
    }
   }
@@ -6451,9 +6459,9 @@
    "coverage_pct": 100.0
   },
   "iBTC": {
-   "decoded_iasset": 5.284895,
+   "decoded_iasset": 5.284895000000001,
    "chain_supply_iasset": 5.284895,
-   "coverage_pct": 100.0
+   "coverage_pct": 100.00000000000003
   },
   "iETH": {
    "decoded_iasset": 35.431115000000005,
@@ -6476,16 +6484,16 @@
    "coverage_pct": 100.0
   },
   "iUSD": {
-   "decoded_iasset": 1271658.8098920002,
-   "chain_supply_iasset": 1380764.342331,
-   "coverage_pct": 92.09817858891053
+   "decoded_iasset": 1273751.931244,
+   "chain_supply_iasset": 1382857.463683,
+   "coverage_pct": 92.11013894747934
   },
-  "_worst_pct": 92.09817858891053
+  "_worst_pct": 92.11013894747934
  },
  "delta": {
-  "price_change_since_last_episode_pct": 0.02110812797443651,
+  "price_change_since_last_episode_pct": -0.1552088451049688,
   "tvl_change_since_last_episode_pct": 0.0,
-  "cascade_50pct_shift_pct": 0.02110811342955959,
+  "cascade_50pct_shift_pct": -0.1552087434842133,
   "previous_episode_date": "2026-09-12"
  },
  "_note": "Long historical series are identical every run and are omitted here to keep the repository small."
