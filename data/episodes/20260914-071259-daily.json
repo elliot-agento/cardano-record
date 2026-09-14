@@ -1,0 +1,122 @@
+{
+ "episode_id": "20260914-071259-daily",
+ "mode": "daily",
+ "published": "2026-09-14T08:49:54",
+ "video_url": "https://youtu.be/2h_KuzqvNT4",
+ "title": "ADA would have to fall 46% before half of Indigo liquidates \u2014 Sep 14",
+ "data_generated_at": "2026-09-14T07:12:01",
+ "claim": {
+  "metric": "indigo_book_ratio",
+  "horizon_days": 7,
+  "op": ">",
+  "threshold": 2.095,
+  "text": "Indigo's book-wide collateral ratio holds above 2.10x for a week",
+  "subject": null
+ },
+ "market": {
+  "ada_usd": 0.21004782702530542,
+  "source": "coingecko",
+  "cross_checked": true,
+  "change_24h_pct": 2.4401709192025676
+ },
+ "indigo": {
+  "tvl_usd": 4004746.0,
+  "indy_price_usd": 0.099875
+ },
+ "loan_book": {
+  "positions": 290,
+  "debt_usd": 1768255.7386617411,
+  "collateral_ada": 18566880.604837,
+  "book_ratio": 2.205525388898703,
+  "price_10pct_at_risk_usd": 0.15543544950720736,
+  "price_50pct_at_risk_usd": 0.1134259091058338,
+  "decoded_utxos": 310,
+  "validator_utxos": 313
+ },
+ "coverage": {
+  "iADA": {
+   "decoded_iasset": 233.450484,
+   "chain_supply_iasset": 233.450484,
+   "coverage_pct": 100.0
+  },
+  "iBTC": {
+   "decoded_iasset": 5.284895000000001,
+   "chain_supply_iasset": 5.284895,
+   "coverage_pct": 100.00000000000003
+  },
+  "iETH": {
+   "decoded_iasset": 34.971522,
+   "chain_supply_iasset": 34.971522,
+   "coverage_pct": 100.0
+  },
+  "iEUR": {
+   "decoded_iasset": 67.51553,
+   "chain_supply_iasset": 67.51553,
+   "coverage_pct": 100.0
+  },
+  "iJPY": {
+   "decoded_iasset": 76515.967958,
+   "chain_supply_iasset": 76515.967958,
+   "coverage_pct": 100.0
+  },
+  "iSOL": {
+   "decoded_iasset": 86.357929,
+   "chain_supply_iasset": 86.357929,
+   "coverage_pct": 100.0
+  },
+  "iUSD": {
+   "decoded_iasset": 1273393.227454,
+   "chain_supply_iasset": 1382494.597848,
+   "coverage_pct": 92.10836913476349
+  },
+  "_worst_pct": 92.10836913476349
+ },
+ "governance": {
+  "epoch": 655,
+  "open_actions": [
+   {
+    "id": 156,
+    "type": "TreasuryWithdrawals",
+    "withdrawal_ada": 103000.0,
+    "expiration_epoch": 656,
+    "drep_yes_pct_of_decisive": 95.88495304532823,
+    "drep_participation_pct": 22.9834687390398
+   },
+   {
+    "id": 155,
+    "type": "TreasuryWithdrawals",
+    "withdrawal_ada": 4207967.0,
+    "expiration_epoch": 656,
+    "drep_yes_pct_of_decisive": 3.2558719596400243,
+    "drep_participation_pct": 21.106185629925196
+   },
+   {
+    "id": 158,
+    "type": "ParameterChange",
+    "withdrawal_ada": null,
+    "expiration_epoch": 661,
+    "drep_yes_pct_of_decisive": 78.63296849890773,
+    "drep_participation_pct": 0.7241663266364382
+   },
+   {
+    "id": 157,
+    "type": "TreasuryWithdrawals",
+    "withdrawal_ada": 11787063.0,
+    "expiration_epoch": 661,
+    "drep_yes_pct_of_decisive": 15.05555727704117,
+    "drep_participation_pct": 1.7705006178324865
+   }
+  ],
+  "decided_counts": {
+   "enacted": 3,
+   "expired": 9,
+   "dropped": 0
+  }
+ },
+ "monetary": {
+  "decay_per_epoch_pct": 0.16203187018184462,
+  "half_life_years": 5.851304652744548,
+  "treasury_accrual_per_epoch_ada": 3740534.1255960464
+ },
+ "_note": "Compact record of the figures used in this episode. Full current snapshot: https://elliot-agento.github.io/cardano-record/data/latest.json"
+}
