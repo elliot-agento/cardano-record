@@ -1,0 +1,122 @@
+{
+ "episode_id": "20260916-071315-daily",
+ "mode": "daily",
+ "published": "2026-09-16T08:35:54",
+ "video_url": "https://youtu.be/VwWZJi3pRZI",
+ "title": "Measuring ADA's 40% drawdown buffer on the ledger",
+ "data_generated_at": "2026-09-16T07:12:01",
+ "claim": {
+  "metric": "indigo_at_risk_120",
+  "horizon_days": 7,
+  "op": "<=",
+  "threshold": 11,
+  "text": "no more than 11 CDPs sit below a 1.20 ratio seven days from now",
+  "subject": null
+ },
+ "market": {
+  "ada_usd": 0.19404748855824316,
+  "source": "coingecko",
+  "cross_checked": true,
+  "change_24h_pct": -5.527129195578164
+ },
+ "indigo": {
+  "tvl_usd": 3729248.0,
+  "indy_price_usd": 0.087548
+ },
+ "loan_book": {
+  "positions": 291,
+  "debt_usd": 1756604.8470747997,
+  "collateral_ada": 18579598.535284,
+  "book_ratio": 2.052439078826447,
+  "price_10pct_at_risk_usd": 0.15135709358148097,
+  "price_50pct_at_risk_usd": 0.11642856814359065,
+  "decoded_utxos": 311,
+  "validator_utxos": 314
+ },
+ "coverage": {
+  "iADA": {
+   "decoded_iasset": 233.450484,
+   "chain_supply_iasset": 233.450484,
+   "coverage_pct": 100.0
+  },
+  "iBTC": {
+   "decoded_iasset": 5.285157000000001,
+   "chain_supply_iasset": 5.285157,
+   "coverage_pct": 100.00000000000003
+  },
+  "iETH": {
+   "decoded_iasset": 34.971521999999986,
+   "chain_supply_iasset": 34.971522,
+   "coverage_pct": 99.99999999999996
+  },
+  "iEUR": {
+   "decoded_iasset": 67.51553,
+   "chain_supply_iasset": 67.51553,
+   "coverage_pct": 100.0
+  },
+  "iJPY": {
+   "decoded_iasset": 76515.96795800001,
+   "chain_supply_iasset": 76515.967958,
+   "coverage_pct": 100.00000000000003
+  },
+  "iSOL": {
+   "decoded_iasset": 86.357929,
+   "chain_supply_iasset": 86.357929,
+   "coverage_pct": 100.0
+  },
+  "iUSD": {
+   "decoded_iasset": 1273934.0742839999,
+   "chain_supply_iasset": 1370607.425986,
+   "coverage_pct": 92.94667824870024
+  },
+  "_worst_pct": 92.94667824870024
+ },
+ "governance": {
+  "epoch": 655,
+  "open_actions": [
+   {
+    "id": 156,
+    "type": "TreasuryWithdrawals",
+    "withdrawal_ada": 103000.0,
+    "expiration_epoch": 656,
+    "drep_yes_pct_of_decisive": 96.05084460935171,
+    "drep_participation_pct": 23.725451310317073
+   },
+   {
+    "id": 155,
+    "type": "TreasuryWithdrawals",
+    "withdrawal_ada": 4207967.0,
+    "expiration_epoch": 656,
+    "drep_yes_pct_of_decisive": 3.2099173880412493,
+    "drep_participation_pct": 21.319156969681785
+   },
+   {
+    "id": 158,
+    "type": "ParameterChange",
+    "withdrawal_ada": null,
+    "expiration_epoch": 661,
+    "drep_yes_pct_of_decisive": 57.347217336498446,
+    "drep_participation_pct": 6.792650308519783
+   },
+   {
+    "id": 157,
+    "type": "TreasuryWithdrawals",
+    "withdrawal_ada": 11787063.0,
+    "expiration_epoch": 661,
+    "drep_yes_pct_of_decisive": 5.640880449085911,
+    "drep_participation_pct": 5.626374216215468
+   }
+  ],
+  "decided_counts": {
+   "enacted": 3,
+   "expired": 9,
+   "dropped": 0
+  }
+ },
+ "monetary": {
+  "decay_per_epoch_pct": 0.16203187018184462,
+  "half_life_years": 5.851304652744548,
+  "treasury_accrual_per_epoch_ada": 3740534.1255960464
+ },
+ "_note": "Compact record of the figures used in this episode. Full current snapshot: https://elliot-agento.github.io/cardano-record/data/latest.json"
+}
