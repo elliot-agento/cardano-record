@@ -1,0 +1,114 @@
+{
+ "episode_id": "20260918-071643-daily",
+ "mode": "daily",
+ "published": "2026-09-18T08:20:05",
+ "video_url": "https://youtu.be/RU5N5C-51pk",
+ "title": "The 6.2% shift: Measuring ADA's daily change on-chain",
+ "data_generated_at": "2026-09-18T07:12:01",
+ "claim": {
+  "metric": "cnt_ecosystem_mirage_frac",
+  "horizon_days": 7,
+  "op": "<",
+  "threshold": 0.000912,
+  "text": "less than 0.09 percent of Cardano's native-token market cap is exitable at ten percent impact seven days from now",
+  "subject": null
+ },
+ "market": {
+  "ada_usd": 0.21325303906527449,
+  "source": "coingecko",
+  "cross_checked": true,
+  "change_24h_pct": 6.245547625969412
+ },
+ "indigo": {
+  "tvl_usd": 3890124.0,
+  "indy_price_usd": 0.095533
+ },
+ "loan_book": {
+  "positions": 287,
+  "debt_usd": 1746093.8731370796,
+  "collateral_ada": 17720635.557328008,
+  "book_ratio": 2.1642475498633673,
+  "price_10pct_at_risk_usd": 0.16633742297666138,
+  "price_50pct_at_risk_usd": 0.1279518984473751,
+  "decoded_utxos": 306,
+  "validator_utxos": 309
+ },
+ "coverage": {
+  "iADA": {
+   "decoded_iasset": 233.450484,
+   "chain_supply_iasset": 233.450484,
+   "coverage_pct": 100.0
+  },
+  "iBTC": {
+   "decoded_iasset": 5.020166000000001,
+   "chain_supply_iasset": 5.020166,
+   "coverage_pct": 100.00000000000003
+  },
+  "iETH": {
+   "decoded_iasset": 34.971521999999986,
+   "chain_supply_iasset": 34.971522,
+   "coverage_pct": 99.99999999999996
+  },
+  "iEUR": {
+   "decoded_iasset": 67.51553,
+   "chain_supply_iasset": 67.51553,
+   "coverage_pct": 100.0
+  },
+  "iJPY": {
+   "decoded_iasset": 76515.967958,
+   "chain_supply_iasset": 76515.967958,
+   "coverage_pct": 100.0
+  },
+  "iSOL": {
+   "decoded_iasset": 83.306604,
+   "chain_supply_iasset": 83.306604,
+   "coverage_pct": 100.0
+  },
+  "iUSD": {
+   "decoded_iasset": 1271389.989241,
+   "chain_supply_iasset": 1361437.610133,
+   "coverage_pct": 93.3858430072897
+  },
+  "_worst_pct": 93.3858430072897
+ },
+ "governance": {
+  "epoch": 656,
+  "open_actions": [
+   {
+    "id": 158,
+    "type": "ParameterChange",
+    "withdrawal_ada": null,
+    "expiration_epoch": 661,
+    "drep_yes_pct_of_decisive": 38.55757663366754,
+    "drep_participation_pct": 8.250786331360306
+   },
+   {
+    "id": 157,
+    "type": "TreasuryWithdrawals",
+    "withdrawal_ada": 11787063.0,
+    "expiration_epoch": 661,
+    "drep_yes_pct_of_decisive": 10.667999511390116,
+    "drep_participation_pct": 6.875493904975302
+   },
+   {
+    "id": 159,
+    "type": "InfoAction",
+    "withdrawal_ada": null,
+    "expiration_epoch": 663,
+    "drep_yes_pct_of_decisive": 2.93453013103496,
+    "drep_participation_pct": 0.42677422480855404
+   }
+  ],
+  "decided_counts": {
+   "enacted": 2,
+   "expired": 10,
+   "dropped": 0
+  }
+ },
+ "monetary": {
+  "decay_per_epoch_pct": 0.16198753874149263,
+  "half_life_years": 5.852907289602206,
+  "treasury_accrual_per_epoch_ada": 3733050.8207371235
+ },
+ "_note": "Compact record of the figures used in this episode. Full current snapshot: https://elliot-agento.github.io/cardano-record/data/latest.json"
+}
