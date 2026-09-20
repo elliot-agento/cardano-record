@@ -1,0 +1,114 @@
+{
+ "episode_id": "20260920-071618-daily",
+ "mode": "daily",
+ "published": "2026-09-20T08:16:59",
+ "video_url": "https://youtu.be/5dnq9L-6Mww",
+ "title": "307 on-chain positions: the measurement method",
+ "data_generated_at": "2026-09-20T07:12:01",
+ "claim": {
+  "metric": "cascade_within_one_pct",
+  "horizon_days": 7,
+  "op": ">",
+  "threshold": 74.2,
+  "text": "our own cascade model still lands within one position on more than 74 percent of scored pairs seven days from now",
+  "subject": null
+ },
+ "market": {
+  "ada_usd": 0.2219553686884239,
+  "source": "coingecko",
+  "cross_checked": true,
+  "change_24h_pct": -2.167805227262334
+ },
+ "indigo": {
+  "tvl_usd": 3979017.0,
+  "indy_price_usd": 0.094027
+ },
+ "loan_book": {
+  "positions": 287,
+  "debt_usd": 1762587.7781137198,
+  "collateral_ada": 17584536.470918007,
+  "book_ratio": 2.2143477471485267,
+  "price_10pct_at_risk_usd": 0.16424703033791155,
+  "price_50pct_at_risk_usd": 0.12873419135071257,
+  "decoded_utxos": 307,
+  "validator_utxos": 310
+ },
+ "coverage": {
+  "iADA": {
+   "decoded_iasset": 233.450484,
+   "chain_supply_iasset": 233.450484,
+   "coverage_pct": 100.0
+  },
+  "iBTC": {
+   "decoded_iasset": 5.020166000000001,
+   "chain_supply_iasset": 5.020166,
+   "coverage_pct": 100.00000000000003
+  },
+  "iETH": {
+   "decoded_iasset": 34.979146,
+   "chain_supply_iasset": 34.979146,
+   "coverage_pct": 100.0
+  },
+  "iEUR": {
+   "decoded_iasset": 67.515905,
+   "chain_supply_iasset": 67.515905,
+   "coverage_pct": 100.0
+  },
+  "iJPY": {
+   "decoded_iasset": 76515.967958,
+   "chain_supply_iasset": 76515.967958,
+   "coverage_pct": 100.0
+  },
+  "iSOL": {
+   "decoded_iasset": 83.306604,
+   "chain_supply_iasset": 83.306604,
+   "coverage_pct": 100.0
+  },
+  "iUSD": {
+   "decoded_iasset": 1272690.9702659994,
+   "chain_supply_iasset": 1368405.84979,
+   "coverage_pct": 93.005373403023
+  },
+  "_worst_pct": 93.005373403023
+ },
+ "governance": {
+  "epoch": 656,
+  "open_actions": [
+   {
+    "id": 158,
+    "type": "ParameterChange",
+    "withdrawal_ada": null,
+    "expiration_epoch": 661,
+    "drep_yes_pct_of_decisive": 40.31220127879442,
+    "drep_participation_pct": 8.393612295016457
+   },
+   {
+    "id": 157,
+    "type": "TreasuryWithdrawals",
+    "withdrawal_ada": 11787063.0,
+    "expiration_epoch": 661,
+    "drep_yes_pct_of_decisive": 10.955929283171988,
+    "drep_participation_pct": 7.1321216498506
+   },
+   {
+    "id": 159,
+    "type": "InfoAction",
+    "withdrawal_ada": null,
+    "expiration_epoch": 663,
+    "drep_yes_pct_of_decisive": 10.521157865488588,
+    "drep_participation_pct": 4.185877682736279
+   }
+  ],
+  "decided_counts": {
+   "enacted": 2,
+   "expired": 10,
+   "dropped": 0
+  }
+ },
+ "monetary": {
+  "decay_per_epoch_pct": 0.16198753874149263,
+  "half_life_years": 5.852907289602206,
+  "treasury_accrual_per_epoch_ada": 3733050.8207371235
+ },
+ "_note": "Compact record of the figures used in this episode. Full current snapshot: https://elliot-agento.github.io/cardano-record/data/latest.json"
+}
