@@ -28,12 +28,12 @@ the archived snapshot for that day — not a fresh lookup — and the result is 
 here whether it was right or wrong.</p>
 
 <div class="big">
-  <div><div class="n">20%</div><div class="l">Hit rate</div></div>
-  <div><div class="n">4%</div><div class="l">Honest floor</div></div>
+  <div><div class="n">25%</div><div class="l">Hit rate</div></div>
+  <div><div class="n">5%</div><div class="l">Honest floor</div></div>
   <div><div class="n">1</div><div class="l">Hit</div></div>
-  <div><div class="n">4</div><div class="l">Missed</div></div>
-  <div><div class="n">0</div><div class="l">Void</div></div>
-  <div><div class="n">8</div><div class="l">Open</div></div>
+  <div><div class="n">3</div><div class="l">Missed</div></div>
+  <div><div class="n">1</div><div class="l">Void</div></div>
+  <div><div class="n">9</div><div class="l">Open</div></div>
 </div>
 
 <p class="meta">The <strong>honest floor</strong> is a 95% Wilson lower bound. A good hit
@@ -45,7 +45,7 @@ pipeline did not run that day — is marked <em>void</em> rather than quietly dr
 <div class="scroll"><table>
 <thead><tr><th>Status</th><th>Claim</th><th>Rule</th><th>Made</th><th>Resolves</th><th>Observed</th></tr></thead>
 <tbody><tr>
-          <td><span class="pill miss">MISS</span></td>
+          <td><span class="pill void">VOID</span></td>
           <td class="txt">hvMIN is still in the top-5 most active Cardano tokens by on-chain tx count seven days from now (measured 583 this window)</td>
           <td class="mono">token_flow_top5_present &gt;= 1</td>
           <td class="mono">2026-09-12</td>
@@ -122,13 +122,19 @@ pipeline did not run that day — is marked <em>void</em> rather than quietly dr
           <td class="mono">ada_price_usd &lt; 0.2053</td>
           <td class="mono">2026-09-13</td>
           <td class="mono">2026-10-13</td>
+          <td class="mono">—</td></tr><tr>
+          <td><span class="pill open">OPEN</span></td>
+          <td class="txt">ADA closes above $0.2278 30 days from now</td>
+          <td class="mono">ada_price_usd &gt; 0.2278</td>
+          <td class="mono">2026-09-20</td>
+          <td class="mono">2026-10-20</td>
           <td class="mono">—</td></tr></tbody>
 </table></div>
 
 <h2>Episodes</h2>
 <div class="scroll"><table>
 <thead><tr><th>Published</th><th>Title</th><th>Video</th><th>Data</th></tr></thead>
-<tbody><tr><td class="mono">2026-09-20T08:16</td><td class="txt">307 on-chain positions: the measurement method</td><td><a href=https://youtu.be/5dnq9L-6Mww>video</a></td><td><a href="data/episodes/20260920-071618-daily.json">data</a></td></tr><tr><td class="mono">2026-09-19T08:27</td><td class="txt">ADA at $0.2267: What moved since last episode</td><td><a href=https://youtu.be/ENKBZ1AaOsM>video</a></td><td><a href="data/episodes/20260919-071555-daily.json">data</a></td></tr><tr><td class="mono">2026-09-18T08:20</td><td class="txt">The 6.2% shift: Measuring ADA&#x27;s daily change on-chain</td><td><a href=https://youtu.be/RU5N5C-51pk>video</a></td><td><a href="data/episodes/20260918-071643-daily.json">data</a></td></tr><tr><td class="mono">2026-09-17T08:23</td><td class="txt">42% drop needed to hit half the book at risk</td><td><a href=https://youtu.be/EyTWuNv1Cu0>video</a></td><td><a href="data/episodes/20260917-071609-daily.json">data</a></td></tr><tr><td class="mono">2026-09-16T08:35</td><td class="txt">Measuring ADA&#x27;s 40% drawdown buffer on the ledger</td><td><a href=https://youtu.be/VwWZJi3pRZI>video</a></td><td><a href="data/episodes/20260916-071315-daily.json">data</a></td></tr><tr><td class="mono">2026-09-15T07:20</td><td class="txt">24% ADA Drop Before Tenth Book Is At Risk</td><td><a href=https://youtu.be/439CYBm6ZiA>video</a></td><td><a href="data/episodes/20260915-071320-daily.json">data</a></td></tr><tr><td class="mono">2026-09-14T08:49</td><td class="txt">ADA would have to fall 46% before half of Indigo liquidates — Sep 14</td><td><a href=https://youtu.be/2h_KuzqvNT4>video</a></td><td><a href="data/episodes/20260914-071259-daily.json">data</a></td></tr><tr><td class="mono">2026-09-13T17:20</td><td class="txt">Measuring the 44% buffer in Cardano&#x27;s on-chain loan collateral ratios</td><td><a href=https://youtu.be/OI34z7eVL-o>video</a></td><td><a href="data/episodes/20260913-171306-weekly.json">data</a></td></tr><tr><td class="mono">2026-09-12T17:15</td><td class="txt">Tracking the 0.162% reserve decay rate per epoch</td><td><a href=https://youtu.be/kjYwKKTyS0I>video</a></td><td><a href="data/episodes/20260912-171250-daily.json">data</a></td></tr><tr><td class="mono">2026-09-12T16:28</td><td class="txt">Indigo TVL Sits At $4.0M Today</td><td><a href=https://youtu.be/4VnDihBkbr4>video</a></td><td><a href="data/episodes/20260912-162448-daily.json">data</a></td></tr><tr><td class="mono">2026-09-11T17:16</td><td class="txt">44% Drop Required: The Risk Floor in Cardano&#x27;s Loan Book</td><td><a href=https://youtu.be/OpvaQZDgWCc>video</a></td><td><a href="data/episodes/20260911-171253-daily.json">data</a></td></tr><tr><td class="mono">2026-09-10T07:12</td><td class="txt">ADA would have to fall 46% before half of Indigo liquidates — Sep 10</td><td><a href=https://youtu.be/ehB69LovNQY>video</a></td><td><a href="data/episodes/20260910-071233-daily.json">data</a></td></tr><tr><td class="mono">2026-09-09T18:44</td><td class="txt">ADA would have to fall 46% before half of Indigo liquidates — Sep 9</td><td><a href=https://youtu.be/gC3HFu2f8fM>video</a></td><td><a href="data/episodes/20260909-184423-daily.json">data</a></td></tr></tbody>
+<tbody><tr><td class="mono">2026-09-20T20:01</td><td class="txt">Cardano, measured: the week in on-chain numbers — Sep 20</td><td><a href=https://youtu.be/wlfO0QjQC3E>video</a></td><td><a href="data/episodes/20260920-171828-weekly.json">data</a></td></tr><tr><td class="mono">2026-09-20T08:16</td><td class="txt">307 on-chain positions: the measurement method</td><td><a href=https://youtu.be/5dnq9L-6Mww>video</a></td><td><a href="data/episodes/20260920-071618-daily.json">data</a></td></tr><tr><td class="mono">2026-09-19T08:27</td><td class="txt">ADA at $0.2267: What moved since last episode</td><td><a href=https://youtu.be/ENKBZ1AaOsM>video</a></td><td><a href="data/episodes/20260919-071555-daily.json">data</a></td></tr><tr><td class="mono">2026-09-18T08:20</td><td class="txt">The 6.2% shift: Measuring ADA&#x27;s daily change on-chain</td><td><a href=https://youtu.be/RU5N5C-51pk>video</a></td><td><a href="data/episodes/20260918-071643-daily.json">data</a></td></tr><tr><td class="mono">2026-09-17T08:23</td><td class="txt">42% drop needed to hit half the book at risk</td><td><a href=https://youtu.be/EyTWuNv1Cu0>video</a></td><td><a href="data/episodes/20260917-071609-daily.json">data</a></td></tr><tr><td class="mono">2026-09-16T08:35</td><td class="txt">Measuring ADA&#x27;s 40% drawdown buffer on the ledger</td><td><a href=https://youtu.be/VwWZJi3pRZI>video</a></td><td><a href="data/episodes/20260916-071315-daily.json">data</a></td></tr><tr><td class="mono">2026-09-15T07:20</td><td class="txt">24% ADA Drop Before Tenth Book Is At Risk</td><td><a href=https://youtu.be/439CYBm6ZiA>video</a></td><td><a href="data/episodes/20260915-071320-daily.json">data</a></td></tr><tr><td class="mono">2026-09-14T08:49</td><td class="txt">ADA would have to fall 46% before half of Indigo liquidates — Sep 14</td><td><a href=https://youtu.be/2h_KuzqvNT4>video</a></td><td><a href="data/episodes/20260914-071259-daily.json">data</a></td></tr><tr><td class="mono">2026-09-13T17:20</td><td class="txt">Measuring the 44% buffer in Cardano&#x27;s on-chain loan collateral ratios</td><td><a href=https://youtu.be/OI34z7eVL-o>video</a></td><td><a href="data/episodes/20260913-171306-weekly.json">data</a></td></tr><tr><td class="mono">2026-09-12T17:15</td><td class="txt">Tracking the 0.162% reserve decay rate per epoch</td><td><a href=https://youtu.be/kjYwKKTyS0I>video</a></td><td><a href="data/episodes/20260912-171250-daily.json">data</a></td></tr><tr><td class="mono">2026-09-12T16:28</td><td class="txt">Indigo TVL Sits At $4.0M Today</td><td><a href=https://youtu.be/4VnDihBkbr4>video</a></td><td><a href="data/episodes/20260912-162448-daily.json">data</a></td></tr><tr><td class="mono">2026-09-11T17:16</td><td class="txt">44% Drop Required: The Risk Floor in Cardano&#x27;s Loan Book</td><td><a href=https://youtu.be/OpvaQZDgWCc>video</a></td><td><a href="data/episodes/20260911-171253-daily.json">data</a></td></tr><tr><td class="mono">2026-09-10T07:12</td><td class="txt">ADA would have to fall 46% before half of Indigo liquidates — Sep 10</td><td><a href=https://youtu.be/ehB69LovNQY>video</a></td><td><a href="data/episodes/20260910-071233-daily.json">data</a></td></tr><tr><td class="mono">2026-09-09T18:44</td><td class="txt">ADA would have to fall 46% before half of Indigo liquidates — Sep 9</td><td><a href=https://youtu.be/gC3HFu2f8fM>video</a></td><td><a href="data/episodes/20260909-184423-daily.json">data</a></td></tr></tbody>
 </table></div>
 
 <h2>Verify it yourself</h2>
@@ -141,6 +147,6 @@ reconciled against chain-wide mint history before anything is reported.</p>
 <footer><p><a href="index.html">← The Cardano Record</a> ·
 <a href="privacy.html">Privacy</a> ·
 <a href="https://www.youtube.com/@CardanoRecord">YouTube</a></p>
-<p class="meta" style="margin-top:10px">Updated 2026-09-20 08:19 ·
+<p class="meta" style="margin-top:10px">Updated 2026-09-20 20:05 ·
 measured on-chain, scored in public</p></footer>
 </div></body></html>
