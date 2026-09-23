@@ -1,0 +1,114 @@
+{
+ "episode_id": "20260923-071631-daily",
+ "mode": "daily",
+ "published": "2026-09-23T07:24:57",
+ "video_url": "https://youtu.be/-tn9DPzFTxY",
+ "title": "70.3% of Rationale Links Still Resolving: Our Method",
+ "data_generated_at": "2026-09-23T07:12:01",
+ "claim": {
+  "metric": "indigo_tvl_usd",
+  "horizon_days": 7,
+  "op": "<",
+  "threshold": 4436191.0,
+  "text": "Indigo TVL is below $4.44M seven days from now, 2 percent below today's level",
+  "subject": null
+ },
+ "market": {
+  "ada_usd": 0.2505577904142162,
+  "source": "coingecko",
+  "cross_checked": true,
+  "change_24h_pct": 0.4175136078187744
+ },
+ "indigo": {
+  "tvl_usd": 4526726.0,
+  "indy_price_usd": 0.122014
+ },
+ "loan_book": {
+  "positions": 286,
+  "debt_usd": 1804275.180292878,
+  "collateral_ada": 17356739.096954,
+  "book_ratio": 2.4103120435447685,
+  "price_10pct_at_risk_usd": 0.17307618643424666,
+  "price_50pct_at_risk_usd": 0.13756895768835092,
+  "decoded_utxos": 306,
+  "validator_utxos": 309
+ },
+ "coverage": {
+  "iADA": {
+   "decoded_iasset": 233.450484,
+   "chain_supply_iasset": 233.450484,
+   "coverage_pct": 100.0
+  },
+  "iBTC": {
+   "decoded_iasset": 5.020166000000001,
+   "chain_supply_iasset": 5.020166,
+   "coverage_pct": 100.00000000000003
+  },
+  "iETH": {
+   "decoded_iasset": 35.109146,
+   "chain_supply_iasset": 35.109146,
+   "coverage_pct": 100.0
+  },
+  "iEUR": {
+   "decoded_iasset": 67.515905,
+   "chain_supply_iasset": 67.515905,
+   "coverage_pct": 100.0
+  },
+  "iJPY": {
+   "decoded_iasset": 76515.967958,
+   "chain_supply_iasset": 76515.967958,
+   "coverage_pct": 100.0
+  },
+  "iSOL": {
+   "decoded_iasset": 83.306604,
+   "chain_supply_iasset": 83.306604,
+   "coverage_pct": 100.0
+  },
+  "iUSD": {
+   "decoded_iasset": 1280780.4010959999,
+   "chain_supply_iasset": 1381320.202929,
+   "coverage_pct": 92.72147025578776
+  },
+  "_worst_pct": 92.72147025578776
+ },
+ "governance": {
+  "epoch": 657,
+  "open_actions": [
+   {
+    "id": 158,
+    "type": "ParameterChange",
+    "withdrawal_ada": null,
+    "expiration_epoch": 661,
+    "drep_yes_pct_of_decisive": 52.05293883834645,
+    "drep_participation_pct": 10.546574251783747
+   },
+   {
+    "id": 157,
+    "type": "TreasuryWithdrawals",
+    "withdrawal_ada": 11787063.0,
+    "expiration_epoch": 661,
+    "drep_yes_pct_of_decisive": 10.019489861903716,
+    "drep_participation_pct": 7.823379135566536
+   },
+   {
+    "id": 159,
+    "type": "InfoAction",
+    "withdrawal_ada": null,
+    "expiration_epoch": 663,
+    "drep_yes_pct_of_decisive": 34.31300005829455,
+    "drep_participation_pct": 5.2560106296459495
+   }
+  ],
+  "decided_counts": {
+   "enacted": 2,
+   "expired": 10,
+   "dropped": 0
+  }
+ },
+ "monetary": {
+  "decay_per_epoch_pct": 0.16190053154524486,
+  "half_life_years": 5.856055259918257,
+  "treasury_accrual_per_epoch_ada": 3732438.0157768726
+ },
+ "_note": "Compact record of the figures used in this episode. Full current snapshot: https://elliot-agento.github.io/cardano-record/data/latest.json"
+}
