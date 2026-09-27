@@ -82,6 +82,22 @@ anyone else's behalf.</p>
 The operator can see only the aggregate, anonymised statistics YouTube provides to any
 channel owner, and does not attempt to identify individual viewers.</p>
 
+<h3>Prediction votes</h3>
+<p>Each episode's prediction is posted as a comment, and viewers may reply YES or NO. To
+count those votes the Application reads the public replies to that one comment. It keeps
+only the <strong>totals</strong> (number of YES and number of NO per prediction). Replier
+names, channel IDs and reply text are used only in memory while counting (to allow one
+vote per account) and are not stored.</p>
+
+<h2>8b. TikTok</h2>
+<p>The same short videos may be published to the channel's own TikTok account through
+TikTok's Content Posting API. The Application signs in only as that account, requests
+only basic account information and permission to upload videos, and stores the resulting
+access token locally on the operator's machine. It does not read, collect or store data
+about other TikTok users. Watching on TikTok is governed by
+<a href="https://www.tiktok.com/legal/privacy-policy">TikTok's Privacy Policy</a>.
+Access can be revoked at any time from TikTok's app settings.</p>
+
 <h2>9. Children</h2>
 <p>The channel is not directed to children, and its videos are not designated as
 made-for-kids.</p>

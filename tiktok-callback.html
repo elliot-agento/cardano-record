@@ -1,0 +1,18 @@
+<!doctype html><html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex">
+<title>TikTok sign-in — The Cardano Record</title>
+<link rel="stylesheet" href="_style.css"></head><body><div class="wrap">
+<header><div class="bar"></div><h1>TikTok sign-in</h1>
+<div class="tag">The Cardano Record publishing tool</div></header>
+<p>This page completes the sign-in for the channel's own publishing tool. If you are the
+operator, copy the code below into <code>publish/tiktok.py exchange</code>. It expires in a
+few minutes and works only once.</p>
+<div class="card"><p id="out" style="word-break:break-all;margin:0">No code in this link.</p></div>
+<script>
+const q = new URLSearchParams(location.search);
+const out = document.getElementById("out");
+if (q.get("error")) out.textContent = "TikTok returned an error: " + q.get("error") + " " + (q.get("error_description") || "");
+else if (q.get("code")) out.textContent = q.get("code");
+</script>
+</div></body></html>
