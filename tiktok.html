@@ -44,7 +44,7 @@ if (!key) { a.style.opacity = .4; a.removeAttribute("href");
   document.getElementById("envnote").textContent = "No " + env + " client key configured."; }
 else {
   const state = Array.from(crypto.getRandomValues(new Uint8Array(12)), b => b.toString(16).padStart(2, "0")).join("");
-  const p = new URLSearchParams({client_key: key, scope: "user.info.basic,video.upload,video.publish",
+  const p = new URLSearchParams({client_key: key, scope: q.get("scope") || "user.info.basic,video.upload,video.publish",
     response_type: "code", redirect_uri: "https://elliot-agento.github.io/cardano-record/tiktok-callback.html",
     state: state});
   a.href = "https://www.tiktok.com/v2/auth/authorize/?" + p.toString();
