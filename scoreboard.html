@@ -18,7 +18,7 @@ td.txt{color:var(--ink)} .mono{font-family:ui-monospace,Menlo,monospace;font-siz
 .big div .n{font-size:54px;font-weight:800;letter-spacing:-.03em;line-height:1}
 .big div .l{font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);margin-top:8px}
 .scroll{overflow-x:auto}
-</style></head><body><div class="wrap">
+</style></head><body><nav class="nav"><div class="in"><a class="brand" href="index.html"><b></b>The Cardano Record</a><a class="l" href="risk.html">Lending risk</a><a class="l" href="governance.html">Governance</a><a class="l" href="strike.html">Strike</a><a class="l on" href="scoreboard.html">Scoreboard</a><a class="l" href="services.html">Services</a><a class="cta" href="https://forms.gle/BsqdFgrS8jUHGkBc8">Join the waitlist</a></div></nav><div class="wrap">
 <header><div class="bar"></div><h1>The record</h1>
 <div class="tag">every claim, and how it resolved</div></header>
 
@@ -28,12 +28,12 @@ the archived snapshot for that day — not a fresh lookup — and the result is 
 here whether it was right or wrong.</p>
 
 <div class="big">
-  <div><div class="n">70%</div><div class="l">Hit rate</div></div>
-  <div><div class="n">40%</div><div class="l">Honest floor</div></div>
-  <div><div class="n">7</div><div class="l">Hit</div></div>
+  <div><div class="n">73%</div><div class="l">Hit rate</div></div>
+  <div><div class="n">43%</div><div class="l">Honest floor</div></div>
+  <div><div class="n">8</div><div class="l">Hit</div></div>
   <div><div class="n">3</div><div class="l">Missed</div></div>
   <div><div class="n">1</div><div class="l">Void</div></div>
-  <div><div class="n">9</div><div class="l">Open</div></div>
+  <div><div class="n">8</div><div class="l">Open</div></div>
 </div>
 
 <p class="meta">The <strong>honest floor</strong> is a 95% Wilson lower bound. A good hit
@@ -45,6 +45,12 @@ pipeline did not run that day — is marked <em>void</em> rather than quietly dr
 <div class="scroll"><table>
 <thead><tr><th>Status</th><th>Claim</th><th>Rule</th><th>Made</th><th>Resolves</th><th>Observed</th></tr></thead>
 <tbody><tr>
+          <td><span class="pill hit">HIT</span></td>
+          <td class="txt">our own cascade model still lands within one position on more than 74 percent of scored pairs seven days from now</td>
+          <td class="mono">cascade_within_one_pct &gt; 74.2</td>
+          <td class="mono">2026-09-20</td>
+          <td class="mono">2026-09-27</td>
+          <td class="mono">90</td></tr><tr>
           <td><span class="pill hit">HIT</span></td>
           <td class="txt">USDCx is still in the top-5 most active Cardano tokens by on-chain tx count seven days from now (measured 89 this window)</td>
           <td class="mono">token_flow_top5_present &gt;= 1</td>
@@ -112,12 +118,6 @@ pipeline did not run that day — is marked <em>void</em> rather than quietly dr
           <td class="mono">2026-09-16</td>
           <td class="mono">9</td></tr><tr>
           <td><span class="pill open">OPEN</span></td>
-          <td class="txt">our own cascade model still lands within one position on more than 74 percent of scored pairs seven days from now</td>
-          <td class="mono">cascade_within_one_pct &gt; 74.2</td>
-          <td class="mono">2026-09-20</td>
-          <td class="mono">2026-09-27</td>
-          <td class="mono">—</td></tr><tr>
-          <td><span class="pill open">OPEN</span></td>
           <td class="txt">Indigo&#x27;s book-wide collateral ratio holds above 2.25x for a week</td>
           <td class="mono">indigo_book_ratio &gt; 2.248</td>
           <td class="mono">2026-09-21</td>
@@ -183,6 +183,6 @@ reconciled against chain-wide mint history before anything is reported.</p>
 <footer><p><a href="index.html">← The Cardano Record</a> ·
 <a href="privacy.html">Privacy</a> ·
 <a href="https://www.youtube.com/@CardanoRecord">YouTube</a></p>
-<p class="meta" style="margin-top:10px">Updated 2026-09-26 15:49 ·
+<p class="meta" style="margin-top:10px">Updated 2026-09-27 07:31 ·
 measured on-chain, scored in public</p></footer>
 </div></body></html>
