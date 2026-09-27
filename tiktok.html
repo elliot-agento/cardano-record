@@ -1,0 +1,57 @@
+<!doctype html><html lang="en"><head>
+<meta name="robots" content="noindex">
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>TikTok publishing — The Cardano Record</title>
+<meta name="description" content="How The Cardano Record publishes its short videos to TikTok.">
+<link rel="stylesheet" href="_style.css">
+<!-- GC --><script data-goatcounter="https://cardanorecord.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script><!-- /GC --></head><body><nav class="nav"><div class="in"><a class="brand" href="index.html"><b></b>The Cardano Record</a><a class="l" href="risk.html">Lending risk</a><a class="l" href="governance.html">Governance</a><a class="l" href="strike.html">Strike</a><a class="l" href="scoreboard.html">Scoreboard</a><a class="l" href="services.html">Services</a><a class="cta" href="https://forms.gle/BsqdFgrS8jUHGkBc8">Join the waitlist</a></div></nav><div class="wrap">
+<header><div class="bar"></div><h1>TikTok publishing</h1>
+<div class="tag">Cardano Record Publisher</div></header>
+
+<p>The Cardano Record publishes a short vertical video every day: one measured fact about
+the Cardano blockchain, checked before it airs. <strong>Cardano Record Publisher</strong>
+is the channel's own tool for posting those videos to the channel's own TikTok account.
+It is used only by the channel's operator.</p>
+
+<div class="card">
+<h2 style="margin-top:0">What it asks TikTok for</h2>
+<ul>
+<li><strong>user.info.basic</strong>: to confirm it is signed in to the channel's own
+account (display name and account ID) before posting.</li>
+<li><strong>video.upload</strong>: to send the day's video to the account's TikTok inbox
+as a draft, which the operator reviews and posts in the TikTok app.</li>
+<li><strong>video.publish</strong>: to post the day's video directly to the channel's
+profile, labelled as AI-generated content, with the privacy level chosen from the
+options TikTok offers the account.</li>
+</ul>
+<p style="margin-bottom:0">It never reads, stores or posts anything about other TikTok users.
+See the <a href="privacy.html">privacy policy</a> and <a href="terms.html">terms</a>.</p>
+</div>
+
+<h2>Connect the channel's TikTok account</h2>
+<p>For the operator. Signing in sends you to TikTok to approve access, then back to this
+site with a one-time code for the publishing tool.</p>
+<p><a id="connect" class="cta" href="#" style="display:inline-block;padding:14px 22px;border-radius:10px;background:var(--accent);color:#fff;font-weight:700;text-decoration:none">Connect TikTok account</a></p>
+<p class="meta" id="envnote"></p>
+
+<script>
+const KEYS = {production: "awfem9odjbd119qp", sandbox: ""};
+const q = new URLSearchParams(location.search);
+const env = q.get("env") === "sandbox" ? "sandbox" : "production";
+const key = KEYS[env];
+const a = document.getElementById("connect");
+if (!key) { a.style.opacity = .4; a.removeAttribute("href");
+  document.getElementById("envnote").textContent = "No " + env + " client key configured."; }
+else {
+  const state = Array.from(crypto.getRandomValues(new Uint8Array(12)), b => b.toString(16).padStart(2, "0")).join("");
+  const p = new URLSearchParams({client_key: key, scope: "user.info.basic,video.upload,video.publish",
+    response_type: "code", redirect_uri: "https://elliot-agento.github.io/cardano-record/tiktok-callback.html",
+    state: state});
+  a.href = "https://www.tiktok.com/v2/auth/authorize/?" + p.toString();
+  if (env === "sandbox") document.getElementById("envnote").textContent = "Sandbox app.";
+}
+</script>
+
+<footer><p><a href="index.html">← The Cardano Record</a> · <a href="privacy.html">Privacy</a> ·
+<a href="terms.html">Terms</a></p></footer>
+</div></body></html>
