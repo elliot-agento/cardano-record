@@ -46,6 +46,8 @@ th{text-align:left;padding:8px 12px 8px 0;border-bottom:1px solid var(--line);fo
 td{padding:9px 12px 9px 0;border-bottom:1px solid rgba(35,44,70,.55);color:var(--ink2)}
 th.n,td.n{text-align:right;font-variant-numeric:tabular-nums}
 .scroll{overflow-x:auto}
+.dl{display:inline-block;margin-top:12px;margin-right:14px;font-size:13px;font-weight:650;color:var(--accent-soft);text-decoration:none}
+.dl:hover{text-decoration:underline}
 details{margin-top:12px} summary{cursor:pointer;color:var(--muted);font-size:13px;font-weight:600}
 details[open] summary{margin-bottom:8px}
 .legend{display:flex;flex-wrap:wrap;gap:6px 16px;font-size:13px;color:var(--ink2);margin:4px 0 10px}
@@ -68,7 +70,8 @@ details[open] summary{margin-bottom:8px}
 .chart .grid{stroke:var(--grid);stroke-width:1}
 .chart .axis{stroke:var(--axis);stroke-width:1}
 .chart .tick{fill:var(--muted);font-variant-numeric:tabular-nums}
-.cm{display:none} @media (max-width:560px){.cw{display:none}.cm{display:block}.sv{font-size:21px}.hero{padding:22px 20px}.card{padding:18px 16px}}
+.cm{display:none} .grid2 .cw{display:none} .grid2 .cm{display:block}
+@media (max-width:560px){.cw{display:none}.cm{display:block}.sv{font-size:21px}.hero{padding:22px 20px}.card{padding:18px 16px}}
 .chart .hit{fill:transparent}
 .chart .xhair{stroke:var(--muted);stroke-width:1;opacity:0}
 .acts{display:grid;gap:12px}
