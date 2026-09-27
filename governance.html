@@ -1,0 +1,44 @@
+<!doctype html><html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Cardano governance and treasury — The Cardano Record</title>
+<meta name="description" content="Votes and public money, measured on-chain">
+<link rel="stylesheet" href="_style.css">
+<style>
+table{width:100%;border-collapse:collapse;margin-top:14px;font-size:14px}
+th{text-align:left;padding:9px 12px 9px 0;border-bottom:1px solid var(--line);font-size:11px;
+  letter-spacing:.14em;text-transform:uppercase;color:var(--muted)}
+td{padding:10px 12px 10px 0;border-bottom:1px solid rgba(35,44,70,.5);font-variant-numeric:tabular-nums}
+.scroll{overflow-x:auto}
+.big{display:flex;gap:40px;margin:22px 0 6px;flex-wrap:wrap}
+.big div .n{font-size:38px;font-weight:800;letter-spacing:-.03em;line-height:1}
+.big div .l{font-size:12px;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);margin-top:8px}
+.cta{display:inline-block;background:var(--accent);color:#fff;text-decoration:none;font-weight:700;
+  padding:11px 20px;border-radius:10px;margin-top:8px}
+</style></head><body><div class="wrap">
+<header><div class="bar"></div><h1>Cardano governance and treasury</h1><div class="tag">Votes and public money, measured on-chain</div></header>
+<h2>Open governance actions</h2>
+<p>DRep votes weighted by stake. Yes share is of decisive (yes + no) stake.</p>
+<div class="scroll"><table><tr><th>Action</th><th>Type</th><th>Withdrawal</th><th>DRep yes</th><th>DRep participation</th><th>Expires</th></tr><tr><td>Reduce minPoolCost to 75 ada</td><td>ParameterChange</td><td>—</td><td>53.0%</td><td>10.8%</td><td>epoch 661</td></tr><tr><td>Withdraw 11,787,063 ada for the OpenZeppelin Stack administe</td><td>TreasuryWithdrawals</td><td>11.8M ADA</td><td>9.1%</td><td>8.6%</td><td>epoch 661</td></tr><tr><td>Should stakePoolTargetNum (k) be raised from 500 to 1000? (S</td><td>InfoAction</td><td>—</td><td>32.7%</td><td>5.6%</td><td>epoch 663</td></tr></table></div>
+<h2>The treasury, as a rate</h2>
+<div class="big"><div><div class="n">1.37bn</div><div class="l">ADA balance</div></div>
+<div><div class="n">3.71M</div><div class="l">ADA in per epoch</div></div>
+<div><div class="n">457M</div><div class="l">ADA out, last 195d</div></div></div>
+<h2>Following the money</h2>
+<p>Enacted treasury withdrawals are credited to recipient accounts; most recipients are smart-contract vaults. This tracks how much is still inside those vaults. "Moved out" means the ADA left the vault; the chain does not record what it was used for.</p>
+<div class="big"><div><div class="n">804M</div><div class="l">ADA enacted</div></div>
+<div><div class="n">752M</div><div class="l">ADA into vaults</div></div>
+<div><div class="n">5%</div><div class="l">Still in vaults</div></div>
+<div><div class="n">95%</div><div class="l">Moved out</div></div></div>
+<div class="scroll"><table><tr><th>Recipient (stake address)</th><th>Paid</th><th>Withdrawals</th><th>Epochs</th></tr><tr><td>stake17xzc8pt7fgf0lc0x7e…</td><td>569.63M ADA</td><td>51</td><td>575–643</td></tr><tr><td>stake1784sdxt6jjennmstph…</td><td>158.51M ADA</td><td>12</td><td>645–650</td></tr><tr><td>stake1u99m2kxsvdwlulg4l6…</td><td>50.00M ADA</td><td>1</td><td>624–624</td></tr><tr><td>stake1790c5a0h3qwkxquehk…</td><td>6.90M ADA</td><td>1</td><td>625–625</td></tr><tr><td>stake17x3n2krrld46qms4f4…</td><td>4.60M ADA</td><td>1</td><td>635–635</td></tr><tr><td>stake178ndhlcfy30t38z0tq…</td><td>4.06M ADA</td><td>1</td><td>621–621</td></tr><tr><td>stake1790mk0jjjhppr36eth…</td><td>2.58M ADA</td><td>1</td><td>621–621</td></tr><tr><td>stake1u92flcyspwcp92lmgs…</td><td>2.35M ADA</td><td>1</td><td>645–645</td></tr><tr><td>stake17yezq8wpaqnssdjvd3…</td><td>1.45M ADA</td><td>1</td><td>621–621</td></tr><tr><td>stake179r8gmryz5wrwvlxm6…</td><td>1.16M ADA</td><td>1</td><td>621–621</td></tr><tr><td>stake178a5gxtm0ynzw80f80…</td><td>0.90M ADA</td><td>1</td><td>621–621</td></tr><tr><td>stake17x2x5cv4nlwptph8kx…</td><td>0.80M ADA</td><td>1</td><td>625–625</td></tr><tr><td>stake17xrh74lqhhxgzelfsn…</td><td>0.50M ADA</td><td>1</td><td>571–571</td></tr><tr><td>stake17xd74ehu0l4d5mx0sf…</td><td>0.30M ADA</td><td>1</td><td>571–571</td></tr><tr><td>stake17xnev6rc25xwz8kg4q…</td><td>0.30M ADA</td><td>1</td><td>571–571</td></tr><tr><td>stake178jztxzwynajcp4dva…</td><td>0.30M ADA</td><td>1</td><td>571–571</td></tr><tr><td>stake17xrqac8khkprtpp2jz…</td><td>0.10M ADA</td><td>1</td><td>571–571</td></tr></table></div>
+<p class="meta">Recipient reward accounts are fully withdrawn; the withdrawal txs pay into script vaults. Held = current unspent ADA at each vault&#x27;s payment credential, capped at what it received from treasury withdrawals. &#x27;Moved out&#x27; means the ADA left the vault; the chain does not say why.</p>
+<div class="card"><p style="margin:0"><strong>Need more than this page?</strong> API access,
+history exports, custom reports, data licensing and sponsorship:
+<a href="https://elliot-agento.github.io/cardano-record/services.html">see our services</a>.</p></div>
+<p class="meta">Data as of 2026-09-26T22:13 UTC. Not financial advice; nothing here is a recommendation to buy, sell or hold
+anything. The Cardano Record sells data built from this same pipeline; that never decides what
+airs or how it is reported. Not affiliated with any project covered.</p>
+<footer><p><a href="index.html">Home</a> · <a href="services.html">Services</a> ·
+<a href="risk.html">Lending risk</a> · <a href="governance.html">Governance</a> ·
+<a href="strike.html">Strike</a> · <a href="scoreboard.html">Scoreboard</a> ·
+<a href="https://www.youtube.com/@CardanoRecord">YouTube</a></p></footer>
+</div></body></html>
