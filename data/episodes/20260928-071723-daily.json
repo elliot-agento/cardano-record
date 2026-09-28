@@ -1,0 +1,120 @@
+{
+ "episode_id": "20260928-071723-daily",
+ "mode": "daily",
+ "published": "2026-09-28T07:56:15",
+ "video_url": "https://youtu.be/g7tFKAFbWzA",
+ "title": "Cardano DeFi lending: Liqwid deposits at $22.86M across 31 markets",
+ "data_generated_at": "2026-09-28T07:12:01",
+ "claim": {
+  "metric": "liqwid_supply_usd",
+  "horizon_days": 7,
+  "op": ">",
+  "threshold": 22860695.0,
+  "text": "deposits across Liqwid's markets are above today's $22.86M seven days from now",
+  "subject": null,
+  "quality": {
+   "verdict": "ok",
+   "p_change": 1.0,
+   "p_level": 0.3,
+   "days": 16
+  }
+ },
+ "market": {
+  "ada_usd": 0.2497231073735888,
+  "source": "coingecko",
+  "cross_checked": true,
+  "change_24h_pct": -2.51578057160385
+ },
+ "indigo": {
+  "tvl_usd": 4410159.0,
+  "indy_price_usd": 0.121332
+ },
+ "loan_book": {
+  "positions": 285,
+  "debt_usd": 1815467.276378977,
+  "collateral_ada": 17366981.615352005,
+  "book_ratio": 2.388881733707636,
+  "price_10pct_at_risk_usd": 0.16885733252443622,
+  "price_50pct_at_risk_usd": 0.13772596138886625,
+  "decoded_utxos": 306,
+  "validator_utxos": 309
+ },
+ "coverage": {
+  "iADA": {
+   "decoded_iasset": 233.450484,
+   "chain_supply_iasset": 233.450484,
+   "coverage_pct": 100.0
+  },
+  "iBTC": {
+   "decoded_iasset": 5.020166000000001,
+   "chain_supply_iasset": 5.020166,
+   "coverage_pct": 100.00000000000003
+  },
+  "iETH": {
+   "decoded_iasset": 35.07914599999999,
+   "chain_supply_iasset": 35.079146,
+   "coverage_pct": 99.99999999999996
+  },
+  "iEUR": {
+   "decoded_iasset": 67.515905,
+   "chain_supply_iasset": 67.515905,
+   "coverage_pct": 100.0
+  },
+  "iJPY": {
+   "decoded_iasset": 76515.967958,
+   "chain_supply_iasset": 76515.967958,
+   "coverage_pct": 100.0
+  },
+  "iSOL": {
+   "decoded_iasset": 83.324774,
+   "chain_supply_iasset": 83.324774,
+   "coverage_pct": 100.0
+  },
+  "iUSD": {
+   "decoded_iasset": 1304828.4830390003,
+   "chain_supply_iasset": 1392934.55535,
+   "coverage_pct": 93.67478737801422
+  },
+  "_worst_pct": 93.67478737801422
+ },
+ "governance": {
+  "epoch": 658,
+  "open_actions": [
+   {
+    "id": 158,
+    "type": "ParameterChange",
+    "withdrawal_ada": null,
+    "expiration_epoch": 661,
+    "drep_yes_pct_of_decisive": 52.98270354282302,
+    "drep_participation_pct": 10.792402665873983
+   },
+   {
+    "id": 157,
+    "type": "TreasuryWithdrawals",
+    "withdrawal_ada": 11787063.0,
+    "expiration_epoch": 661,
+    "drep_yes_pct_of_decisive": 9.115287203197985,
+    "drep_participation_pct": 8.595900648287385
+   },
+   {
+    "id": 159,
+    "type": "InfoAction",
+    "withdrawal_ada": null,
+    "expiration_epoch": 663,
+    "drep_yes_pct_of_decisive": 32.666992583608575,
+    "drep_participation_pct": 5.608376562153935
+   }
+  ],
+  "decided_counts": {
+   "enacted": 2,
+   "expired": 8,
+   "dropped": 0
+  }
+ },
+ "monetary": {
+  "decay_per_epoch_pct": 0.16188052416118426,
+  "half_life_years": 5.8567796170962945,
+  "treasury_accrual_per_epoch_ada": 3707447.538702965
+ },
+ "_note": "Compact record of the figures used in this episode. Full current snapshot: https://elliot-agento.github.io/cardano-record/data/latest.json"
+}
