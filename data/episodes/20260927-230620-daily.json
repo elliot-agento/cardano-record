@@ -1,0 +1,120 @@
+{
+ "episode_id": "20260927-230620-daily",
+ "mode": "daily",
+ "published": "2026-09-28T00:03:10",
+ "video_url": "https://youtu.be/_y0SK2rXSGc",
+ "title": "Cardano DeFi: Measuring Strike Finance's 6.81M USD daily trade",
+ "data_generated_at": "2026-09-27T23:00:10",
+ "claim": {
+  "metric": "ada_price_usd",
+  "horizon_days": 7,
+  "op": ">",
+  "threshold": 0.2599,
+  "text": "ADA closes above $0.2599 seven days from now, 3.9 percent above where it is today",
+  "subject": null,
+  "quality": {
+   "verdict": "ok",
+   "p_change": 0.8,
+   "p_level": 0.0,
+   "days": 19
+  }
+ },
+ "market": {
+  "ada_usd": 0.2500856322273085,
+  "source": "coingecko",
+  "cross_checked": true,
+  "change_24h_pct": -0.6332380995995294
+ },
+ "indigo": {
+  "tvl_usd": 4509530.0,
+  "indy_price_usd": 0.122139
+ },
+ "loan_book": {
+  "positions": 284,
+  "debt_usd": 1813166.245822583,
+  "collateral_ada": 17365752.615569003,
+  "book_ratio": 2.395216231260331,
+  "price_10pct_at_risk_usd": 0.16859039190073602,
+  "price_50pct_at_risk_usd": 0.13756986847442226,
+  "decoded_utxos": 305,
+  "validator_utxos": 308
+ },
+ "coverage": {
+  "iADA": {
+   "decoded_iasset": 233.450484,
+   "chain_supply_iasset": 233.450484,
+   "coverage_pct": 100.0
+  },
+  "iBTC": {
+   "decoded_iasset": 5.020166000000001,
+   "chain_supply_iasset": 5.020166,
+   "coverage_pct": 100.00000000000003
+  },
+  "iETH": {
+   "decoded_iasset": 34.979146,
+   "chain_supply_iasset": 34.979146,
+   "coverage_pct": 100.0
+  },
+  "iEUR": {
+   "decoded_iasset": 67.515905,
+   "chain_supply_iasset": 67.515905,
+   "coverage_pct": 100.0
+  },
+  "iJPY": {
+   "decoded_iasset": 76515.96795800001,
+   "chain_supply_iasset": 76515.967958,
+   "coverage_pct": 100.00000000000003
+  },
+  "iSOL": {
+   "decoded_iasset": 83.32477399999999,
+   "chain_supply_iasset": 83.324774,
+   "coverage_pct": 99.99999999999997
+  },
+  "iUSD": {
+   "decoded_iasset": 1304828.4830389998,
+   "chain_supply_iasset": 1392934.55535,
+   "coverage_pct": 93.67478737801417
+  },
+  "_worst_pct": 93.67478737801417
+ },
+ "governance": {
+  "epoch": 658,
+  "open_actions": [
+   {
+    "id": 158,
+    "type": "ParameterChange",
+    "withdrawal_ada": null,
+    "expiration_epoch": 661,
+    "drep_yes_pct_of_decisive": 52.96651258819687,
+    "drep_participation_pct": 10.790102709529537
+   },
+   {
+    "id": 157,
+    "type": "TreasuryWithdrawals",
+    "withdrawal_ada": 11787063.0,
+    "expiration_epoch": 661,
+    "drep_yes_pct_of_decisive": 9.117799198731747,
+    "drep_participation_pct": 8.593608141821871
+   },
+   {
+    "id": 159,
+    "type": "InfoAction",
+    "withdrawal_ada": null,
+    "expiration_epoch": 663,
+    "drep_yes_pct_of_decisive": 32.666992583608575,
+    "drep_participation_pct": 5.608376562153935
+   }
+  ],
+  "decided_counts": {
+   "enacted": 2,
+   "expired": 8,
+   "dropped": 0
+  }
+ },
+ "monetary": {
+  "decay_per_epoch_pct": 0.16188052416118426,
+  "half_life_years": 5.8567796170962945,
+  "treasury_accrual_per_epoch_ada": 3707447.538702965
+ },
+ "_note": "Compact record of the figures used in this episode. Full current snapshot: https://elliot-agento.github.io/cardano-record/data/latest.json"
+}
