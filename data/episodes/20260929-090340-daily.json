@@ -1,0 +1,107 @@
+{
+ "episode_id": "20260929-090340-daily",
+ "mode": "daily",
+ "published": "2026-09-29T14:39:18+00:00",
+ "video_url": "https://youtu.be/oBnwXP2Dow0",
+ "title": "Cardano treasury: how fast it takes in vs how much paid out",
+ "data_generated_at": "2026-09-29T13:57:59+00:00",
+ "claim": null,
+ "market": {
+  "ada_usd": 0.2526298780657396,
+  "source": "coingecko",
+  "cross_checked": true,
+  "change_24h_pct": 1.4484462608638289
+ },
+ "indigo": {
+  "tvl_usd": 4433863.0,
+  "indy_price_usd": 0.122414
+ },
+ "loan_book": {
+  "positions": 285,
+  "debt_usd": 1826828.3931255138,
+  "collateral_ada": 17376981.615352005,
+  "book_ratio": 2.4030416667250476,
+  "price_10pct_at_risk_usd": 0.1734510824845027,
+  "price_50pct_at_risk_usd": 0.1386265253622888,
+  "decoded_utxos": 307,
+  "validator_utxos": 310
+ },
+ "coverage": {
+  "iADA": {
+   "decoded_iasset": 233.450484,
+   "chain_supply_iasset": 233.450484,
+   "coverage_pct": 100.0
+  },
+  "iBTC": {
+   "decoded_iasset": 5.020166000000001,
+   "chain_supply_iasset": 5.020166,
+   "coverage_pct": 100.00000000000003
+  },
+  "iETH": {
+   "decoded_iasset": 35.079146,
+   "chain_supply_iasset": 35.079146,
+   "coverage_pct": 100.0
+  },
+  "iEUR": {
+   "decoded_iasset": 67.515905,
+   "chain_supply_iasset": 67.515905,
+   "coverage_pct": 100.0
+  },
+  "iJPY": {
+   "decoded_iasset": 76515.967958,
+   "chain_supply_iasset": 76515.967958,
+   "coverage_pct": 100.0
+  },
+  "iSOL": {
+   "decoded_iasset": 83.32477399999999,
+   "chain_supply_iasset": 83.324774,
+   "coverage_pct": 99.99999999999997
+  },
+  "iUSD": {
+   "decoded_iasset": 1310430.3921270005,
+   "chain_supply_iasset": 1395376.207493,
+   "coverage_pct": 93.91233597721885
+  },
+  "_worst_pct": 93.91233597721885
+ },
+ "governance": {
+  "epoch": 658,
+  "open_actions": [
+   {
+    "id": 158,
+    "type": "ParameterChange",
+    "withdrawal_ada": null,
+    "expiration_epoch": 661,
+    "drep_yes_pct_of_decisive": 52.982704092239786,
+    "drep_participation_pct": 10.792402743693682
+   },
+   {
+    "id": 157,
+    "type": "TreasuryWithdrawals",
+    "withdrawal_ada": 11787063.0,
+    "expiration_epoch": 661,
+    "drep_yes_pct_of_decisive": 9.115287203197985,
+    "drep_participation_pct": 8.595900726107084
+   },
+   {
+    "id": 159,
+    "type": "InfoAction",
+    "withdrawal_ada": null,
+    "expiration_epoch": 663,
+    "drep_yes_pct_of_decisive": 32.666992583608575,
+    "drep_participation_pct": 5.608376562153935
+   }
+  ],
+  "decided_counts": {
+   "enacted": 2,
+   "expired": 7,
+   "dropped": 0
+  }
+ },
+ "monetary": {
+  "decay_per_epoch_pct": 0.16188052416118426,
+  "half_life_years": 5.8567796170962945,
+  "treasury_accrual_per_epoch_ada": 3707447.538702965
+ },
+ "_note": "Compact record of the figures used in this episode. Full current snapshot: https://cardanorecord.com/data/latest.json"
+}
