@@ -1,0 +1,107 @@
+{
+ "episode_id": "2026-09-30-explainer",
+ "mode": "explainer",
+ "published": "2026-09-30T20:55:11+00:00",
+ "video_url": "https://youtu.be/fmKVNb1kB3A",
+ "title": "What is money? Why digital money was so hard to build | Crypto from Zero #1",
+ "data_generated_at": "2026-09-30T20:21:49+00:00",
+ "claim": null,
+ "market": {
+  "ada_usd": 0.2440182855786559,
+  "source": "coingecko",
+  "cross_checked": true,
+  "change_24h_pct": -0.28211921552084884
+ },
+ "indigo": {
+  "tvl_usd": 4409061.0,
+  "indy_price_usd": 0.113924
+ },
+ "loan_book": {
+  "positions": 286,
+  "debt_usd": 1836322.0152000573,
+  "collateral_ada": 17330481.615352,
+  "book_ratio": 2.3029481632446087,
+  "price_10pct_at_risk_usd": 0.17349247276220944,
+  "price_50pct_at_risk_usd": 0.14231147345940762,
+  "decoded_utxos": 310,
+  "validator_utxos": 313
+ },
+ "coverage": {
+  "iADA": {
+   "decoded_iasset": 233.450484,
+   "chain_supply_iasset": 233.450484,
+   "coverage_pct": 100.0
+  },
+  "iBTC": {
+   "decoded_iasset": 5.057821000000001,
+   "chain_supply_iasset": 5.057821,
+   "coverage_pct": 100.00000000000003
+  },
+  "iETH": {
+   "decoded_iasset": 35.294855,
+   "chain_supply_iasset": 35.294855,
+   "coverage_pct": 100.0
+  },
+  "iEUR": {
+   "decoded_iasset": 68.387277,
+   "chain_supply_iasset": 68.387277,
+   "coverage_pct": 100.0
+  },
+  "iJPY": {
+   "decoded_iasset": 76826.95787400001,
+   "chain_supply_iasset": 76826.957874,
+   "coverage_pct": 100.00000000000003
+  },
+  "iSOL": {
+   "decoded_iasset": 83.666999,
+   "chain_supply_iasset": 83.666999,
+   "coverage_pct": 100.0
+  },
+  "iUSD": {
+   "decoded_iasset": 1323823.7134630012,
+   "chain_supply_iasset": 1404273.891719,
+   "coverage_pct": 94.27104792516522
+  },
+  "_worst_pct": 94.27104792516522
+ },
+ "governance": {
+  "epoch": 658,
+  "open_actions": [
+   {
+    "id": 158,
+    "type": "ParameterChange",
+    "withdrawal_ada": null,
+    "expiration_epoch": 661,
+    "drep_yes_pct_of_decisive": 52.99589951706912,
+    "drep_participation_pct": 15.408534939129478
+   },
+   {
+    "id": 157,
+    "type": "TreasuryWithdrawals",
+    "withdrawal_ada": 11787063.0,
+    "expiration_epoch": 661,
+    "drep_yes_pct_of_decisive": 8.255531371936515,
+    "drep_participation_pct": 14.058210225526446
+   },
+   {
+    "id": 159,
+    "type": "InfoAction",
+    "withdrawal_ada": null,
+    "expiration_epoch": 663,
+    "drep_yes_pct_of_decisive": 32.92622469804213,
+    "drep_participation_pct": 10.937361032942315
+   }
+  ],
+  "decided_counts": {
+   "enacted": 2,
+   "expired": 7,
+   "dropped": 0
+  }
+ },
+ "monetary": {
+  "decay_per_epoch_pct": 0.16188052416118426,
+  "half_life_years": 5.8567796170962945,
+  "treasury_accrual_per_epoch_ada": 3707447.538702965
+ },
+ "_note": "Compact record of the figures used in this episode. Full current snapshot: https://cardanorecord.com/data/latest.json"
+}
