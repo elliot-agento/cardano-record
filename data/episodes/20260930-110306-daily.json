@@ -1,0 +1,120 @@
+{
+ "episode_id": "20260930-110306-daily",
+ "mode": "daily",
+ "published": "2026-09-30T16:36:56+00:00",
+ "video_url": "https://youtu.be/Fnqux5vrZws",
+ "title": "Cardano network: 99.4% of the compute ceiling, used by the busiest block (Sep 30)",
+ "data_generated_at": "2026-09-30T15:58:07+00:00",
+ "claim": {
+  "metric": "median_fee_ada",
+  "horizon_days": 7,
+  "op": "<",
+  "threshold": 0.2155,
+  "text": "the median Cardano transaction fee stays under 0.2155 ADA seven days from now",
+  "subject": null,
+  "quality": {
+   "verdict": "ok",
+   "p_change": 0.88,
+   "p_level": 0.95,
+   "days": 17
+  }
+ },
+ "market": {
+  "ada_usd": 0.24679610798065757,
+  "source": "coingecko",
+  "cross_checked": true,
+  "change_24h_pct": 1.0102920318002968
+ },
+ "indigo": {
+  "tvl_usd": 4347998.0,
+  "indy_price_usd": 0.115118
+ },
+ "loan_book": {
+  "positions": 285,
+  "debt_usd": 1838703.9827043433,
+  "collateral_ada": 17326981.615352005,
+  "book_ratio": 2.3256770344467594,
+  "price_10pct_at_risk_usd": 0.17349124270926453,
+  "price_50pct_at_risk_usd": 0.14231046447818643,
+  "decoded_utxos": 307,
+  "validator_utxos": 310
+ },
+ "coverage": {
+  "iADA": {
+   "decoded_iasset": 233.450484,
+   "chain_supply_iasset": 233.450484,
+   "coverage_pct": 100.0
+  },
+  "iBTC": {
+   "decoded_iasset": 5.057821000000001,
+   "chain_supply_iasset": 5.057821,
+   "coverage_pct": 100.00000000000003
+  },
+  "iETH": {
+   "decoded_iasset": 35.294855,
+   "chain_supply_iasset": 35.294855,
+   "coverage_pct": 100.0
+  },
+  "iEUR": {
+   "decoded_iasset": 68.387277,
+   "chain_supply_iasset": 68.387277,
+   "coverage_pct": 100.0
+  },
+  "iJPY": {
+   "decoded_iasset": 76826.95787400001,
+   "chain_supply_iasset": 76826.957874,
+   "coverage_pct": 100.00000000000003
+  },
+  "iSOL": {
+   "decoded_iasset": 83.666999,
+   "chain_supply_iasset": 83.666999,
+   "coverage_pct": 100.0
+  },
+  "iUSD": {
+   "decoded_iasset": 1321973.7338179993,
+   "chain_supply_iasset": 1402423.912074,
+   "coverage_pct": 94.26349069183898
+  },
+  "_worst_pct": 94.26349069183898
+ },
+ "governance": {
+  "epoch": 658,
+  "open_actions": [
+   {
+    "id": 158,
+    "type": "ParameterChange",
+    "withdrawal_ada": null,
+    "expiration_epoch": 661,
+    "drep_yes_pct_of_decisive": 53.03804615677642,
+    "drep_participation_pct": 15.40323247819379
+   },
+   {
+    "id": 157,
+    "type": "TreasuryWithdrawals",
+    "withdrawal_ada": 11787063.0,
+    "expiration_epoch": 661,
+    "drep_yes_pct_of_decisive": 8.255531371936515,
+    "drep_participation_pct": 14.058210225526446
+   },
+   {
+    "id": 159,
+    "type": "InfoAction",
+    "withdrawal_ada": null,
+    "expiration_epoch": 663,
+    "drep_yes_pct_of_decisive": 32.92622469804213,
+    "drep_participation_pct": 10.937361032942315
+   }
+  ],
+  "decided_counts": {
+   "enacted": 2,
+   "expired": 7,
+   "dropped": 0
+  }
+ },
+ "monetary": {
+  "decay_per_epoch_pct": 0.16188052416118426,
+  "half_life_years": 5.8567796170962945,
+  "treasury_accrual_per_epoch_ada": 3707447.538702965
+ },
+ "_note": "Compact record of the figures used in this episode. Full current snapshot: https://cardanorecord.com/data/latest.json"
+}
