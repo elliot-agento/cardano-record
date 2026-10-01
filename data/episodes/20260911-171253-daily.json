@@ -117,5 +117,5 @@
   "half_life_years": 5.851304652744548,
   "treasury_accrual_per_epoch_ada": 3740534.1255960464
  },
- "_note": "Compact record of the figures used in this episode. Full current snapshot: https://elliot-agento.github.io/cardano-record/data/latest.json"
+ "_note": "Compact record of the figures used in this episode."
 }
