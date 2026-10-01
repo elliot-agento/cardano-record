@@ -1,0 +1,107 @@
+{
+ "episode_id": "2026-10-01-special",
+ "mode": "special",
+ "published": "2026-10-01T17:18:49+00:00",
+ "video_url": "https://youtu.be/vh1OeQp_8ow",
+ "title": "Cardano's NIGHT token is up 87% in 14 days: the Glacier Drop thaw's last stretch",
+ "data_generated_at": "2026-10-01T16:40:01+00:00",
+ "claim": null,
+ "market": {
+  "ada_usd": 0.24586276267947862,
+  "source": "coingecko",
+  "cross_checked": true,
+  "change_24h_pct": -1.4202505438260853
+ },
+ "indigo": {
+  "tvl_usd": 4395719.0,
+  "indy_price_usd": 0.113505
+ },
+ "loan_book": {
+  "positions": 287,
+  "debt_usd": 1880944.4940448694,
+  "collateral_ada": 17520481.615352005,
+  "book_ratio": 2.2901441414478554,
+  "price_10pct_at_risk_usd": 0.1735002056663727,
+  "price_50pct_at_risk_usd": 0.14336554947561755,
+  "decoded_utxos": 310,
+  "validator_utxos": 313
+ },
+ "coverage": {
+  "iADA": {
+   "decoded_iasset": 233.450484,
+   "chain_supply_iasset": 233.450484,
+   "coverage_pct": 100.0
+  },
+  "iBTC": {
+   "decoded_iasset": 5.057820999999998,
+   "chain_supply_iasset": 5.057821,
+   "coverage_pct": 99.99999999999997
+  },
+  "iETH": {
+   "decoded_iasset": 35.294855,
+   "chain_supply_iasset": 35.294855,
+   "coverage_pct": 100.0
+  },
+  "iEUR": {
+   "decoded_iasset": 68.387277,
+   "chain_supply_iasset": 68.387277,
+   "coverage_pct": 100.0
+  },
+  "iJPY": {
+   "decoded_iasset": 76826.95787400001,
+   "chain_supply_iasset": 76826.957874,
+   "coverage_pct": 100.00000000000003
+  },
+  "iSOL": {
+   "decoded_iasset": 83.666999,
+   "chain_supply_iasset": 83.666999,
+   "coverage_pct": 100.0
+  },
+  "iUSD": {
+   "decoded_iasset": 1365023.6807179998,
+   "chain_supply_iasset": 1445772.530523,
+   "coverage_pct": 94.41483026546439
+  },
+  "_worst_pct": 94.41483026546439
+ },
+ "governance": {
+  "epoch": 658,
+  "open_actions": [
+   {
+    "id": 158,
+    "type": "ParameterChange",
+    "withdrawal_ada": null,
+    "expiration_epoch": 661,
+    "drep_yes_pct_of_decisive": 57.25406083581829,
+    "drep_participation_pct": 16.073528580638232
+   },
+   {
+    "id": 157,
+    "type": "TreasuryWithdrawals",
+    "withdrawal_ada": 11787063.0,
+    "expiration_epoch": 661,
+    "drep_yes_pct_of_decisive": 8.299947482947541,
+    "drep_participation_pct": 14.734856066890211
+   },
+   {
+    "id": 159,
+    "type": "InfoAction",
+    "withdrawal_ada": null,
+    "expiration_epoch": 663,
+    "drep_yes_pct_of_decisive": 23.119094382656826,
+    "drep_participation_pct": 12.26502311369504
+   }
+  ],
+  "decided_counts": {
+   "enacted": 2,
+   "expired": 6,
+   "dropped": 0
+  }
+ },
+ "monetary": {
+  "decay_per_epoch_pct": 0.16188052416118426,
+  "half_life_years": 5.8567796170962945,
+  "treasury_accrual_per_epoch_ada": 3707447.538702965
+ },
+ "_note": "Compact record of the figures used in this episode."
+}
