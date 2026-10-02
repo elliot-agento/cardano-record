@@ -1,0 +1,107 @@
+{
+ "episode_id": "2026-10-02-special",
+ "mode": "special",
+ "published": "2026-10-02T19:06:56+00:00",
+ "video_url": "https://youtu.be/yEJo6H6vJy0",
+ "title": "RealFi is live on Cardano: day one, measured on the chain",
+ "data_generated_at": "2026-10-02T18:01:08+00:00",
+ "claim": null,
+ "market": {
+  "ada_usd": 0.25018489981515873,
+  "source": "coingecko",
+  "cross_checked": true,
+  "change_24h_pct": 0.14268582434237584
+ },
+ "indigo": {
+  "tvl_usd": 4595734.0,
+  "indy_price_usd": 0.118755
+ },
+ "loan_book": {
+  "positions": 290,
+  "debt_usd": 1884154.9545522595,
+  "collateral_ada": 17522451.089730002,
+  "book_ratio": 2.326694341040477,
+  "price_10pct_at_risk_usd": 0.17355655896684075,
+  "price_50pct_at_risk_usd": 0.14336630935097916,
+  "decoded_utxos": 315,
+  "validator_utxos": 318
+ },
+ "coverage": {
+  "iADA": {
+   "decoded_iasset": 233.450484,
+   "chain_supply_iasset": 233.450484,
+   "coverage_pct": 100.0
+  },
+  "iBTC": {
+   "decoded_iasset": 5.057821000000001,
+   "chain_supply_iasset": 5.057821,
+   "coverage_pct": 100.00000000000003
+  },
+  "iETH": {
+   "decoded_iasset": 35.454854999999995,
+   "chain_supply_iasset": 35.454855,
+   "coverage_pct": 99.99999999999997
+  },
+  "iEUR": {
+   "decoded_iasset": 68.387277,
+   "chain_supply_iasset": 68.387277,
+   "coverage_pct": 100.0
+  },
+  "iJPY": {
+   "decoded_iasset": 76826.95787400001,
+   "chain_supply_iasset": 76826.957874,
+   "coverage_pct": 100.00000000000003
+  },
+  "iSOL": {
+   "decoded_iasset": 83.666999,
+   "chain_supply_iasset": 83.666999,
+   "coverage_pct": 100.0
+  },
+  "iUSD": {
+   "decoded_iasset": 1366082.5690800007,
+   "chain_supply_iasset": 1446633.616885,
+   "coverage_pct": 94.43182801333985
+  },
+  "_worst_pct": 94.43182801333985
+ },
+ "governance": {
+  "epoch": 659,
+  "open_actions": [
+   {
+    "id": 158,
+    "type": "ParameterChange",
+    "withdrawal_ada": null,
+    "expiration_epoch": 661,
+    "drep_yes_pct_of_decisive": 57.00479076838201,
+    "drep_participation_pct": 16.134941135308736
+   },
+   {
+    "id": 157,
+    "type": "TreasuryWithdrawals",
+    "withdrawal_ada": 11787063.0,
+    "expiration_epoch": 661,
+    "drep_yes_pct_of_decisive": 8.309546170822502,
+    "drep_participation_pct": 14.747867229771149
+   },
+   {
+    "id": 159,
+    "type": "InfoAction",
+    "withdrawal_ada": null,
+    "expiration_epoch": 663,
+    "drep_yes_pct_of_decisive": 23.81910357601984,
+    "drep_participation_pct": 12.302406874969089
+   }
+  ],
+  "decided_counts": {
+   "enacted": 2,
+   "expired": 5,
+   "dropped": 0
+  }
+ },
+ "monetary": {
+  "decay_per_epoch_pct": 0.1617862101594425,
+  "half_life_years": 5.860196620444412,
+  "treasury_accrual_per_epoch_ada": 3705503.419691086
+ },
+ "_note": "Compact record of the figures used in this episode."
+}
