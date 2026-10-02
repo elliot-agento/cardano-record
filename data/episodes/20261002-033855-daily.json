@@ -1,0 +1,120 @@
+{
+ "episode_id": "20261002-033855-daily",
+ "mode": "daily",
+ "published": "2026-10-02T09:18:45+00:00",
+ "video_url": "https://youtu.be/PV0TLtgNGCE",
+ "title": "Cardano governance: 57 percent of decided voting power voted yes",
+ "data_generated_at": "2026-10-02T08:34:57+00:00",
+ "claim": {
+  "metric": "ada_price_usd",
+  "horizon_days": 7,
+  "op": ">",
+  "threshold": 0.261,
+  "text": "ADA closes above $0.2610 seven days from now, 2 percent above where it is today",
+  "subject": null,
+  "quality": {
+   "verdict": "ok",
+   "p_change": 0.73,
+   "p_level": 0.0,
+   "days": 24
+  }
+ },
+ "market": {
+  "ada_usd": 0.2558833880266414,
+  "source": "coingecko",
+  "cross_checked": true,
+  "change_24h_pct": 3.76203219028513
+ },
+ "indigo": {
+  "tvl_usd": 4538548.0,
+  "indy_price_usd": 0.118619
+ },
+ "loan_book": {
+  "positions": 288,
+  "debt_usd": 1894109.675886535,
+  "collateral_ada": 17521098.496243004,
+  "book_ratio": 2.367000233536489,
+  "price_10pct_at_risk_usd": 0.17678451264443493,
+  "price_50pct_at_risk_usd": 0.14336385483933692,
+  "decoded_utxos": 312,
+  "validator_utxos": 315
+ },
+ "coverage": {
+  "iADA": {
+   "decoded_iasset": 233.450484,
+   "chain_supply_iasset": 233.450484,
+   "coverage_pct": 100.0
+  },
+  "iBTC": {
+   "decoded_iasset": 5.057820999999998,
+   "chain_supply_iasset": 5.057821,
+   "coverage_pct": 99.99999999999997
+  },
+  "iETH": {
+   "decoded_iasset": 35.344854999999995,
+   "chain_supply_iasset": 35.344855,
+   "coverage_pct": 99.99999999999997
+  },
+  "iEUR": {
+   "decoded_iasset": 68.387277,
+   "chain_supply_iasset": 68.387277,
+   "coverage_pct": 100.0
+  },
+  "iJPY": {
+   "decoded_iasset": 76826.95787399999,
+   "chain_supply_iasset": 76826.957874,
+   "coverage_pct": 99.99999999999997
+  },
+  "iSOL": {
+   "decoded_iasset": 83.666999,
+   "chain_supply_iasset": 83.666999,
+   "coverage_pct": 100.0
+  },
+  "iUSD": {
+   "decoded_iasset": 1365239.7346390001,
+   "chain_supply_iasset": 1445988.584444,
+   "coverage_pct": 94.41566477953567
+  },
+  "_worst_pct": 94.41566477953567
+ },
+ "governance": {
+  "epoch": 659,
+  "open_actions": [
+   {
+    "id": 158,
+    "type": "ParameterChange",
+    "withdrawal_ada": null,
+    "expiration_epoch": 661,
+    "drep_yes_pct_of_decisive": 57.309571067441624,
+    "drep_participation_pct": 16.091483913129156
+   },
+   {
+    "id": 157,
+    "type": "TreasuryWithdrawals",
+    "withdrawal_ada": 11787063.0,
+    "expiration_epoch": 661,
+    "drep_yes_pct_of_decisive": 8.311394765745536,
+    "drep_participation_pct": 14.745662227427383
+   },
+   {
+    "id": 159,
+    "type": "InfoAction",
+    "withdrawal_ada": null,
+    "expiration_epoch": 663,
+    "drep_yes_pct_of_decisive": 23.81910357601984,
+    "drep_participation_pct": 12.300201872625319
+   }
+  ],
+  "decided_counts": {
+   "enacted": 2,
+   "expired": 5,
+   "dropped": 0
+  }
+ },
+ "monetary": {
+  "decay_per_epoch_pct": 0.1617862101594425,
+  "half_life_years": 5.860196620444412,
+  "treasury_accrual_per_epoch_ada": 3705503.419691086
+ },
+ "_note": "Compact record of the figures used in this episode."
+}
