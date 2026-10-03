@@ -1,0 +1,120 @@
+{
+ "episode_id": "20261003-072243-daily",
+ "mode": "daily",
+ "published": "2026-10-03T12:55:13+00:00",
+ "video_url": "https://youtu.be/5h4TYpgOIlg",
+ "title": "Cardano DeFi: 20 perpetual futures markets are not crypto",
+ "data_generated_at": "2026-10-03T12:17:28+00:00",
+ "claim": {
+  "metric": "perps_ada_funding_ann_pct",
+  "horizon_days": 7,
+  "op": ">",
+  "threshold": 0.0,
+  "text": "ADA longs are still paying shorts on Strike seven days from now",
+  "subject": null,
+  "quality": {
+   "verdict": "ok",
+   "p_change": 0.84,
+   "p_level": 0.89,
+   "days": 20
+  }
+ },
+ "market": {
+  "ada_usd": 0.24542818220334206,
+  "source": "coingecko",
+  "cross_checked": true,
+  "change_24h_pct": -4.489151695211815
+ },
+ "indigo": {
+  "tvl_usd": 4373187.0,
+  "indy_price_usd": 0.128896
+ },
+ "loan_book": {
+  "positions": 287,
+  "debt_usd": 1883231.2161999885,
+  "collateral_ada": 17498289.496460006,
+  "book_ratio": 2.2804280992376844,
+  "price_10pct_at_risk_usd": 0.17350042602176252,
+  "price_50pct_at_risk_usd": 0.14336573155823482,
+  "decoded_utxos": 310,
+  "validator_utxos": 313
+ },
+ "coverage": {
+  "iADA": {
+   "decoded_iasset": 233.450484,
+   "chain_supply_iasset": 233.450484,
+   "coverage_pct": 100.0
+  },
+  "iBTC": {
+   "decoded_iasset": 5.057821000000001,
+   "chain_supply_iasset": 5.057821,
+   "coverage_pct": 100.00000000000003
+  },
+  "iETH": {
+   "decoded_iasset": 35.244855,
+   "chain_supply_iasset": 35.244855,
+   "coverage_pct": 100.0
+  },
+  "iEUR": {
+   "decoded_iasset": 68.387277,
+   "chain_supply_iasset": 68.387277,
+   "coverage_pct": 100.0
+  },
+  "iJPY": {
+   "decoded_iasset": 76826.95787400001,
+   "chain_supply_iasset": 76826.957874,
+   "coverage_pct": 100.00000000000003
+  },
+  "iSOL": {
+   "decoded_iasset": 83.666999,
+   "chain_supply_iasset": 83.666999,
+   "coverage_pct": 100.0
+  },
+  "iUSD": {
+   "decoded_iasset": 1365676.3380190008,
+   "chain_supply_iasset": 1439499.820712,
+   "coverage_pct": 94.87158792027603
+  },
+  "_worst_pct": 94.87158792027603
+ },
+ "governance": {
+  "epoch": 659,
+  "open_actions": [
+   {
+    "id": 158,
+    "type": "ParameterChange",
+    "withdrawal_ada": null,
+    "expiration_epoch": 661,
+    "drep_yes_pct_of_decisive": 65.81890690706857,
+    "drep_participation_pct": 18.04570763295346
+   },
+   {
+    "id": 157,
+    "type": "TreasuryWithdrawals",
+    "withdrawal_ada": 11787063.0,
+    "expiration_epoch": 661,
+    "drep_yes_pct_of_decisive": 7.025386121992552,
+    "drep_participation_pct": 16.560000633772113
+   },
+   {
+    "id": 159,
+    "type": "InfoAction",
+    "withdrawal_ada": null,
+    "expiration_epoch": 663,
+    "drep_yes_pct_of_decisive": 15.40341775641487,
+    "drep_participation_pct": 14.122074048959593
+   }
+  ],
+  "decided_counts": {
+   "enacted": 2,
+   "expired": 5,
+   "dropped": 0
+  }
+ },
+ "monetary": {
+  "decay_per_epoch_pct": 0.1617862101594425,
+  "half_life_years": 5.860196620444412,
+  "treasury_accrual_per_epoch_ada": 3705503.419691086
+ },
+ "_note": "Compact record of the figures used in this episode."
+}
