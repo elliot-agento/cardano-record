@@ -1,0 +1,107 @@
+{
+ "episode_id": "2026-10-03-deepdive",
+ "mode": "deepdive",
+ "published": "2026-10-03T20:17:26+00:00",
+ "video_url": "https://youtu.be/siB6-rov8EQ",
+ "title": "Cardano native tokens deep dive (October 2026): paper value vs what can actually be sold",
+ "data_generated_at": "2026-10-03T19:37:06+00:00",
+ "claim": null,
+ "market": {
+  "ada_usd": 0.24520139547732234,
+  "source": "coingecko",
+  "cross_checked": true,
+  "change_24h_pct": 2.3904871499073317
+ },
+ "indigo": {
+  "tvl_usd": 4374645.0,
+  "indy_price_usd": 0.128901
+ },
+ "loan_book": {
+  "positions": 287,
+  "debt_usd": 1883655.6211608534,
+  "collateral_ada": 17498289.496460002,
+  "book_ratio": 2.277807553991193,
+  "price_10pct_at_risk_usd": 0.17349709645974198,
+  "price_50pct_at_risk_usd": 0.14336298029643224,
+  "decoded_utxos": 311,
+  "validator_utxos": 314
+ },
+ "coverage": {
+  "iADA": {
+   "decoded_iasset": 233.450484,
+   "chain_supply_iasset": 233.450484,
+   "coverage_pct": 100.0
+  },
+  "iBTC": {
+   "decoded_iasset": 5.057821000000001,
+   "chain_supply_iasset": 5.057821,
+   "coverage_pct": 100.00000000000003
+  },
+  "iETH": {
+   "decoded_iasset": 35.237825,
+   "chain_supply_iasset": 35.237825,
+   "coverage_pct": 100.0
+  },
+  "iEUR": {
+   "decoded_iasset": 68.387277,
+   "chain_supply_iasset": 68.387277,
+   "coverage_pct": 100.0
+  },
+  "iJPY": {
+   "decoded_iasset": 76826.95787399999,
+   "chain_supply_iasset": 76826.957874,
+   "coverage_pct": 99.99999999999997
+  },
+  "iSOL": {
+   "decoded_iasset": 83.666999,
+   "chain_supply_iasset": 83.666999,
+   "coverage_pct": 100.0
+  },
+  "iUSD": {
+   "decoded_iasset": 1366134.9017559995,
+   "chain_supply_iasset": 1438805.053202,
+   "coverage_pct": 94.94927048773731
+  },
+  "_worst_pct": 94.94927048773731
+ },
+ "governance": {
+  "epoch": 659,
+  "open_actions": [
+   {
+    "id": 158,
+    "type": "ParameterChange",
+    "withdrawal_ada": null,
+    "expiration_epoch": 661,
+    "drep_yes_pct_of_decisive": 65.75966032615462,
+    "drep_participation_pct": 18.054105183900557
+   },
+   {
+    "id": 157,
+    "type": "TreasuryWithdrawals",
+    "withdrawal_ada": 11787063.0,
+    "expiration_epoch": 661,
+    "drep_yes_pct_of_decisive": 7.020358488390258,
+    "drep_participation_pct": 16.56839818471921
+   },
+   {
+    "id": 159,
+    "type": "InfoAction",
+    "withdrawal_ada": null,
+    "expiration_epoch": 663,
+    "drep_yes_pct_of_decisive": 15.378148947600812,
+    "drep_participation_pct": 14.130471599906691
+   }
+  ],
+  "decided_counts": {
+   "enacted": 2,
+   "expired": 5,
+   "dropped": 0
+  }
+ },
+ "monetary": {
+  "decay_per_epoch_pct": 0.1617862101594425,
+  "half_life_years": 5.860196620444412,
+  "treasury_accrual_per_epoch_ada": 3705503.419691086
+ },
+ "_note": "Compact record of the figures used in this episode."
+}
