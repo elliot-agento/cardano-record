@@ -118,6 +118,7 @@ button.btn{border:0;cursor:pointer;font:inherit}
 .quick button{background:var(--surface2);color:var(--ink2);border:1px solid var(--line);border-radius:8px;padding:6px 10px;cursor:pointer;font:inherit;font-size:14px}
 .hit{color:#53d18b}.miss{color:#ff7a7a}
 .res{padding:12px 0;border-bottom:1px solid var(--line);color:var(--ink2)}
+.share{margin-top:6px}.share a.btn{text-decoration:none}
 .field{margin:12px 0}.field label{display:block;font-size:14px;color:var(--ink2);margin-bottom:4px}
 textarea{width:100%;min-height:110px;resize:vertical}
 .hp{position:absolute;left:-9999px}
@@ -269,14 +270,31 @@ function questionCard(q, signedIn) {
     oninput: () => (out.textContent = slider.value + "%") });
   const status = h("span", { class: "meta", role: "status" }, q.mine ? `Saved: ${pct(q.mine.p)}.` : "");
   const set = (v) => { slider.value = v; out.textContent = v + "%"; };
+  // Sharing a saved forecast is the League's invite: phones get the native share sheet,
+  // everyone else an X post and a copy-link button. The link opens this exact question.
+  const shareBox = h("div", { class: "row share" });
+  const showShare = (p) => {
+    const url = `${location.origin}${location.pathname}#c${q.claim_id}`;
+    const day = new Date(q.resolve_on + "T12:00:00Z").toLocaleDateString(undefined, { month: "short", day: "numeric" });
+    const claimTxt = q.text.length > 140 ? q.text.slice(0, 137).replace(/\s+\S*$/, "") + "…" : q.text;
+    const text = `I say ${Math.round(p * 100)}% this happens: "${claimTxt}" (resolves ${day}). Can you beat Ellie?`;
+    const copy = h("button", { class: "linkbtn", onclick: async () => {
+      try { await navigator.clipboard.writeText(`${text} ${url}`); copy.textContent = "Copied"; } catch { copy.textContent = url; } } }, "Copy link");
+    fill(shareBox, h("span", { class: "meta" }, "Share your call:"),
+      navigator.share ? h("button", { class: "btn ghost", onclick: () => navigator.share({ title: "Can you beat Ellie?", text, url }).catch(() => {}) }, "Share") : null,
+      h("a", { class: "btn ghost", target: "_blank", rel: "noopener",
+               href: "https://x.com/intent/post?" + new URLSearchParams({ text, url }) }, "Post on X"),
+      copy);
+  };
+  if (q.mine) showShare(q.mine.p);
   card.append(h("p", { class: "meta" }, "How likely is this to come true? ", out),
     slider,
     h("div", { class: "row" },
       h("div", { class: "quick" }, ...[10, 30, 50, 70, 90].map((v) => h("button", { onclick: () => set(v) }, v + "%"))),
       h("button", { class: "btn", onclick: async () => {
-        try { const r = await call("/v1/forecast", { claim_id: q.claim_id, p: slider.value / 100 }); status.textContent = `Saved: ${pct(r.p)}. You can change it until ${when(q.cutoff_at)}.`; }
+        try { const r = await call("/v1/forecast", { claim_id: q.claim_id, p: slider.value / 100 }); status.textContent = `Saved: ${pct(r.p)}. You can change it until ${when(q.cutoff_at)}.`; showShare(r.p); }
         catch (err) { status.textContent = err.message; } } }, "Save forecast")),
-    status);
+    status, shareBox);
   return card;
 }
 async function load() {
