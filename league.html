@@ -132,8 +132,12 @@ from archived on-chain data. Here you can make your own call on each one: how li
 average stays hidden until forecasting closes, so nobody copies it.</p>
 <p><b>Scoring</b> uses the Brier score: the square of the gap between your forecast and what happened.
 Saying 90% on something that comes true scores 0.01; saying 90% on something that doesn't scores 0.81.
-Lower is better, so confident and right beats cautious, and confident and wrong costs the most.
-Ellie always asserts the prediction, so Ellie vs. the crowd is compared on right calls.</p>
+Lower is better, so confident and right beats cautious, and confident and wrong costs the most.</p>
+<p><b>You vs. Ellie.</b> The headline is <b>right calls</b>: a forecast over 50% counts as a yes, under 50% as a no,
+and Ellie's call is always yes, because each claim is her prediction. Ellie also has a <b>number</b> for each
+prediction: the chance her claim-picking model gave it when the claim was made, logged before the outcome. It
+shows here only after forecasting closes, so nobody can copy it, and it is capped at 5&ndash;95% and scored
+with Brier exactly like yours.</p>
 <p class="note">Free to play. No money, no prizes, no tokens. Your handle is public; your email and wallet never are.
 Wallet sign-in only signs a message. It can never move or spend anything.</p></div>
 <div id="league"><p class="note">Loading…</p></div>
@@ -245,6 +249,7 @@ function questionCard(q, signedIn) {
   if (q.locked) {
     card.append(h("p", { class: "meta" }, "Forecasting closed. ",
       q.crowd ? `The crowd says ${pct(q.crowd.mean)} likely (${q.crowd.n} forecaster${q.crowd.n === 1 ? "" : "s"}).` : "Nobody forecast this one.",
+      q.ellie_p != null ? ` Ellie's number: ${pct(q.ellie_p)}.` : "",
       q.mine ? ` You said ${pct(q.mine.p)}.` : ""));
     return card;
   }
@@ -282,16 +287,19 @@ async function load() {
       h("div", {}, q.text),
       h("div", { class: "meta" }, h("b", { class: q.status }, q.status === "hit" ? "Came true" : q.status === "miss" ? "Didn't happen" : "Void"),
         ` · ${q.resolve_on}`, q.crowd ? ` · crowd ${pct(q.crowd.mean)}` : "",
+        q.ellie_p != null ? ` · Ellie ${pct(q.ellie_p)}` + (q.ellie_brier != null ? ` (score ${q.ellie_brier.toFixed(3)})` : "") : "",
         q.mine && q.mine.final_p != null ? ` · you ${pct(q.mine.final_p)} (score ${q.mine.brier.toFixed(3)})` : "")))] : null);
   const v = lb.versus;
   fill(board,
     h("div", { class: "stats" },
-      h("div", { class: "stat" }, h("div", { class: "sl" }, "Forecasters"), h("div", { class: "sv" }, lb.forecasters)),
-      h("div", { class: "stat" }, h("div", { class: "sl" }, "Ellie right"), h("div", { class: "sv" }, v.questions ? `${v.ellie_right} of ${v.questions}` : "—"), h("div", { class: "ss" }, "on questions the crowd forecast")),
-      h("div", { class: "stat" }, h("div", { class: "sl" }, "Crowd right"), h("div", { class: "sv" }, v.questions ? `${v.crowd_right} of ${v.questions}` : "—"), h("div", { class: "ss" }, v.crowd_no_call ? `${v.crowd_no_call} split 50/50, no call` : "majority call"))),
+      h("div", { class: "stat" }, h("div", { class: "sl" }, "Right calls · Ellie"), h("div", { class: "sv" }, v.questions ? `${v.ellie_right} of ${v.questions}` : "—"), h("div", { class: "ss" }, "on questions the crowd forecast")),
+      h("div", { class: "stat" }, h("div", { class: "sl" }, "Right calls · crowd"), h("div", { class: "sv" }, v.questions ? `${v.crowd_right} of ${v.questions}` : "—"), h("div", { class: "ss" }, v.crowd_no_call ? `${v.crowd_no_call} split 50/50, no call` : "majority call")),
+      h("div", { class: "stat" }, h("div", { class: "sl" }, "Ellie's score"), h("div", { class: "sv" }, lb.ellie_score ? lb.ellie_score.brier.toFixed(3) : "—"),
+        h("div", { class: "ss" }, lb.ellie_score ? `Brier, over ${lb.ellie_score.n} resolved` : "starts with the next resolved prediction")),
+      h("div", { class: "stat" }, h("div", { class: "sl" }, "Forecasters"), h("div", { class: "sv" }, lb.forecasters))),
     lb.ranked.length
       ? h("div", { class: "scroll" }, h("table", {},
-          h("tr", {}, h("th", { class: "n" }, "#"), h("th", {}, "Forecaster"), h("th", { class: "n" }, "Score"), h("th", { class: "n" }, "Right calls"), h("th", { class: "n" }, "Resolved")),
+          h("tr", {}, h("th", { class: "n" }, "#"), h("th", {}, "Forecaster"), h("th", { class: "n" }, "Brier"), h("th", { class: "n" }, "Right calls"), h("th", { class: "n" }, "Resolved")),
           lb.ranked.map((r) => h("tr", {}, h("td", { class: "n" }, r.rank), h("td", {}, r.handle), h("td", { class: "n" }, r.brier.toFixed(3)),
             h("td", { class: "n" }, r.right_calls), h("td", { class: "n" }, r.n)))))
       : h("p", { class: "note" }, `Nobody is ranked yet. You need ${lb.min_ranked} resolved forecasts to appear here.`));
