@@ -121,6 +121,9 @@ button.btn{border:0;cursor:pointer;font:inherit}
 .field{margin:12px 0}.field label{display:block;font-size:14px;color:var(--ink2);margin-bottom:4px}
 textarea{width:100%;min-height:110px;resize:vertical}
 .hp{position:absolute;left:-9999px}
+.faq{margin-top:12px;border-top:1px solid var(--line);padding-top:10px}
+.faq summary{cursor:pointer;color:var(--accent-soft);font-weight:600;font-size:15px}
+.faq p{color:var(--ink2);font-size:14px;margin:8px 0}
 </style>
 <div class="card"><h2>Post a question. Ellie answers it on air.</h2>
 <p>Ask anything about Cardano that data can answer. Every week Ellie picks one question and makes a video
@@ -173,14 +176,36 @@ function wallets() {
     .filter((k, i, a) => a.findIndex((x) => c[x].name === c[k].name) === i)
     .map((k) => ({ key: k, name: c[k].name, icon: c[k].icon }));
 }
-async function walletSignIn(key) {
-  const api = await window.cardano[key].enable();
-  const rewards = await api.getRewardAddresses();
-  if (!rewards || !rewards.length) throw new Error("This wallet has no stake address to sign with.");
-  const ch = await call("/v1/auth/wallet/challenge", {});
-  const signed = await api.signData(rewards[0], toHex(ch.message));
-  return call("/v1/auth/wallet/verify", { nonce: ch.nonce, address: rewards[0], signature: signed.signature, key: signed.key });
+function walletError(err, name) {
+  const code = err && err.code, info = String((err && (err.info || err.message)) || "");
+  if (code === 3 || code === -3 || /declin|reject|refus|cancel/i.test(info))
+    return "You cancelled in the wallet. Nothing was signed. That's fine.";
+  if (code === 2) return `${name} can't sign with its stake key. Try another wallet, or use email.`;
+  return info ? `${name}: ${info}` : `${name} didn't complete the sign-in. Try again, try another wallet, or use email.`;
 }
+async function walletSignIn(key) {
+  const w = window.cardano[key], name = w.name || key;
+  try {
+    const api = await w.enable();
+    if (typeof api.signData !== "function" || typeof api.getRewardAddresses !== "function")
+      throw new Error(`${name} doesn't support signing a message, which sign-in needs. Try Eternl, Lace, VESPR or Yoroi, or use email.`);
+    const rewards = await api.getRewardAddresses();
+    if (!rewards || !rewards.length) throw new Error(`${name} has no stake address to sign with. Set up a Cardano account in it first, or use email.`);
+    const ch = await call("/v1/auth/wallet/challenge", {});
+    const signed = await api.signData(rewards[0], toHex(ch.message));
+    return await call("/v1/auth/wallet/verify", { nonce: ch.nonce, address: rewards[0], signature: signed.signature, key: signed.key });
+  } catch (err) {
+    throw new Error(err instanceof Error && !err.code ? err.message : walletError(err, name));
+  }
+}
+const walletFaq = () => h("details", { class: "faq" },
+  h("summary", {}, "Is connecting my wallet safe? What does it do?"),
+  h("p", {}, h("b", {}, "What it's for: "), "proving this account is yours, instead of a password or an email. Nothing else."),
+  h("p", {}, h("b", {}, "What happens: "), "your wallet shows a short text message (\u201cSign in to The Cardano Record Forecast League\u201d plus a random code) and asks you to sign it. Signing proves you hold the wallet's key. We save your wallet's stake address, which is public on the blockchain anyway, so we recognise you next time."),
+  h("p", {}, h("b", {}, "What it can't do: "), "a signed message is not a transaction. It can't move, spend or lock any ADA or tokens, and it costs no fee. We never see your recovery phrase or private keys."),
+  h("p", {}, h("b", {}, "What we don't do: "), "approving \u201cconnect\u201d lets a site see your wallet's public addresses and balance, as with any Cardano app. This page reads only your stake address. It never reads your balance, and never shows your address to anyone."),
+  h("p", {}, h("b", {}, "Red flags: "), "if anything on this site ever asks you to approve a transaction or type your recovery phrase, stop. That isn't us. Sign-in only ever asks for a message signature."),
+  h("p", {}, "Still unsure? Use a spare wallet with nothing in it, or just sign in with email. Both work the same."));
 function signInPanel(user, onChange) {
   const box = h("div", { class: "signin" });
   const msg = h("p", { class: "note", role: "status" });
@@ -203,7 +228,8 @@ function signInPanel(user, onChange) {
         catch (err) { msg.textContent = err.message; } } }, "Add email")) : null,
       !user.has_wallet && wallets().length ? h("p", { class: "note" }, "Add a wallet to this account: ",
         ...wallets().map((w) => h("button", { class: "linkbtn", onclick: () => walletSignIn(w.key).then(onChange, (err) => (msg.textContent = err.message)) }, w.name))) : null,
-      h("button", { class: "linkbtn", onclick: () => call("/v1/auth/logout", {}).then(onChange) }, "Sign out"), msg);
+      h("button", { class: "linkbtn", onclick: () => call("/v1/auth/logout", {}).then(onChange) }, "Sign out"), msg,
+      !user.has_wallet && wallets().length ? walletFaq() : null);
     return box;
   }
   const email = h("input", { type: "email", placeholder: "you@example.com", autocomplete: "email", "aria-label": "Email" });
@@ -220,11 +246,11 @@ function signInPanel(user, onChange) {
       } catch (err) { msg.textContent = err.message; } } }, "Email me a link")),
     ws.length
       ? h("div", { class: "row" }, ...ws.map((w) => h("button", { class: "btn ghost", onclick: async () => {
-          msg.textContent = "Check your wallet to sign. It's a message, not a transaction, and costs nothing.";
+          msg.textContent = "Check your wallet: it should ask you to sign a message (not a transaction). Nothing can be spent, and there's no fee.";
           try { await walletSignIn(w.key); onChange(); } catch (err) { msg.textContent = err.message || "The wallet declined."; } } },
           w.icon ? h("img", { src: w.icon, alt: "", width: 18, height: 18 }) : null, " ", w.name)))
       : h("p", { class: "note" }, "No Cardano wallet found in this browser. On a phone, open this page inside your wallet app's browser, or use email."),
-    msg);
+    msg, walletFaq());
   return box;
 }
 
