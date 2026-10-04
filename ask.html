@@ -128,7 +128,7 @@ textarea{width:100%;min-height:110px;resize:vertical}
 <div class="card"><h2>Post a question. Ellie answers it on air.</h2>
 <p>Ask anything about Cardano that data can answer. Every week Ellie picks one question and makes a video
 that <b>opens with your question</b>, then answers it with numbers measured from our own Cardano node.</p>
-<p>Every question gets a reply. If the data can't answer yours, we'll tell you why.</p></div>
+<p>Ellie can't answer every question. Each week she picks the one the data can answer best. If yours is picked and you left an email, we'll send you the link.</p></div>
 <form id="askform" class="card" novalidate>
 <div class="field"><label for="question">Your question</label>
 <textarea id="question" name="question" maxlength="500" required placeholder="e.g. How many people actually stake their ADA, and is that going up?"></textarea>
@@ -265,7 +265,7 @@ form.addEventListener("submit", async (ev) => {
     await call("/v1/ask", { question: fd.get("question"), handle: fd.get("handle"), email: fd.get("email"),
       on_air_ok: fd.get("on_air_ok") === "on", website: fd.get("website") });
     form.reset(); count.textContent = "0 / 500";
-    msg.textContent = "Got it. Thank you! Every question gets a reply, and if yours is picked, the video opens with it.";
+    msg.textContent = "Got it, thank you! If Ellie picks yours, the video opens with your question" + (fd.get("email") ? ", and we'll email you the link." : ".");
   } catch (err) { msg.textContent = err.message; }
 });
 </script>
