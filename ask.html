@@ -1,9 +1,9 @@
 <!doctype html><html lang="en"><head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Ask Ellie a question — The Cardano Record</title>
-<meta name="description" content="Post a question about Cardano. Each week Ellie picks one and makes a video that opens with it, answered with on-chain data.">
+<meta name="description" content="Post a question about Cardano. Picked questions are answered on air, in a video that opens with your question.">
 <meta property="og:title" content="Ask Ellie a question — The Cardano Record">
-<meta property="og:description" content="Post a question about Cardano. Each week Ellie picks one and makes a video that opens with it, answered with on-chain data.">
+<meta property="og:description" content="Post a question about Cardano. Picked questions are answered on air, in a video that opens with your question.">
 <style>
 :root{--bg:#080B14;--surface:#0F1524;--surface2:#161E33;--line:#232C46;--ink:#EDF1FA;
   --ink2:#C6CEE2;--muted:#8792AE;--dim:#5A6480;--accent:#7A52FF;--accent-soft:#A98BFF;
@@ -99,7 +99,7 @@ footer a{color:var(--muted);margin-right:12px}
 </style><script data-goatcounter="https://cardanorecord.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script></head><body>
 <nav class="nav"><div class="in"><a class="brand" href="index.html"><b></b>The Cardano Record</a><a class="l" href="risk.html">Lending risk</a><a class="l" href="governance.html">Governance</a><a class="l" href="strike.html">Strike</a><a class="l" href="scoreboard.html">Scoreboard</a><a class="l" href="episodes.html">Episodes</a><a class="l" href="services.html">Services</a><a class="l" href="league.html">League</a><a class="l on" href="ask.html">Ask Ellie</a><a class="cta" href="https://forms.gle/BsqdFgrS8jUHGkBc8">Join the waitlist</a></div></nav>
 <div class="wrap">
-<div class="top"><div class="kick">Ask Ellie</div><h1>Ask Ellie a question</h1><p class="lede">Post a question about Cardano. Each week Ellie picks one and makes a video that opens with it, answered with on-chain data.</p></div>
+<div class="top"><div class="kick">Ask Ellie</div><h1>Ask Ellie a question</h1><p class="lede">Post a question about Cardano. Picked questions are answered on air, in a video that opens with your question.</p></div>
 <style>
 .signin{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:16px 18px;margin:16px 0}
 .signin h3{font-size:17px}
@@ -126,9 +126,9 @@ textarea{width:100%;min-height:110px;resize:vertical}
 .faq p{color:var(--ink2);font-size:14px;margin:8px 0}
 </style>
 <div class="card"><h2>Post a question. Ellie answers it on air.</h2>
-<p>Ask anything about Cardano that data can answer. Every week Ellie picks one question and makes a video
-that <b>opens with your question</b>, then answers it with numbers measured from our own Cardano node.</p>
-<p>Ellie can't answer every question. Each week she picks the one the data can answer best. If yours is picked and you left an email, we'll send you the link.</p></div>
+<p>Ask anything about Cardano that data can answer. Picked questions are answered on air, in a video
+that <b>opens with your question</b>, using numbers measured from our own Cardano node.</p>
+<p>Ellie can't answer every question. She picks the ones the data can answer best. If yours is picked and you left an email, we'll send you the link.</p></div>
 <form id="askform" class="card" novalidate>
 <div class="field"><label for="question">Your question</label>
 <textarea id="question" name="question" maxlength="500" required placeholder="e.g. How many people actually stake their ADA, and is that going up?"></textarea>
@@ -203,7 +203,7 @@ const walletFaq = () => h("details", { class: "faq" },
   h("p", {}, h("b", {}, "What it's for: "), "proving this account is yours, instead of a password or an email. Nothing else."),
   h("p", {}, h("b", {}, "What happens: "), "your wallet shows a short text message (\u201cSign in to The Cardano Record Forecast League\u201d plus a random code) and asks you to sign it. Signing proves you hold the wallet's key. We save your wallet's stake address, which is public on the blockchain anyway, so we recognise you next time."),
   h("p", {}, h("b", {}, "What it can't do: "), "a signed message is not a transaction. It can't move, spend or lock any ADA or tokens, and it costs no fee. We never see your recovery phrase or private keys."),
-  h("p", {}, h("b", {}, "What we don't do: "), "approving \u201cconnect\u201d lets a site see your wallet's public addresses and balance, as with any Cardano app. This page reads only your stake address. It never reads your balance, and never shows your address to anyone."),
+  h("p", {}, h("b", {}, "What we don't do: "), "approving \u201cconnect\u201d lets a site see your wallet's public addresses and balance, as with any Cardano app. This page reads only your stake address. It never reads your balance, never shows your address to anyone, and never connects it to an email address."),
   h("p", {}, h("b", {}, "Red flags: "), "if anything on this site ever asks you to approve a transaction or type your recovery phrase, stop. That isn't us. Sign-in only ever asks for a message signature."),
   h("p", {}, "Still unsure? Use a spare wallet with nothing in it, or just sign in with email. Both work the same."));
 function signInPanel(user, onChange) {
@@ -212,31 +212,21 @@ function signInPanel(user, onChange) {
   if (user) {
     const handle = h("input", { value: user.handle, maxlength: 20, "aria-label": "Your handle" });
     const air = h("input", { type: "checkbox", id: "airok", checked: user.on_air_ok });
-    const addEmail = h("input", { type: "email", placeholder: "you@example.com", autocomplete: "email", "aria-label": "Email" });
     fill(box,
-      h("p", {}, "Signed in as ", h("b", {}, user.handle), " · ",
-        user.has_email ? "email" : "", user.has_email && user.has_wallet ? " + " : "", user.has_wallet ? "wallet" : ""),
+      h("p", {}, "Signed in as ", h("b", {}, user.handle), " · ", user.has_wallet ? "wallet" : "email"),
       h("div", { class: "row" }, handle,
         h("button", { class: "btn ghost", onclick: async () => {
           try { await call("/v1/me", { handle: handle.value, on_air_ok: air.checked }); msg.textContent = "Saved."; onChange(); }
           catch (err) { msg.textContent = err.message; } } }, "Save")),
       h("label", { class: "chk" }, air, " Ellie may mention my handle on air"),
-      !user.has_email ? h("div", { class: "row" }, addEmail, h("button", { class: "btn ghost", onclick: async () => {
-        try { const r = await call("/v1/auth/email/start", { email: addEmail.value });
-              msg.textContent = "Check your inbox. The link adds this email to your account.";
-              if (r.dev_link) msg.append(" ", h("a", { href: r.dev_link }, "(dev link)")); }
-        catch (err) { msg.textContent = err.message; } } }, "Add email")) : null,
-      !user.has_wallet && wallets().length ? h("p", { class: "note" }, "Add a wallet to this account: ",
-        ...wallets().map((w) => h("button", { class: "linkbtn", onclick: () => walletSignIn(w.key).then(onChange, (err) => (msg.textContent = err.message)) }, w.name))) : null,
-      h("button", { class: "linkbtn", onclick: () => call("/v1/auth/logout", {}).then(onChange) }, "Sign out"), msg,
-      !user.has_wallet && wallets().length ? walletFaq() : null);
+      h("button", { class: "linkbtn", onclick: () => call("/v1/auth/logout", {}).then(onChange) }, "Sign out"), msg);
     return box;
   }
   const email = h("input", { type: "email", placeholder: "you@example.com", autocomplete: "email", "aria-label": "Email" });
   const ws = wallets();
   fill(box,
     h("h3", {}, "Sign in to forecast"),
-    h("p", { class: "note" }, "Use either one. You can add the other later and both open the same account."),
+    h("p", { class: "note" }, "Use either one. They're separate accounts: we never connect your email to your wallet."),
     h("div", { class: "row" }, email, h("button", { class: "btn", onclick: async () => {
       msg.textContent = "Sending…";
       try {

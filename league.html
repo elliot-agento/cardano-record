@@ -193,7 +193,7 @@ const walletFaq = () => h("details", { class: "faq" },
   h("p", {}, h("b", {}, "What it's for: "), "proving this account is yours, instead of a password or an email. Nothing else."),
   h("p", {}, h("b", {}, "What happens: "), "your wallet shows a short text message (\u201cSign in to The Cardano Record Forecast League\u201d plus a random code) and asks you to sign it. Signing proves you hold the wallet's key. We save your wallet's stake address, which is public on the blockchain anyway, so we recognise you next time."),
   h("p", {}, h("b", {}, "What it can't do: "), "a signed message is not a transaction. It can't move, spend or lock any ADA or tokens, and it costs no fee. We never see your recovery phrase or private keys."),
-  h("p", {}, h("b", {}, "What we don't do: "), "approving \u201cconnect\u201d lets a site see your wallet's public addresses and balance, as with any Cardano app. This page reads only your stake address. It never reads your balance, and never shows your address to anyone."),
+  h("p", {}, h("b", {}, "What we don't do: "), "approving \u201cconnect\u201d lets a site see your wallet's public addresses and balance, as with any Cardano app. This page reads only your stake address. It never reads your balance, never shows your address to anyone, and never connects it to an email address."),
   h("p", {}, h("b", {}, "Red flags: "), "if anything on this site ever asks you to approve a transaction or type your recovery phrase, stop. That isn't us. Sign-in only ever asks for a message signature."),
   h("p", {}, "Still unsure? Use a spare wallet with nothing in it, or just sign in with email. Both work the same."));
 function signInPanel(user, onChange) {
@@ -202,31 +202,21 @@ function signInPanel(user, onChange) {
   if (user) {
     const handle = h("input", { value: user.handle, maxlength: 20, "aria-label": "Your handle" });
     const air = h("input", { type: "checkbox", id: "airok", checked: user.on_air_ok });
-    const addEmail = h("input", { type: "email", placeholder: "you@example.com", autocomplete: "email", "aria-label": "Email" });
     fill(box,
-      h("p", {}, "Signed in as ", h("b", {}, user.handle), " · ",
-        user.has_email ? "email" : "", user.has_email && user.has_wallet ? " + " : "", user.has_wallet ? "wallet" : ""),
+      h("p", {}, "Signed in as ", h("b", {}, user.handle), " · ", user.has_wallet ? "wallet" : "email"),
       h("div", { class: "row" }, handle,
         h("button", { class: "btn ghost", onclick: async () => {
           try { await call("/v1/me", { handle: handle.value, on_air_ok: air.checked }); msg.textContent = "Saved."; onChange(); }
           catch (err) { msg.textContent = err.message; } } }, "Save")),
       h("label", { class: "chk" }, air, " Ellie may mention my handle on air"),
-      !user.has_email ? h("div", { class: "row" }, addEmail, h("button", { class: "btn ghost", onclick: async () => {
-        try { const r = await call("/v1/auth/email/start", { email: addEmail.value });
-              msg.textContent = "Check your inbox. The link adds this email to your account.";
-              if (r.dev_link) msg.append(" ", h("a", { href: r.dev_link }, "(dev link)")); }
-        catch (err) { msg.textContent = err.message; } } }, "Add email")) : null,
-      !user.has_wallet && wallets().length ? h("p", { class: "note" }, "Add a wallet to this account: ",
-        ...wallets().map((w) => h("button", { class: "linkbtn", onclick: () => walletSignIn(w.key).then(onChange, (err) => (msg.textContent = err.message)) }, w.name))) : null,
-      h("button", { class: "linkbtn", onclick: () => call("/v1/auth/logout", {}).then(onChange) }, "Sign out"), msg,
-      !user.has_wallet && wallets().length ? walletFaq() : null);
+      h("button", { class: "linkbtn", onclick: () => call("/v1/auth/logout", {}).then(onChange) }, "Sign out"), msg);
     return box;
   }
   const email = h("input", { type: "email", placeholder: "you@example.com", autocomplete: "email", "aria-label": "Email" });
   const ws = wallets();
   fill(box,
     h("h3", {}, "Sign in to forecast"),
-    h("p", { class: "note" }, "Use either one. You can add the other later and both open the same account."),
+    h("p", { class: "note" }, "Use either one. They're separate accounts: we never connect your email to your wallet."),
     h("div", { class: "row" }, email, h("button", { class: "btn", onclick: async () => {
       msg.textContent = "Sending…";
       try {
