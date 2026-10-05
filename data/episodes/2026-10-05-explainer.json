@@ -1,0 +1,107 @@
+{
+ "episode_id": "2026-10-05-explainer",
+ "mode": "explainer",
+ "published": "2026-10-05T18:14:04+00:00",
+ "video_url": "https://youtu.be/Z2yFpUIXeRo",
+ "title": "What is Bitcoin? The idea that started crypto, explained simply | Crypto from Zero #2",
+ "data_generated_at": "2026-10-05T17:30:01+00:00",
+ "claim": null,
+ "market": {
+  "ada_usd": 0.2650778149646321,
+  "source": "coingecko",
+  "cross_checked": true,
+  "change_24h_pct": 7.025225926102582
+ },
+ "indigo": {
+  "tvl_usd": 4874369.0,
+  "indy_price_usd": 0.138363
+ },
+ "loan_book": {
+  "positions": 287,
+  "debt_usd": 1890039.552085369,
+  "collateral_ada": 17442906.511382002,
+  "book_ratio": 2.4463654951389353,
+  "price_10pct_at_risk_usd": 0.1740126623575063,
+  "price_50pct_at_risk_usd": 0.14336837252466197,
+  "decoded_utxos": 311,
+  "validator_utxos": 314
+ },
+ "coverage": {
+  "iADA": {
+   "decoded_iasset": 233.450484,
+   "chain_supply_iasset": 233.450484,
+   "coverage_pct": 100.0
+  },
+  "iBTC": {
+   "decoded_iasset": 5.057821000000001,
+   "chain_supply_iasset": 5.057821,
+   "coverage_pct": 100.00000000000003
+  },
+  "iETH": {
+   "decoded_iasset": 35.187825000000004,
+   "chain_supply_iasset": 35.187825,
+   "coverage_pct": 100.00000000000003
+  },
+  "iEUR": {
+   "decoded_iasset": 68.387277,
+   "chain_supply_iasset": 68.387277,
+   "coverage_pct": 100.0
+  },
+  "iJPY": {
+   "decoded_iasset": 76826.95787400001,
+   "chain_supply_iasset": 76826.957874,
+   "coverage_pct": 100.00000000000003
+  },
+  "iSOL": {
+   "decoded_iasset": 83.666999,
+   "chain_supply_iasset": 83.666999,
+   "coverage_pct": 100.0
+  },
+  "iUSD": {
+   "decoded_iasset": 1368747.1836010003,
+   "chain_supply_iasset": 1437676.739906,
+   "coverage_pct": 95.20548991357359
+  },
+  "_worst_pct": 95.20548991357359
+ },
+ "governance": {
+  "epoch": 659,
+  "open_actions": [
+   {
+    "id": 158,
+    "type": "ParameterChange",
+    "withdrawal_ada": null,
+    "expiration_epoch": 661,
+    "drep_yes_pct_of_decisive": 70.59640352838025,
+    "drep_participation_pct": 59.4440111522986
+   },
+   {
+    "id": 157,
+    "type": "TreasuryWithdrawals",
+    "withdrawal_ada": 11787063.0,
+    "expiration_epoch": 661,
+    "drep_yes_pct_of_decisive": 8.008110825212514,
+    "drep_participation_pct": 50.825361282432944
+   },
+   {
+    "id": 159,
+    "type": "InfoAction",
+    "withdrawal_ada": null,
+    "expiration_epoch": 663,
+    "drep_yes_pct_of_decisive": 13.220223095738378,
+    "drep_participation_pct": 43.1924857465752
+   }
+  ],
+  "decided_counts": {
+   "enacted": 2,
+   "expired": 5,
+   "dropped": 0
+  }
+ },
+ "monetary": {
+  "decay_per_epoch_pct": 0.1617862101594425,
+  "half_life_years": 5.860196620444412,
+  "treasury_accrual_per_epoch_ada": 3705503.419691086
+ },
+ "_note": "Compact record of the figures used in this episode."
+}
