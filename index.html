@@ -2,89 +2,177 @@
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>The Cardano Record</title>
 <meta name="description" content="Cardano on-chain data, measured from a local node and scored in public.">
-<link rel="stylesheet" href="_style.css">
-<!-- GC --><script data-goatcounter="https://cardanorecord.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script><!-- /GC --></head><body><nav class="nav"><div class="in"><a class="brand" href="index.html"><b></b>The Cardano Record</a><a class="l" href="risk.html">Lending risk</a><a class="l" href="governance.html">Governance</a><a class="l" href="strike.html">Strike</a><a class="l" href="scoreboard.html">Scoreboard</a><a class="l" href="episodes.html">Episodes</a><a class="l" href="services.html">Services</a><a class="l" href="league.html">League</a><a class="l" href="ask.html">Ask Ellie</a><a class="cta" href="https://forms.gle/BsqdFgrS8jUHGkBc8">Join the waitlist</a></div></nav><div class="wrap">
-<header>
-  <div class="bar"></div>
-  <h1>The Cardano Record</h1>
-  <div class="tag">measured on-chain, scored in public</div>
-</header>
+<meta property="og:title" content="The Cardano Record">
+<meta property="og:description" content="Cardano on-chain data, measured from a local node and scored in public.">
+<!-- HEAD --><meta name="color-scheme" content="light dark"><meta name="theme-color" content="#FAF8F4" media="(prefers-color-scheme: light)"><meta name="theme-color" content="#0E1420" media="(prefers-color-scheme: dark)"><link rel="icon" href="favicon.png"><link rel="apple-touch-icon" href="apple-touch-icon.png"><link rel="preload" href="fonts/newsreader.woff2" as="font" type="font/woff2" crossorigin><script>try{var t=localStorage.getItem('cr-theme');if(t==='light'||t==='dark')document.documentElement.setAttribute('data-theme',t)}catch(e){}</script><link rel="stylesheet" href="_style.css?v=20261005"><script src="_site.js?v=20261005" defer></script><!-- /HEAD -->
+<style>
+/* homepage only (2026-10-05) */
+.home .wrap{max-width:1120px;padding-top:0;padding-bottom:0}
+.hero{position:relative;border-bottom:1px solid var(--line);overflow:hidden;
+  background-image:linear-gradient(var(--gridpaper) 1px,transparent 1px),linear-gradient(90deg,var(--gridpaper) 1px,transparent 1px);
+  background-size:44px 44px;background-position:-1px -1px}
+.hero:before{content:"";position:absolute;inset:0;pointer-events:none;
+  background:radial-gradient(60% 90% at 85% 100%,var(--hero-glow),transparent 70%),linear-gradient(90deg,var(--bg) 30%,transparent 75%)}
+.hero .wrap{position:relative;display:grid;grid-template-columns:1.25fr .9fr;gap:40px;align-items:end;padding-top:52px}
+.hero .copy{padding-bottom:52px;min-width:0}
+.hero h1{font-size:clamp(38px,5.4vw,64px);line-height:1.04;letter-spacing:-.025em;margin-top:22px}
+.hero .lede{font-size:18.5px;max-width:560px;margin-top:20px}
+.acts{display:flex;gap:10px;flex-wrap:wrap;margin-top:28px}
+.latest{display:block;margin-top:28px;padding:12px 0 0;border-top:1px solid var(--line);text-decoration:none;max-width:560px}
+.latest .lk{display:block;font:600 11px/1.2 var(--mono);letter-spacing:.14em;text-transform:uppercase;color:var(--dim)}
+.latest .lt{display:block;color:var(--ink);font:500 17px/1.4 var(--serif);margin-top:6px}
+.latest:hover .lt{color:var(--accent)}
+.stage{position:relative;align-self:end;display:flex;justify-content:center;min-height:430px}
+.stage img{width:330px;max-width:80%;height:auto;display:block;position:relative;filter:drop-shadow(0 18px 30px var(--shadow))}
+.recordcard{position:absolute;left:-6px;bottom:38px;background:var(--surface);border:1px solid var(--line-strong);border-radius:var(--r);padding:16px 18px;min-width:236px;box-shadow:0 14px 40px var(--shadow)}
+.recordcard .rl{font:600 11px/1 var(--mono);letter-spacing:.14em;text-transform:uppercase;color:var(--dim)}
+.recordcard .rv{font:700 40px/1.05 var(--mono);letter-spacing:-.03em;margin:10px 0 6px;color:var(--ink);font-variant-numeric:tabular-nums}
+.recordcard .rv span{color:var(--dim);font-size:19px;font-weight:500;letter-spacing:0}
+.recordcard .rs{display:flex;gap:16px;font:500 12.5px/1.3 var(--mono);color:var(--muted)}
+.recordcard .rs b{display:block;color:var(--ink);font-size:16px}
+.home section{padding:64px 0;border-bottom:1px solid var(--line)}
+.sh{display:flex;align-items:flex-end;justify-content:space-between;gap:12px 40px;margin-bottom:24px;flex-wrap:wrap}
+.sh h2{margin:8px 0 0}
+.sh p{color:var(--muted);max-width:440px;font-size:15px;margin:0}
+.ledger{border-top:2px solid var(--ink)}
+.row,.ledger-h{display:grid;grid-template-columns:140px minmax(0,1fr) 150px 92px;gap:20px;align-items:center}
+.ledger-h{padding:10px 0;font:600 11px/1 var(--mono);letter-spacing:.14em;text-transform:uppercase;color:var(--dim)}
+.ledger-h span:nth-child(3),.ledger-h span:nth-child(4){text-align:right}
+.row{padding:16px 0;border-bottom:1px solid var(--line)}
+.row .d{font:500 13px/1.3 var(--mono);color:var(--dim)}
+.row .c{color:var(--ink);font-size:15.5px}
+.row .c small{display:block;color:var(--dim);font:500 12px/1.4 var(--mono);margin-top:4px;overflow-wrap:anywhere}
+.row .m{font:500 12.5px/1.3 var(--mono);color:var(--muted);text-align:right}
+.row .m b{display:block;color:var(--ink);font-size:15px;margin-top:2px}
+.stamp{justify-self:end;font:700 10.5px/1 var(--mono);letter-spacing:.14em;padding:7px 9px;border-radius:4px;border:1.5px solid currentColor;text-transform:uppercase}
+.stamp.hit{color:var(--hit);background:var(--hit-tint)} .stamp.miss{color:var(--miss);background:var(--miss-tint)}
+.stamp.open{color:var(--accent);background:var(--accent-tint)} .stamp.void{color:var(--void);background:var(--void-tint)}
+.more{margin-top:18px}
+.steps{display:grid;grid-template-columns:repeat(3,1fr);border:1px solid var(--line);border-radius:var(--r);overflow:hidden;background:var(--card-bg)}
+.step{padding:26px 26px 22px;border-right:1px solid var(--line)}
+.step:last-child{border-right:0}
+.step .n{font:600 11.5px/1 var(--mono);color:var(--accent);letter-spacing:.14em;text-transform:uppercase}
+.step h3{margin:12px 0 8px;font-size:22px}
+.step p{font-size:15px}
+.tiles{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}
+.tiles a{display:flex;flex-direction:column;gap:8px;text-decoration:none;color:var(--ink);background:var(--card-bg);border:1px solid var(--line);border-radius:var(--r);padding:20px;transition:border-color .15s,transform .15s}
+.tiles a:hover{border-color:var(--accent);transform:translateY(-2px)}
+.tiles .t{font:600 11px/1 var(--mono);letter-spacing:.14em;text-transform:uppercase;color:var(--dim)}
+.tiles b{font:600 20px/1.2 var(--serif)}
+.tiles span.s{color:var(--muted);font-size:14px}
+.tiles .go{margin-top:auto;padding-top:12px;border-top:1px dashed var(--line);font:600 12.5px/1 var(--mono);color:var(--link)}
+.community{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+.comm{position:relative;overflow:hidden;border-radius:var(--r);padding:28px;background:var(--warm-bg);border:1px solid var(--warm-line)}
+.comm:after{content:"";position:absolute;right:-50px;bottom:-60px;width:190px;height:190px;pointer-events:none;border-radius:50%;opacity:.45;
+  background-image:radial-gradient(var(--dots) 2.4px,transparent 2.8px);background-size:15px 15px}
+.comm>*{position:relative;z-index:1}
+.comm .kick{color:var(--warm-ink)}
+.comm h3{font-size:28px;line-height:1.15;margin:10px 0}
+.comm p{max-width:420px;margin-bottom:22px}
+.prose{max-width:720px}
+.prose h3{color:var(--ink)}
+.home footer{margin-top:0;border-top:0;padding:48px 0 64px}
+.foot{display:flex;justify-content:space-between;gap:24px 40px;flex-wrap:wrap}
+.foot .wm{font:650 22px/1 var(--serif);color:var(--ink);margin-bottom:12px}
+.foot p{max-width:520px}
+@media (max-width:900px){
+  .hero .wrap{grid-template-columns:1fr;gap:0;padding-top:36px}
+  .hero .copy{padding-bottom:20px}
+  .stage{min-height:300px}
+  .stage img{width:230px}
+  .recordcard{left:0;bottom:20px;min-width:0}
+  .recordcard .rv{font-size:32px}
+  .row,.ledger-h{grid-template-columns:minmax(0,1fr) auto;gap:6px 14px}
+  .row .d{grid-column:1/-1}
+  .row .m,.ledger-h span:nth-child(1),.ledger-h span:nth-child(3){display:none}
+  .steps{grid-template-columns:1fr}.step{border-right:0;border-bottom:1px solid var(--line)}.step:last-child{border-bottom:0}
+  .tiles{grid-template-columns:1fr 1fr}
+  .community{grid-template-columns:1fr}
+  .home section{padding:44px 0}
+}
+@media (max-width:480px){.tiles{grid-template-columns:1fr}.hero .wrap,.home .wrap{padding-left:16px;padding-right:16px}}
+</style>
+<!-- GC --><script data-goatcounter="https://cardanorecord.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script><!-- /GC --></head><body class="home"><nav class="nav"><div class="in"><a class="brand" href="index.html"><span class="mk"><img src="ellie-avatar.jpg" alt="" width="30" height="30"></span><span class="wm">The Cardano Record</span></a><div class="links" id="navlinks"><a class="l" href="scoreboard.html">Scoreboard</a><a class="l" href="episodes.html">Episodes</a><details class="dd"><summary>Dashboards</summary><div class="ddm"><a href="risk.html">Lending risk<span>Indigo CDP book, liquidation map, Liqwid</span></a><a href="governance.html">Governance<span>Stake-weighted votes and the treasury</span></a><a href="strike.html">Strike Finance<span>Volume, cross-venue gaps, funding</span></a></div></details><a class="l mob" href="risk.html">Lending risk</a><a class="l mob" href="governance.html">Governance</a><a class="l mob" href="strike.html">Strike Finance</a><a class="l" href="league.html">League</a><a class="l" href="ask.html">Ask Ellie</a><a class="l" href="services.html">Services</a></div><div class="tools"><button class="iconbtn themebtn" type="button" data-mode="auto" aria-label="Theme"><svg data-i="auto" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="8.5"/><path d="M12 3.5v17a8.5 8.5 0 0 0 0-17z" fill="currentColor" stroke="none"/></svg><svg data-i="light" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><circle cx="12" cy="12" r="4"/><path d="M12 2.5v2.5M12 19v2.5M4.6 4.6l1.8 1.8M17.6 17.6l1.8 1.8M2.5 12H5M19 12h2.5M4.6 19.4l1.8-1.8M17.6 6.4l1.8-1.8"/></svg><svg data-i="dark" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"><path d="M20 14.5A8 8 0 0 1 9.5 4a8 8 0 1 0 10.5 10.5z"/></svg></button><a class="cta" href="https://forms.gle/BsqdFgrS8jUHGkBc8">Join<span class="long"> the waitlist</span></a><button class="iconbtn menubtn" type="button" aria-label="Menu" aria-controls="navlinks" aria-expanded="false"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M4 7h16M4 12h16M4 17h16"/></svg></button></div></div></nav>
 
-<p><strong>The Cardano Record</strong> publishes short, data-only briefings on the Cardano
-blockchain — two most days, and one longer summary each week.</p>
+<header class="hero"><div class="wrap">
+  <div class="copy">
+    <div class="kick">Cardano on-chain · daily briefings</div>
+    <h1>Cardano, measured on-chain and <em>scored in public.</em></h1>
+    <p class="lede">Short briefings computed from our own Cardano node. Every episode ends with one checkable
+    claim, and every claim is scored, right or wrong, on the record below.</p>
+    <div class="acts"><a class="btn" href="https://www.youtube.com/@CardanoRecord">Watch on YouTube</a>
+    <a class="btn ghost" href="scoreboard.html">See the full record</a></div>
+    <!-- LATEST:START --><a class="latest" href="https://youtu.be/q-mtvMb6i8U"><span class="lk">Latest episode · Oct 5</span><span class="lt">Cardano network: 93.2% of the compute ceiling, used by the busiest block (Oct 5)</span></a><!-- LATEST:END -->
+  </div>
+  <div class="stage"><img src="ellie.webp" width="480" height="635" alt="Ellie, the show's host: a capybara in a blue suit and polka-dot scarf">
+    <div class="recordcard"><!-- RECORD:START --><div class="rl">The running record</div><div class="rv">13–6<span> · 1 void</span></div><div class="rs"><div><b>68%</b>hit rate</div><div><b>46%</b>honest floor</div><div><b>9</b>open</div></div><!-- RECORD:END --></div></div>
+</div></header>
 
-<p>Every figure is computed from a <strong>local Cardano node and a full
-<code>cardano-db-sync</code> database</strong>. No third-party API is trusted for anything that
-reaches the screen, and each number is cross-checked against a second independent source
-before it airs. When a source is unavailable or a figure cannot be verified, the video
-says so rather than rounding the gap away.</p>
+<section><div class="wrap">
+  <div class="sh"><div><div class="kick">The record</div><h2>What we said, and what happened</h2></div>
+  <p>Logged before the fact, scored from the archived snapshot on the day. The misses stay up.</p></div>
+  <!-- LEDGER:START --><div class="ledger-h"><span>Made → resolves</span><span>We said</span><span>Measured</span><span>Result</span></div><div class="ledger"><div class="row"><div class="d">Oct 5 → Oct 12</div><div class="c">The median Cardano transaction fee is under 0.2000 ADA seven days from now<small>median_fee_ada &lt; 0.2</small></div><div class="m">resolves<b>Oct 12</b></div><div class="stamp open">open</div></div><div class="row"><div class="d">Oct 4 → Oct 11</div><div class="c">The newest epoch stake snapshot counts fewer than 1,303,343 stake accounts seven days from now; epoch 660&#x27;s counts 1,304,104<small>staking_delegators_latest &lt; 1,303,343</small></div><div class="m">resolves<b>Oct 11</b></div><div class="stamp open">open</div></div><div class="row"><div class="d">Sep 28 → Oct 5</div><div class="c">Deposits across Liqwid&#x27;s markets are above today&#x27;s $22.86M seven days from now<small>liqwid_supply_usd &gt; 22,860,695</small></div><div class="m">measured<b>25.46M</b></div><div class="stamp hit">hit</div></div><div class="row"><div class="d">Sep 27 → Oct 4</div><div class="c">ADA closes above $0.2599 seven days from now, 3.9 percent above where it is today<small>ada_price_usd &gt; 0.2599</small></div><div class="m">measured<b>0.2451</b></div><div class="stamp miss">miss</div></div><div class="row"><div class="d">Sep 26 → Oct 3</div><div class="c">More than 66.0 percent of Cardano blocks still carry a script seven days from now<small>block_script_share_pct &gt; 66</small></div><div class="m">measured<b>84.2</b></div><div class="stamp hit">hit</div></div></div><p class="more"><a href="scoreboard.html">All 29 claims on the scoreboard →</a></p><!-- LEDGER:END -->
+</div></section>
 
-<div class="card">
-  <span class="pill">Daily</span><span class="pill">Weekly summary</span><span class="pill">No price targets</span>
-  <p style="margin-top:16px;margin-bottom:0">Watch on YouTube:
-  <a href="https://www.youtube.com/@CardanoRecord">@CardanoRecord</a><br>
-  Follow: <a href="https://www.tiktok.com/@cardanorecord" rel="me">TikTok</a> ·
-  <a href="https://x.com/CardanoRecord" rel="me">X</a> ·
-  <a href="https://www.instagram.com/elliecardanorecord/" rel="me">Instagram</a> ·
-  <a href="https://www.threads.com/@elliecardanorecord" rel="me">Threads</a> ·
-  <a href="https://www.facebook.com/1375794832283968" rel="me">Facebook</a><br>
-  See the claim record: <a href="scoreboard.html"><strong>the scoreboard</strong></a> —
-  every claim, hit or miss.</p>
-</div>
+<section><div class="wrap">
+  <div class="sh"><div><div class="kick">How it works</div><h2>Measured. Claimed. Scored.</h2></div></div>
+  <div class="steps">
+    <div class="step"><div class="n">Measured</div><h3>From our own node</h3><p>Every figure comes from a local Cardano
+    node and a full <code>cardano-db-sync</code> database, and is cross-checked against a second independent source before
+    it airs. When a figure can't be verified, the video says so.</p></div>
+    <div class="step"><div class="n">Claimed</div><h3>One claim per episode</h3><p>A named metric, a comparison, a threshold
+    and a date. No price targets and no padding: when nothing can be scored honestly, the episode says so instead.</p></div>
+    <div class="step"><div class="n">Scored</div><h3>Right or wrong, in public</h3><p>Resolved automatically against archived
+    data. Hit rates appear beside a 95% confidence floor, because a good record over a few claims means little.</p></div>
+  </div>
+</div></section>
 
-<h2>Free dashboards</h2>
-<p>The data behind the videos, rebuilt with every episode.</p>
-<div class="dash">
-  <a href="risk.html"><b>Lending risk</b><span>Indigo's complete CDP book, the liquidation map, Liqwid loan health</span></a>
-  <a href="governance.html"><b>Governance and treasury</b><span>Stake-weighted votes, and where treasury withdrawals went</span></a>
-  <a href="strike.html"><b>Strike Finance</b><span>Volume, price gaps to OKX and Hyperliquid, maker markouts, funding</span></a>
-  <a href="services.html"><b>Data services</b><span>API access, exports, custom reports, alerts, licensing, sponsorship</span></a>
-</div>
-<p>We're not limited to Indigo and Liqwid: we add protocols as they build, gain adoption or show
-momentum on Cardano.</p>
+<section id="dashboards"><div class="wrap">
+  <div class="sh"><div><div class="kick">Free dashboards</div><h2>The data behind the videos</h2></div>
+  <p>Rebuilt with every episode. We add protocols as they build, gain adoption or show momentum on Cardano.</p></div>
+  <div class="tiles">
+    <a href="risk.html"><span class="t">Lending</span><b>Lending risk</b><span class="s">Indigo's complete CDP book, the liquidation map, Liqwid loan health</span><span class="go">Open →</span></a>
+    <a href="governance.html"><span class="t">Governance</span><b>Governance and treasury</b><span class="s">Stake-weighted votes, and where treasury withdrawals went</span><span class="go">Open →</span></a>
+    <a href="strike.html"><span class="t">Derivatives</span><b>Strike Finance</b><span class="s">Volume, price gaps to OKX and Hyperliquid, maker markouts, funding</span><span class="go">Open →</span></a>
+    <a href="services.html"><span class="t">For teams</span><b>Data services</b><span class="s">API access, exports, custom reports, alerts, licensing, sponsorship</span><span class="go">See services →</span></a>
+  </div>
+</div></section>
 
-<h2>What makes it different</h2>
+<section><div class="wrap"><div class="community">
+  <div class="comm"><div class="kick">Forecast League</div><h3>Can you beat Ellie?</h3>
+    <p>Put a number on every prediction from the show. You're scored against the same archived data, next to Ellie's record. Free: no money, no prizes.</p>
+    <a class="btn warm" href="league.html">Make a forecast</a></div>
+  <div class="comm"><div class="kick">Ask Ellie</div><h3>Have a question the chain can answer?</h3>
+    <p>Send it in, or tag <b>#AskEllie</b> in a comment. Picked questions are answered on air, from the same data and the same rules as every episode.</p>
+    <a class="btn warm" href="ask.html">Ask a question</a></div>
+</div></div></section>
 
-<h3>Every episode logs one falsifiable claim</h3>
-<p>Each briefing ends with a single, specific, checkable claim — a named metric, a
-comparison and a resolution date. On that date the claim is scored automatically against
-the archived data, and the result is published whether it was right or wrong. Claims that
-cannot be resolved are marked void and shown as void. The running record, including the
-misses, appears in every weekly episode.</p>
+<section><div class="wrap prose">
+  <div class="kick">About</div>
+  <h2>The full Indigo loan book, not the public slice</h2>
+  <p>Indigo Protocol's public API exposes only its newest set of collateralised debt positions. The complete book is
+  reconstructed here by decoding the lending validator's on-chain datums directly, then reconciled against chain-wide
+  mint history before anything is reported. That is what makes the liquidation-cascade segment possible.</p>
+  <h3>About the predictions</h3>
+  <p>This channel <strong>does</strong> make predictions, one per episode, on the record. What sets them apart is
+  <strong>consequence</strong>: every prediction is falsifiable, dated, logged before the fact, resolved automatically
+  against archived data, and published whether it was right or wrong. The misses stay on
+  <a href="scoreboard.html">the scoreboard</a> next to the hits. A prediction may turn out wrong. It may never be
+  unfounded: every number used is traceable to that episode's published data.</p>
+  <h3>What it is not</h3>
+  <p>None of this is financial advice. There are no recommendations to buy, sell or hold anything, no positions, and no
+  trading signals. Nothing here should be relied upon for investment decisions, and the operator is not affiliated with
+  the Cardano Foundation, Input Output, Intersect, Indigo Protocol, Midnight, or any project covered.</p>
+  <h3>Corrections</h3>
+  <p>Errors are corrected on the record. If you find a wrong number, raise it on the relevant video and it will be
+  addressed in a later episode rather than quietly edited away.</p>
+</div></section>
 
-<h3>The full Indigo loan book, not the public slice</h3>
-<p>Indigo Protocol's public API exposes only its newest set of collateralised debt
-positions. The complete book is reconstructed here by decoding the lending validator's
-on-chain datums directly, then reconciled against chain-wide mint history before anything
-is reported. That is what makes the liquidation-cascade segment possible.</p>
-
-<h3>Uncertainty is stated, not hidden</h3>
-<p>Hit rates are reported alongside a confidence floor, because a good record over a small
-number of claims does not mean much and pretending otherwise would defeat the point.</p>
-
-<h2>About the predictions</h2>
-<p>This channel <strong>does</strong> make predictions — one per episode, on the record.
-What makes them different from the usual is not restraint, it is <strong>consequence</strong>:
-every prediction is falsifiable, dated, logged before the fact, resolved automatically
-against archived data, and published whether it was right or wrong. The misses stay on
-<a href="scoreboard.html">the scoreboard</a> next to the hits.</p>
-<p>A prediction may turn out wrong. It may never be unfounded — every number used is
-traceable to that episode's published data.</p>
-
-<h2>What it is not</h2>
-<p>None of this is financial advice. There are no recommendations to buy, sell or hold
-anything, no positions, and no trading signals. Nothing here should be relied upon for
-investment decisions, and the operator is not affiliated with the Cardano Foundation,
-Input Output, Intersect, Indigo Protocol, Midnight, or any project covered.</p>
-
-<h2>Corrections</h2>
-<p>Errors are corrected on the record. If you find a wrong number, raise it on the relevant
-video and it will be addressed in a later episode rather than quietly edited away.</p>
-
-<footer>
-  <p><a href="scoreboard.html">Scoreboard</a> · <a href="services.html">Services</a> · <a href="privacy.html">Privacy policy</a> </p>
-  <p><a href="https://www.youtube.com/@CardanoRecord" rel="me">YouTube</a> · <a href="https://www.tiktok.com/@cardanorecord" rel="me">TikTok</a> · <a href="https://x.com/CardanoRecord" rel="me">X</a> · <a href="https://www.instagram.com/elliecardanorecord/" rel="me">Instagram</a> · <a href="https://www.threads.com/@elliecardanorecord" rel="me">Threads</a> · <a href="https://www.facebook.com/1375794832283968" rel="me">Facebook</a></p>
-  <p class="meta" style="margin-top:10px">Operated by an independent individual. Contact: see the
-  channel's About page on YouTube.</p>
-</footer>
-</div></body></html>
+<footer><div class="wrap foot">
+  <div><div class="wm">The Cardano Record</div>
+  <p>Measured on-chain from a local node. Scored in public. Operated by an independent individual; contact: see the
+  channel's About page on YouTube.</p></div>
+  <div><p><a href="https://www.youtube.com/@CardanoRecord" rel="me">YouTube</a> · <a href="https://www.tiktok.com/@cardanorecord" rel="me">TikTok</a> · <a href="https://x.com/CardanoRecord" rel="me">X</a> · <a href="https://www.instagram.com/elliecardanorecord/" rel="me">Instagram</a> · <a href="https://www.threads.com/@elliecardanorecord" rel="me">Threads</a> · <a href="https://www.facebook.com/1375794832283968" rel="me">Facebook</a></p>
+  <p><a href="scoreboard.html">Scoreboard</a> · <a href="services.html">Services</a> · <a href="privacy.html">Privacy policy</a> · <a href="terms.html">Terms</a></p></div>
+</div></footer>
+</body></html>
