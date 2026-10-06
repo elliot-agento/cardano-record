@@ -110,5 +110,55 @@
   "half_life_years": 5.852907289602206,
   "treasury_accrual_per_epoch_ada": 3733050.8207371235
  },
- "_note": "Compact record of the figures used in this episode."
+ "_note": "Compact record of the figures used in this episode.",
+ "transcript": [
+  {
+   "heading": "Cold open",
+   "text": "ADA moved 8.8 percent in a day. Here is what actually changed underneath the price. Here is today, measured."
+  },
+  {
+   "heading": "ADA",
+   "text": "ADA is at 24.2 cents, up 8.8 percent on the day and up 8.1 percent over thirty. That places it 100 percent of the way up its own thirty-day range, between 19.1 cents and 24.2 cents."
+  },
+  {
+   "heading": "The loan book",
+   "text": "Indigo's borrowers have 4.25 million dollars of ADA locked against 1.79 million dollars of debt, across 287 live positions. That is a book-wide collateral ratio of 2.37 to one. Since the last episode the book lost 1 position."
+  },
+  {
+   "heading": "How far can ADA fall?",
+   "text": "Ten percent of that debt enters the liquidation band once ADA reaches 16.9 cents \u2014 a drop of 30.2 percent from here. Half the book needs ADA at 13.6 cents, which is 43.9 percent below today. The weakest position in the book is already inside the liquidation band at today's price, and it is 66.4 cents of debt across 1 position \u2014 the book behind it is untouched at this price. For scale, and measured rather than asserted: the worst thirty days ADA had in the past year took it down 42.6 percent. A fall of 43.9 percent or more inside thirty days happened not once across 335 rolling windows \u2014 about 12 independent months of history. The nearer level, 30.2 percent, happened 51 times. Thirty-day volatility is running at 76 percent annualised, above 38 percent of the past year's readings."
+  },
+  {
+   "heading": "What crossed the bridge",
+   "text": "Assets that came from another chain are the one part of Cardano where you can see value actually crossing a boundary, because a bridged token only exists here while something is held somewhere else. Over 7 days, 4 of the 19 bridged assets on this chain changed at all. The other 15 did not move by a single unit. The largest move was NTX, whose outstanding amount on Cardano grew 11.16 percent across 151 separate mint and burn events. 2 grew and 2 shrank, so this was not a week with one direction to it. And the quietest part of the picture is the most telling: the Wanchain bridge, which carries 15 different assets including bitcoin and ether, has not minted or burned anything for 25 days. Two things this deliberately does not do. It does not put these in dollars, because the decimal places on a bridged token are not something we have verified \u2014 and it does not tell you the collateral is really locked on the other side, because that is not visible from Cardano. What the ledger settles is how much is represented here, and that is what you just heard."
+  },
+  {
+   "heading": "Where the ADA went",
+   "text": "There are 30 addresses on Cardano that behave unlike anything else on the chain: no smart contract governs them, and between them they took 506.4 thousand separate incoming payments in a month and a half. That is the shape of a wallet holding coins for a lot of people at once. Who runs them is not something the ledger records, so this segment does not say \u2014 what it can measure is which way the ADA is moving. Over the last 7 complete days, a net 29.0 million ADA moved into those wallets. Measured against every other 7-day stretch in the last quarter, that sits at the 67th percentile \u2014 the typical week over that period moved 10.7 million ADA, so this one is larger than usual but inside the range the chain has already shown. One day carries most of it: Wednesday alone accounts for 22.5 million ADA of the total, which is worth knowing before treating the week as a trend. What that means for the price is not something this measurement can tell you, and this channel is not going to pretend otherwise."
+  },
+  {
+   "heading": "What credit costs here",
+   "text": "Liqwid, the largest lending market on Cardano, holds 21.91 million dollars of deposits against 10.11 million dollars of loans across 31 markets. ADA deposits there earn 2.9 percent, with only 36 percent of the pool borrowed. DJED deposits earn 26.2 percent, with 90 percent borrowed. The demand on this venue is for dollars, not for ADA, and the gap between those two numbers is how strongly."
+  },
+  {
+   "heading": "The dollar that isn't",
+   "text": "Cardano's own dollar, DJED, is trading at 1.0441 against the dollar it is meant to track \u2014 4.41 percent above peg. At the same moment, lenders holding DJED are being paid 26.2 percent, with 90 percent of the pool borrowed. A yield that size says lenders are being paid well to hold it, while the coin itself trades above the dollar it tracks \u2014 the two point opposite ways, and this measurement does not settle which is the stronger one. Both numbers are on the screen; the reading is yours."
+  },
+  {
+   "heading": "Closest to the line",
+   "text": "The book as a whole is one number; the loans inside it are not all in the same place. These are the positions sitting closest to the line. The nearest one holds 10.1 thousand dollars of debt against 52,368 ADA. It enters the liquidation band once ADA touches 23.2 cents \u2014 4.0 percent below where it trades now. 4 positions carry enough debt to matter here. 4 more sit lower on the ratio but hold only a few dollars between them, so they are left out \u2014 a thin position at a frightening ratio is not a risk to anybody."
+  },
+  {
+   "heading": "Cross-check",
+   "text": "One figure in this episode does not add up, and it is worth naming. The iUSD debt visible across individual positions accounts for 92.87 percent of the iUSD in existence. The remaining 7.13 percent is unaccounted for. The likeliest place for it is the 3 outputs at the validator this run could not decode, which is not the same as saying that is where it is. Until it is explained, treat the position-derived iUSD figures in this episode as a floor rather than a total. The minted-on-chain column is measured separately, against mint history, and is not in question. The other 6 of 7 assets account for all of theirs, exactly."
+  },
+  {
+   "heading": "Today's claim",
+   "text": "Now the prediction. Today's claim: Indigo's book-wide collateral ratio holds above 2.25x for a week. It stands at 2.37 as this is recorded. It resolves on September 28, automatically, on the same measurement, with no interpretation and no wriggle room. If it is wrong, it goes on the board as wrong, and it stays there."
+  },
+  {
+   "heading": "",
+   "text": "Running record: 2 and 3. Epoch 657 begins in about 10 hours. This channel does make predictions, and every one of them is dated, logged and scored in public. The ones that were wrong stay on the board."
+  }
+ ]
 }

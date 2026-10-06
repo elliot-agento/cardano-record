@@ -110,5 +110,51 @@
   "half_life_years": 5.852907289602206,
   "treasury_accrual_per_epoch_ada": 3733050.8207371235
  },
- "_note": "Compact record of the figures used in this episode."
+ "_note": "Compact record of the figures used in this episode.",
+ "transcript": [
+  {
+   "heading": "Cold open",
+   "text": "ADA moved 6.2 percent in a day. Here is what actually changed underneath the price. Here is today, measured."
+  },
+  {
+   "heading": "ADA",
+   "text": "ADA is at 21.3 cents, up 6.2 percent on the day and up 21.6 percent over thirty. That places it 49 percent of the way up its own thirty-day range, between 17.4 cents and 25.4 cents."
+  },
+  {
+   "heading": "The loan book",
+   "text": "Indigo's borrowers have 3.78 million dollars of ADA locked against 1.75 million dollars of debt, across 287 live positions. That is a book-wide collateral ratio of 2.16 to one. Since the last episode borrowers pulled 4.6 percent of the collateral behind this book, measured in ADA rather than dollars and the book lost 3 positions."
+  },
+  {
+   "heading": "How far can ADA fall?",
+   "text": "Ten percent of that debt enters the liquidation band once ADA reaches 16.6 cents \u2014 a drop of 22.0 percent from here. Half the book needs ADA at 12.8 cents, which is 40.0 percent below today. The weakest position in the book is already inside the liquidation band at today's price."
+  },
+  {
+   "heading": "Cardano against the field",
+   "text": "Start with the whole chain. 56.70 million dollars is locked in Cardano applications today, which ranks it thirty-seventh of the 468 chains tracked anywhere. That is up 1.5 percent over the week and down 7.1 percent over thirty days. Those applications produced 6.8 thousand dollars in fees over the last twenty-four hours. Against the value locked, that annualises to 4.35 percent \u2014 the return the chain's own activity throws off. 53 protocols are carrying it."
+  },
+  {
+   "heading": "Cardano's native tokens, by market cap",
+   "text": "Stepping out of ADA itself: the Cardano-native token landscape by market cap, top eight on screen. ADA itself accounts for about 93% of all top-fifty market cap combined. The stablecoin/tokenized-dollar group adds another 0.8%. Everything else \u2014 the DeFi and utility projects \u2014 is 43 tokens worth about $544.65M combined. 3 of the top eight traded little enough in the last 24 hours to be worth noting next to their market cap."
+  },
+  {
+   "heading": "How many dollars can actually leave?",
+   "text": "Cardano's dollar tokens are the one thing on this chain whose price is not in question. 61.66 million dollars of them are outstanding. The amount that could be sold before the price moves one percent off par is 9.7 thousand dollars \u2014 0.016 percent of it. IUSD is the sharpest case: 1.4 million outstanding, 484.27 dollars of it sellable before the price moves one percent. Two things stop that being the whole story. Those figures are modelled from pool reserves rather than filled trades, so they are a best case. And the open market is the exit of last resort, not the only one. USDM and USDA and USDCx redeem with their issuer off-chain. That capacity is not small \u2014 it is simply not something this node can see, and it is left unmeasured rather than guessed at. DJED and SHEN still publish a minting cap, but their real supply is measurable as that cap minus what sits unissued in the protocol's reserve, so they are counted here rather than left out. SHEN is kept out of the total. It shares Djed's reserve but it is not a dollar. The iUSD figure is two independent measurements \u2014 the pool scan and the chain's own mint history \u2014 agreeing to 0.00 percent."
+  },
+  {
+   "heading": "The dollar that isn't",
+   "text": "Cardano's own dollar, DJED, is trading at 1.0162 against the dollar it is meant to track \u2014 1.62 percent above peg. At the same moment, lenders holding DJED are being paid 28.7 percent, with 91 percent of the pool borrowed. A yield that size on something that is supposed to be worth exactly one dollar is the market charging for a risk, not handing out a return. Both numbers are on the screen; the reading is yours."
+  },
+  {
+   "heading": "Cross-check",
+   "text": "One figure in this episode does not add up, and it is worth naming. The iUSD debt visible across individual positions accounts for 93.39 percent of the iUSD in existence. The remaining 6.61 percent is unaccounted for, and until it is explained, treat every iUSD figure here as a floor rather than a total. The other 6 of 7 assets account for all of theirs, exactly."
+  },
+  {
+   "heading": "Today's claim",
+   "text": "Now the prediction. Today's claim: less than 0.09 percent of Cardano's native-token market cap is exitable at ten percent impact seven days from now. It resolves on September 25, automatically, on the same measurement, with no interpretation and no wriggle room. If it is wrong, it goes on the board as wrong, and it stays there."
+  },
+  {
+   "heading": "",
+   "text": "Running record: 1 and 2. Epoch 657 begins in about 82 hours. This channel does make predictions, and every one of them is dated, logged and scored in public. The ones that were wrong stay on the board."
+  }
+ ]
 }

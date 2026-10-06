@@ -110,5 +110,55 @@
   "half_life_years": 5.856055259918257,
   "treasury_accrual_per_epoch_ada": 3732438.0157768726
  },
- "_note": "Compact record of the figures used in this episode."
+ "_note": "Compact record of the figures used in this episode.",
+ "transcript": [
+  {
+   "heading": "Cold open",
+   "text": "Cardano's blocks ran 5.6 percent full by size over the last few hours. Measured against the compute limit that actually caps them, the busiest block used 96.4 percent of the ceiling. Here is today, measured."
+  },
+  {
+   "heading": "How full is Cardano, actually?",
+   "text": "Now capacity, which transactions per day does not measure. Over the last 2.2 hours Cardano produced 400 blocks. By size those blocks ran 5.6 percent full. By the execution budget \u2014 the compute ceiling that caps what a block is allowed to do \u2014 they ran 2.8 percent full. Those are the averages. The peaks are the figure that matters: the busiest block in that window used 96.4 percent of the chain's compute ceiling, against 44.0 percent of its size ceiling. The limit this chain came closest to was compute (steps). Per transaction the picture turns over. The median script transaction used 1.5 percent of what one transaction is allowed. The heaviest used 47.0 percent of its memory allowance against 33.7 percent of its step allowance \u2014 on Cardano a complex contract runs out of memory before it runs out of time. 70 percent of blocks carried at least one script. The median fee across all 2,233 transactions was 0.19 ADA, about 5 cents."
+  },
+  {
+   "heading": "ADA",
+   "text": "ADA is at 24.6 cents, down 0.0 percent on the day and up 9.3 percent over thirty. That places it 93 percent of the way up its own thirty-day range, between 19.1 cents and 24.9 cents."
+  },
+  {
+   "heading": "The loan book",
+   "text": "Indigo's borrowers have 4.28 million dollars of ADA locked against 1.80 million dollars of debt, across 285 live positions. That is a book-wide collateral ratio of 2.37 to one. Since the last episode borrowers pulled 0.7 percent of the collateral behind this book, measured in ADA rather than dollars and the book lost 2 positions."
+  },
+  {
+   "heading": "How far can ADA fall?",
+   "text": "Ten percent of that debt enters the liquidation band once ADA reaches 17.4 cents \u2014 a drop of 29.2 percent from here. Half the book needs ADA at 13.8 cents, which is 44.0 percent below today. The weakest position in the book is already inside the liquidation band at today's price, and it is 66.4 cents of debt across 1 position \u2014 the book behind it is untouched at this price. For scale, and measured rather than asserted: the worst thirty days ADA had in the past year took it down 42.6 percent. A fall of 44.0 percent or more inside thirty days happened not once across 335 rolling windows \u2014 about 12 independent months of history. The nearer level, 29.2 percent, happened 57 times."
+  },
+  {
+   "heading": "Not everything that moves is a token",
+   "text": "Rank everything on Cardano by how often it moved and the list is wrong before you read it, because several of the busiest rows are not tokens at all. The busiest one over the last 3 days moved 6.0 thousand times, and it is not something anybody buys. It belongs to Minswap \u2014 V2 pool tokens, issued by the contracts themselves. There are three different things here that look the same on a block explorer. A native token is the thing itself, minted on Cardano and existing nowhere else \u2014 SNEK, HOSKY, MIN. A receipt is a claim on something you deposited. When one moves, the thing it represents has not moved at all \u2014 it is still sitting in the contract. Count it next to the token it stands for and you have counted the same coins twice. And a bridged asset is the opposite case: USDCx is minted here to stand for value locked on another chain, so when one appears, something genuinely did cross a boundary. The scale of this is easy to miss. One Minswap policy has minted 155 hv-prefixed farm shares, one per supported asset, plus 292,304 numerically-named receipts - one per individual staked position. 3 of the rows we set aside belong to policies we have not identified. They behave the same way \u2014 one policy, hundreds of assets, one per position \u2014 but this channel is not going to put a protocol's name on something it has not verified."
+  },
+  {
+   "heading": "What counts as a big move here",
+   "text": "Every distance this channel quotes \u2014 how far ADA would have to fall, how far it has come \u2014 needs a yardstick, so here is ADA's own. Over the past year the middle thirty-day move, ignoring direction, was 13.8 percent, and the largest fall in any thirty-day window was 42.6 percent. Thirty-day volatility today is 78 percent annualised, above 45 percent of the past year's readings. ADA is trading 20.5 percent above its own fifty-day average, and 71.9 percent below its highest point of the past year, set on October 7, 2025. Both are true at the same time, which is why one distance on its own is not a reading. Over the same ninety days ADA moved up 62.3 percent and bitcoin up 37.2 percent. Both numbers are on the screen; no reading of them is offered. One year of daily closes is the whole sample \u2014 335 rolling windows, about 12 independent months. It is short, and it is what there is."
+  },
+  {
+   "heading": "What credit costs here",
+   "text": "Liqwid, the largest lending market on Cardano, holds 21.94 million dollars of deposits against 10.17 million dollars of loans across 31 markets. ADA deposits there earn 2.9 percent, with only 36 percent of the pool borrowed. WANUSDC deposits earn 30.9 percent, with 91 percent borrowed. The demand on this venue is for dollars, not for ADA, and the gap between those two numbers is how strongly."
+  },
+  {
+   "heading": "The votes inside the applications",
+   "text": "Cardano's own governance is not the only vote happening on this chain. The applications run their own, and the people holding those tokens decide things that never reach a chain-level ballot. Nothing is open for voting today, so the record is what there is to report: 20 proposals decided so far. The most recent to pass was Concentrated Liquidity Pools for Wingriders V3. This covers one protocol's DAO. Others run their own and are not measured here yet, so treat it as a window rather than the whole room."
+  },
+  {
+   "heading": "Cross-check",
+   "text": "One figure in this episode does not add up, and it is worth naming. The iUSD debt visible across individual positions accounts for 92.71 percent of the iUSD in existence. The remaining 7.29 percent is unaccounted for. The likeliest place for it is the 3 outputs at the validator this run could not decode, which is not the same as saying that is where it is. Until it is explained, treat the position-derived iUSD figures in this episode as a floor rather than a total. The minted-on-chain column is measured separately, against mint history, and is not in question. The other 6 of 7 assets account for all of theirs, exactly."
+  },
+  {
+   "heading": "Today's claim",
+   "text": "Now the prediction. Today's claim: ADA closes above $0.2456 seven days from now. It stands at 0.2456 as this is recorded. It resolves on September 29, automatically, on the same measurement, with no interpretation and no wriggle room. If it is wrong, it goes on the board as wrong, and it stays there."
+  },
+  {
+   "heading": "",
+   "text": "Running record: 3 and 3. Epoch 658 begins in about 106 hours. This channel does make predictions, and every one of them is dated, logged and scored in public. The ones that were wrong stay on the board."
+  }
+ ]
 }

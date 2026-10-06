@@ -110,5 +110,47 @@
   "half_life_years": 5.856055259918257,
   "treasury_accrual_per_epoch_ada": 3732438.0157768726
  },
- "_note": "Compact record of the figures used in this episode."
+ "_note": "Compact record of the figures used in this episode.",
+ "transcript": [
+  {
+   "heading": "Cold open",
+   "text": "Cardano's largest lending book runs to 286 open positions, and every one of them was measured individually for this episode rather than taken as a total. Here is today, measured."
+  },
+  {
+   "heading": "Cross-check",
+   "text": "The cross-check is unchanged since the last episode: 6 of 7 assets reconcile exactly, and iUSD still accounts for 92.72 percent of what was minted, so position-derived iUSD figures remain a floor."
+  },
+  {
+   "heading": "ADA",
+   "text": "ADA is up 29.9 percent on the week, at 25.1 cents \u2014 up 0.4 percent on the day and up 12.3 percent over thirty days. Since the last episode it has moved up 2.0 percent."
+  },
+  {
+   "heading": "The loan book",
+   "text": "Indigo's borrowers have 4.35 million dollars of ADA locked against 1.80 million dollars of debt, across 286 live positions. That is a book-wide collateral ratio of 2.41 to one. Since the last episode the book gained 1 position."
+  },
+  {
+   "heading": "How far can ADA fall?",
+   "text": "Ten percent of that debt enters the liquidation band once ADA reaches 17.3 cents \u2014 a drop of 30.9 percent from here. Half the book needs ADA at 13.8 cents, which is 45.1 percent below today. The weakest position in the book is already inside the liquidation band at today's price, and it is 355.05 dollars of debt across 3 positions \u2014 the book behind it is untouched at this price. For scale, and measured rather than asserted: the worst thirty days ADA had in the past year took it down 42.6 percent. A fall of 45.1 percent or more inside thirty days happened not once across 335 rolling windows \u2014 about 12 independent months of history. The nearer level, 30.9 percent, happened 47 times. Thirty-day volatility is running at 78 percent annualised, above 45 percent of the past year's readings."
+  },
+  {
+   "heading": "What a crowded position costs",
+   "text": "Cardano has a perpetuals market, and it is bigger than most people think: 31 of them trading right now. Not all of it is crypto. 14 of those contracts track things like oil, gold and individual equities \u2014 priced and settled on this chain. A funding rate is the rent one side pays the other for staying where it is, so it says which way the crowd is leaning without anyone having to guess. On ADA itself, longs are paying shorts 152 percent annualised \u2014 so it is the long side that is crowded here today. The NIGHT contract leans the same way: the long side is the crowded one, at 107 percent. The extreme today is CXMT, where shorts are paying 160 percent annualised to keep the position on. A number like that is not a forecast \u2014 it is the cost of a crowded trade, and it is being paid hourly. Across the board, 7 markets have longs paying, 8 have shorts paying, and 16 are flat. One caveat worth stating: this shows the rate, not the size behind it. It is what a position costs, not how much money is standing on either side."
+  },
+  {
+   "heading": "Who pays the yield",
+   "text": "Every return on this chain is paid by one of two things: somebody paid a fee, or new supply was printed. Start with the fees. Lending DJED pays 24.9 percent. Lending ADA, on the same venue, on the same day, pays 2.9 percent. That money comes from borrowers, so the gap is not generosity \u2014 it is how much more somebody wants to borrow dollars here than wants to borrow ADA. That headline rate has a size limit, though. 90 percent of the DJED pool is already lent out, so 321.2 thousand dollars is the entire capacity left at that rate \u2014 it is high because the room is small, not the other way round. Liquidity pools pay 3.79 percent, out of a fee of 0.85 percent on every trade that passes through them. That one is arithmetic, not policy: the yield is volume times the fee rate over the pool's depth, and the capacity is the 2.85 million dollars sitting in those pools. When trading falls, so does the return \u2014 nobody has to decide anything. Then staking, which works differently. Each epoch, 6.5 million ADA leaves the reserve to pay stakers, against 41,273 ADA collected in transaction fees. So fees fund 0.6 percent of Cardano's staking rewards. The other 99.4 percent is newly released supply. That is not a flaw, it is how the chain was designed to bootstrap \u2014 but it is finite. The reserve halves roughly every 5.9 years, and the fees would have to grow into the gap."
+  },
+  {
+   "heading": "Quoted return, achieved return",
+   "text": "Vaults on this chain quote a rate, and that rate is a claim about the future. There is also a record of what they have actually returned, and the two are not the same number. The largest one, holding 862.0 thousand dollars for 184 depositors, advertises 20.1 percent and has realised 22.7 percent \u2014 3 points above its own quote. And it does not run one way. Glacier Arc Digital quotes -93 percent against a realised -406 percent. The point is not that quoted numbers flatter \u2014 it is that a quote and a record are different measurements, and only one of them has already happened. 3 smaller vaults are left off this board on purpose: a three-figure percentage on a few thousand dollars across a handful of depositors is arithmetic, not evidence."
+  },
+  {
+   "heading": "Today's claim",
+   "text": "First, the record. Claim 9, no more than 11 CDPs sit below a 1.20 ratio, resolved as a hit: it measured 3. Now the prediction. Today's claim: Indigo TVL is below $4.44M seven days from now, 2 percent below today's level. It stands at 4,526,726 as this is recorded. It resolves on September 30, automatically, on the same measurement, with no interpretation and no wriggle room. If it is wrong, it goes on the board as wrong, and it stays there."
+  },
+  {
+   "heading": "",
+   "text": "Running record: 4 and 3, with 1 void \u2014 claim 5 was the same prediction logged twice by two pipeline runs on September 12. Epoch 658 begins in about 82 hours. This channel does make predictions, and every one of them is dated, logged and scored in public. The ones that were wrong stay on the board."
+  }
+ ]
 }

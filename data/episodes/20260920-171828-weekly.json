@@ -110,5 +110,87 @@
   "half_life_years": 5.852907289602206,
   "treasury_accrual_per_epoch_ada": 3733050.8207371235
  },
- "_note": "Compact record of the figures used in this episode."
+ "_note": "Compact record of the figures used in this episode.",
+ "transcript": [
+  {
+   "heading": "Cold open",
+   "text": "Cardano's native tokens carry 833.58 million dollars of market value on paper. The amount that could actually be sold before moving the price ten percent is 374.3 thousand dollars \u2014 0.04 percent of it. Here is the week, measured."
+  },
+  {
+   "heading": "Paper value vs exit value",
+   "text": "Market cap is price times supply, but that price only holds for the next small trade. Across Cardano's native tokens the paper figure is 833.58 million dollars. The amount that could actually be sold before moving the price ten percent is 374.3 thousand dollars. That is 0.04 percent of the stated value. That covers 48 tokens whose decimals and pool depth could both be verified on chain; 71 more were excluded because their supply figures are not trustworthy. These market caps are upper bounds \u2014 no treasury or vesting exclusions are applied unless a token's float could be verified, and the table says which is which."
+  },
+  {
+   "heading": "The record",
+   "text": "The record: 1 hit, 3 missed, out of 4 resolved. That is 25.0 percent. With a sample this size the honest floor on that number is 4.6 percent, and that floor is the number worth trusting."
+  },
+  {
+   "heading": "What moved",
+   "text": "Against the last episode on 2026-09-20: ADA up 2.6 percent, Indigo TVL up 3.6 percent, Liquidation floor up 1.5 percent. The liquidation floor is the one to watch \u2014 it moves when borrowers add or remove collateral, not when the price does."
+  },
+  {
+   "heading": "Indigo TVL, all of it",
+   "text": "Zooming out past the daily noise. Indigo's total value locked is 4.12 million dollars today, against an all-time peak of 125.56 million dollars in March 2024. That is 96.7 percent below the high. Over the past year TVL is down 88.6 percent, and over ninety days up 26.8 percent. This is nearly four years of daily history, and the trend matters more than any single day in it."
+  },
+  {
+   "heading": "The liquidation floor, over time",
+   "text": "One number worth tracking episode to episode is the price at which half the loan book would be at risk. Across the last 12 days it has risen 14.3 percent, from 11.4 cents to 13.1 cents. This moves when borrowers add or remove collateral, not when the ADA price moves \u2014 so it reads on what borrowers are doing, not on the market."
+  },
+  {
+   "heading": "What counts as a big move here",
+   "text": "Every distance this channel quotes \u2014 how far ADA would have to fall, how far it has come \u2014 needs a yardstick, so here is ADA's own. Over the past year the middle thirty-day move, ignoring direction, was 13.9 percent, and the largest fall in any thirty-day window was 42.6 percent. Thirty-day volatility today is 89 percent annualised, above 83 percent of the past year's readings. ADA is trading 13.0 percent above its own fifty-day average, and 74.5 percent below its highest point of the past year, set on September 21, 2025. Both are true at the same time, which is why one distance on its own is not a reading. Over the same ninety days ADA moved up 45.5 percent and bitcoin up 28.2 percent. Both numbers are on the screen; no reading of them is offered. One year of daily closes is the whole sample \u2014 335 rolling windows, about 12 independent months. It is short, and it is what there is."
+  },
+  {
+   "heading": "The loan book",
+   "text": "Indigo's borrowers have 4.01 million dollars of ADA locked against 1.77 million dollars of debt, across 288 live positions. That is a book-wide collateral ratio of 2.27 to one. Since the last episode the book gained 1 position."
+  },
+  {
+   "heading": "How far can ADA fall?",
+   "text": "Ten percent of that debt enters the liquidation band once ADA reaches 16.8 cents \u2014 a drop of 26.2 percent from here. Half the book needs ADA at 13.1 cents, which is 42.6 percent below today. The weakest position in the book is already inside the liquidation band at today's price, and it is 66.5 cents of debt across 1 position \u2014 the book behind it is untouched at this price. For scale, and measured rather than asserted: the worst thirty days ADA had in the past year took it down 42.6 percent. That is the same distance \u2014 the deepest thirty days in the sample and the level half this book needs are, today, the same number. Nothing in 335 rolling windows, about 12 independent months, went further. The nearer level, 26.2 percent, happened 67 times."
+  },
+  {
+   "heading": "Every dollar on Cardano",
+   "text": "How many dollars actually exist on Cardano. Counting every issuer, 61.74 million dollars, across 5 of them. That is up 29.1 percent over ninety days, and down 0.7 percent over thirty. Almost all of that movement is one token. 20.4 million more USDCx has been issued in ninety days than redeemed. Meanwhile 4 of the other issuers got smaller over the same window: USDM 30.1 percent lower, DJED 49.1 percent lower, USDA 22.0 percent lower, iUSD 16.0 percent lower. So the total and its parts are moving in opposite directions, and the total on its own would be the misleading half of that. One limit on the chart: the total begins when every counted issuer exists - USDCx first minted on 2026-02-18. Before that date this would be a different basket of issuers, not a smaller number."
+  },
+  {
+   "heading": "Who issued them, and how we know",
+   "text": "Issuer by issuer, and how each figure is arrived at. DJED and SHEN work differently from the rest. They mint their entire supply cap once, at launch, into a vault, and issue by releasing from it. Their mint history therefore records nothing at all, however much is being issued or redeemed. So DJED is measured as the cap minus what that vault still holds: 1.00 trillion minted at launch, of which all but 1.5 million has never left the vault. That remainder is the real circulating supply. That subtraction is the reason this segment can exist. Reporting the headline figure instead would overstate it by six orders of magnitude. SHEN is tracked here but kept out of the dollar total. It is Djed's reserve token, not a dollar, and it trades near ten cents. Where a second independent measurement exists, the two agree: 4 of these are cross-checked against the pool scan and the widest disagreement is 0.03 percent."
+  },
+  {
+   "heading": "Who holds it",
+   "text": "Underneath the prices, the holder distributions. NIGHT is held by 61.3 thousand addresses. Its Nakamoto coefficient is 10 \u2014 that is how many holders would need to act together to control a majority of supply. The top ten addresses hold 52.0 percent of it. These are aggregate figures from the chain; no individual wallet is identified here."
+  },
+  {
+   "heading": "Scoring our own cascade",
+   "text": "Every episode tells you how far ADA would have to fall before part of Indigo's book is at risk. This is what happened when we checked. Taking 40 pairs of archived snapshots \u2014 the curve one episode published, against what the book actually looked like at that price days later \u2014 the median error was 0.6 positions. 92 percent of them landed within a single position, and 38 percent were exact. The misses lean one way. The curve runs cold: it names fewer positions at risk than turn up, by a median of 0.4. The worst single pair spanned a 7.2 percent fall over 184 hours. It called 8.6 positions at risk and 4 were. There is a reason it leans that way, and it is built into the method. The curve asks what happens to today's positions at a different price, holding those positions still. Borrowers do not hold still \u2014 they add collateral and they close, which is exactly what a cascade cannot see coming. Across these pairs the book itself moved by a median of 2 positions. So the number stands, with a known bias, measured rather than assumed."
+  },
+  {
+   "heading": "What passed",
+   "text": "Over the last ninety days 12 actions reached an outcome: 2 enacted, 10 expired without passing. Behind those votes sit 866 registered DReps holding 15.74 billion ADA, with the five largest holding 75.3 percent of it."
+  },
+  {
+   "heading": "The treasury, as a rate",
+   "text": "The treasury holds 1.36 billion ADA, about 309.83 million dollars. It takes in 3.7 million ADA every epoch \u2014 272.5 million a year \u2014 as its share of monetary expansion. Over the last 195 days governance enacted 34 withdrawals totalling 457.4 million ADA. That is 3.1 times what came in over the same window, and the balance fell 290.2 million ADA. That outflow is lumpy rather than steady: the single largest epoch was 29 percent of it. Held against that observed rate, the current balance covers 172 more epochs of spending \u2014 860 days at the pace of the last 195. That is arithmetic on what has already happened, not a schedule. 1 further withdrawals are pending, asking 11.8 million ADA between them. Inflow, outflow and the balance reconcile to within 1.6 percent of the balance."
+  },
+  {
+   "heading": "The base layer",
+   "text": "Stepping back to the base layer. The last complete epoch settled 89.4 thousand transactions and collected 27.3 thousand ADA in fees. That is down 17.6 percent on the epoch before it. 21.36 billion ADA is delegated across 2,676 active stake pools, which is 47.5 percent of the 45 billion maximum supply."
+  },
+  {
+   "heading": "Where the rewards come from",
+   "text": "Staking rewards are not created from nothing. They are paid out of Cardano's reserve, which now holds 6.12 billion ADA. That reserve is drawn down by a fixed fraction every epoch \u2014 measured over the last 39 epochs, 0.162 percent per epoch, or about 10.2 million ADA. At that rate the reserve halves roughly every 5.9 years. It does not run out on a date, it decays, and as it shrinks a larger share of rewards has to come from transaction fees instead. The treasury meanwhile accrues about 3.7 million ADA per epoch, and paid out 392.2 million ADA across 12 enacted withdrawals in the same window."
+  },
+  {
+   "heading": "Cross-check",
+   "text": "One figure in this episode does not add up, and it is worth naming. The iUSD debt visible across individual positions accounts for 93.01 percent of the iUSD in existence. The remaining 6.99 percent is unaccounted for. The likeliest place for it is the 3 outputs at the validator this run could not decode, which is not the same as saying that is where it is. Until it is explained, treat the position-derived iUSD figures in this episode as a floor rather than a total. The minted-on-chain column is measured separately, against mint history, and is not in question. The other 6 of 7 assets account for all of theirs, exactly."
+  },
+  {
+   "heading": "Today's claim",
+   "text": "Now the prediction. Today's claim: ADA closes above $0.2278 30 days from now. It stands at 0.2278 as this is recorded. It resolves on October 20, automatically, on the same measurement, with no interpretation and no wriggle room. If it is wrong, it goes on the board as wrong, and it stays there."
+  },
+  {
+   "heading": "",
+   "text": "Running record: 1 and 3. Epoch 657 begins in about 24 hours. This channel does make predictions, and every one of them is dated, logged and scored in public. The ones that were wrong stay on the board."
+  }
+ ]
 }

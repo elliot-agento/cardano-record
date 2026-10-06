@@ -116,5 +116,39 @@
   "half_life_years": 5.860196620444412,
   "treasury_accrual_per_epoch_ada": 3705503.419691086
  },
- "_note": "Compact record of the figures used in this episode."
+ "_note": "Compact record of the figures used in this episode.",
+ "transcript": [
+  {
+   "heading": "Cold open",
+   "text": "Cardano's DReps are voting right now on \u201cReduce minPoolCost to 75 ada\u201d. Of the DRep voting power that has made up its mind, 57 percent says yes, but only 16.1 percent of all DRep voting power has voted so far, with 2 five-day epochs left."
+  },
+  {
+   "heading": "Last week's calls",
+   "text": "First, the scorecard. We said more than 1,308,410 stake accounts are delegating on October 2, up from September 25's level. It measured 1,306,828, so we got that one wrong. That puts the running record at 11 right, 5 wrong, 1 void."
+  },
+  {
+   "heading": "Open votes (1/3)",
+   "text": "Cardano changes itself by vote. Proposals go on-chain, and DReps, stake pools and a constitutional committee vote on them. A DRep, short for delegated representative, is someone ADA holders choose to vote on governance for them. Anyone holding ADA can vote directly or choose a DRep to vote for them. 3 governance actions are open for voting right now. The parameter change, which its proposers call \u201cReduce minPoolCost to 75 ada\u201d, closing in 2 epochs. An epoch is Cardano's five-day cycle; rewards and votes are counted epoch by epoch. DReps: 48 for, 26 against, 11 abstaining \u2014 weighted by stake, yes holds 57 percent of the DRep power that counts. 16.1 percent of all registered DRep voting power has voted on it. The Constitutional Committee: 3 yes, 0 no."
+  },
+  {
+   "heading": "Open votes (2/3)",
+   "text": "Next, the 11.8 million ADA withdrawal, which its proposers call \u201cWithdraw 11,787,063 ada for the OpenZeppelin Stack administered by Intersect\u201d, closing in 2 epochs. DReps: 10 for, 53 against, 11 abstaining \u2014 weighted by stake, yes holds 8 percent of the DRep power that counts. 14.7 percent of all registered DRep voting power has voted on it. The Constitutional Committee: 3 yes, 0 no."
+  },
+  {
+   "heading": "Open votes (3/3)",
+   "text": "Next, the info action, which its proposers call \u201cShould stakePoolTargetNum (k) be raised from 500 to 1000? (SPO poll)\u201d, closing in 4 epochs. Stake pools: 14 for, 17 against \u2014 weighted by pool stake, yes holds 10 percent of the stake that voted yes or no. DReps: 23 for, 17 against, 20 abstaining \u2014 weighted by stake, yes holds 24 percent of the DRep power that counts. 12.3 percent of all registered DRep voting power has voted on it. The Constitutional Committee: 1 yes, 0 no, 1 abstaining. Those descriptions are the proposers' own words, not ours. Each document was fetched and its bytes checked against the hash the ledger recorded when the action was submitted, so what you are hearing is what was actually anchored on chain. Why it matters: these votes decide real things \u2014 fees, rewards and treasury spending \u2014 and most ADA holders never see them happen."
+  },
+  {
+   "heading": "ADA",
+   "text": "Also today. ADA is at 25.6 cents, up 3.8 percent on the day \u2014 up 31.4 percent over thirty days and up 1.6 percent on the week. Since the last episode it has moved up 3.2 percent. That is 2.2 percent below the top of its thirty-day range, 26.2 cents."
+  },
+  {
+   "heading": "Today's claim",
+   "text": "Now the prediction. Today's claim: ADA closes above $0.2610 seven days from now, 2 percent above where it is today. It stands at 25.6 cents as this is recorded. One caution: claims 22, 6, 14, still open, bet on the same measurement, so one large move could decide all of them. We'll score it on October 9, automatically, against the same measurement \u2014 and if it's wrong, it stays on the board as wrong. Think we've got it wrong? Reply yes or no under the first comment - your call gets scored too."
+  },
+  {
+   "heading": "",
+   "text": "Running record: 11 right, 5 wrong, with 1 void. Every call we make is scored in public, the wrong ones included. New here? Start with the guide linked below. The full treasury and voting data is free on our site, linked below. See you tomorrow."
+  }
+ ]
 }

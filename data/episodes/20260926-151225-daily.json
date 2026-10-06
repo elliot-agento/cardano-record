@@ -110,5 +110,35 @@
   "half_life_years": 5.856055259918257,
   "treasury_accrual_per_epoch_ada": 3732438.0157768726
  },
- "_note": "Compact record of the figures used in this episode."
+ "_note": "Compact record of the figures used in this episode.",
+ "transcript": [
+  {
+   "heading": "Cold open",
+   "text": "Cardano's blocks ran about 10 percent full by size over the last few hours. Size is not the only limit, though, and the other one tells a different story."
+  },
+  {
+   "heading": "Last week's calls",
+   "text": "First, the scorecard. We said USDCx is still in the top-5 most active Cardano tokens by on-chain tx count. It measured 1, so we got that one right. That puts the running record at 7 right and 3 wrong."
+  },
+  {
+   "heading": "How full is Cardano, actually?",
+   "text": "Every Cardano block has limits: how many bytes it can hold, and how much computing its smart contracts can use. How close blocks run to those limits says how much room the network has to grow. Now capacity, which transactions per day does not measure. Over the last 2.3 hours Cardano produced 400 blocks. By size those blocks ran 10.0 percent full. By the execution budget \u2014 the compute ceiling that caps what a block is allowed to do \u2014 they ran 3.4 percent full. Those are the averages. The peaks are the figure that matters: the busiest block in that window used 43.6 percent of the chain's compute ceiling, against 98.5 percent of its size ceiling. The limit this chain came closest to was block size. Per transaction the picture turns over. The median script transaction used 3.2 percent of what one transaction is allowed. The heaviest used 47.5 percent of its memory allowance against 33.1 percent of its step allowance \u2014 on Cardano a complex contract runs out of memory before it runs out of time. 69 percent of blocks carried at least one script. The median fee across all 2,708 transactions was 0.19 ADA, about 5 cents. Why it matters: it is the honest answer to whether Cardano could take more users today."
+  },
+  {
+   "heading": "ADA",
+   "text": "Also today. ADA is at 25.4 cents, down 0.3 percent on the day \u2014 up 19.0 percent over thirty days and up 10.4 percent on the week. Since the last episode it has moved down 0.7 percent."
+  },
+  {
+   "heading": "Cardano against the field",
+   "text": "One more thing. Start with the whole chain. 69.17 million dollars is locked in Cardano applications today, which ranks it thirty-sixth of the 467 chains tracked anywhere. That is up 11.1 percent over the week and up 27.1 percent over thirty days. Those applications produced 10.6 thousand dollars in fees over the last twenty-four hours. Take that single day and scale it across a year against the value locked and it comes to 5.61 percent \u2014 not a yield anyone earned, just today's fees held up against today's deposits. 53 protocols are carrying it."
+  },
+  {
+   "heading": "Today's claim",
+   "text": "Now the prediction. Today's claim: more than 66.0 percent of Cardano blocks still carry a script seven days from now. It stands at 68.8 percent as this is recorded. We'll score it on October 3, automatically, against the same measurement \u2014 and if it's wrong, it stays on the board as wrong."
+  },
+  {
+   "heading": "",
+   "text": "Running record: 7 right, 3 wrong, with 1 void \u2014 claim 5 was the same prediction logged twice by two pipeline runs on September 12. Every call we make is scored in public, the wrong ones included. New here? Start with the guide linked below. See you tomorrow."
+  }
+ ]
 }

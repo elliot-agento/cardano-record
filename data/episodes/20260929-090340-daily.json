@@ -103,5 +103,35 @@
   "half_life_years": 5.8567796170962945,
   "treasury_accrual_per_epoch_ada": 3707447.538702965
  },
- "_note": "Compact record of the figures used in this episode."
+ "_note": "Compact record of the figures used in this episode.",
+ "transcript": [
+  {
+   "heading": "Cold open",
+   "text": "In the last 195 days, Cardano's treasury paid out 457.4 million ADA to proposals approved through on-chain governance. Here is where the money comes from, and how fast it goes."
+  },
+  {
+   "heading": "Last week's calls",
+   "text": "First, the scorecard. We said ADA closes above $0.2456. It measured $0.25, so we got that one right. That puts the running record at 10 right, 3 wrong, 1 void."
+  },
+  {
+   "heading": "The treasury, as a rate",
+   "text": "Cardano's treasury is a shared fund built into the protocol. It fills a little every epoch, and only an on-chain vote can spend it. An epoch is Cardano's five-day cycle; rewards and votes are counted epoch by epoch. The treasury holds 1.37 billion ADA, about 345.44 million dollars. It takes in 3.7 million ADA every epoch \u2014 270.6 million a year \u2014 as its cut of each epoch's rewards: the new ADA released from the reserve, plus transaction fees. The reserve is the ADA not yet released into circulation, and it pays most staking rewards. Over the last 195 days governance enacted 34 withdrawals totalling 457.4 million ADA. That is 3.2 times what came in over the same window, and the balance fell 290.6 million ADA. That outflow is lumpy rather than steady: the single largest epoch was 29 percent of it."
+  },
+  {
+   "heading": "What the balance covers",
+   "text": "Held against that observed rate, the current balance covers 183 more epochs of spending \u2014 915 days at the pace of the last 195. That is arithmetic on what has already happened, not a schedule. If the treasury's income keeps shrinking along with the reserve, that falls to 173 epochs \u2014 an assumption, not a measurement. One further withdrawal is pending, asking 11.8 million ADA. Inflow, outflow and the balance reconcile to within 1.6 percent of the balance. Why it matters: it is how the network pays for its own development without a company writing the cheques, and the rate of spending against the rate of income is the figure to watch."
+  },
+  {
+   "heading": "ADA",
+   "text": "Also today. ADA is at 25.3 cents, up 1.4 percent on the day \u2014 up 23.4 percent over thirty days and down 0.2 percent on the week. Since the last episode it has moved up 1.2 percent."
+  },
+  {
+   "heading": "DJED: its peg and its yield",
+   "text": "One more thing. DJED, one of the dollar stablecoins on Cardano, is trading at 0.9762 \u2014 2.38 percent below its peg, the one-dollar price it is built to hold. A stablecoin is a token built to stay worth one dollar. At the same moment, on Liqwid, a lending market on Cardano, people lending out DJED are being paid 25.3 percent, on about 315.9 thousand dollars of room left in that market, with 90 percent of it already borrowed. So lenders are paid 25.3 percent on a coin trading 2.38 percent under its dollar. Both numbers are on the screen; the reading is yours."
+  },
+  {
+   "heading": "",
+   "text": "Running record: 10 right, 3 wrong, with 1 void. Every call we make is scored in public, the wrong ones included. New here? Start with the guide linked below. The full treasury and voting data is free on our site, linked below. See you tomorrow."
+  }
+ ]
 }

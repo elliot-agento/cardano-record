@@ -116,5 +116,31 @@
   "half_life_years": 5.8567796170962945,
   "treasury_accrual_per_epoch_ada": 3707447.538702965
  },
- "_note": "Compact record of the figures used in this episode."
+ "_note": "Compact record of the figures used in this episode.",
+ "transcript": [
+  {
+   "heading": "Cold open",
+   "text": "6.81 million dollars changed hands on Strike Finance, Cardano's perpetuals venue, in the last day, across 30 markets. Here is how its prices hold up against the biggest exchanges."
+  },
+  {
+   "heading": "Cardano's perps venue, measured",
+   "text": "A perpetual contract lets you bet on a price going up or down without owning the thing itself, and with no expiry date. Strike Finance, Cardano's perpetuals venue, traded 6.81 million dollars across 30 markets in the last 24 hours. ADA was the busiest: 2.21 million dollars, 32 percent of the total. Its prices track the big exchanges closely: across the majors, the median gap to the same contract on OKX was 4.4 hundredths of a percent. The quoted spread on ADA was about 4 hundredths of a percent. And a resting order that got filled was, five minutes later, 0.1 hundredths of a percent behind on average \u2014 which is what it costs to stand in front of faster traders. A market's volume and the gap to other venues say whether it is a real place to trade, which a funding rate alone cannot. A funding rate is what one side of a perpetual pays the other to keep its position open. Why it matters: volume and a tight gap to the big venues are what make a market real, not the number of contracts listed."
+  },
+  {
+   "heading": "ADA",
+   "text": "Also today. ADA is at 25.0 cents, down 0.6 percent on the day \u2014 up 24.6 percent over thirty days and up 7.9 percent on the week. Since the last episode it has moved down 1.2 percent."
+  },
+  {
+   "heading": "Following the treasury's money",
+   "text": "One more thing. Since Cardano's on-chain governance began paying out, 78 treasury withdrawals have been enacted, sending 804.4 million ADA to 17 recipients. 15 of those recipients are smart contracts \u2014 treasury vaults that hold the money and release it under their own rules \u2014 and they received 752.1 million ADA. Of that, 39.3 million ADA, about 5 percent, is still inside those vaults today. The other 95 percent has moved out. Moved out means the ADA left the vault. The chain does not say what it was used for \u2014 that part is up to the recipients to report. It is the first step in following public money from a vote to the work it was approved for."
+  },
+  {
+   "heading": "Today's claim",
+   "text": "Now the prediction. Today's claim: ADA closes above $0.2599 seven days from now, 3.9 percent above where it is today. It stands at 25.0 cents as this is recorded. One caution: claims 16, 6, 14, still open, bet on the same measurement, so one large move could decide all of them. We'll score it on October 4, automatically, against the same measurement \u2014 and if it's wrong, it stays on the board as wrong. Think we've got it wrong? Reply yes or no under the first comment - your call gets scored too."
+  },
+  {
+   "heading": "",
+   "text": "Running record: 8 right, 3 wrong, with 1 void \u2014 claim 5 was the same prediction logged twice by two pipeline runs on September 12. A correction before we finish. In the weekly of Sep 20 and again in this week's, I gave Cardano treasury outflow two different ways: '457.4 million ADA across 34 enacted withdrawals' on one slide, then '392.2 million ADA across 12 withdrawals in the same window.' The second figure was inferred from a balance change and should not have been stated at all; only the first (the actually-enacted withdrawals) is trustworthy. Every call we make is scored in public, the wrong ones included. New here? Start with the guide linked below. Strike's market data is free on our site, linked below. See you tomorrow."
+  }
+ ]
 }

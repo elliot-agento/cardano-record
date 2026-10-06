@@ -116,5 +116,35 @@
   "half_life_years": 5.8567796170962945,
   "treasury_accrual_per_epoch_ada": 3707447.538702965
  },
- "_note": "Compact record of the figures used in this episode."
+ "_note": "Compact record of the figures used in this episode.",
+ "transcript": [
+  {
+   "heading": "Cold open",
+   "text": "There are 67.24 million dollars in stablecoins on Cardano today, 29.2 percent more than three months ago \u2014 the most there have ever been."
+  },
+  {
+   "heading": "Last week's calls",
+   "text": "First, the scorecard. We said Cardano's dollar stablecoins total more than $68.26M, 2.3 percent above today. It measured $67.24M, so we got that one wrong. That puts the running record at 11 right, 4 wrong, 1 void."
+  },
+  {
+   "heading": "Every dollar on Cardano",
+   "text": "A stablecoin is a token built to stay worth one dollar. They are the cash of on-chain finance: what people trade into, lend and pay with. How many dollars actually exist on Cardano. Counting every issuer, 67.24 million dollars, across 5 of them. That is up 29.2 percent over ninety days, and up 12.7 percent over thirty. This week alone it is up 0.5 percent. One limit on the chart: the total begins when every counted issuer exists - USDCx first minted on 2026-02-18. Before that date this would be a different basket of issuers, not a smaller number."
+  },
+  {
+   "heading": "Who issued them",
+   "text": "Issuer by issuer, and how each figure is arrived at. Over ninety days, almost all of that growth is USDCx: 12.8 million more issued than redeemed, up 37.9 percent. This week it is USDCx again, up 202.1 thousand \u2014 most of the week's growth. Not every issuer is growing. Over the same ninety days DJED is 47.1 percent lower, iUSD is 11.2 percent lower, USDA is 3.6 percent lower, while USDM grew too. So the total and most of its parts are moving in opposite directions, and the total on its own would be the misleading half of that. DJED and SHEN work differently from the rest. They mint their entire supply cap once, at launch, into a vault, and issue by releasing from it. Their mint history therefore records nothing at all, however much is being issued or redeemed. So DJED is measured as the cap minus what that vault still holds: 1.00 trillion minted at launch, of which all but 1.5 million has never left the vault. That remainder is the real circulating supply. That subtraction is the reason this segment can exist. Reporting the headline figure instead would overstate it by six orders of magnitude. SHEN is tracked here but kept out of the dollar total. It is Djed's reserve token, not a dollar, and it trades near ten cents. Where a second independent measurement exists, the two agree: 4 of these are checked against the tokens actually sitting in trading pools, and they match exactly. Why it matters: the number of dollars parked on a chain is one of the plainest readings of whether people are actually using it, which is why the breakdown by issuer matters as much as the total."
+  },
+  {
+   "heading": "ADA",
+   "text": "Also today. ADA is at 24.8 cents, up 2.2 percent on the day \u2014 up 23.7 percent over thirty days and up 2.8 percent on the week."
+  },
+  {
+   "heading": "Today's claim",
+   "text": "Now the prediction. Today's claim: Cardano's dollar stablecoins total more than 69.37 million dollars seven days from now, 3.2 percent above today, measured as the median of the last three days. It stands at 67.21 million dollars, the three-day median, as this is recorded. One caution: claim 21, still open, bets on the same measurement, so one large move could decide both. We'll score it on October 8, automatically, against the same measurement \u2014 and if it's wrong, it stays on the board as wrong. Think we've got it wrong? Reply yes or no under the first comment - your call gets scored too."
+  },
+  {
+   "heading": "",
+   "text": "Running record: 11 right, 4 wrong, with 1 void. Every call we make is scored in public, the wrong ones included. New here? Start with the guide linked below. See you tomorrow."
+  }
+ ]
 }

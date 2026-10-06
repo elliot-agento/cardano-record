@@ -110,5 +110,47 @@
   "half_life_years": 5.852907289602206,
   "treasury_accrual_per_epoch_ada": 3733050.8207371235
  },
- "_note": "Compact record of the figures used in this episode."
+ "_note": "Compact record of the figures used in this episode.",
+ "transcript": [
+  {
+   "heading": "Cold open",
+   "text": "ADA moved 5.6 percent in a day. Here is what actually changed underneath the price. Here is today, measured."
+  },
+  {
+   "heading": "ADA",
+   "text": "ADA is at 22.7 cents, up 5.6 percent on the day and up 18.4 percent over thirty. That places it 56 percent of the way up its own thirty-day range, between 19.1 cents and 25.4 cents."
+  },
+  {
+   "heading": "The loan book",
+   "text": "Indigo's borrowers have 3.99 million dollars of ADA locked against 1.77 million dollars of debt, across 287 live positions. That is a book-wide collateral ratio of 2.26 to one. Since the last episode borrowers pulled 0.7 percent of the collateral behind this book, measured in ADA rather than dollars."
+  },
+  {
+   "heading": "How far can ADA fall?",
+   "text": "Ten percent of that debt enters the liquidation band once ADA reaches 16.8 cents \u2014 a drop of 26.0 percent from here. Half the book needs ADA at 12.7 cents, which is 44.0 percent below today. The weakest position in the book is already inside the liquidation band at today's price."
+  },
+  {
+   "heading": "What the open vote would change",
+   "text": "There is a parameter change open for voting right now, and it changes a number said earlier in this episode. It would cut the minimum fee every stake pool takes from 170 ADA an epoch to 75. Mechanically that moves 90.4 thousand ADA an epoch \u2014 6.6 million a year \u2014 from operators to delegators. Across the network that is a move from 1.52 percent to 1.55 percent, which sounds like very little. It is not spread evenly. In the smallest pools the realised return goes from 0.56 percent to 0.97 percent \u2014 close to double. In the largest, from 1.47 percent to 1.48 percent, which is a rounding error. One thing that figure assumes: that operators do not raise their margin to take back what the fee change gives up. Nothing stops them, and this is the mechanical effect on today's book, not a projection of how anyone behaves. As it stands, DReps have cast 2 abstain, 21 no, 24 yes; and the constitutional committee have cast 1 yes, with 5 epochs left to vote. Whether it passes is not something this channel forecasts."
+  },
+  {
+   "heading": "The treasury, as a rate",
+   "text": "The treasury holds 1.36 billion ADA, about 308.27 million dollars. It takes in 3.7 million ADA every epoch \u2014 272.5 million a year \u2014 as its share of monetary expansion. Over the last 195 days governance enacted 34 withdrawals totalling 457.4 million ADA. That is 3.1 times what came in over the same window, and the balance fell 290.2 million ADA. That outflow is lumpy rather than steady: the single largest epoch was 29 percent of it. Held against that observed rate, the current balance covers 172 more epochs of spending \u2014 860 days at the pace of the last 195. That is arithmetic on what has already happened, not a schedule. 1 further withdrawals are pending, asking 11.8 million ADA between them. Inflow, outflow and the balance reconcile to within 1.6 percent of the balance."
+  },
+  {
+   "heading": "Who is using the compute?",
+   "text": "The capacity figure says how much of the chain's compute budget was used. This is who used it. Across the same window, 127 different validators ran at least once, between them 1,099 executions. The busiest single validator accounted for 40.9 percent of every execution step spent on Cardano in that window. The top five together, 75.0 percent. Put the other way: it takes 2 validators to reach half of all the compute this chain did. Those executions paid 56 ADA in script fees. These are validator hashes, not protocol names. Which script belongs to which application is not something the chain records, and this channel does not guess at it."
+  },
+  {
+   "heading": "Cross-check",
+   "text": "One figure in this episode does not add up, and it is worth naming. The iUSD debt visible across individual positions accounts for 93.35 percent of the iUSD in existence. The remaining 6.65 percent is unaccounted for, and until it is explained, treat every iUSD figure here as a floor rather than a total. The other 6 of 7 assets account for all of theirs, exactly."
+  },
+  {
+   "heading": "Today's claim",
+   "text": "Now the prediction. Today's claim: USDCx is still in the top-5 most active Cardano tokens by on-chain tx count seven days from now (measured 89 this window). It resolves on September 26, automatically, on the same measurement, with no interpretation and no wriggle room. If it is wrong, it goes on the board as wrong, and it stays there."
+  },
+  {
+   "heading": "",
+   "text": "Running record: 1 and 4. Epoch 657 begins in about 58 hours. This channel does make predictions, and every one of them is dated, logged and scored in public. The ones that were wrong stay on the board."
+  }
+ ]
 }

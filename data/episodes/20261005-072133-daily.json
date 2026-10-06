@@ -117,5 +117,35 @@
   "half_life_years": 5.860196620444412,
   "treasury_accrual_per_epoch_ada": 3705503.419691086
  },
- "_note": "Compact record of the figures used in this episode."
+ "_note": "Compact record of the figures used in this episode.",
+ "transcript": [
+  {
+   "heading": "Cold open",
+   "text": "Over the last few hours, the busiest Cardano block used 93.2 percent of its compute ceiling, while the average block used just 6.2 percent of it."
+  },
+  {
+   "heading": "Last week's calls",
+   "text": "First, the scorecard. We said deposits across Liqwid's markets are above today's $22.86M on October 5. It measured $25.46M, so we got that one right. That puts the running record at 13 right, 6 wrong, 1 void."
+  },
+  {
+   "heading": "How full is Cardano, actually?",
+   "text": "Every Cardano block has limits: how many bytes it can hold, and how much computing its smart contracts can use. A smart contract is a program stored on the chain that enforces its own rules. How close blocks run to those limits says how much room the network has to grow. Over the last 2.2 hours Cardano produced 400 blocks. By size those blocks ran 10.8 percent full. By the execution budget \u2014 the compute ceiling that caps what a block is allowed to do \u2014 they ran 6.2 percent full. The compute ceiling comes in two parts: steps, the processing time contracts are allowed, and memory, the working space they may use. Those are the averages. The peaks are the figure that matters: the busiest block in that window used 93.2 percent of the chain's compute ceiling, against 61.3 percent of its size ceiling. The limit this chain came closest to was the compute budget's steps. When a block is full, the transactions that do not fit wait for a later block. Cardano's fee comes from a fixed formula, so what a user feels is a wait, not a higher price."
+  },
+  {
+   "heading": "Inside one transaction",
+   "text": "A script is a smart contract running inside a transaction, and 82 percent of blocks carried at least one. Each transaction has its own, smaller budget. The median script transaction used 6.0 percent of its memory allowance and 2.9 percent of its steps. The heaviest on memory used 84.8 percent of its allowance; the heaviest on steps, 100.0 percent. The median fee across all 3,360 transactions was 0.20 ADA, about 5 cents. Why it matters: it is the honest answer to whether Cardano could take more users today."
+  },
+  {
+   "heading": "ADA",
+   "text": "Also today. ADA is at 27.2 cents, up 10.9 percent on the day \u2014 up 25.6 percent over thirty days and up 10.7 percent on the week. Since the last episode it has moved up 11.2 percent. That is 1.1 percent below the top of its thirty-day range, 27.5 cents."
+  },
+  {
+   "heading": "Today's claim",
+   "text": "Now the prediction. Today's claim: the median Cardano transaction fee is under 0.2000 ADA seven days from now. It stands at 0.1951 as this is recorded. One caution: claim 24, still open, bets on the same measurement, so one large move could decide both. We'll score it on October 12, automatically, against the same measurement \u2014 and if it's wrong, it stays on the board as wrong. Think I've got it wrong? Reply yes or no under the first comment, or put a number on it in the Forecast League at cardanorecord dot com slash league."
+  },
+  {
+   "heading": "",
+   "text": "Running record: 13 right, 6 wrong, with 1 void. Every call we make is scored in public, the wrong ones included. New here? Start with the guide linked below. See you tomorrow."
+  }
+ ]
 }

@@ -110,5 +110,39 @@
   "half_life_years": 5.856055259918257,
   "treasury_accrual_per_epoch_ada": 3732438.0157768726
  },
- "_note": "Compact record of the figures used in this episode."
+ "_note": "Compact record of the figures used in this episode.",
+ "transcript": [
+  {
+   "heading": "Cold open",
+   "text": "There are 66.70 million dollars in stablecoins on Cardano today, 25.4 percent more than three months ago."
+  },
+  {
+   "heading": "Last week's calls",
+   "text": "First, the scorecard. We said iUSD supply stays above 1.3 million. It measured 1,375,327, so we got that one right. That puts the running record at 5 right and 3 wrong."
+  },
+  {
+   "heading": "Every dollar on Cardano",
+   "text": "A stablecoin is a token built to stay worth one dollar. They are the cash of on-chain finance: what people trade into, lend and pay with. How many dollars actually exist on Cardano. Counting every issuer, 66.70 million dollars, across 5 of them. That is up 25.4 percent over ninety days, and up 9.3 percent over thirty. Almost all of that movement is one token. 15.0 million more USDCx has been issued in ninety days than redeemed. Meanwhile 3 of the other issuers got smaller over the same window: DJED 47.4 percent lower, USDA 21.9 percent lower, iUSD 12.1 percent lower. So the total and its parts are moving in opposite directions, and the total on its own would be the misleading half of that. One limit on the chart: the total begins when every counted issuer exists - USDCx first minted on 2026-02-18. Before that date this would be a different basket of issuers, not a smaller number."
+  },
+  {
+   "heading": "Who issued them",
+   "text": "Issuer by issuer, and how each figure is arrived at. DJED and SHEN work differently from the rest. They mint their entire supply cap once, at launch, into a vault, and issue by releasing from it. Their mint history therefore records nothing at all, however much is being issued or redeemed. So DJED is measured as the cap minus what that vault still holds: 1.00 trillion minted at launch, of which all but 1.5 million has never left the vault. That remainder is the real circulating supply. That subtraction is the reason this segment can exist. Reporting the headline figure instead would overstate it by six orders of magnitude. SHEN is tracked here but kept out of the dollar total. It is Djed's reserve token, not a dollar, and it trades near ten cents. Where a second independent measurement exists, the two agree: 4 of these are cross-checked against the pool scan and the widest disagreement is 0.00 percent. Why it matters: the number of dollars parked on a chain is one of the plainest readings of whether people are actually using it, which is why the breakdown by issuer matters as much as the total."
+  },
+  {
+   "heading": "ADA",
+   "text": "Also today. ADA is up 17.6 percent on the week, at 23.6 cents \u2014 down 5.6 percent on the day and up 8.2 percent over thirty days. Since the last episode it has moved down 5.8 percent."
+  },
+  {
+   "heading": "What the chain minted and burned",
+   "text": "Also today. Now what the chain actually created and destroyed this week. These are the assets whose supply changed over 7 days \u2014 stablecoins and synthetics being minted as demand for them appears, and burned as it goes away. NTX leads with 135 issuance events, 39 percent of all issuance events measured this week, across every asset that had any. Tokens with a fixed supply never appear here at all \u2014 they were minted once and only change hands after that."
+  },
+  {
+   "heading": "Today's claim",
+   "text": "Now the prediction. Today's claim: Cardano's dollar stablecoins total more than $68.26M seven days from now, 2.3 percent above today. It stands at 66.70 million dollars as this is recorded. We'll score it on October 1, automatically, against the same measurement \u2014 and if it's wrong, it stays on the board as wrong."
+  },
+  {
+   "heading": "",
+   "text": "Running record: 5 right, 3 wrong, with 1 void \u2014 claim 5 was the same prediction logged twice by two pipeline runs on September 12. Every call we make is scored in public, the wrong ones included. New here? Start with the guide linked below. See you tomorrow."
+  }
+ ]
 }

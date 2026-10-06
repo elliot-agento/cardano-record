@@ -103,5 +103,27 @@
   "half_life_years": 5.860196620444412,
   "treasury_accrual_per_epoch_ada": 3705503.419691086
  },
- "_note": "Compact record of the figures used in this episode."
+ "_note": "Compact record of the figures used in this episode.",
+ "transcript": [
+  {
+   "heading": "Cold open",
+   "text": "395 changes landed in Cardano's core open-source code last week, across the node, the ledger, Plutus, Hydra, Mithril and more. Here is who is building, project by project."
+  },
+  {
+   "heading": "Who is building",
+   "text": "Who is building Cardano? Across 15 of the core open-source projects, the node, the ledger, Plutus, Hydra, Mithril and more, 395 commits landed on the main branches in the week starting September 27th. The twelve weeks before averaged 333 a week. The busiest was Mithril, with 85. In the last thirty days these projects shipped 10 releases across 6 of them. A commit is one recorded change to the code. It counts work, not how important the work is. Why it matters: code is the one part of a blockchain's future you can watch being made, commit by commit."
+  },
+  {
+   "heading": "ADA",
+   "text": "Also today. ADA is at 27.6 cents, up 1.5 percent on the day \u2014 up 25.8 percent over thirty days and up 9.3 percent on the week. Since the last episode it has moved up 1.5 percent. That is 1.2 percent below the top of its thirty-day range, 27.9 cents."
+  },
+  {
+   "heading": "What credit costs here",
+   "text": "One more thing. Liqwid, the largest lending market on Cardano, holds 20.72 million dollars of user deposits against 11.27 million dollars of loans across 34 markets. ADA deposits there earn 3.1 percent, with only 41 percent of the pool borrowed. DJED, a stablecoin built to stay worth one dollar, earns its depositors 26.0 percent, with 90 percent borrowed. A stablecoin is a token built to stay worth one dollar. Only 317.9 thousand dollars of that pool is not already lent out. The rate is that high because the pool is nearly empty of spare dollars, which is also why so little can earn it. The demand on this venue is for dollars, not for ADA, and the gap between those two numbers is how strongly."
+  },
+  {
+   "heading": "",
+   "text": "Running record: 13 right, 6 wrong, with 1 void. No new claim today: the record of how today's figures have moved gives no fair odds for a call on them, and a call nobody can weigh would not test anything. Every call we make is scored in public, the wrong ones included. New here? Start with the guide linked below. The full liquidation map is free on our site, linked below. See you tomorrow."
+  }
+ ]
 }

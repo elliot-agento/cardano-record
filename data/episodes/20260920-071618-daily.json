@@ -110,5 +110,51 @@
   "half_life_years": 5.852907289602206,
   "treasury_accrual_per_epoch_ada": 3733050.8207371235
  },
- "_note": "Compact record of the figures used in this episode."
+ "_note": "Compact record of the figures used in this episode.",
+ "transcript": [
+  {
+   "heading": "Cold open",
+   "text": "Cardano's largest lending book runs to 307 open positions, and every one of them was measured individually for this episode rather than taken as a total. Here is today, measured."
+  },
+  {
+   "heading": "Cross-check",
+   "text": "One figure in this episode does not add up, and it is worth naming. The iUSD debt visible across individual positions accounts for 93.01 percent of the iUSD in existence. The remaining 6.99 percent is unaccounted for, and until it is explained, treat every iUSD figure here as a floor rather than a total. The other 6 of 7 assets account for all of theirs, exactly."
+  },
+  {
+   "heading": "ADA",
+   "text": "ADA is at 22.2 cents, down 2.2 percent on the day and up 3.0 percent over thirty. That places it 49 percent of the way up its own thirty-day range, between 19.1 cents and 25.4 cents."
+  },
+  {
+   "heading": "The loan book",
+   "text": "Indigo's borrowers have 3.90 million dollars of ADA locked against 1.76 million dollars of debt, across 287 live positions. That is a book-wide collateral ratio of 2.21 to one. The collateral behind it has not moved since the last episode, and nor has the number of open positions \u2014 so whatever the market did today, the borrowers themselves sat still."
+  },
+  {
+   "heading": "How far can ADA fall?",
+   "text": "Ten percent of that debt enters the liquidation band once ADA reaches 16.4 cents \u2014 a drop of 26.0 percent from here. Half the book needs ADA at 12.9 cents, which is 42.0 percent below today. The weakest position in the book is already inside the liquidation band at today's price."
+  },
+  {
+   "heading": "Liquidity that works",
+   "text": "There are 1,211 liquidity pools on this chain. 460 of them did no trade at all today. Across every venue, 1.93 million dollars changed hands in twenty-four hours, against 1.18 million dollars a day averaged over the past week \u2014 64 percent above that pace. The week itself is running 81 percent below the thirty-day average, so the slowdown is a month in the making, not a quiet Tuesday. A fall that steep is worth treating as provisional until it holds for another week. The pools that did trade turned over 0.64 percent of what sits in them. Depth on a screen and depth you can actually trade against are not the same measurement."
+  },
+  {
+   "heading": "What credit costs here",
+   "text": "Cardano's lending market holds 20.74 million dollars of deposits against 9.78 million dollars of loans. Lend ADA and the market pays 2.9 percent, with only 36 percent of it borrowed. Lend DJED and it pays 27.3 percent, with 91 percent borrowed. The demand on this chain is for dollars, not for ADA, and the gap between those two numbers is how strongly."
+  },
+  {
+   "heading": "Scoring our own cascade",
+   "text": "Every episode tells you how far ADA would have to fall before part of Indigo's book is at risk. This is what happened when we checked. Taking 40 pairs of archived snapshots \u2014 the curve one episode published, against what the book actually looked like at that price days later \u2014 the median error was 0.7 positions. 82 percent of them landed within a single position, and 28 percent were exact. The worst single pair spanned a 7.2 percent fall over 184 hours. It called 8.6 positions at risk and 4 were. There is a reason it leans that way, and it is built into the method. The curve asks what happens to today's positions at a different price, holding those positions still. Borrowers do not hold still \u2014 they add collateral and they close, which is exactly what a cascade cannot see coming. Across these pairs the book moved by a median of 1 positions. So the number stands, with a known bias, measured rather than assumed."
+  },
+  {
+   "heading": "The dollar that isn't",
+   "text": "Cardano's own dollar, DJED, is trading at 0.9827 against the dollar it is meant to track \u2014 1.73 percent below peg. At the same moment, lenders holding DJED are being paid 27.3 percent, with 91 percent of the pool borrowed. A yield that size on something that is supposed to be worth exactly one dollar is the market charging for a risk, not handing out a return. Both numbers are on the screen; the reading is yours."
+  },
+  {
+   "heading": "Today's claim",
+   "text": "Now the prediction. Today's claim: our own cascade model still lands within one position on more than 74 percent of scored pairs seven days from now. It resolves on September 27, automatically, on the same measurement, with no interpretation and no wriggle room. If it is wrong, it goes on the board as wrong, and it stays there."
+  },
+  {
+   "heading": "",
+   "text": "Running record: 1 and 4. Epoch 657 begins in about 34 hours. This channel does make predictions, and every one of them is dated, logged and scored in public. The ones that were wrong stay on the board."
+  }
+ ]
 }

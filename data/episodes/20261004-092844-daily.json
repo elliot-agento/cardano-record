@@ -116,5 +116,39 @@
   "half_life_years": 5.860196620444412,
   "treasury_accrual_per_epoch_ada": 3705503.419691086
  },
- "_note": "Compact record of the figures used in this episode."
+ "_note": "Compact record of the figures used in this episode.",
+ "transcript": [
+  {
+   "heading": "Cold open",
+   "text": "In the epoch 660 snapshot, 1.30 million stake accounts were staking ADA. Here is what delegators actually earned, and why pool size changes it."
+  },
+  {
+   "heading": "Last week's calls",
+   "text": "First, the scorecard. We said ADA closes above $0.2599 on October 4, 3.9 percent above where it was on September 27. It measured $0.2451, so we got that one wrong. That puts the running record at 12 right, 6 wrong, 1 void."
+  },
+  {
+   "heading": "Stake accounts",
+   "text": "Staking is how Cardano runs. A stake pool is a node that produces blocks on behalf of the ADA delegated to it; holders delegate, and everyone is paid in new ADA. The ADA never leaves your wallet. A stake account is a staking key, not a person: one holder can have several. In the epoch 660 snapshot there were 1.30 million of them. An epoch is Cardano's five-day cycle; rewards and votes are counted epoch by epoch. The number of stake accounts is 1,304,104 in the epoch 660 snapshot, down 1,087 an epoch on average since epoch 652."
+  },
+  {
+   "heading": "What staking actually paid",
+   "text": "Now what staking actually paid. In epoch 657, 4.4 million ADA went to delegators against 18.32 billion ADA of delegated stake \u2014 a realized return of 1.75 percent annualised. Pool owners' own ADA is left out of that: the protocol pays it through the operator's reward, not as a delegator. The whole reward pot, operators included, came to 2.10 percent of all stake. Of what delegated stake earned, operators kept 14.6 percent in fees. That average hides the figure that matters. A delegator in pools holding under one million ADA realised 0.49 percent. In pools of twenty to fifty million ADA, 1.91 percent \u2014 3.9 times as much."
+  },
+  {
+   "heading": "Why the bottom row pays less",
+   "text": "Two things pull the bottom down together: the flat fee every pool takes each epoch, which is a rounding error against fifty million of stake and most of the reward against five hundred thousand, and blocks that never came. Small pools often go a whole epoch without one. At the top, the gap closes through the margin, the percentage cut an operator takes on top of that fee, and saturation, the size past which a pool's rewards stop growing with its stake. Scale matters before anyone reads too much into the bottom row: those 1,753 pools hold 0.8 percent of the ADA staked. And of 2,676 pools holding stake, 920 were paid a leader reward for the epoch. 1,756 were not. Why it matters: for anyone holding ADA this is the most practical number on the chain: the same ADA earns a different amount depending on the pool it sits in. That is reported, not recommended: past epochs, not a promise, and not advice on where to delegate."
+  },
+  {
+   "heading": "ADA",
+   "text": "Also today. ADA is at 24.4 cents, down 0.3 percent on the day \u2014 up 15.8 percent over thirty days and down 4.6 percent on the week."
+  },
+  {
+   "heading": "Today's claim",
+   "text": "Now the prediction. Today's claim: the newest epoch stake snapshot counts fewer than 1,303,343 stake accounts seven days from now; epoch 660's counts 1,304,104. It stands at 1,304,104 as this is recorded. We'll score it on October 11, automatically, against the same measurement \u2014 and if it's wrong, it stays on the board as wrong. Think we've got it wrong? Reply yes or no under the first comment - your call gets scored too."
+  },
+  {
+   "heading": "",
+   "text": "Running record: 12 right, 6 wrong, with 1 void. Every call we make is scored in public, the wrong ones included. New here? Start with the guide linked below. See you tomorrow."
+  }
+ ]
 }

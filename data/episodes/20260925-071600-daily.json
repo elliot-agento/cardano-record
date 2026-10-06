@@ -110,5 +110,39 @@
   "half_life_years": 5.856055259918257,
   "treasury_accrual_per_epoch_ada": 3732438.0157768726
  },
- "_note": "Compact record of the figures used in this episode."
+ "_note": "Compact record of the figures used in this episode.",
+ "transcript": [
+  {
+   "heading": "Cold open",
+   "text": "1.31 million stake accounts are staking 21.4 billion ADA right now. Here is what they actually earned, and why pool size changes it."
+  },
+  {
+   "heading": "Last week's calls",
+   "text": "First, the scorecard. We said less than 0.09 percent of Cardano's native-token market cap is exitable at ten percent impact. It measured 0.0004565, so we got that one right. That puts the running record at 6 right and 3 wrong."
+  },
+  {
+   "heading": "What staking actually paid",
+   "text": "Staking is how Cardano runs: ADA holders delegate to a stake pool, the pools produce the blocks, and everyone is paid in new ADA. The ADA never leaves your wallet. 1.31 million stake accounts do it today, with 21.4 billion ADA. Now what staking actually paid. In epoch 655, 4.4 million ADA went to delegators against 21.39 billion ADA of stake \u2014 a realized return of 1.51 percent annualised. An epoch is Cardano's five-day cycle; rewards and votes are counted epoch by epoch. The whole reward pot, operators included, came to 2.10 percent. Operators took 28.4 percent of it. That average hides the figure that matters. A delegator in pools holding under 1m ADA realised 0.33 percent. In the 20m - 50m band, 1.66 percent \u2014 5.0 times as much. Two different things cause that. At the bottom it is the flat per-epoch fixed cost, which is a rounding error against fifty million of stake and most of the reward against five hundred thousand. At the top it is margin and saturation. Scale matters before anyone reads too much into the bottom row: those 1,755 pools hold 0.8 percent of the ADA staked. And of 2,677 pools holding stake, 935 were paid for producing a block. 1,742 produced none. Why it matters: for anyone holding ADA this is the most practical number on the chain: the same ADA earns a different amount depending on the pool it sits in."
+  },
+  {
+   "heading": "ADA",
+   "text": "Also today. ADA is at 25.6 cents, up 8.7 percent on the day \u2014 up 22.1 percent over thirty days and up 19.8 percent on the week. Since the last episode it has moved up 8.6 percent. That is within reach of the top of its thirty-day range, 26.0 cents."
+  },
+  {
+   "heading": "The dollar that isn't",
+   "text": "One more thing. Cardano's own dollar, DJED, is trading at 1.0176 against the dollar it is meant to track \u2014 1.76 percent above peg. At the same moment, lenders holding DJED are being paid 23.3 percent, with 90 percent of the pool borrowed. A yield that size says lenders are being paid well to hold it, while the coin itself trades above the dollar it tracks \u2014 the two point opposite ways, and this measurement does not settle which is the stronger one. Both numbers are on the screen; the reading is yours."
+  },
+  {
+   "heading": "Into ADA, or out of it",
+   "text": "One more thing. Follow the money between the dollars on this chain and ADA itself. Over the last day, a net 29.0 million ADA moved out of stablecoins and into ADA, on 39.4 million of gross trading. A stablecoin is a token built to stay worth one dollar. Somebody selling a dollar to hold ADA is taking on risk; somebody buying one is putting it down. On that measure the chain reads RISK-ON today. 5 of the 5 stablecoins measured saw net selling. USDM led it, sold at roughly 5 times the rate it was bought."
+  },
+  {
+   "heading": "Today's claim",
+   "text": "Now the prediction. Today's claim: more than 1,308,410 stake accounts are delegating seven days from now, up from today. It stands at 1,308,410 as this is recorded. We'll score it on October 2, automatically, against the same measurement \u2014 and if it's wrong, it stays on the board as wrong."
+  },
+  {
+   "heading": "",
+   "text": "Running record: 6 right, 3 wrong, with 1 void \u2014 claim 5 was the same prediction logged twice by two pipeline runs on September 12. Every call we make is scored in public, the wrong ones included. New here? Start with the guide linked below. See you tomorrow."
+  }
+ ]
 }

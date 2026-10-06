@@ -116,5 +116,39 @@
   "half_life_years": 5.8567796170962945,
   "treasury_accrual_per_epoch_ada": 3707447.538702965
  },
- "_note": "Compact record of the figures used in this episode."
+ "_note": "Compact record of the figures used in this episode.",
+ "transcript": [
+  {
+   "heading": "Cold open",
+   "text": "Cardano's blocks ran about 14 percent full by size over the last few hours. Size is not the only limit, though: the busiest block used 99.4 percent of its compute ceiling."
+  },
+  {
+   "heading": "Last week's calls",
+   "text": "First, the scorecard. We said Indigo TVL is below $4.44M, 2 percent below the level on September 23. TVL, or total value locked, is the dollar value of everything deposited in a protocol. It measured $4.33M, so we got that one right. That puts the running record at 11 right, 3 wrong, 1 void."
+  },
+  {
+   "heading": "How full is Cardano, actually?",
+   "text": "Every Cardano block has limits: how many bytes it can hold, and how much computing its smart contracts can use. A smart contract is a program stored on the chain that enforces its own rules. How close blocks run to those limits says how much room the network has to grow. Over the last 2.1 hours Cardano produced 400 blocks. By size those blocks ran 14.3 percent full. By the execution budget \u2014 the compute ceiling that caps what a block is allowed to do \u2014 they ran 16.7 percent full. The compute ceiling comes in two parts: steps, the processing time contracts are allowed, and memory, the working space they may use. Those are the averages. The peaks are the figure that matters: the busiest block in that window used 99.4 percent of the chain's compute ceiling, against 78.0 percent of its size ceiling. The limit this chain came closest to was the compute budget's steps. When a block is full, the transactions that do not fit wait for a later block. Cardano's fee comes from a fixed formula, so what a user feels is a wait, not a higher price."
+  },
+  {
+   "heading": "Inside one transaction",
+   "text": "A script is a smart contract running inside a transaction, and 85 percent of blocks carried at least one. Each transaction has its own, smaller budget. The median script transaction used 8.1 percent of its memory allowance and 4.5 percent of its steps \u2014 on Cardano a complex contract runs out of memory before it runs out of time. The heaviest on memory used 77.6 percent of its allowance; the heaviest on steps, 41.0 percent. The median fee across all 4,225 transactions was 0.20 ADA, about 5 cents. Why it matters: it is the honest answer to whether Cardano could take more users today."
+  },
+  {
+   "heading": "ADA",
+   "text": "Also today. ADA is at 24.7 cents, up 1.0 percent on the day \u2014 up 26.1 percent over thirty days and up 4.6 percent on the week. Since the last episode it has moved down 2.3 percent."
+  },
+  {
+   "heading": "Midnight City, measured",
+   "text": "One more thing. From the wider ecosystem: Midnight City, an online simulation built around the Midnight project, where AI agents work, trade and eat in one shared town. Its world is public, so we measure it - the game itself, not a blockchain. 608 agents live there; 120 run on their owners' own machines. They hold 561.2 million crystal, the City's currency, and the richest tenth hold 35.4 percent of it. Work is crowded: 89 percent of hacking terminals are in use. One broker swaps an in-game NIGHT item for a shielded token. No agent holds either today. Whether that item is tied to the NIGHT token on Cardano, the City's public records do not show."
+  },
+  {
+   "heading": "Today's claim",
+   "text": "Now the prediction. Today's claim: the median Cardano transaction fee stays under 0.2155 ADA seven days from now. It stands at 0.1995 as this is recorded. We'll score it on October 7, automatically, against the same measurement \u2014 and if it's wrong, it stays on the board as wrong. Think we've got it wrong? Reply yes or no under the first comment - your call gets scored too."
+  },
+  {
+   "heading": "",
+   "text": "Running record: 11 right, 3 wrong, with 1 void. Every call we make is scored in public, the wrong ones included. New here? Start with the guide linked below. See you tomorrow."
+  }
+ ]
 }

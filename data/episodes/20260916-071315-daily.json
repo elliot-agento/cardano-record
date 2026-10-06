@@ -118,5 +118,55 @@
   "half_life_years": 5.851304652744548,
   "treasury_accrual_per_epoch_ada": 3740534.1255960464
  },
- "_note": "Compact record of the figures used in this episode."
+ "_note": "Compact record of the figures used in this episode.",
+ "transcript": [
+  {
+   "heading": "Cold open",
+   "text": "A 4.2 million ADA treasury withdrawal is sitting at 3 percent of the DRep voting power that counts, with 1 epochs left to vote. Here is today, measured."
+  },
+  {
+   "heading": "Open votes (1/2)",
+   "text": "4 governance actions are open for voting right now. The 103.0 thousand ADA withdrawal, which its proposers call \u201cReimburse Ikigai Info Governance Action Deposit\u201d, closing in 1 epoch: 125 DReps for, 7 against, 7 abstaining \u2014 but weighted by stake, yes holds 96 percent of the power that counts. The 4.2 million ADA withdrawal, which its proposers call \u201cGovernance Incentives Framework 2026\u201d, closing in 1 epoch: 12 DReps for, 97 against, 19 abstaining \u2014 but weighted by stake, yes holds 3 percent of the power that counts. The parameter change, which its proposers call \u201cReduce minPoolCost to 75 ada\u201d, closing in 6 epochs: 19 DReps for, 11 against, 2 abstaining \u2014 but weighted by stake, yes holds 57 percent of the power that counts."
+  },
+  {
+   "heading": "Open votes (2/2)",
+   "text": "Continuing through the open actions. The 11.8 million ADA withdrawal, which its proposers call \u201cWithdraw 11,787,063 ada for the OpenZeppelin Stack administered by Intersect\u201d, closing in 6 epochs: 6 DReps for, 20 against, 1 abstaining \u2014 but weighted by stake, yes holds 6 percent of the power that counts. Turnout across these: between 5.6 percent and 23.7 percent of all registered DRep voting power cast a vote. The Constitutional Committee has voted on 4 of them. Those descriptions are the proposers' own words, not ours. Each document was fetched and its bytes checked against the hash the ledger recorded when the action was submitted, so what you are hearing is what was actually anchored on chain."
+  },
+  {
+   "heading": "ADA",
+   "text": "ADA is at 19.4 cents, down 5.5 percent on the day and up 11.9 percent over thirty. That places it 27 percent of the way up its own thirty-day range, between 17.2 cents and 25.4 cents."
+  },
+  {
+   "heading": "The loan book",
+   "text": "Indigo's borrowers have 3.61 million dollars of ADA locked against 1.76 million dollars of debt, across 291 live positions. That is a book-wide collateral ratio of 2.05 to one. Since the last episode the book gained 1 position."
+  },
+  {
+   "heading": "How far can ADA fall?",
+   "text": "Ten percent of that debt enters the liquidation band once ADA reaches 15.1 cents \u2014 a drop of 22.0 percent from here. Half the book needs ADA at 11.6 cents, which is 40.0 percent below today. The weakest position in the book is already inside the liquidation band at today's price."
+  },
+  {
+   "heading": "How full is Cardano, actually?",
+   "text": "Now capacity, which transactions per day does not measure. Over the last 2.5 hours Cardano produced 400 blocks. By size those blocks ran 4.1 percent full. By the execution budget \u2014 the compute ceiling that caps what a block is allowed to do \u2014 they ran 1.6 percent full. Those are the averages. The peaks are the figure that matters: the busiest block in that window used 30.7 percent of the chain's compute ceiling, against 34.3 percent of its size ceiling. The limit this chain came closest to was block size. Per transaction the picture turns over. The median script transaction used 1.8 percent of what one transaction is allowed. The heaviest used 46.3 percent of its memory allowance against 33.1 percent of its step allowance \u2014 on Cardano a complex contract runs out of memory before it runs out of time. 58 percent of blocks carried at least one script. The median fee across all 1,737 transactions was 0.19 ADA, about 4 cents."
+  },
+  {
+   "heading": "What the chain minted and burned",
+   "text": "Now what the chain actually created and destroyed this week. These are the assets whose supply changed over 7 days \u2014 stablecoins and synthetics being minted as demand for them appears, and burned as it goes away. USDCx leads with 91 issuance events, 57 percent of everything on this board. Tokens with a fixed supply never appear here at all \u2014 they were minted once and only change hands after that."
+  },
+  {
+   "heading": "What credit costs here",
+   "text": "Cardano's lending market holds 18.94 million dollars of deposits against 9.35 million dollars of loans. Lend ADA and the market pays 2.8 percent, with only 35 percent of it borrowed. Lend DJED and it pays 27.3 percent, with 91 percent borrowed. The demand on this chain is for dollars, not for ADA, and the gap between those two numbers is how strongly."
+  },
+  {
+   "heading": "Cross-check",
+   "text": "One figure in this episode does not add up, and it is worth naming. The iUSD debt visible across individual positions accounts for 92.95 percent of the iUSD in existence. The remaining 7.05 percent is unaccounted for, and until it is explained, treat every iUSD figure here as a floor rather than a total. The other 6 of 7 assets account for all of theirs, exactly."
+  },
+  {
+   "heading": "Today's claim",
+   "text": "Now the prediction. Today's claim: no more than 11 CDPs sit below a 1.20 ratio seven days from now. It resolves on September 23, automatically, on the same measurement, with no interpretation and no wriggle room. If it is wrong, it goes on the board as wrong, and it stays there."
+  },
+  {
+   "heading": "",
+   "text": "Running record: 0 and 1. Epoch 656 begins in about 10 hours, and 2 governance actions close with it. This channel does make predictions, and every one of them is dated, logged and scored in public. The ones that were wrong stay on the board."
+  }
+ ]
 }

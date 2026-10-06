@@ -116,5 +116,35 @@
   "half_life_years": 5.8567796170962945,
   "treasury_accrual_per_epoch_ada": 3707447.538702965
  },
- "_note": "Compact record of the figures used in this episode."
+ "_note": "Compact record of the figures used in this episode.",
+ "transcript": [
+  {
+   "heading": "Cold open",
+   "text": "People have deposited 22.86 million dollars into Liqwid, Cardano's largest lending market, across 31 markets. What they earn depends on what borrowers want most \u2014 and right now it is dollars."
+  },
+  {
+   "heading": "Last week's calls",
+   "text": "First, the scorecard. We said Indigo's book-wide collateral ratio holds above 2.25x. It measured 2.39, so we got that one right. That puts the running record at 9 right and 3 wrong."
+  },
+  {
+   "heading": "What credit costs here",
+   "text": "Liqwid works like an on-chain savings and loans desk: depositors lend into a pool and earn interest, and borrowers pay it, posting collateral first. Liqwid, the largest lending market on Cardano, holds 22.86 million dollars of deposits against 10.22 million dollars of loans across 31 markets. ADA deposits there earn 2.9 percent, with only 36 percent of the pool borrowed. DJED deposits earn 25.4 percent, with 90 percent borrowed. Only 321.2 thousand dollars of that pool is not already lent out. The rate is that high because the pool is nearly empty of spare dollars, which is also why it is small. The demand on this venue is for dollars, not for ADA, and the gap between those two numbers is how strongly. Why it matters: the rates tell you what people on Cardano actually want to borrow, which no price chart shows."
+  },
+  {
+   "heading": "ADA",
+   "text": "Also today. ADA is at 25.0 cents, down 2.8 percent on the day \u2014 up 24.8 percent over thirty days and up 3.3 percent on the week."
+  },
+  {
+   "heading": "What Surf's loans are backed by",
+   "text": "One more thing. Surf, a Cardano lending protocol, holds 1.84 million dollars of deposits across 25 markets, with 831.6 thousand dollars of it lent out. We read all 522 of its open loans off the chain, and they add up exactly to what each pool says it has lent. Counted the way DefiLlama counts, collateral included, that is 3.60 million dollars locked. DefiLlama's own figure is 3.47 million dollars. In the largest pool that lends against a token, ADA against STRIKE, borrowers have posted 1.11 million dollars of STRIKE at today's pool price, 2.5 times what they owe. But the STRIKE trading pools we found could together take only about 24.0 thousand dollars of selling before the price fell 10 percent. The collateral is 46 times that. It is valued at a price only a small part of it could be sold at."
+  },
+  {
+   "heading": "Today's claim",
+   "text": "Now the prediction. Today's claim: deposits across Liqwid's markets are above today's 22.86 million dollars seven days from now. It stands at 22.86 million dollars as this is recorded. We'll score it on October 5, automatically, against the same measurement \u2014 and if it's wrong, it stays on the board as wrong. Think we've got it wrong? Reply yes or no under the first comment - your call gets scored too."
+  },
+  {
+   "heading": "",
+   "text": "Running record: 9 right, 3 wrong, with 1 void \u2014 claim 5 was the same prediction logged twice by two pipeline runs on September 12. Every call we make is scored in public, the wrong ones included. New here? Start with the guide linked below. The full liquidation map is free on our site, linked below. See you tomorrow."
+  }
+ ]
 }

@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /tiktok-callback.html
+
+Sitemap: https://cardanorecord.com/sitemap.xml

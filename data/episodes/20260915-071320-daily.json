@@ -118,5 +118,63 @@
   "half_life_years": 5.851304652744548,
   "treasury_accrual_per_epoch_ada": 3740534.1255960464
  },
- "_note": "Compact record of the figures used in this episode."
+ "_note": "Compact record of the figures used in this episode.",
+ "transcript": [
+  {
+   "heading": "Cold open",
+   "text": "A 4.2 million ADA treasury withdrawal is sitting at 3 percent of the DRep voting power that counts, with 1 epochs left to vote. Here is today, measured."
+  },
+  {
+   "heading": "Open votes (1/2)",
+   "text": "4 governance actions are open for voting right now. The 103.0 thousand ADA withdrawal, closing in 1 epoch: 124 DReps for, 7 against, 7 abstaining \u2014 but weighted by stake, yes holds 96 percent of the power that counts. The 4.2 million ADA withdrawal, closing in 1 epoch: 12 DReps for, 96 against, 19 abstaining \u2014 but weighted by stake, yes holds 3 percent of the power that counts. The parameter change, closing in 6 epochs: 17 DReps for, 7 against, 2 abstaining \u2014 but weighted by stake, yes holds 67 percent of the power that counts."
+  },
+  {
+   "heading": "Open votes (2/2)",
+   "text": "Continuing through the open actions. The 11.8 million ADA withdrawal, closing in 6 epochs: 6 DReps for, 18 against, 1 abstaining \u2014 but weighted by stake, yes holds 6 percent of the power that counts. Turnout across these: between 5.6 percent and 23.5 percent of all registered DRep voting power cast a vote. The Constitutional Committee has voted on 4 of them."
+  },
+  {
+   "heading": "ADA",
+   "text": "ADA is at 20.5 cents, down 2.0 percent on the day and up 16.1 percent over thirty. That places it 40 percent of the way up its own thirty-day range, between 17.2 cents and 25.4 cents."
+  },
+  {
+   "heading": "The loan book",
+   "text": "Indigo's borrowers have 3.80 million dollars of ADA locked against 1.76 million dollars of debt, across 290 live positions. That is a book-wide collateral ratio of 2.15 to one. The collateral behind it has not moved since the last episode, and nor has the number of open positions \u2014 so whatever the market did today, the borrowers themselves sat still."
+  },
+  {
+   "heading": "How far can ADA fall?",
+   "text": "Ten percent of that debt enters the liquidation band once ADA reaches 15.5 cents \u2014 a drop of 24.0 percent from here. Half the book needs ADA at 11.5 cents, which is 44.0 percent below today. The weakest position in the book is already inside the liquidation band at today's price."
+  },
+  {
+   "heading": "Cardano against the field",
+   "text": "Start with the whole chain. 54.18 million dollars is locked in Cardano applications today, which ranks it thirty-seventh of the 467 chains tracked anywhere. That is down 11.5 percent over the week and down 12.1 percent over thirty days. Those applications produced 12.4 thousand dollars in fees over the last twenty-four hours. Against the value locked, that annualises to 8.33 percent \u2014 the return the chain's own activity throws off. 53 protocols are carrying it."
+  },
+  {
+   "heading": "Cardano's native tokens, by market cap",
+   "text": "Stepping out of ADA itself: the Cardano-native token landscape by market cap, top eight on screen. ADA itself accounts for about 93% of all top-fifty market cap combined. The stablecoin/tokenized-dollar group adds another 0.9%. Everything else \u2014 the DeFi and utility projects \u2014 is 43 tokens worth about $484.25M combined. 4 of the top eight traded little enough in the last 24 hours to be worth noting next to their market cap."
+  },
+  {
+   "heading": "What credit costs here",
+   "text": "Cardano's lending market holds 19.44 million dollars of deposits against 9.47 million dollars of loans. Lend ADA and the market pays 2.8 percent, with only 35 percent of it borrowed. Lend DJED and it pays 28.2 percent, with 91 percent borrowed. The demand on this chain is for dollars, not for ADA, and the gap between those two numbers is how strongly."
+  },
+  {
+   "heading": "How many dollars can actually leave?",
+   "text": "Cardano's dollar tokens are the one thing on this chain whose price is not in question. 60.14 million dollars of them are outstanding. The amount that could be sold before the price moves one percent off par is 10.2 thousand dollars \u2014 0.017 percent of it. IUSD is the sharpest case: 1.4 million outstanding, 478.13 dollars of it sellable before the price moves one percent. Two things stop that being the whole story. Those figures are modelled from pool reserves rather than filled trades, so they are a best case. And the open market is the exit of last resort, not the only one. USDM and USDA and USDCx redeem with their issuer off-chain. That capacity is not small \u2014 it is simply not something this node can see, and it is left unmeasured rather than guessed at. DJED and SHEN publish a minting cap where a supply figure belongs, so neither carries a share here. The iUSD figure is two independent measurements \u2014 the pool scan and the chain's own mint history \u2014 agreeing to 0.08 percent."
+  },
+  {
+   "heading": "The dollar that isn't",
+   "text": "Cardano's own dollar, DJED, is trading at 0.9688 against the dollar it is meant to track \u2014 3.12 percent below peg. At the same moment, lenders holding DJED are being paid 28.2 percent, with 91 percent of the pool borrowed. A yield that size on something that is supposed to be worth exactly one dollar is the market charging for a risk, not handing out a return. Both numbers are on the screen; the reading is yours."
+  },
+  {
+   "heading": "Cross-check",
+   "text": "One figure in this episode does not add up, and it is worth naming. The iUSD debt visible across individual positions accounts for 92.18 percent of the iUSD in existence. The remaining 7.82 percent is unaccounted for, and until it is explained, treat every iUSD figure here as a floor rather than a total. The other 6 of 7 assets account for all of theirs, exactly."
+  },
+  {
+   "heading": "Today's claim",
+   "text": "Now the prediction. Today's claim: Indigo TVL is above $3.94M seven days from now. It resolves on September 22, automatically, on the same measurement, with no interpretation and no wriggle room. If it is wrong, it goes on the board as wrong, and it stays there."
+  },
+  {
+   "heading": "",
+   "text": "The record starts now. Epoch 656 begins in about 34 hours, and 2 governance actions close with it. This channel does make predictions, and every one of them is dated, logged and scored in public. The ones that were wrong stay on the board."
+  }
+ ]
 }

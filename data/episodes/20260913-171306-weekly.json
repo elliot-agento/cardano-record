@@ -118,5 +118,71 @@
   "half_life_years": 5.851304652744548,
   "treasury_accrual_per_epoch_ada": 3740534.1255960464
  },
- "_note": "Compact record of the figures used in this episode."
+ "_note": "Compact record of the figures used in this episode.",
+ "transcript": [
+  {
+   "heading": "Cold open",
+   "text": "Cardano's native tokens carry 762.89 million dollars of market value on paper. The amount that could actually be sold before moving the price ten percent is 369.0 thousand dollars \u2014 0.05 percent of it. Here is the week, measured."
+  },
+  {
+   "heading": "Paper value vs exit value",
+   "text": "Market cap is price times supply, but that price only holds for the next small trade. Across Cardano's native tokens the paper figure is 762.89 million dollars. The amount that could actually be sold before moving the price ten percent is 369.0 thousand dollars. That is 0.05 percent of the stated value. That covers 48 tokens whose decimals and pool depth could both be verified on chain; 73 more were excluded because their supply figures are not trustworthy. These market caps are upper bounds \u2014 no treasury or vesting exclusions are applied unless a token's float could be verified, and the table says which is which."
+  },
+  {
+   "heading": "The record",
+   "text": "The scoreboard is empty because this is the beginning. Every claim logged from here is scored in public, and the record starts at zero and nothing."
+  },
+  {
+   "heading": "What moved",
+   "text": "Against the last episode on 2026-09-13: ADA down 1.4 percent, Indigo TVL flat 0.0 percent, Liquidation floor down 1.4 percent. The liquidation floor is the one to watch \u2014 it moves when borrowers add or remove collateral, not when the price does."
+  },
+  {
+   "heading": "Indigo TVL, all of it",
+   "text": "Zooming out past the daily noise. Indigo's total value locked is 4.03 million dollars today, against an all-time peak of 125.56 million dollars in March 2024. That is 96.8 percent below the high. Over the past year TVL is down 89.5 percent, and over ninety days up 9.5 percent. This is nearly four years of daily history, and the trend matters more than any single day in it."
+  },
+  {
+   "heading": "The liquidation floor, over time",
+   "text": "One number worth tracking episode to episode is the price at which half the loan book would be at risk. Across the last 5 days it has risen 0.5 percent, from 11.4 cents to 11.5 cents. This moves when borrowers add or remove collateral, not when the ADA price moves \u2014 so it reads on what borrowers are doing, not on the market."
+  },
+  {
+   "heading": "The loan book",
+   "text": "Indigo's borrowers have 3.83 million dollars of ADA locked against 1.76 million dollars of debt, across 290 live positions. That is a book-wide collateral ratio of 2.17 to one. These figures are decoded from the chain directly, position by position."
+  },
+  {
+   "heading": "How far can ADA fall?",
+   "text": "Here is the part nobody publishes. Ten percent of that debt enters the liquidation band once ADA reaches 15.2 cents \u2014 a drop of 26.0 percent from here. Half the book needs ADA at 11.5 cents, which is 44.0 percent below today. So the honest read is that this loan book is built for a deep drawdown, not a shallow one."
+  },
+  {
+   "heading": "Who holds it",
+   "text": "Underneath the prices, the holder distributions. NIGHT is held by 60.9 thousand addresses. Its Nakamoto coefficient is 10 \u2014 that is how many holders would need to act together to control a majority of supply. The top ten addresses hold 52.2 percent of it. These are aggregate figures from the chain; no individual wallet is identified here."
+  },
+  {
+   "heading": "What passed",
+   "text": "Over the last ninety days 12 actions reached an outcome: 3 enacted, 9 expired without passing. Behind those votes sit 870 registered DReps holding 15.22 billion ADA, with the five largest holding 74.6 percent of it."
+  },
+  {
+   "heading": "Treasury outflow",
+   "text": "Governance moves money, not just opinions. Over the last 180 days 389.6 million ADA has been withdrawn from the Cardano treasury and enacted \u2014 about 79.96 million dollars at today's price \u2014 across 26 separate withdrawals. Lifetime, 804.4 million ADA has left the treasury. That is new supply arriving in circulation, and it is worth watching alongside the price."
+  },
+  {
+   "heading": "The base layer",
+   "text": "Stepping back to the base layer. The last complete epoch settled 108.5 thousand transactions and collected 32.6 thousand ADA in fees. That is up 1.3 percent on the epoch before it. 21.37 billion ADA is delegated across 2,675 active stake pools, which is 47.5 percent of the 45 billion maximum supply."
+  },
+  {
+   "heading": "Where the rewards come from",
+   "text": "Staking rewards are not created from nothing. They are paid out of Cardano's reserve, which now holds 6.13 billion ADA. That reserve is drawn down by a fixed fraction every epoch \u2014 measured over the last 39 epochs, 0.162 percent per epoch, or about 10.3 million ADA. At that rate the reserve halves roughly every 5.9 years. It does not run out on a date, it decays, and as it shrinks a larger share of rewards has to come from transaction fees instead. The treasury meanwhile accrues about 3.7 million ADA per epoch, and paid out 392.2 million ADA across 12 enacted withdrawals in the same window."
+  },
+  {
+   "heading": "Cross-check",
+   "text": "Every number in this segment gets checked against a second source before it airs. Debt decoded from individual positions is compared with total supply minted on chain. 6 of 7 assets reconcile at exactly one hundred percent. iUSD does not \u2014 it comes in at 92.11 percent, and that gap is disclosed rather than rounded away."
+  },
+  {
+   "heading": "Today's claim",
+   "text": "Now the prediction. Today's claim: ADA closes below $0.2053 30 days from now. It resolves on October 13, automatically, against the same data feed you just watched \u2014 no interpretation, no wriggle room. If it is wrong, it goes on the board as wrong, and it stays there."
+  },
+  {
+   "heading": "",
+   "text": "The record starts now. Epoch 656 begins in about 72 hours, and 2 governance actions close with it. Every figure came off a local Cardano node and a full chain database \u2014 the raw snapshot is linked below. This channel does make predictions, and every one of them is dated, logged and scored in public. The ones that were wrong stay on the board."
+  }
+ ]
 }

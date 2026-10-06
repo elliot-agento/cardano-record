@@ -109,5 +109,47 @@
   "half_life_years": 5.851272939050871,
   "treasury_accrual_per_epoch_ada": 3740534.1255960464
  },
- "_note": "Compact record of the figures used in this episode."
+ "_note": "Compact record of the figures used in this episode.",
+ "transcript": [
+  {
+   "heading": "Cold open",
+   "text": "ADA would have to fall 46 percent from here before half of Indigo's loan book is at risk of liquidation. Here is today, measured."
+  },
+  {
+   "heading": "ADA",
+   "text": "ADA is at 21.2 cents, down 3.5 percent on the day and up 11.1 percent over thirty. Two independent price sources agree to within a tenth of a percent, so this number is safe to build on."
+  },
+  {
+   "heading": "The loan book",
+   "text": "Indigo's borrowers have 4.13 million dollars of ADA locked against 1.85 million dollars of debt, across 292 live positions. That is a book-wide collateral ratio of 2.23 to one. These figures are decoded from the chain directly, position by position."
+  },
+  {
+   "heading": "How far can ADA fall?",
+   "text": "Here is the part nobody publishes. Ten percent of that debt enters the liquidation band once ADA reaches 15.7 cents \u2014 a drop of 26.0 percent from here. Half the book needs ADA at 11.4 cents, which is 46.0 percent below today. So the honest read is that this loan book is built for a deep drawdown, not a shallow one."
+  },
+  {
+   "heading": "Open votes",
+   "text": "3 governance actions are open for voting right now. The 103.0 thousand ADA withdrawal, closing in 2 epochs: 117 DReps for, 6 against, 7 abstaining \u2014 but weighted by stake, yes holds 98 percent of the power that counts. The 4.2 million ADA withdrawal, closing in 2 epochs: 11 DReps for, 89 against, 18 abstaining \u2014 but weighted by stake, yes holds 3 percent of the power that counts. Turnout across these: between 0.3 percent and 22.1 percent of all registered DRep voting power cast a vote. The remaining 1 is on screen, and the Constitutional Committee has voted on 2 of them."
+  },
+  {
+   "heading": "Treasury outflow",
+   "text": "Governance moves money, not just opinions. Over the last 180 days 389.6 million ADA has been withdrawn from the Cardano treasury and enacted \u2014 about 82.50 million dollars at today's price \u2014 across 26 separate withdrawals. Lifetime, 804.4 million ADA has left the treasury. That is new supply arriving in circulation, and it is worth watching alongside the price."
+  },
+  {
+   "heading": "The base layer",
+   "text": "Stepping back to the base layer. The last complete epoch settled 107.1 thousand transactions and collected 33.9 thousand ADA in fees. That is up 0.9 percent on the epoch before it. 21.39 billion ADA is delegated across 2,677 active stake pools, which is 47.5 percent of the 45 billion maximum supply."
+  },
+  {
+   "heading": "Cross-check",
+   "text": "Every number in this segment gets checked against a second source before it airs. Debt decoded from individual positions is compared with total supply minted on chain. 6 of 7 assets reconcile at exactly one hundred percent. iUSD does not \u2014 it comes in at 92.34 percent, and that gap is disclosed rather than rounded away."
+  },
+  {
+   "heading": "Today's claim",
+   "text": "Now the part that makes this channel accountable. Today's claim: no more than 3 CDPs sit below a 1.20 ratio seven days from now. It resolves on September 16, automatically, against the same data feed you just watched. If it is wrong, it goes on the board as wrong."
+  },
+  {
+   "heading": "",
+   "text": "The record starts now. Epoch 655 begins in about 46 hours. Every figure came off a local Cardano node and a full chain database \u2014 the raw snapshot is linked below. No hype, no price targets, just what the chain said today."
+  }
+ ]
 }

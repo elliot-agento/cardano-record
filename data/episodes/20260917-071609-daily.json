@@ -102,5 +102,47 @@
   "half_life_years": 5.852907289602206,
   "treasury_accrual_per_epoch_ada": 3733050.8207371235
  },
- "_note": "Compact record of the figures used in this episode."
+ "_note": "Compact record of the figures used in this episode.",
+ "transcript": [
+  {
+   "heading": "Cold open",
+   "text": "ADA would have to fall 42 percent from here before half of Indigo's loan book is at risk of liquidation. Here is today, measured."
+  },
+  {
+   "heading": "The loan book",
+   "text": "Indigo's borrowers have 3.70 million dollars of ADA locked against 1.76 million dollars of debt, across 290 live positions. That is a book-wide collateral ratio of 2.10 to one. Since the last episode the book lost 1 position."
+  },
+  {
+   "heading": "How far can ADA fall?",
+   "text": "Ten percent of that debt enters the liquidation band once ADA reaches 15.1 cents \u2014 a drop of 24.0 percent from here. Half the book needs ADA at 11.5 cents, which is 42.0 percent below today. The weakest position in the book is already inside the liquidation band at today's price."
+  },
+  {
+   "heading": "ADA",
+   "text": "ADA is at 19.9 cents, up 3.2 percent on the day and up 14.5 percent over thirty. That places it 32 percent of the way up its own thirty-day range, between 17.3 cents and 25.4 cents."
+  },
+  {
+   "heading": "Does the record still resolve?",
+   "text": "Cardano's governance has recorded 36,260 votes. A vote can carry an anchor \u2014 a link to the reasoning behind it, with a hash of that document written on-chain so it cannot be quietly rewritten. 33.1 percent of votes carry one. That splits sharply by who is voting. The Constitutional Committee attached a rationale to 97.3 percent of its votes. DReps to 35.2 percent. Stake pool operators to 3.2 percent. The link being on-chain does not mean the document still is. We fetched 475 of those anchors ourselves and checked each one against the hash the voter committed to. 69.9 percent came back \u2014 327 of 475 intact and matching. 5 resolved to a document that no longer matches the hash recorded with the vote. That is a sample, so the honest floor on it is 65.6 percent, and it tightens every episode as the sample grows. One gateway holds 35.0 percent of every anchored vote on this chain."
+  },
+  {
+   "heading": "What staking actually paid",
+   "text": "Now what staking actually paid. In epoch 654, 4.5 million ADA went to delegators against 21.39 billion ADA of stake \u2014 a realized return of 1.52 percent annualised. The whole reward pot, operators included, came to 2.13 percent. Operators took 28.5 percent of it. That average hides the figure that matters. A delegator in pools holding under 1m ADA realised 0.56 percent. In the 20m - 50m band, 1.69 percent \u2014 3.0 times as much. Two different things cause that. At the bottom it is the flat per-epoch fixed cost, which is a rounding error against fifty million of stake and most of the reward against five hundred thousand. At the top it is margin and saturation. Scale matters before anyone reads too much into the bottom row: those 1,752 pools hold 0.8 percent of the ADA staked. And of 2,676 pools holding stake, 953 were paid for producing a block. 1,723 produced none."
+  },
+  {
+   "heading": "What credit costs here",
+   "text": "Cardano's lending market holds 19.20 million dollars of deposits against 9.39 million dollars of loans. Lend ADA and the market pays 2.9 percent, with only 35 percent of it borrowed. Lend DJED and it pays 28.1 percent, with 91 percent borrowed. The demand on this chain is for dollars, not for ADA, and the gap between those two numbers is how strongly."
+  },
+  {
+   "heading": "Cross-check",
+   "text": "One figure in this episode does not add up, and it is worth naming. The iUSD debt visible across individual positions accounts for 93.40 percent of the iUSD in existence. The remaining 6.60 percent is unaccounted for, and until it is explained, treat every iUSD figure here as a floor rather than a total. The other 6 of 7 assets account for all of theirs, exactly."
+  },
+  {
+   "heading": "Today's claim",
+   "text": "Now the prediction. Today's claim: iUSD supply stays above 1.3 million for a week. It resolves on September 24, automatically, on the same measurement, with no interpretation and no wriggle room. If it is wrong, it goes on the board as wrong, and it stays there."
+  },
+  {
+   "heading": "",
+   "text": "Running record: 0 and 2. Epoch 657 begins in about 106 hours. This channel does make predictions, and every one of them is dated, logged and scored in public. The ones that were wrong stay on the board."
+  }
+ ]
 }
