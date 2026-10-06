@@ -1,0 +1,107 @@
+{
+ "episode_id": "2026-10-06-special",
+ "mode": "special",
+ "published": "2026-10-06T17:23:08+00:00",
+ "video_url": "https://youtu.be/pAQXpvT9Hjw",
+ "title": "From don't be evil to can't be evil: how blockchains could help the world cooperate",
+ "data_generated_at": "2026-10-06T16:30:02+00:00",
+ "claim": null,
+ "market": {
+  "ada_usd": 0.2725332669733876,
+  "source": "coingecko",
+  "cross_checked": true,
+  "change_24h_pct": 2.9303862472266275
+ },
+ "indigo": {
+  "tvl_usd": 4921452.0,
+  "indy_price_usd": 0.143093
+ },
+ "loan_book": {
+  "positions": 287,
+  "debt_usd": 1892090.1488285738,
+  "collateral_ada": 17438887.268434003,
+  "book_ratio": 2.5118660031021247,
+  "price_10pct_at_risk_usd": 0.17468261881728486,
+  "price_50pct_at_risk_usd": 0.14336630935097916,
+  "decoded_utxos": 311,
+  "validator_utxos": 314
+ },
+ "coverage": {
+  "iADA": {
+   "decoded_iasset": 233.450484,
+   "chain_supply_iasset": 233.450484,
+   "coverage_pct": 100.0
+  },
+  "iBTC": {
+   "decoded_iasset": 5.057821000000001,
+   "chain_supply_iasset": 5.057821,
+   "coverage_pct": 100.00000000000003
+  },
+  "iETH": {
+   "decoded_iasset": 35.187825000000004,
+   "chain_supply_iasset": 35.187825,
+   "coverage_pct": 100.00000000000003
+  },
+  "iEUR": {
+   "decoded_iasset": 68.387277,
+   "chain_supply_iasset": 68.387277,
+   "coverage_pct": 100.0
+  },
+  "iJPY": {
+   "decoded_iasset": 76826.95787399999,
+   "chain_supply_iasset": 76826.957874,
+   "coverage_pct": 99.99999999999997
+  },
+  "iSOL": {
+   "decoded_iasset": 83.666999,
+   "chain_supply_iasset": 83.666999,
+   "coverage_pct": 100.0
+  },
+  "iUSD": {
+   "decoded_iasset": 1369226.4692670007,
+   "chain_supply_iasset": 1438163.957786,
+   "coverage_pct": 95.2065626352418
+  },
+  "_worst_pct": 95.2065626352418
+ },
+ "governance": {
+  "epoch": 659,
+  "open_actions": [
+   {
+    "id": 158,
+    "type": "ParameterChange",
+    "withdrawal_ada": null,
+    "expiration_epoch": 661,
+    "drep_yes_pct_of_decisive": 70.72982469520984,
+    "drep_participation_pct": 60.027210132887774
+   },
+   {
+    "id": 157,
+    "type": "TreasuryWithdrawals",
+    "withdrawal_ada": 11787063.0,
+    "expiration_epoch": 661,
+    "drep_yes_pct_of_decisive": 8.739200977784352,
+    "drep_participation_pct": 51.40856026302212
+   },
+   {
+    "id": 159,
+    "type": "InfoAction",
+    "withdrawal_ada": null,
+    "expiration_epoch": 663,
+    "drep_yes_pct_of_decisive": 13.408033401314176,
+    "drep_participation_pct": 43.37332729297546
+   }
+  ],
+  "decided_counts": {
+   "enacted": 2,
+   "expired": 4,
+   "dropped": 0
+  }
+ },
+ "monetary": {
+  "decay_per_epoch_pct": 0.1617862101594425,
+  "half_life_years": 5.860196620444412,
+  "treasury_accrual_per_epoch_ada": 3705503.419691086
+ },
+ "_note": "Compact record of the figures used in this episode."
+}
