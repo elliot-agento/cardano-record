@@ -1,0 +1,149 @@
+{
+ "episode_id": "2026-10-07-explainer",
+ "mode": "explainer",
+ "published": "2026-10-07T18:14:23+00:00",
+ "video_url": "https://youtu.be/tvQ02S-l_OI",
+ "title": "What is Cardano, and what is ADA? A beginner's guide | Crypto from Zero #3",
+ "data_generated_at": "2026-10-07T17:30:01+00:00",
+ "claim": null,
+ "market": {
+  "ada_usd": 0.2549611247496615,
+  "source": "coingecko",
+  "cross_checked": true,
+  "change_24h_pct": -6.531505164226436
+ },
+ "indigo": {
+  "tvl_usd": 4476038.0,
+  "indy_price_usd": 0.13222
+ },
+ "loan_book": {
+  "positions": 285,
+  "debt_usd": 1843082.2234739207,
+  "collateral_ada": 17222228.168527003,
+  "book_ratio": 2.382421472367415,
+  "price_10pct_at_risk_usd": 0.17352582269024253,
+  "price_50pct_at_risk_usd": 0.14338671716639304,
+  "decoded_utxos": 309,
+  "validator_utxos": 312
+ },
+ "coverage": {
+  "iADA": {
+   "decoded_iasset": 233.450484,
+   "chain_supply_iasset": 233.450484,
+   "coverage_pct": 100.0
+  },
+  "iBTC": {
+   "decoded_iasset": 5.057820999999998,
+   "chain_supply_iasset": 5.057821,
+   "coverage_pct": 99.99999999999997
+  },
+  "iETH": {
+   "decoded_iasset": 35.187825000000004,
+   "chain_supply_iasset": 35.187825,
+   "coverage_pct": 100.00000000000003
+  },
+  "iEUR": {
+   "decoded_iasset": 68.387277,
+   "chain_supply_iasset": 68.387277,
+   "coverage_pct": 100.0
+  },
+  "iJPY": {
+   "decoded_iasset": 76826.95787400001,
+   "chain_supply_iasset": 76826.957874,
+   "coverage_pct": 100.00000000000003
+  },
+  "iSOL": {
+   "decoded_iasset": 83.666999,
+   "chain_supply_iasset": 83.666999,
+   "coverage_pct": 100.0
+  },
+  "iUSD": {
+   "decoded_iasset": 1337888.0733299998,
+   "chain_supply_iasset": 1394087.959934,
+   "coverage_pct": 95.96869866040154
+  },
+  "_worst_pct": 95.96869866040154
+ },
+ "governance": {
+  "epoch": 660,
+  "open_actions": [
+   {
+    "id": 158,
+    "type": "ParameterChange",
+    "withdrawal_ada": null,
+    "expiration_epoch": 661,
+    "drep_yes_pct_of_decisive": 70.69831827364332,
+    "drep_participation_pct": 59.95273736078352
+   },
+   {
+    "id": 157,
+    "type": "TreasuryWithdrawals",
+    "withdrawal_ada": 11787063.0,
+    "expiration_epoch": 661,
+    "drep_yes_pct_of_decisive": 8.746106773999182,
+    "drep_participation_pct": 51.39462793392019
+   },
+   {
+    "id": 159,
+    "type": "InfoAction",
+    "withdrawal_ada": null,
+    "expiration_epoch": 663,
+    "drep_yes_pct_of_decisive": 13.402491658718235,
+    "drep_participation_pct": 45.01637315086825
+   }
+  ],
+  "decided_counts": {
+   "enacted": 2,
+   "expired": 4,
+   "dropped": 0
+  }
+ },
+ "monetary": {
+  "decay_per_epoch_pct": 0.16175516204340878,
+  "half_life_years": 5.861322367805472,
+  "treasury_accrual_per_epoch_ada": 3705503.419691086
+ },
+ "transcript": [
+  {
+   "heading": "Cold open",
+   "text": "Cardano took Bitcoin's idea of a ledger nobody owns and added programs, tokens and voting. Here is what it is, what ADA is, and how busy the chain was this week."
+  },
+  {
+   "heading": "Another answer",
+   "text": "Cardano is a blockchain that launched in 2017. Like Bitcoin, it keeps a shared ledger with no central owner, but it was built to do more than send coins: it runs programs called smart contracts, issues tokens, and lets its holders vote on how it changes. A smart contract is a program stored on the chain that enforces its own rules. Its coin is ADA, named after Ada Lovelace, often called the first computer programmer, and the protocol caps ADA at 45 billion."
+  },
+  {
+   "heading": "More than payments",
+   "text": "Here is what doing more than sending coins means. On Bitcoin, you can send a coin. On Cardano, from the same wallet, people also swap one token for another, lend stablecoins and earn interest, create tokens of their own, and vote on how the shared treasury is spent. A stablecoin is a token built to stay worth one dollar. Each of those is a program or a rule running on the same shared ledger."
+  },
+  {
+   "heading": "Proof of stake, not mining",
+   "text": "Cardano does not use mining. It uses a proof of stake system called Ouroboros: the right to add blocks goes to stake pools in proportion to the ADA delegated to them, rather than to whoever spends the most on computing. Ouroboros was published as peer-reviewed research before it was built."
+  },
+  {
+   "heading": "A lottery weighted by stake",
+   "text": "Think of proof of stake as a lottery held every second, where the tickets are the ADA delegated to each pool. A pool holding one percent of all the delegated stake can expect to make about one percent of the blocks, and earn about one percent of the rewards. No race and no electricity bill: just a fair draw, weighted by stake."
+  },
+  {
+   "heading": "How it grew",
+   "text": "Cardano was built in stages called eras. Byron, in 2017, launched the coin. Shelley, in 2020, handed block production to community stake pools. Alonzo, in 2021, added smart contracts. And the Conway era, from 2024, put governance on the chain, so holders now vote on its future. Input Output, the Cardano Foundation and EMURGO built much of it, and the member organisation Intersect now coordinates a lot of its development."
+  },
+  {
+   "heading": "Holders help run it",
+   "text": "Proof of stake changes who secures the chain: not whoever owns the most machines, but whoever holds and delegates ADA. That makes holding ADA part of how the network runs, and it is why staking and voting come back again and again in this course."
+  },
+  {
+   "heading": "The base layer",
+   "text": "That is how it works on paper. Here is the chain today. Stepping back to the base layer. The last complete epoch settled 158.0 thousand transactions and collected 49.5 thousand ADA in fees. An epoch is Cardano's five-day cycle; rewards and votes are counted epoch by epoch. That is down 1.2 percent on the epoch before it. 21.26 billion ADA is delegated across 2,671 active stake pools, which is 47.3 percent of the 45 billion maximum supply."
+  },
+  {
+   "heading": "The short version",
+   "text": "So, in short. Cardano is a proof-of-stake blockchain whose coin is ADA. It adds smart contracts, tokens and on-chain voting to the idea Bitcoin started."
+  },
+  {
+   "heading": "",
+   "text": "No new claim today: a lesson explains how something works, and calls are made and scored in the daily episode. That is Cardano and ADA, explained. Next time: What do hashes, keys and signatures actually do? Every lesson of Crypto from Zero is in the playlist linked below, in order, and every day this channel measures Cardano straight from the chain."
+  }
+ ],
+ "_note": "Compact record of the figures used in this episode."
+}
