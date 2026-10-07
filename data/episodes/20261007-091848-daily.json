@@ -1,0 +1,141 @@
+{
+ "episode_id": "20261007-091848-daily",
+ "mode": "daily",
+ "published": "2026-10-07T15:04:39+00:00",
+ "video_url": "https://youtu.be/b63dxbqZf-g",
+ "title": "Cardano (ADA) News Today: RealFi's USDr \u2014 5.11M Outstanding",
+ "data_generated_at": "2026-10-07T14:14:41+00:00",
+ "claim": null,
+ "market": {
+  "ada_usd": 0.25384720493544144,
+  "source": "coingecko",
+  "cross_checked": true,
+  "change_24h_pct": -7.897085198916019
+ },
+ "indigo": {
+  "tvl_usd": 4476038.0,
+  "indy_price_usd": 0.131918
+ },
+ "loan_book": {
+  "positions": 285,
+  "debt_usd": 1843589.6781335808,
+  "collateral_ada": 17222228.168527003,
+  "book_ratio": 2.371359817856519,
+  "price_10pct_at_risk_usd": 0.17351869490751964,
+  "price_50pct_at_risk_usd": 0.14338082738382657,
+  "decoded_utxos": 309,
+  "validator_utxos": 312
+ },
+ "coverage": {
+  "iADA": {
+   "decoded_iasset": 233.450484,
+   "chain_supply_iasset": 233.450484,
+   "coverage_pct": 100.0
+  },
+  "iBTC": {
+   "decoded_iasset": 5.057821000000001,
+   "chain_supply_iasset": 5.057821,
+   "coverage_pct": 100.00000000000003
+  },
+  "iETH": {
+   "decoded_iasset": 35.18782500000001,
+   "chain_supply_iasset": 35.187825,
+   "coverage_pct": 100.00000000000004
+  },
+  "iEUR": {
+   "decoded_iasset": 68.387277,
+   "chain_supply_iasset": 68.387277,
+   "coverage_pct": 100.0
+  },
+  "iJPY": {
+   "decoded_iasset": 76826.95787400001,
+   "chain_supply_iasset": 76826.957874,
+   "coverage_pct": 100.00000000000003
+  },
+  "iSOL": {
+   "decoded_iasset": 83.666999,
+   "chain_supply_iasset": 83.666999,
+   "coverage_pct": 100.0
+  },
+  "iUSD": {
+   "decoded_iasset": 1337888.0733300005,
+   "chain_supply_iasset": 1406825.561849,
+   "coverage_pct": 95.09978419581783
+  },
+  "_worst_pct": 95.09978419581783
+ },
+ "governance": {
+  "epoch": 660,
+  "open_actions": [
+   {
+    "id": 158,
+    "type": "ParameterChange",
+    "withdrawal_ada": null,
+    "expiration_epoch": 661,
+    "drep_yes_pct_of_decisive": 70.69831827364332,
+    "drep_participation_pct": 59.95273736078352
+   },
+   {
+    "id": 157,
+    "type": "TreasuryWithdrawals",
+    "withdrawal_ada": 11787063.0,
+    "expiration_epoch": 661,
+    "drep_yes_pct_of_decisive": 8.746106773999182,
+    "drep_participation_pct": 51.39462793392019
+   },
+   {
+    "id": 159,
+    "type": "InfoAction",
+    "withdrawal_ada": null,
+    "expiration_epoch": 663,
+    "drep_yes_pct_of_decisive": 13.402491658718235,
+    "drep_participation_pct": 45.01637315086825
+   }
+  ],
+  "decided_counts": {
+   "enacted": 2,
+   "expired": 4,
+   "dropped": 0
+  }
+ },
+ "monetary": {
+  "decay_per_epoch_pct": 0.16175516204340878,
+  "half_life_years": 5.861322367805472,
+  "treasury_accrual_per_epoch_ada": 3705503.419691086
+ },
+ "transcript": [
+  {
+   "heading": "Cold open",
+   "text": "RealFi went live on Cardano on October 1st, and 5.11 million USDr, its dollar token, are outstanding. Here is where they sit, read off the chain."
+  },
+  {
+   "heading": "Last week's calls",
+   "text": "First, the scorecard. We said the median Cardano transaction fee stays under 0.2155 ADA on October 7. It measured 0.1671, so we got that one right. That puts the running record at 14 right, 6 wrong, 1 void."
+  },
+  {
+   "heading": "RealFi, on the chain",
+   "text": "RealFi, the dollar protocol that went live on Cardano on October 1st, measured from the chain. 5.11 million USDr, its dollar token, are outstanding, and every one is accounted for on the chain. 4.03 million of them sit in smart contracts and 1.08 million in 38 wallets. sUSDr, the receipt for USDr deposited into RealFi, stands at 2.56 million, against 2.51 million on launch day. A smart contract is a program stored on the chain that enforces its own rules. The numbers count every USDr and sUSDr ever created or destroyed, read off the chain; nothing here comes from RealFi's own dashboard. Why it matters: this counts every USDr in existence and where it sits. It does not show what backs them; that is RealFi's to prove."
+  },
+  {
+   "heading": "ADA",
+   "text": "Also today. ADA is at 25.4 cents, down 7.7 percent on the day \u2014 up 14.0 percent over thirty days and up 1.0 percent on the week. Since the last episode it has moved down 8.0 percent."
+  },
+  {
+   "heading": "Open votes (1/3)",
+   "text": "One more thing. 3 governance actions are open for voting right now. The parameter change, which its proposers call \u201cReduce minPoolCost to 75 ada\u201d, closing in 1 epoch. An epoch is Cardano's five-day cycle; rewards and votes are counted epoch by epoch. DReps: 70 for, 30 against, 14 abstaining \u2014 weighted by stake, yes holds 71 percent of the DRep power that voted yes or no. A DRep, short for delegated representative, is someone ADA holders choose to vote on governance for them. 60.0 percent of all registered DRep voting power has voted on it. The Constitutional Committee: 3 yes, 0 no."
+  },
+  {
+   "heading": "Open votes (2/3)",
+   "text": "Next, the 11.8 million ADA withdrawal, which its proposers call \u201cWithdraw 11,787,063 ada for the OpenZeppelin Stack administered by Intersect\u201d, closing in 1 epoch. DReps: 13 for, 72 against, 13 abstaining \u2014 weighted by stake, yes holds 9 percent of the DRep power that voted yes or no. 51.4 percent of all registered DRep voting power has voted on it. The Constitutional Committee: 3 yes, 0 no."
+  },
+  {
+   "heading": "Open votes (3/3)",
+   "text": "Next, the info action, which its proposers call \u201cShould stakePoolTargetNum (k) be raised from 500 to 1000? (SPO poll)\u201d, closing in 3 epochs. Stake pools: 17 for, 26 against \u2014 weighted by pool stake, yes holds 6 percent of the stake that voted yes or no. A stake pool is a node that produces blocks on behalf of the ADA delegated to it. DReps: 27 for, 26 against, 30 abstaining \u2014 weighted by stake, yes holds 13 percent of the DRep power that voted yes or no. 45.0 percent of all registered DRep voting power has voted on it. The Constitutional Committee: 1 yes, 0 no, 1 abstaining. Those descriptions are the proposers' own words, not ours. Each document was fetched and its bytes checked against the hash the ledger recorded when the action was submitted, so what you are hearing is what was actually anchored on chain."
+  },
+  {
+   "heading": "",
+   "text": "Running record: 14 right, 6 wrong, with 1 void. Epoch 661 begins on October 11 at 21:45 UTC, and 2 governance actions close with it. No new claim today: every call on today's figures would be decided by the same ADA move as a call already open, and betting on that twice would not test anything new. Every call we make is scored in public, the wrong ones included. New here? Start with the guide linked below. The full treasury and voting data is free on our site, linked below. See you tomorrow."
+  }
+ ],
+ "_note": "Compact record of the figures used in this episode."
+}
