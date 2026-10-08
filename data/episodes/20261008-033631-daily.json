@@ -1,0 +1,145 @@
+{
+ "episode_id": "20261008-033631-daily",
+ "mode": "daily",
+ "published": "2026-10-08T09:25:36+00:00",
+ "video_url": "https://youtu.be/YqNvOGVFA2s",
+ "title": "Cardano (ADA) News Today: Checked 9 largest native tokens against chain",
+ "data_generated_at": "2026-10-08T08:32:04+00:00",
+ "claim": null,
+ "market": {
+  "ada_usd": 0.25225147917691265,
+  "source": "coingecko",
+  "cross_checked": true,
+  "change_24h_pct": -1.52003226878158
+ },
+ "indigo": {
+  "tvl_usd": 4404147.0,
+  "indy_price_usd": 0.131032
+ },
+ "loan_book": {
+  "positions": 285,
+  "debt_usd": 1840451.9840673583,
+  "collateral_ada": 17204598.465881,
+  "book_ratio": 2.35805413519796,
+  "price_10pct_at_risk_usd": 0.17352257545890062,
+  "price_50pct_at_risk_usd": 0.14338403393553567,
+  "decoded_utxos": 309,
+  "validator_utxos": 312
+ },
+ "coverage": {
+  "iADA": {
+   "decoded_iasset": 233.450484,
+   "chain_supply_iasset": 233.450484,
+   "coverage_pct": 100.0
+  },
+  "iBTC": {
+   "decoded_iasset": 5.057821000000001,
+   "chain_supply_iasset": 5.057821,
+   "coverage_pct": 100.00000000000003
+  },
+  "iETH": {
+   "decoded_iasset": 35.187825,
+   "chain_supply_iasset": 35.187825,
+   "coverage_pct": 100.0
+  },
+  "iEUR": {
+   "decoded_iasset": 68.387277,
+   "chain_supply_iasset": 68.387277,
+   "coverage_pct": 100.0
+  },
+  "iJPY": {
+   "decoded_iasset": 76826.95787400001,
+   "chain_supply_iasset": 76826.957874,
+   "coverage_pct": 100.00000000000003
+  },
+  "iSOL": {
+   "decoded_iasset": 83.666999,
+   "chain_supply_iasset": 83.666999,
+   "coverage_pct": 100.0
+  },
+  "iUSD": {
+   "decoded_iasset": 1336150.7733329996,
+   "chain_supply_iasset": 1392831.393031,
+   "coverage_pct": 95.93054694332706
+  },
+  "_worst_pct": 95.93054694332706
+ },
+ "governance": {
+  "epoch": 660,
+  "open_actions": [
+   {
+    "id": 158,
+    "type": "ParameterChange",
+    "withdrawal_ada": null,
+    "expiration_epoch": 661,
+    "drep_yes_pct_of_decisive": 70.77188438074148,
+    "drep_participation_pct": 60.03994330055158
+   },
+   {
+    "id": 157,
+    "type": "TreasuryWithdrawals",
+    "withdrawal_ada": 11787063.0,
+    "expiration_epoch": 661,
+    "drep_yes_pct_of_decisive": 8.609793647878332,
+    "drep_participation_pct": 52.02829251236746
+   },
+   {
+    "id": 159,
+    "type": "InfoAction",
+    "withdrawal_ada": null,
+    "expiration_epoch": 663,
+    "drep_yes_pct_of_decisive": 16.334884156328492,
+    "drep_participation_pct": 45.58297998928828
+   }
+  ],
+  "decided_counts": {
+   "enacted": 1,
+   "expired": 4,
+   "dropped": 0
+  }
+ },
+ "monetary": {
+  "decay_per_epoch_pct": 0.16175516204340878,
+  "half_life_years": 5.861322367805472,
+  "treasury_accrual_per_epoch_ada": 3705503.419691086
+ },
+ "transcript": [
+  {
+   "heading": "Cold open",
+   "text": "A market cap counts every token as if it could be sold. We checked 9 of Cardano's largest tokens against the chain, and for MIN, at most 49.2 percent of the supply can trade."
+  },
+  {
+   "heading": "Last week's calls",
+   "text": "First, the scorecard. We said Cardano's dollar stablecoins total more than $69.37M on October 8, 3.2 percent above October 1's level, measured as the median of the last three days. A stablecoin is a token built to stay worth one dollar. It measured $66.42M, so we got that one wrong. That puts the running record at 14 right, 7 wrong, 1 void."
+  },
+  {
+   "heading": "How much can actually trade?",
+   "text": "A market cap multiplies a token's price by its supply, and quietly assumes every one of those tokens can trade. The float is what is left after taking out what provably cannot: burn addresses, protocol reserves, and the treasury and team wallets projects publish themselves. This channel has now checked 9 of the 10 largest non-dollar tokens on Cardano against the chain. The biggest gap is MIN: at most 49.2 percent of its supply can trade."
+  },
+  {
+   "heading": "How much can actually trade? Six to ten",
+   "text": "WMT is a legacy token: 93.8 percent of it has been migrated into its successor, so only 6.2 percent is still out there as WMT. For WMTX, STRIKE, LQ, HOSKY, nothing is provably locked, so the whole supply is counted, and for some of them that is because the project has not published where its own tokens are held. Every float here is an upper bound: the true share that trades can only be smaller. Why it matters: a price times a supply that cannot move is a number, not a market; the float is the part of the supply a market cap is actually made of."
+  },
+  {
+   "heading": "ADA",
+   "text": "Also today. ADA is at 25.2 cents, down 1.5 percent on the day \u2014 up 16.1 percent over thirty days and up 2.3 percent on the week. Since the last episode it has moved down 0.6 percent."
+  },
+  {
+   "heading": "Open votes (1/3)",
+   "text": "One more thing. 3 governance actions are open for voting right now. The parameter change, which its proposers call \u201cReduce minPoolCost to 75 ada\u201d, closing in 1 epoch. An epoch is Cardano's five-day cycle; rewards and votes are counted epoch by epoch. DReps: 75 for, 30 against, 15 abstaining \u2014 weighted by stake, yes holds 71 percent of the DRep power that voted yes or no. A DRep, short for delegated representative, is someone ADA holders choose to vote on governance for them. 60.0 percent of all registered DRep voting power has voted on it. The Constitutional Committee: 3 yes, 0 no."
+  },
+  {
+   "heading": "Open votes (2/3)",
+   "text": "Next, the 11.8 million ADA withdrawal, which its proposers call \u201cWithdraw 11,787,063 ada for the OpenZeppelin Stack administered by Intersect\u201d, closing in 1 epoch. DReps: 15 for, 77 against, 14 abstaining \u2014 weighted by stake, yes holds 9 percent of the DRep power that voted yes or no. 52.0 percent of all registered DRep voting power has voted on it. The Constitutional Committee: 3 yes, 0 no."
+  },
+  {
+   "heading": "Open votes (3/3)",
+   "text": "Next, the info action, which its proposers call \u201cShould stakePoolTargetNum (k) be raised from 500 to 1000? (SPO poll)\u201d, closing in 3 epochs. Stake pools: 17 for, 26 against \u2014 weighted by pool stake, yes holds 6 percent of the stake that voted yes or no. A stake pool is a node that produces blocks on behalf of the ADA delegated to it. DReps: 29 for, 27 against, 31 abstaining \u2014 weighted by stake, yes holds 16 percent of the DRep power that voted yes or no. 45.6 percent of all registered DRep voting power has voted on it. The Constitutional Committee: 1 yes, 0 no, 1 abstaining. Those descriptions are the proposers' own words, not ours. Each document was fetched and its bytes checked against the hash the ledger recorded when the action was submitted, so what you are hearing is what was actually anchored on chain."
+  },
+  {
+   "heading": "",
+   "text": "Running record: 14 right, 7 wrong, with 1 void. Epoch 661 begins on October 11 at 21:45 UTC, and 2 governance actions close with it. No new claim today: every call on today's figures would be decided by the same ADA move as a call already open, and betting on that twice would not test anything new. Every call we make is scored in public, the wrong ones included. New here? Start with the guide linked below. The full treasury and voting data is free on our site, linked below. See you tomorrow."
+  }
+ ],
+ "_note": "Compact record of the figures used in this episode."
+}
