@@ -1,0 +1,141 @@
+{
+ "episode_id": "2026-10-08-special",
+ "mode": "special",
+ "published": "2026-10-08T22:55:19+00:00",
+ "video_url": "https://youtu.be/hvee3fThdY4",
+ "title": "Can you beat Ellie? The Forecast League and Ask Ellie are open",
+ "data_generated_at": "2026-10-08T22:12:01+00:00",
+ "claim": null,
+ "market": {
+  "ada_usd": 0.23422713121928698,
+  "source": "coingecko",
+  "cross_checked": true,
+  "change_24h_pct": -7.855866112294713
+ },
+ "indigo": {
+  "tvl_usd": 4347304.0,
+  "indy_price_usd": 0.116753
+ },
+ "loan_book": {
+  "positions": 284,
+  "debt_usd": 1803219.2046157718,
+  "collateral_ada": 17103198.465881,
+  "book_ratio": 2.2216007355528467,
+  "price_10pct_at_risk_usd": 0.17114347168232644,
+  "price_50pct_at_risk_usd": 0.1433809578802277,
+  "decoded_utxos": 308,
+  "validator_utxos": 311
+ },
+ "coverage": {
+  "iADA": {
+   "decoded_iasset": 233.450484,
+   "chain_supply_iasset": 233.450484,
+   "coverage_pct": 100.0
+  },
+  "iBTC": {
+   "decoded_iasset": 5.057821000000001,
+   "chain_supply_iasset": 5.057821,
+   "coverage_pct": 100.00000000000003
+  },
+  "iETH": {
+   "decoded_iasset": 35.187825,
+   "chain_supply_iasset": 35.187825,
+   "coverage_pct": 100.0
+  },
+  "iEUR": {
+   "decoded_iasset": 68.387277,
+   "chain_supply_iasset": 68.387277,
+   "coverage_pct": 100.0
+  },
+  "iJPY": {
+   "decoded_iasset": 76826.95787400001,
+   "chain_supply_iasset": 76826.957874,
+   "coverage_pct": 100.00000000000003
+  },
+  "iSOL": {
+   "decoded_iasset": 83.666999,
+   "chain_supply_iasset": 83.666999,
+   "coverage_pct": 100.0
+  },
+  "iUSD": {
+   "decoded_iasset": 1308087.4145200008,
+   "chain_supply_iasset": 1364768.034218,
+   "coverage_pct": 95.84686787227716
+  },
+  "_worst_pct": 95.84686787227716
+ },
+ "governance": {
+  "epoch": 660,
+  "open_actions": [
+   {
+    "id": 158,
+    "type": "ParameterChange",
+    "withdrawal_ada": null,
+    "expiration_epoch": 661,
+    "drep_yes_pct_of_decisive": 71.24095720830252,
+    "drep_participation_pct": 60.643017449680045
+   },
+   {
+    "id": 157,
+    "type": "TreasuryWithdrawals",
+    "withdrawal_ada": 11787063.0,
+    "expiration_epoch": 661,
+    "drep_yes_pct_of_decisive": 7.727348520470341,
+    "drep_participation_pct": 56.313524798567194
+   },
+   {
+    "id": 159,
+    "type": "InfoAction",
+    "withdrawal_ada": null,
+    "expiration_epoch": 663,
+    "drep_yes_pct_of_decisive": 16.31914680903589,
+    "drep_participation_pct": 45.59846525787468
+   }
+  ],
+  "decided_counts": {
+   "enacted": 1,
+   "expired": 4,
+   "dropped": 0
+  }
+ },
+ "monetary": {
+  "decay_per_epoch_pct": 0.16175516204340878,
+  "half_life_years": 5.861322367805472,
+  "treasury_accrual_per_epoch_ada": 3705503.419691086
+ },
+ "transcript": [
+  {
+   "heading": "Cold open",
+   "text": "Every episode of this channel ends with a prediction, and every one is scored in public, including the ones I get wrong. Until now you could only watch. Starting today, you can make your own call on every one of them, and you can send me the questions you want answered."
+  },
+  {
+   "heading": "My record so far",
+   "text": "First, what you'd be up against. Every daily episode ends with one claim: a named number, a threshold and a date, logged before it can be checked. So far I'm at 14 right, 7 wrong, 1 void. That is a small sample, so the honest version is this: the most I can say with confidence is that my true hit rate is above 45 percent. Every claim, hit or miss, is on our website's scoreboard."
+  },
+  {
+   "heading": "The Forecast League",
+   "text": "Here's the Forecast League, on our website. Every prediction from the show appears there. For each one, you say how likely you think it is to come true, as a percentage. You can change your mind until forecasting closes, two days after the prediction is made, the same moment the comment votes close. Until then, nobody sees the crowd's average, so nobody can just copy it. Why close it at all? If it stayed open to the end, you could wait until the answer was nearly obvious. I commit the moment I make the claim, so this keeps us close to even. When the claim resolves, against the same archived measurement as mine, your forecast gets a score."
+  },
+  {
+   "heading": "How you're scored",
+   "text": "The score is called a Brier score. It's the square of the gap between your forecast and what happened, so lower is better. Say ninety percent and it comes true: you score zero point zero one. Say ninety percent and it doesn't: zero point eight one. So being confident and right is the best result, and being confident and wrong costs the most. Saying fifty percent on everything rarely wins. After five resolved forecasts, you're on the leaderboard, next to how the crowd did and how I did."
+  },
+  {
+   "heading": "Votes and forecasts",
+   "text": "There are now two ways to answer a prediction, and they do different jobs. A vote is the quick one: reply yes or no under the first comment. Votes are counted together as one voice, the comment section, and scored as a single call. A forecast is yours: a percentage in the League, scored under your own name on the leaderboard. Do either, or both."
+  },
+  {
+   "heading": "Signing in",
+   "text": "To forecast, you sign in once, with an email link or with a Cardano wallet. Either works, and they stay separate: we never connect an email to a wallet. If you use a wallet, it only signs a short text message. That is not a transaction: it can't move or spend anything, and it costs no fee. If any site ever asks you to approve a transaction or type your recovery phrase just to sign in, stop. Ours never will. Your handle is public. Your email and your wallet never are."
+  },
+  {
+   "heading": "Ask Ellie",
+   "text": "And the second thing. You can now send me questions about Cardano. Post one through our website, or comment on any of our videos with hashtag Ask Ellie. A hashtag comment is public, so I may read it and your name on air. I'll pick the questions the data can answer best, and make videos that open with them. Picked questions are answered on air. I can't answer every question. I won't give buy or sell advice, and I won't guess who owns a wallet. But should I buy this can often become: what does its on-chain record show? That one I can answer."
+  },
+  {
+   "heading": "",
+   "text": "Join the Forecast League on our website to forecast the next prediction, and send your question through our website. Picked questions are answered on air. None of this is advice to buy, hold or avoid anything, and the League has no money or prizes. It is just a score."
+  }
+ ],
+ "_note": "Compact record of the figures used in this episode."
+}
