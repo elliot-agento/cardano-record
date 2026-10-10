@@ -1,0 +1,169 @@
+{
+ "episode_id": "2026-10-10-special",
+ "mode": "special",
+ "published": "2026-10-10T18:11:46+00:00",
+ "video_url": "https://youtu.be/DUnvBpO70kw",
+ "title": "AI agents that pay: x402, Cardano and who pays for the internet",
+ "data_generated_at": "2026-10-10T17:24:03+00:00",
+ "claim": null,
+ "market": {
+  "ada_usd": 0.2543091247287344,
+  "source": "coingecko",
+  "cross_checked": true,
+  "change_24h_pct": 6.6498866227155045
+ },
+ "indigo": {
+  "tvl_usd": 4385155.0,
+  "indy_price_usd": 0.126896
+ },
+ "loan_book": {
+  "positions": 283,
+  "debt_usd": 1788812.760944797,
+  "collateral_ada": 16780585.561607,
+  "book_ratio": 2.3856359479199893,
+  "price_10pct_at_risk_usd": 0.17114148271591728,
+  "price_50pct_at_risk_usd": 0.1433792915595312,
+  "decoded_utxos": 308,
+  "validator_utxos": 311
+ },
+ "coverage": {
+  "iADA": {
+   "decoded_iasset": 233.450484,
+   "chain_supply_iasset": 233.450484,
+   "coverage_pct": 100.0
+  },
+  "iBTC": {
+   "decoded_iasset": 5.057821000000001,
+   "chain_supply_iasset": 5.057821,
+   "coverage_pct": 100.00000000000003
+  },
+  "iETH": {
+   "decoded_iasset": 35.21329200000001,
+   "chain_supply_iasset": 35.213292,
+   "coverage_pct": 100.00000000000003
+  },
+  "iEUR": {
+   "decoded_iasset": 68.387277,
+   "chain_supply_iasset": 68.387277,
+   "coverage_pct": 100.0
+  },
+  "iJPY": {
+   "decoded_iasset": 76826.95787400001,
+   "chain_supply_iasset": 76826.957874,
+   "coverage_pct": 100.00000000000003
+  },
+  "iSOL": {
+   "decoded_iasset": 83.681705,
+   "chain_supply_iasset": 83.681705,
+   "coverage_pct": 100.0
+  },
+  "iUSD": {
+   "decoded_iasset": 1287589.2300860004,
+   "chain_supply_iasset": 1372108.674509,
+   "coverage_pct": 93.8401785519471
+  },
+  "_worst_pct": 93.8401785519471
+ },
+ "governance": {
+  "epoch": 660,
+  "open_actions": [
+   {
+    "id": 158,
+    "type": "ParameterChange",
+    "withdrawal_ada": null,
+    "expiration_epoch": 661,
+    "drep_yes_pct_of_decisive": 71.39622534112662,
+    "drep_participation_pct": 62.650367396102425
+   },
+   {
+    "id": 157,
+    "type": "TreasuryWithdrawals",
+    "withdrawal_ada": 11787063.0,
+    "expiration_epoch": 661,
+    "drep_yes_pct_of_decisive": 7.726409241549034,
+    "drep_participation_pct": 58.25015486662025
+   },
+   {
+    "id": 159,
+    "type": "InfoAction",
+    "withdrawal_ada": null,
+    "expiration_epoch": 663,
+    "drep_yes_pct_of_decisive": 17.28588350977468,
+    "drep_participation_pct": 45.87890702001689
+   }
+  ],
+  "decided_counts": {
+   "enacted": 1,
+   "expired": 4,
+   "dropped": 0
+  }
+ },
+ "monetary": {
+  "decay_per_epoch_pct": 0.16175516204340878,
+  "half_life_years": 5.861322367805472,
+  "treasury_accrual_per_epoch_ada": 3705503.419691086
+ },
+ "transcript": [
+  {
+   "heading": "Cold open",
+   "text": "The web has had an error code called payment required since the nineteen-nineties. For almost thirty years, nobody really used it, and ads became how the internet pays its bills. Now software is starting to answer that code by itself. Here is what changes when software has a wallet, and how it might finally pay for the parts of the internet nobody pays for."
+  },
+  {
+   "heading": "The error code that waited",
+   "text": "Every time a web page fails to load, the server sends back a number. You know four oh four: not found. The rulebook for the web, as published in the nineteen-nineties, also listed four oh two: payment required. It was marked reserved for future use. The future took a long time. There was no simple way for a machine to send a few cents to another machine, so the web paid for itself another way: ads, and accounts, and subscriptions. Now a program can hold digital dollars and sign a payment in a second. So four oh two is getting its first real job."
+  },
+  {
+   "heading": "How a machine pays",
+   "text": "The best-known version is called x402. Coinbase announced it in May 2025, with partners that included Circle and AWS. It works in four steps. An AI agent asks a server for something, say a page of data. The server answers four oh two, and names a price: one cent. The agent signs a payment in digital dollars and asks again. The server checks the payment and sends the data. No account, no password, no subscription, no card number. Just a request, a price, and a payment anyone can check."
+  },
+  {
+   "heading": "We built one",
+   "text": "This channel built one, to see it work. Our data service answers four oh two, and an agent can pay it per request. It runs on test networks for now, with test money that has no value. It takes payment on two rails: digital dollars on Coinbase's Base network, and ADA on Cardano's test network. Every test payment in our own ledger was paid, checked and served with no account and no sign-up. And a payment can only be used once. A second request with the same payment is refused."
+  },
+  {
+   "heading": "The allowance",
+   "text": "Which raises the real question. How do you give software money, without giving it all of your money? A person with a debit card can be trusted to stop. Software does what it is told, including by the wrong person. On Cardano, money can sit at an address controlled by a script: a small program that every node on the network checks. The money only moves if the script's rules allow it. So the limits can live in the wallet itself. Five dollars a day. Only these sellers. The owner can freeze it at any time. The agent cannot break those rules, because the network will not accept a payment that does. In our episode on can't be evil, robots paid for their own charging inside a budget they could not overspend. This is how that budget works."
+  },
+  {
+   "heading": "Scenario: the article that costs a cent",
+   "text": "Start with reading. You ask your research agent a hard question, and it reads two hundred articles to answer it. Picture each article costing one cent. Your answer costs two dollars, and every writer whose work was used is paid for that one read. No paywall, no subscription to a site you will visit once, and no page built to show you ads. Writing that helps people gets read more by their agents, and earns more. What it could not fix: whether the article is any good. Pay per read rewards being read, and some sites would be built to farm agent readers."
+  },
+  {
+   "heading": "Scenario: agents hiring agents",
+   "text": "Next, agents that hire each other. You ask your travel agent, the software kind, to plan a trip abroad. It does not do everything itself. It hires a translation agent for your documents, and a visa agent that knows the rules for your passport. Each job's payment is locked in a contract first, and released when the work is delivered. Every delivery adds to that agent's public record, so the reliable ones get hired again. Nobody signs up anywhere. The agents find each other, agree a price and get paid in seconds. What it could not fix: whether the work was actually good. A contract can check that a translation arrived. It cannot tell if it is a good one."
+  },
+  {
+   "heading": "Scenario: haggling over a used car",
+   "text": "Now a negotiation. You want a used car. You tell your agent your budget and what matters to you, and the seller's agent knows the lowest price they will take. Before they start, each side locks a small deposit into a contract. It says, I am serious, and I will not walk away from a deal I agreed. Then the two agents haggle: hundreds of offers and counter-offers in a few seconds, with nobody wearing anybody down. When they agree, your payment is held in the contract. It goes to the seller when the title is transferred and an inspector confirms the car is as described. If either side backs out after agreeing, its deposit goes to the other. What it could not fix: the car itself. The inspection is still someone's word, and your agent is only as good as the budget you gave it."
+  },
+  {
+   "heading": "Who pays for the roads of the internet?",
+   "text": "Now the other half of the idea. Almost every app you use is built on free, open-source code: shared building blocks anyone can use, often looked after by a handful of volunteers. In 2016, the writer Nadia Eghbal published a report for the Ford Foundation called Roads and Bridges. Her point: this code is public infrastructure, like roads, but almost nobody pays to maintain it. Two years earlier, a flaw called Heartbleed was found in OpenSSL, code that helped secure a large share of the web. Its maintainers said at the time that the project received about two thousand dollars a year in donations, and had one full-time developer. Everyone used the road. Almost nobody paid for it."
+  },
+  {
+   "heading": "Scenario: the tip jar in the code",
+   "text": "Here is where agents with wallets come back in. Software already knows exactly which code and which data it uses, every time it uses them. Picture a tip jar written into that code. Every time an agent uses a shared tool or dataset, it sends a fraction of a cent to the people who maintain it, automatically, split between them by a contract, like the song with forty owners in our episode on can't be evil. A billion uses a day, at a hundredth of a cent each, is a hundred thousand dollars a day for the roads. What it could not fix: open code can be copied, and a copy can switch the tip jar off. Paying still has to be a choice people make."
+  },
+  {
+   "heading": "Scenario: the bug bounty that pays itself",
+   "text": "One more. A volunteer looks after a piece of code that thousands of apps depend on, and there is a bug she has no time to fix. So she posts a bounty: fifty dollars, locked in a contract, for whoever fixes it. The contract also holds the project's tests, the checks a change has to pass. Anyone can take the job: a student in Nairobi, a retired engineer in Ohio, or an AI agent working for its owner. The first fix that passes every test is paid on the spot. Nobody has to approve an invoice, and nobody waits for a transfer. The companies that rely on the code can add to the bounty, so the work they depend on finally gets paid for. What it could not fix: the tests only check what they test. A fix can pass every one and still be a bad idea, so someone still has to read it."
+  },
+  {
+   "heading": "A shared purse for the roads",
+   "text": "Cardano already runs one version of a shared purse for public work. Since Cardano's on-chain votes began paying out, its treasury has paid out 804.4 million ADA across 78 withdrawals, measured from this channel's own copy of the chain. Each one passed an on-chain vote that anyone can read. And the open-source code that runs Cardano is busy. In the last year, the 15 core projects this channel follows logged more than fifteen thousand changes, counted from GitHub's public records. Public code, and a public purse that anyone can watch being spent."
+  },
+  {
+   "heading": "What it does not mean",
+   "text": "Every scenario ended with what it could not fix. Here is what they share. Somebody still answers for an agent. If it spends badly, the question of who is responsible is a question for people and courts, not code. Anything off the chain, an inspection, a delivery, the quality of an article, still rests on someone's word. And a limit is only as wise as the person who sets it."
+  },
+  {
+   "heading": "Three questions to ask",
+   "text": "So, before you give any software a wallet, ask three questions. One: what is the most it can spend, and who enforces that? Two: who can stop it, and how fast? Three: can I see every payment it made? If the answers are written into the wallet, and not just promised, that is can't be evil, working for you."
+  },
+  {
+   "heading": "",
+   "text": "Those were scenarios, not predictions, and none of this is advice to buy, hold or avoid anything. Ask the three questions before any software spends for you."
+  }
+ ],
+ "_note": "Compact record of the figures used in this episode."
+}
