@@ -1,0 +1,150 @@
+{
+ "episode_id": "20261011-023621-daily",
+ "mode": "daily",
+ "published": "2026-10-11T08:08:23+00:00",
+ "video_url": "https://youtu.be/4VOmEqPvnBw",
+ "title": "Cardano (ADA) News Today: 157 stablecoins wallets paying each other per day",
+ "data_generated_at": "2026-10-11T07:30:01+00:00",
+ "claim": {
+  "metric": "tx_7d_avg_org",
+  "horizon_days": 7,
+  "op": "<",
+  "threshold": 28500.0,
+  "text": "Cardano's seven-day average is below 28.5 thousand transactions a day seven days from now, 2.9 percent below this week's",
+  "subject": null,
+  "quality": {
+   "verdict": "unknown",
+   "p_change": null,
+   "p_level": null,
+   "days": 3
+  }
+ },
+ "market": {
+  "ada_usd": 0.24755907665840332,
+  "source": "coingecko",
+  "cross_checked": true,
+  "change_24h_pct": -2.4770765946733513
+ },
+ "indigo": {
+  "tvl_usd": 4269052.0,
+  "indy_price_usd": 0.121476
+ },
+ "loan_book": {
+  "positions": 283,
+  "debt_usd": 1787783.9860053866,
+  "collateral_ada": 16755805.56160699,
+  "book_ratio": 2.320219772617802,
+  "price_10pct_at_risk_usd": 0.1736971301797891,
+  "price_50pct_at_risk_usd": 0.14337821607195814,
+  "decoded_utxos": 308,
+  "validator_utxos": 311
+ },
+ "coverage": {
+  "iADA": {
+   "decoded_iasset": 233.450484,
+   "chain_supply_iasset": 233.450484,
+   "coverage_pct": 100.0
+  },
+  "iBTC": {
+   "decoded_iasset": 5.057821000000001,
+   "chain_supply_iasset": 5.057821,
+   "coverage_pct": 100.00000000000003
+  },
+  "iETH": {
+   "decoded_iasset": 35.21329200000001,
+   "chain_supply_iasset": 35.213292,
+   "coverage_pct": 100.00000000000003
+  },
+  "iEUR": {
+   "decoded_iasset": 68.387277,
+   "chain_supply_iasset": 68.387277,
+   "coverage_pct": 100.0
+  },
+  "iJPY": {
+   "decoded_iasset": 76826.95787400001,
+   "chain_supply_iasset": 76826.957874,
+   "coverage_pct": 100.00000000000003
+  },
+  "iSOL": {
+   "decoded_iasset": 83.681705,
+   "chain_supply_iasset": 83.681705,
+   "coverage_pct": 100.0
+  },
+  "iUSD": {
+   "decoded_iasset": 1286753.0100150001,
+   "chain_supply_iasset": 1371028.664839,
+   "coverage_pct": 93.85310774418446
+  },
+  "_worst_pct": 93.85310774418446
+ },
+ "governance": {
+  "epoch": 660,
+  "open_actions": [
+   {
+    "id": 158,
+    "type": "ParameterChange",
+    "withdrawal_ada": null,
+    "expiration_epoch": 661,
+    "drep_yes_pct_of_decisive": 72.09950520165853,
+    "drep_participation_pct": 64.372161452525
+   },
+   {
+    "id": 157,
+    "type": "TreasuryWithdrawals",
+    "withdrawal_ada": 11787063.0,
+    "expiration_epoch": 661,
+    "drep_yes_pct_of_decisive": 7.404617497664506,
+    "drep_participation_pct": 60.06787082605616
+   },
+   {
+    "id": 159,
+    "type": "InfoAction",
+    "withdrawal_ada": null,
+    "expiration_epoch": 663,
+    "drep_yes_pct_of_decisive": 18.404938459900563,
+    "drep_participation_pct": 46.22405248375628
+   }
+  ],
+  "decided_counts": {
+   "enacted": 1,
+   "expired": 4,
+   "dropped": 0
+  }
+ },
+ "monetary": {
+  "decay_per_epoch_pct": 0.16175516204340878,
+  "half_life_years": 5.861322367805472,
+  "treasury_accrual_per_epoch_ada": 3705503.419691086
+ },
+ "transcript": [
+  {
+   "heading": "Cold open",
+   "text": "157 wallets a day sent a dollar stablecoin to another wallet on Cardano over the past week, 9 percent more than the week before."
+  },
+  {
+   "heading": "Last week's calls",
+   "text": "First, the scorecard. We said the newest epoch stake snapshot counts fewer than 1,303,343 stake accounts on October 11; epoch 660's counts 1,304,104. An epoch is Cardano's five-day cycle; rewards and votes are counted epoch by epoch. It measured 1,303,540, so we got that one wrong. We said ADA longs are still paying shorts on Strike on October 10. It measured 54.35 percent, so we got that one right. We said ADA closes above $0.2610 on October 9, 2 percent above where it was on October 2. It measured $0.2399, so we got that one wrong. That puts the running record at 15 right, 9 wrong, 1 void."
+  },
+  {
+   "heading": "Dollars changing hands",
+   "text": "Are Cardano's dollar stablecoins being spent? Counting only stablecoins sent from one wallet to a different one, not to a contract and not back as change, 157 wallets a day sent one over the past week, 9 percent more than the week before. A single sender made a large share of the payments, so we count the wallets rather than the payments. Why it matters: a stablecoin is meant to be spent, and this counts only dollars that changed hands."
+  },
+  {
+   "heading": "ADA",
+   "text": "Also today. ADA is at 24.8 cents, down 2.2 percent on the day \u2014 up 19.2 percent over thirty days and up 1.2 percent on the week. Since the last episode it has moved down 1.9 percent."
+  },
+  {
+   "heading": "Transactions a day",
+   "text": "One more thing. How much is Cardano actually used? Over the past seven days the chain carried 29.4 thousand transactions a day on average. That is 9 percent fewer than the week before. That works out to 0.34 transactions a second on average, and the busiest minute of the week ran at 2.1 a second. One Cardano transaction can carry many payments at once, so a count of transactions is a floor on activity, not a ceiling. The number of wallets transacting, counted by stake key, averaged 7.9 thousand a day, 8 percent fewer than the week before. These counts leave out transactions sent to a single address that alone took a quarter or more of a day's activity, because one sender is not wider use. A transaction here is anything recorded on the chain, from a payment to a swap to a vote, so this counts activity, not people."
+  },
+  {
+   "heading": "Today's claim",
+   "text": "Now the prediction. Today's claim: Cardano's seven-day average is below 28.5 thousand transactions a day seven days from now, 2.9 percent below this week's. It stands at 29,350 as this is recorded. We'll score it on October 18, automatically, against the same measurement \u2014 and if it's wrong, it stays on the board as wrong. Think I've got it wrong? Reply yes or no under the first comment, or put a number on it: join the Forecast League on our website."
+  },
+  {
+   "heading": "",
+   "text": "Running record: 15 right, 9 wrong, with 1 void. Every call we make is scored in public, the wrong ones included. New here? Start with the guide linked below. See you tomorrow."
+  }
+ ],
+ "_note": "Compact record of the figures used in this episode."
+}
