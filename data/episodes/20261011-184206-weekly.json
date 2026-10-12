@@ -1,0 +1,141 @@
+{
+ "episode_id": "20261011-184206-weekly",
+ "mode": "weekly",
+ "published": "2026-10-12T00:44:20+00:00",
+ "video_url": "https://youtu.be/7MAhd1MC2wQ",
+ "title": "Cardano (ADA) News This Week: Indigo CDP \u2014 308 entries decoded and matched to mints",
+ "data_generated_at": "2026-10-11T23:36:38+00:00",
+ "claim": null,
+ "market": {
+  "ada_usd": 0.2522264329431093,
+  "source": "coingecko",
+  "cross_checked": true,
+  "change_24h_pct": 1.3028199801144267
+ },
+ "indigo": {
+  "tvl_usd": 4351734.0,
+  "indy_price_usd": 0.122401
+ },
+ "loan_book": {
+  "positions": 283,
+  "debt_usd": 1792354.9860612527,
+  "collateral_ada": 16755805.56160699,
+  "book_ratio": 2.357935286680991,
+  "price_10pct_at_risk_usd": 0.1736929314634079,
+  "price_50pct_at_risk_usd": 0.1433747502434559,
+  "decoded_utxos": 308,
+  "validator_utxos": 311
+ },
+ "coverage": {
+  "iADA": {
+   "decoded_iasset": 233.450484,
+   "chain_supply_iasset": 233.450484,
+   "coverage_pct": 100.0
+  },
+  "iBTC": {
+   "decoded_iasset": 5.057821000000001,
+   "chain_supply_iasset": 5.057821,
+   "coverage_pct": 100.00000000000003
+  },
+  "iETH": {
+   "decoded_iasset": 35.21329200000001,
+   "chain_supply_iasset": 35.213292,
+   "coverage_pct": 100.00000000000003
+  },
+  "iEUR": {
+   "decoded_iasset": 68.387277,
+   "chain_supply_iasset": 68.387277,
+   "coverage_pct": 100.0
+  },
+  "iJPY": {
+   "decoded_iasset": 76826.95787399999,
+   "chain_supply_iasset": 76826.957874,
+   "coverage_pct": 99.99999999999997
+  },
+  "iSOL": {
+   "decoded_iasset": 83.681705,
+   "chain_supply_iasset": 83.681705,
+   "coverage_pct": 100.0
+  },
+  "iUSD": {
+   "decoded_iasset": 1286859.822639,
+   "chain_supply_iasset": 1371135.477463,
+   "coverage_pct": 93.8535865923377
+  },
+  "_worst_pct": 93.8535865923377
+ },
+ "governance": {
+  "epoch": 661,
+  "open_actions": [
+   {
+    "id": 159,
+    "type": "InfoAction",
+    "withdrawal_ada": null,
+    "expiration_epoch": 663,
+    "drep_yes_pct_of_decisive": 19.037912564329346,
+    "drep_participation_pct": 46.664389820402945
+   }
+  ],
+  "decided_counts": {
+   "enacted": 1,
+   "expired": 6,
+   "dropped": 0
+  }
+ },
+ "monetary": {
+  "decay_per_epoch_pct": 0.1616783303014402,
+  "half_life_years": 5.864110003718629,
+  "treasury_accrual_per_epoch_ada": 3685941.8877151012
+ },
+ "transcript": [
+  {
+   "heading": "Cold open",
+   "text": "On Indigo, people lock ADA in a vault called a CDP to mint synthetic assets, and those vaults sit as entries at one contract on chain. For this episode, 308 of those 311 entries were decoded one by one and checked against what was minted, rather than taken as a total. Here's the week on Cardano."
+  },
+  {
+   "heading": "Cross-check",
+   "text": "The cross-check is unchanged since the last episode: 6 of 7 assets reconcile exactly, and iUSD still accounts for 93.85 percent of what was minted, so position-derived iUSD figures remain a floor."
+  },
+  {
+   "heading": "The record",
+   "text": "The record: 15 hit, 9 missed, out of 24 resolved. That is 62.5 percent. With a sample this size the honest floor on that number is 42.7 percent, and that floor is the number worth trusting. And the crowd, voting yes or no under each prediction on YouTube: 2 right, 1 wrong."
+  },
+  {
+   "heading": "Scoring our own cascade",
+   "text": "This channel regularly publishes how far ADA would have to fall before part of Indigo's book is at risk. This is what happened when we checked. Taking 40 pairs of archived snapshots \u2014 the curve one episode published, against what the book actually looked like at that price days later \u2014 the median error was 0.0 positions. 87.5 percent of them landed within a single position, and 82.5 percent were exact. Since this was last shown, on September 27, within one is down from 100 percent and exact is down from 100 percent. The worst single pair spanned an 18.9 percent rise over 553 hours. It called 1 position at risk, and 5 were. None of the 40 pairs was a price fall. So the calibration has not yet been tested under stress. The method has a limit worth naming. The curve asks what happens to today's positions at a different price, holding those positions still. CDP holders do not hold still \u2014 they add collateral and they close, which is exactly what a cascade cannot see coming. Collateral is what someone locks up to back what they owe or have minted; if its value stops covering that, it goes to whoever pays off the debt. Across these pairs the book itself moved by a median of 8 positions. So the number stands for the moves it has seen, and so does its limit."
+  },
+  {
+   "heading": "Open votes",
+   "text": "1 governance action is open for voting right now. The info action, which its proposers call \u201cShould stakePoolTargetNum (k) be raised from 500 to 1000? (SPO poll)\u201d, closing in 2 epochs. An epoch is Cardano's five-day cycle; rewards and votes are counted epoch by epoch. Stake pools: 19 for, 32 against \u2014 weighted by pool stake, yes holds 9 percent of the stake that voted yes or no. DReps: 36 for, 32 against, 36 abstaining \u2014 weighted by stake, yes holds 19 percent of the DRep power that voted yes or no. A DRep, short for delegated representative, is someone ADA holders choose to vote on governance for them. 46.7 percent of all registered DRep voting power has voted on it. The Constitutional Committee: 1 yes, 0 no, 1 abstaining. SPO is short for stake pool operator, the people who run the pools. An info action is a recorded poll; it changes nothing on chain, so there is no pass mark to count against. Those descriptions are the proposers' own words, not ours. Each document was fetched and its bytes checked against the hash the ledger recorded when the action was submitted, so what you are hearing is what was actually anchored on chain."
+  },
+  {
+   "heading": "What passed",
+   "text": "Over the last ninety days 7 actions reached an outcome: 1 enacted, 6 expired without passing; the table shows the latest 6 of them. Each row gives DRep votes for, against and abstaining, by count and by voting power, and the yes share of the power that voted yes or no, with abstains left out of it. A high yes share can still expire: to pass, the yes vote has to reach a set share of all active DRep voting power, abstentions aside, so a DRep that does not vote counts against it, and where stake pools or the committee also vote, each has its own threshold to clear. A stake pool is a node that produces blocks on behalf of the ADA delegated to it. The last column gives the stake pools' yes share by stake, then the committee's votes for and against, where either body voted. One of the expired was an info action, which records a vote but can never be enacted."
+  },
+  {
+   "heading": "Who holds the DRep vote",
+   "text": "Behind those votes sit 855 registered DReps holding 5.28 billion ADA, with the five largest holding 34.1 percent of it. Separately, 10.50 billion ADA is delegated to the automatic always-abstain option and 135.9 million ADA to the automatic no-confidence option. Those two are not DReps but fixed settings: always-abstain is left out of every tally, and no-confidence counts as a no on every action except a motion of no confidence."
+  },
+  {
+   "heading": "The treasury, as a rate",
+   "text": "The treasury holds 1.38 billion ADA, about 347.63 million dollars. It takes in 3.7 million ADA every epoch \u2014 269.1 million a year \u2014 as its cut of each epoch's rewards: the new ADA released from the reserve, plus transaction fees. The reserve is the ADA not yet released into circulation, and it pays most staking rewards. Over the last 195 days governance enacted 29 withdrawals totalling 447.3 million ADA. That is 3.1 times what came in over the same window, and the balance fell 281 million ADA. That outflow is lumpy rather than steady: the single largest epoch was 29 percent of it."
+  },
+  {
+   "heading": "What the balance covers",
+   "text": "Held against that observed rate, the current balance covers 191 more epochs of spending \u2014 955 days at the pace of the last 195. That is arithmetic on what has already happened, not a schedule. If the treasury's income keeps shrinking along with the reserve, that falls to 180 epochs \u2014 an assumption, not a measurement. Inflow, outflow and the balance reconcile to within 1.6 percent of the balance."
+  },
+  {
+   "heading": "The base layer",
+   "text": "Stepping back to the base layer. The last complete epoch settled 1.8 million transactions and collected 337.7 thousand ADA in fees. Most of that was not wider use. On the complete days that epoch spanned, 90 percent of transactions paid a single address that alone took a quarter or more of a normal day's activity, and the fees total includes theirs, so neither total is compared with earlier epochs. Leaving single-address floods out, the chain carried 29.4 thousand transactions a day over the past seven days, up 10.3 percent on the 26.6 thousand a day in the seven days before September 27, and down 9.1 percent on the week before. 21.26 billion ADA is delegated across 2,671 active stake pools, which is 47.3 percent of the 45 billion maximum supply."
+  },
+  {
+   "heading": "Midnight City, measured",
+   "text": "From the wider ecosystem: Midnight City, an online simulation built around the Midnight project, where AI agents work, trade and eat in one shared town. Its world is public, so we measure it - the game itself, not a blockchain. 933 agents live there, 292 more than a week ago; 282 run on their owners' own machines, up 157. They hold 565.3 million crystal, the City's currency, and the richest tenth hold 53.3 percent of it. The crystal supply shrank 0.1 percent over the week. 41 percent of hacking terminals are in use. One broker swaps an in-game NIGHT item for a shielded token. No agent holds either today. Whether that item is tied to the NIGHT token on Cardano, the City's public records do not show."
+  },
+  {
+   "heading": "",
+   "text": "Running record: 15 right, 9 wrong, with 1 void. Epoch 662 begins on October 16 at 21:45 UTC. No new claim today: every call on today's figures was all but decided before it could be scored, and a call like that would pad the record rather than test it. Every call we make is dated, logged and scored in public, the wrong ones included. New to Cardano, or to this channel? The Start Here video in the description explains what we measure and how the scoring works. The full liquidation map is free on our site, linked below. See you tomorrow."
+  }
+ ],
+ "_note": "Compact record of the figures used in this episode."
+}
