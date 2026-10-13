@@ -1,0 +1,129 @@
+{
+ "episode_id": "2026-10-13-explainer",
+ "mode": "explainer",
+ "published": "2026-10-13T18:14:41+00:00",
+ "video_url": "https://youtu.be/C2h8zsbov-A",
+ "title": "Hashes, keys and signatures: the cryptography behind crypto, explained | Crypto from Zero #4",
+ "data_generated_at": "2026-10-13T17:30:01+00:00",
+ "claim": null,
+ "market": {
+  "ada_usd": 0.23469927728268355,
+  "source": "coingecko",
+  "cross_checked": true,
+  "change_24h_pct": -3.10239171519316
+ },
+ "indigo": {
+  "tvl_usd": 4033628.0,
+  "indy_price_usd": 0.121236
+ },
+ "loan_book": {
+  "positions": 284,
+  "debt_usd": 1789851.428908927,
+  "collateral_ada": 16757845.928218992,
+  "book_ratio": 2.197419441995308,
+  "price_10pct_at_risk_usd": 0.17369921484732664,
+  "price_50pct_at_risk_usd": 0.14337993685981643,
+  "decoded_utxos": 310,
+  "validator_utxos": 313
+ },
+ "coverage": {
+  "iADA": {
+   "decoded_iasset": 233.450484,
+   "chain_supply_iasset": 233.450484,
+   "coverage_pct": 100.0
+  },
+  "iBTC": {
+   "decoded_iasset": 5.057821000000001,
+   "chain_supply_iasset": 5.057821,
+   "coverage_pct": 100.00000000000003
+  },
+  "iETH": {
+   "decoded_iasset": 35.213291999999996,
+   "chain_supply_iasset": 35.213292,
+   "coverage_pct": 99.99999999999997
+  },
+  "iEUR": {
+   "decoded_iasset": 68.387277,
+   "chain_supply_iasset": 68.387277,
+   "coverage_pct": 100.0
+  },
+  "iJPY": {
+   "decoded_iasset": 76826.95787400001,
+   "chain_supply_iasset": 76826.957874,
+   "coverage_pct": 100.00000000000003
+  },
+  "iSOL": {
+   "decoded_iasset": 83.681705,
+   "chain_supply_iasset": 83.681705,
+   "coverage_pct": 100.0
+  },
+  "iUSD": {
+   "decoded_iasset": 1288232.4794340003,
+   "chain_supply_iasset": 1368245.156463,
+   "coverage_pct": 94.15216807813613
+  },
+  "_worst_pct": 94.15216807813613
+ },
+ "governance": {
+  "epoch": 661,
+  "open_actions": [
+   {
+    "id": 159,
+    "type": "InfoAction",
+    "withdrawal_ada": null,
+    "expiration_epoch": 663,
+    "drep_yes_pct_of_decisive": 19.143982426373594,
+    "drep_participation_pct": 46.709609704654916
+   }
+  ],
+  "decided_counts": {
+   "enacted": 1,
+   "expired": 6,
+   "dropped": 0
+  }
+ },
+ "monetary": {
+  "decay_per_epoch_pct": 0.1616783303014402,
+  "half_life_years": 5.864110003718629,
+  "treasury_accrual_per_epoch_ada": 3685941.8877151012
+ },
+ "transcript": [
+  {
+   "heading": "Cold open",
+   "text": "The crypto in cryptocurrency is short for cryptography. Three ideas from it do almost all the work, and none of them needs any maths to understand."
+  },
+  {
+   "heading": "Fingerprints for data",
+   "text": "A hash function turns any data, a word or a whole file, into a short code of fixed length, like a fingerprint. Change a single letter and the fingerprint changes completely, and there is no practical way to work backwards from it. Blockchains use hashes to link each block to the one before, which is why old records cannot be quietly edited."
+  },
+  {
+   "heading": "A fingerprint in action",
+   "text": "Take the sentence: pay Sam ten ADA. Its hash is a scrambled string of letters and digits. Change it to pay Sam eleven ADA, and the new hash shares nothing recognisable with the old one. That is why a block that stores the previous block's hash works like a seal: edit anything inside an old block, and its hash stops matching what the next block recorded."
+  },
+  {
+   "heading": "A key and its partner",
+   "text": "Public-key cryptography gives you a pair of keys, made together. The private key stays secret. The public key can be shared freely, and your address is made from it. There is no practical way to work out the private key from the public one."
+  },
+  {
+   "heading": "Signing without revealing",
+   "text": "To spend coins, you sign the transaction with your private key. Anyone can check that signature against your public key, and confirm it came from you and was not altered, without ever seeing the private key. That one trick replaces a bank's signature check, and it is why a lost key cannot be reset by anyone."
+  },
+  {
+   "heading": "A seal only you can make",
+   "text": "Think of a wax seal that only your ring can make, but that anyone can recognise. When your wallet signs a payment, it stamps it with a seal only your private key can produce, and every node checks that seal against your public key. Change one word of the payment after signing, and the seal no longer fits, so the network rejects it."
+  },
+  {
+   "heading": "No clerk to call",
+   "text": "These three ideas replace everything a bank does to prove a payment is real: the signature card, the account number, the clerk who checks. They also mean there is no clerk to call. Whoever holds the private key controls the coins, and a lost key is lost for good. That is the single most important fact for anyone holding crypto."
+  },
+  {
+   "heading": "The short version",
+   "text": "So, in short. Hashes fingerprint data so records cannot be quietly edited, and a private key signs transactions that anyone can check with the matching public key."
+  },
+  {
+   "heading": "",
+   "text": "No new claim today: a lesson explains how something works, and calls are made and scored in the daily episode. That is the cryptography behind crypto, explained. Next time: What is a blockchain, and when is a payment on it final? Every lesson of Crypto from Zero is in the playlist linked below, in order, and every day this channel measures Cardano straight from the chain."
+  }
+ ],
+ "_note": "Compact record of the figures used in this episode."
+}
