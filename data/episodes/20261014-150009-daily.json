@@ -1,0 +1,117 @@
+{
+ "episode_id": "20261014-150009-daily",
+ "mode": "daily",
+ "published": "2026-10-14T20:43:24+00:00",
+ "video_url": "https://youtu.be/oqg4sMaOYFw",
+ "title": "Cardano (ADA) News Today: NFT mints \u2014 13,806 single units this month",
+ "data_generated_at": "2026-10-14T19:56:04+00:00",
+ "claim": null,
+ "market": {
+  "ada_usd": 0.22827128926276566,
+  "source": "coingecko",
+  "cross_checked": true,
+  "change_24h_pct": -3.648339982106859
+ },
+ "indigo": {
+  "tvl_usd": 3905790.0,
+  "indy_price_usd": 0.117429
+ },
+ "loan_book": {
+  "positions": 284,
+  "debt_usd": 1780024.9856057393,
+  "collateral_ada": 16758045.928218992,
+  "book_ratio": 2.1490601426908733,
+  "price_10pct_at_risk_usd": 0.17281541025649041,
+  "price_50pct_at_risk_usd": 0.14337564357085442,
+  "decoded_utxos": 310,
+  "validator_utxos": 313
+ },
+ "coverage": {
+  "iADA": {
+   "decoded_iasset": 233.450484,
+   "chain_supply_iasset": 233.450484,
+   "coverage_pct": 100.0
+  },
+  "iBTC": {
+   "decoded_iasset": 5.057821000000001,
+   "chain_supply_iasset": 5.057821,
+   "coverage_pct": 100.00000000000003
+  },
+  "iETH": {
+   "decoded_iasset": 35.213291999999996,
+   "chain_supply_iasset": 35.213292,
+   "coverage_pct": 99.99999999999997
+  },
+  "iEUR": {
+   "decoded_iasset": 68.387277,
+   "chain_supply_iasset": 68.387277,
+   "coverage_pct": 100.0
+  },
+  "iJPY": {
+   "decoded_iasset": 76826.95787400001,
+   "chain_supply_iasset": 76826.957874,
+   "coverage_pct": 100.00000000000003
+  },
+  "iSOL": {
+   "decoded_iasset": 83.681705,
+   "chain_supply_iasset": 83.681705,
+   "coverage_pct": 100.0
+  },
+  "iUSD": {
+   "decoded_iasset": 1288465.5231330004,
+   "chain_supply_iasset": 1367457.390399,
+   "coverage_pct": 94.22344946024599
+  },
+  "_worst_pct": 94.22344946024599
+ },
+ "governance": {
+  "epoch": 661,
+  "open_actions": [
+   {
+    "id": 159,
+    "type": "InfoAction",
+    "withdrawal_ada": null,
+    "expiration_epoch": 663,
+    "drep_yes_pct_of_decisive": 19.143982426373594,
+    "drep_participation_pct": 48.79314660287227
+   }
+  ],
+  "decided_counts": {
+   "enacted": 1,
+   "expired": 6,
+   "dropped": 0
+  }
+ },
+ "monetary": {
+  "decay_per_epoch_pct": 0.1616783303014402,
+  "half_life_years": 5.864110003718629,
+  "treasury_accrual_per_epoch_ada": 3685941.8877151012
+ },
+ "transcript": [
+  {
+   "heading": "Cold open",
+   "text": "13.8 thousand tokens were minted on Cardano in a quantity of exactly one over the last thirty days, the shape an NFT takes. That is 9 percent more than the month before."
+  },
+  {
+   "heading": "Last week's calls",
+   "text": "First, the scorecard. We said ADA closes below $0.2053 on October 13. It measured $0.2327, so we got that one wrong. We said the median Cardano transaction fee is under 0.2000 ADA on October 12. It measured 0.1918, so we got that one right. That puts the running record at 16 right, 10 wrong, 1 void."
+  },
+  {
+   "heading": "What got minted",
+   "text": "NFTs on Cardano, counted from the chain. An NFT is a token minted as one of a kind. In the last thirty days, 13.8 thousand tokens were minted in a quantity of exactly one, which is the shape an NFT takes, under 634 different minting policies. That is 9 percent more than the thirty days before. 54 percent came with the original CIP-25 metadata standard, and 3.0 percent used CIP-68, the newer standard that lets a token's details be updated after it is minted. A policy is the rule that controls who may mint a token, so it is the closest thing the chain has to a collection, but one project can use several. Why it matters: minting is the part of the NFT market the chain records exactly, sale or no sale."
+  },
+  {
+   "heading": "ADA",
+   "text": "Also today. ADA is at 22.8 cents, down 3.6 percent on the day \u2014 down 10.5 percent on the week and up 7.5 percent over thirty days. Since the last episode it has moved down 9.5 percent."
+  },
+  {
+   "heading": "What the dollars do",
+   "text": "One more thing. A stablecoin is meant to be a dollar you can spend. So when Cardano's dollars moved over the last 24 hours, where did they go? Mostly into smart contracts. Even USDA, the one most often sent to an ordinary wallet, sent 11.0 percent of its movement there, and DJED just 0.7 percent. The rest went to contracts: trading pools, lending markets and order books. Of the contract-bound movement whose transaction named itself, 82 percent said it was Minswap. These are shares of movement, not amounts. One swap creates several outputs, so the totals behind them overstate what changed hands, which is why this segment never quotes a turnover figure. An output is one chunk of ADA that a transaction leaves at an address; the next transaction to spend it uses it up whole."
+  },
+  {
+   "heading": "",
+   "text": "Running record: 16 right, 10 wrong, with 1 void. No new claim today: single-unit mints come in bursts from one collection at a time, so a call on them would be decided by whether one project mints; what each stablecoin is used for is a share of its own movement, which one large protocol can swing in a day; and the one call left, on ADA's price, would be decided by the same move as a call already open. Every call we make is scored in public, the wrong ones included. New here? Start with the guide linked below. See you Friday."
+  }
+ ],
+ "_note": "Compact record of the figures used in this episode."
+}
