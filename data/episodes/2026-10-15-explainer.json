@@ -1,0 +1,157 @@
+{
+ "episode_id": "2026-10-15-explainer",
+ "mode": "explainer",
+ "published": "2026-10-15T18:20:42+00:00",
+ "video_url": "https://youtu.be/ZH5iseQmGys",
+ "title": "What is a blockchain? Blocks, epochs and when a transaction is final | Crypto from Zero #5",
+ "data_generated_at": "2026-10-15T17:30:01+00:00",
+ "claim": null,
+ "market": {
+  "ada_usd": 0.22980214450995892,
+  "source": "coingecko",
+  "cross_checked": true,
+  "change_24h_pct": 0.4931878394202822
+ },
+ "indigo": {
+  "tvl_usd": 3935054.0,
+  "indy_price_usd": 0.118215
+ },
+ "loan_book": {
+  "positions": 284,
+  "debt_usd": 1785096.6381344686,
+  "collateral_ada": 16777273.60631699,
+  "book_ratio": 2.1598009717788464,
+  "price_10pct_at_risk_usd": 0.17369388514665113,
+  "price_50pct_at_risk_usd": 0.1433755374608496,
+  "decoded_utxos": 310,
+  "validator_utxos": 313
+ },
+ "coverage": {
+  "iADA": {
+   "decoded_iasset": 233.450484,
+   "chain_supply_iasset": 233.450484,
+   "coverage_pct": 100.0
+  },
+  "iBTC": {
+   "decoded_iasset": 5.057821000000001,
+   "chain_supply_iasset": 5.057821,
+   "coverage_pct": 100.00000000000003
+  },
+  "iETH": {
+   "decoded_iasset": 35.21329200000001,
+   "chain_supply_iasset": 35.213292,
+   "coverage_pct": 100.00000000000003
+  },
+  "iEUR": {
+   "decoded_iasset": 68.387277,
+   "chain_supply_iasset": 68.387277,
+   "coverage_pct": 100.0
+  },
+  "iJPY": {
+   "decoded_iasset": 76826.95787400001,
+   "chain_supply_iasset": 76826.957874,
+   "coverage_pct": 100.00000000000003
+  },
+  "iSOL": {
+   "decoded_iasset": 83.681705,
+   "chain_supply_iasset": 83.681705,
+   "coverage_pct": 100.0
+  },
+  "iUSD": {
+   "decoded_iasset": 1290307.5653900004,
+   "chain_supply_iasset": 1363992.60675,
+   "coverage_pct": 94.59784158687123
+  },
+  "_worst_pct": 94.59784158687123
+ },
+ "governance": {
+  "epoch": 661,
+  "open_actions": [
+   {
+    "id": 159,
+    "type": "InfoAction",
+    "withdrawal_ada": null,
+    "expiration_epoch": 663,
+    "drep_yes_pct_of_decisive": 19.13648842625541,
+    "drep_participation_pct": 48.79968348132417
+   },
+   {
+    "id": 160,
+    "type": "TreasuryWithdrawals",
+    "withdrawal_ada": 22000000.0,
+    "expiration_epoch": 668,
+    "drep_yes_pct_of_decisive": 7.928975314440337,
+    "drep_participation_pct": 2.970465473338715
+   }
+  ],
+  "decided_counts": {
+   "enacted": 1,
+   "expired": 6,
+   "dropped": 0
+  }
+ },
+ "monetary": {
+  "decay_per_epoch_pct": 0.1616783303014402,
+  "half_life_years": 5.864110003718629,
+  "treasury_accrual_per_epoch_ada": 3685941.8877151012
+ },
+ "transcript": [
+  {
+   "heading": "Cold open",
+   "text": "A blockchain is a shared record that thousands of computers keep together. Here is how blocks get written on Cardano, and how long it takes before a payment can't be undone."
+  },
+  {
+   "heading": "A shared record",
+   "text": "A blockchain is a record of transactions that thousands of computers keep a copy of. New transactions are gathered into a block, and each block contains a fingerprint of the one before it, so changing any old entry would break every block after it. No single company holds the master copy; the computers agree on it."
+  },
+  {
+   "heading": "A notebook with thousands of copies",
+   "text": "Imagine a notebook that thousands of people each keep an identical copy of. Every so often a new page is added, and at the top of each page is a fingerprint of the page before. If someone changed a line on an old page of their copy, its fingerprint would stop matching, every later page would give them away, and everyone else's copies would disagree with theirs."
+  },
+  {
+   "heading": "Who gets to write",
+   "text": "Bitcoin picks who writes the next block by a race of computing power, called proof of work. Cardano uses proof of stake: time is cut into one-second slots, and in each slot a stake pool may be chosen by lottery to make a block. The more ADA delegated to a pool, the more often it wins. A block lands about every twenty seconds."
+  },
+  {
+   "heading": "The slot lottery",
+   "text": "Here is a slot lottery in practice. Every second, each stake pool privately checks whether it has won the right to make a block, a bit like scratching a ticket. Most seconds, nobody wins, and the slot stays empty. Now and then one pool wins, makes a block and sends it out. Occasionally two win the same second, and the network keeps one of their blocks. That is why blocks arrive about every twenty seconds, not every second."
+  },
+  {
+   "heading": "Epochs",
+   "text": "Slots are grouped into epochs of five days. At each epoch boundary Cardano takes a snapshot of who has delegated to which pool, pays out staking rewards, and counts governance votes. That is why rewards and votes on this channel are always measured epoch by epoch."
+  },
+  {
+   "heading": "Confirmations",
+   "text": "That is how blocks get written. The next question is when one can be trusted to stay. When your transaction lands in a block, it has one confirmation. Every block added on top is another. On a blockchain, final is not a single moment: each new block makes the ones beneath it harder to undo, because rewriting history means redoing everything since."
+  },
+  {
+   "heading": "Why chains briefly disagree",
+   "text": "Now and then two stake pools make a block for the same moment, and for a short while nodes hold two different latest blocks. The network settles on one within moments, and the transactions in the other return to the queue. That is why an exchange waits for several blocks before crediting a deposit."
+  },
+  {
+   "heading": "Why an exchange waits",
+   "text": "Say you deposit ADA and an exchange credits it the instant the block appears. If that block turns out to be the one the network drops in a short fork, your transaction goes back to the queue, and for a moment the exchange has credited money it has not received. Waiting a number of blocks makes that risk vanishingly small."
+  },
+  {
+   "heading": "Cardano's hard limit",
+   "text": "Cardano has a hard rule: no node rolls back more than 2,160 blocks, about twelve hours. Beyond that, a transaction is settled by the protocol itself. In practice, a transaction a few minutes old is already very hard to reverse."
+  },
+  {
+   "heading": "Trust the rules, not a keeper",
+   "text": "Because every copy is checked by everyone, a blockchain can be trusted without trusting any one keeper of it. Everything else relies on that: balances, tokens, loans and votes are all just entries in this shared record."
+  },
+  {
+   "heading": "The base layer",
+   "text": "That is how it works on paper. Here is the chain today. The last complete epoch settled 1.8 million transactions and collected 337.7 thousand ADA in fees. Most of that was not wider use. On the complete days that epoch spanned, 91 percent of transactions paid a single address that alone took a quarter or more of a normal day's activity, and the fees total includes theirs, so neither total is compared with earlier epochs. Leaving single-address floods out, the chain carried 29.4 thousand transactions a day over the past seven days, down 8.0 percent on the 32 thousand a day the week before. 21.39 billion ADA is delegated across 2,670 active stake pools, which is 47.5 percent of the 45 billion maximum supply."
+  },
+  {
+   "heading": "The short version",
+   "text": "So, in short. A blockchain is a shared record kept by many computers, each block linked to the last. Every block added on top makes a payment harder to reverse, and on Cardano nothing older than the rollback limit can be undone."
+  },
+  {
+   "heading": "",
+   "text": "No new claim today: a lesson explains how something works, and calls are made and scored in the Monday, Wednesday and Friday episodes. That is blockchains and finality, explained. Next time: How do Cardano transactions and fees actually work? Every lesson of Crypto from Zero is in the playlist linked below, in order, and every Monday, Wednesday and Friday this channel measures Cardano straight from the chain."
+  }
+ ],
+ "_note": "Compact record of the figures used in this episode."
+}
