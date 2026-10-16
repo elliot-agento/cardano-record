@@ -1,0 +1,146 @@
+{
+ "episode_id": "20261016-032743-daily",
+ "mode": "daily",
+ "published": "2026-10-16T09:12:21+00:00",
+ "video_url": "https://youtu.be/mzUFDE397QU",
+ "title": "Cardano (ADA) News Today: Dollar stablecoin supply grew 13.9%",
+ "data_generated_at": "2026-10-16T08:23:23+00:00",
+ "claim": {
+  "metric": "stable_dollar_supply_usd_med3",
+  "horizon_days": 7,
+  "op": ">",
+  "threshold": 65542491.0,
+  "text": "Cardano's dollar stablecoins total more than $65.54M seven days from now, 1.2 percent above today, measured as the median of the last three days",
+  "subject": null,
+  "quality": {
+   "verdict": "coin_flip",
+   "p_change": 0.37,
+   "p_level": 0.59,
+   "days": 30
+  }
+ },
+ "market": {
+  "ada_usd": 0.23036241205819002,
+  "source": "coingecko",
+  "cross_checked": true,
+  "change_24h_pct": 3.5859259646644235
+ },
+ "indigo": {
+  "tvl_usd": 3950820.0,
+  "indy_price_usd": 0.117417
+ },
+ "loan_book": {
+  "positions": 284,
+  "debt_usd": 1782352.6225218535,
+  "collateral_ada": 16777273.60631699,
+  "book_ratio": 2.1683998816367795,
+  "price_10pct_at_risk_usd": 0.17362741229980058,
+  "price_50pct_at_risk_usd": 0.1433772338072617,
+  "decoded_utxos": 311,
+  "validator_utxos": 314
+ },
+ "coverage": {
+  "iADA": {
+   "decoded_iasset": 233.450484,
+   "chain_supply_iasset": 233.450484,
+   "coverage_pct": 100.0
+  },
+  "iBTC": {
+   "decoded_iasset": 5.057820999999998,
+   "chain_supply_iasset": 5.057821,
+   "coverage_pct": 99.99999999999997
+  },
+  "iETH": {
+   "decoded_iasset": 35.213291999999996,
+   "chain_supply_iasset": 35.213292,
+   "coverage_pct": 99.99999999999997
+  },
+  "iEUR": {
+   "decoded_iasset": 68.387277,
+   "chain_supply_iasset": 68.387277,
+   "coverage_pct": 100.0
+  },
+  "iJPY": {
+   "decoded_iasset": 76826.95787400001,
+   "chain_supply_iasset": 76826.957874,
+   "coverage_pct": 100.00000000000003
+  },
+  "iSOL": {
+   "decoded_iasset": 83.681705,
+   "chain_supply_iasset": 83.681705,
+   "coverage_pct": 100.0
+  },
+  "iUSD": {
+   "decoded_iasset": 1289330.7222830008,
+   "chain_supply_iasset": 1363015.763643,
+   "coverage_pct": 94.59396997999072
+  },
+  "_worst_pct": 94.59396997999072
+ },
+ "governance": {
+  "epoch": 661,
+  "open_actions": [
+   {
+    "id": 159,
+    "type": "InfoAction",
+    "withdrawal_ada": null,
+    "expiration_epoch": 663,
+    "drep_yes_pct_of_decisive": 19.13648842625541,
+    "drep_participation_pct": 48.80643364189779
+   },
+   {
+    "id": 160,
+    "type": "TreasuryWithdrawals",
+    "withdrawal_ada": 22000000.0,
+    "expiration_epoch": 668,
+    "drep_yes_pct_of_decisive": 7.47105356968516,
+    "drep_participation_pct": 3.152533600624757
+   }
+  ],
+  "decided_counts": {
+   "enacted": 1,
+   "expired": 6,
+   "dropped": 0
+  }
+ },
+ "monetary": {
+  "decay_per_epoch_pct": 0.1616783303014402,
+  "half_life_years": 5.864110003718629,
+  "treasury_accrual_per_epoch_ada": 3685941.8877151012
+ },
+ "transcript": [
+  {
+   "heading": "Cold open",
+   "text": "There are 64.75 million dollars in stablecoins on Cardano today, 13.9 percent more than three months ago."
+  },
+  {
+   "heading": "Last week's calls",
+   "text": "First, the scorecard. We said ADA closes below $0.2053 on October 13. It measured $0.2327, so we got that one wrong. We said the median Cardano transaction fee is under 0.2000 ADA on October 12. It measured 0.1918, so we got that one right. That puts the running record at 16 right, 10 wrong, 1 void."
+  },
+  {
+   "heading": "Every dollar on Cardano",
+   "text": "A stablecoin is a token built to stay worth one dollar. They are the cash of on-chain finance: what people trade into, lend and pay with. How many dollars actually exist on Cardano. Counting every issuer, 64.75 million dollars, across 5 of them. That is up 13.9 percent over ninety days, and up 4.9 percent over thirty. This week alone it is down 2.2 percent. One limit on the chart: the total begins when every counted issuer exists - USDCx first minted on 2026-02-18. Before that date this would be a different basket of issuers, not a smaller number."
+  },
+  {
+   "heading": "Who issued them",
+   "text": "Issuer by issuer, and how each figure is arrived at. Over ninety days, most of that growth is USDCx: 5.5 million more issued than redeemed, up 14.1 percent. Not every issuer is growing. Over the same ninety days DJED is 37.8 percent lower, USDA is 7.4 percent lower, iUSD is 15.4 percent lower, while USDM is up 40.8 percent. Weighted by supply, the issuers that grew hold 89 percent of it, and the ones that shrank 11 percent between them. DJED and SHEN work differently from the rest. They mint their entire supply cap once, at launch, into a vault, and issue by releasing from it. Their mint history therefore records nothing at all, however much is being issued or redeemed. So DJED is measured as the cap minus what that vault still holds: 1.00 trillion minted at launch, of which all but 1.45 million has never left the vault. That remainder is the real circulating supply. That subtraction is the reason this segment can exist. Reporting the headline figure instead would overstate it by six orders of magnitude. SHEN is tracked here but kept out of the dollar total. It is Djed's reserve token, not a dollar, and it trades near ten cents. Where a second independent measurement exists, the two agree: 4 of these are checked against the tokens actually sitting in trading pools, and the widest disagreement is 0.01 percent. Why it matters: the number of dollars parked on a chain is one of the plainest readings of whether people are actually using it, which is why the breakdown by issuer matters as much as the total."
+  },
+  {
+   "heading": "ADA",
+   "text": "Also today. ADA is at 23.0 cents, up 3.8 percent on the day \u2014 up 19.3 percent over thirty days and down 3.9 percent on the week. Since the last episode it has moved down 8.7 percent."
+  },
+  {
+   "heading": "New collectibles",
+   "text": "One more thing. NFTs on Cardano, counted from the chain. An NFT is a one-of-a-kind token that someone owns and can trade. In the last thirty days, 5 thousand collectible NFTs were minted, under 216 different minting policies. That is 33 percent fewer than the thirty days before. 10 percent used CIP-68, the newer standard that lets a token's details be updated after it is minted. A policy is the rule that controls who may mint a token, so it is the closest thing the chain has to a collection, but one project can use several. Apps also mint one-of-a-kind tokens as tickets, receipts and loan positions: 5.8 thousand more of those were minted in the same thirty days, and none of them are counted here."
+  },
+  {
+   "heading": "Today's claim",
+   "text": "Now the prediction. Today's claim: Cardano's dollar stablecoins total more than 65.54 million dollars seven days from now, 1.2 percent above today, measured as the median of the last three days. It stands at 64.75 million dollars, the three-day median, as this is recorded. One caution: an earlier call on this same measurement is still open, resolving October 27th, so one large move could decide both. We'll score it on October 23, automatically, against the same measurement \u2014 and if it's wrong, it stays on the board as wrong. Think I've got it wrong? Reply yes or no under the first comment, or put a number on it: join the Forecast League on our website."
+  },
+  {
+   "heading": "",
+   "text": "Running record: 16 right, 10 wrong, with 1 void. Every call we make is scored in public, the wrong ones included. New here? Start with the guide linked below. See you Monday."
+  }
+ ],
+ "_note": "Compact record of the figures used in this episode."
+}
