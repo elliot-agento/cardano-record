@@ -1,0 +1,141 @@
+{
+ "episode_id": "2026-10-17-explainer",
+ "mode": "explainer",
+ "published": "2026-10-17T13:27:16+00:00",
+ "video_url": "https://youtu.be/gWf8iDhothY",
+ "title": "What is a UTxO? How Cardano transactions and fees work | Crypto from Zero #6",
+ "data_generated_at": "2026-10-17T12:40:01+00:00",
+ "claim": null,
+ "market": {
+  "ada_usd": 0.22208947254337225,
+  "source": "coingecko",
+  "cross_checked": true,
+  "change_24h_pct": -2.968653236173877
+ },
+ "indigo": {
+  "tvl_usd": 3837607.0,
+  "indy_price_usd": 0.109867
+ },
+ "loan_book": {
+  "positions": 283,
+  "debt_usd": 1779370.6994404471,
+  "collateral_ada": 16793533.239705004,
+  "book_ratio": 2.096059545387889,
+  "price_10pct_at_risk_usd": 0.17219183652610617,
+  "price_50pct_at_risk_usd": 0.14337678784931954,
+  "decoded_utxos": 309,
+  "validator_utxos": 312
+ },
+ "coverage": {
+  "iADA": {
+   "decoded_iasset": 233.450484,
+   "chain_supply_iasset": 233.450484,
+   "coverage_pct": 100.0
+  },
+  "iBTC": {
+   "decoded_iasset": 5.057821000000001,
+   "chain_supply_iasset": 5.057821,
+   "coverage_pct": 100.00000000000003
+  },
+  "iETH": {
+   "decoded_iasset": 35.213292,
+   "chain_supply_iasset": 35.213292,
+   "coverage_pct": 100.0
+  },
+  "iEUR": {
+   "decoded_iasset": 68.387277,
+   "chain_supply_iasset": 68.387277,
+   "coverage_pct": 100.0
+  },
+  "iJPY": {
+   "decoded_iasset": 76826.95787400001,
+   "chain_supply_iasset": 76826.957874,
+   "coverage_pct": 100.00000000000003
+  },
+  "iSOL": {
+   "decoded_iasset": 83.681705,
+   "chain_supply_iasset": 83.681705,
+   "coverage_pct": 100.0
+  },
+  "iUSD": {
+   "decoded_iasset": 1290136.2686970008,
+   "chain_supply_iasset": 1362320.115835,
+   "coverage_pct": 94.70140341473589
+  },
+  "_worst_pct": 94.70140341473589
+ },
+ "governance": {
+  "epoch": 662,
+  "open_actions": [
+   {
+    "id": 159,
+    "type": "InfoAction",
+    "withdrawal_ada": null,
+    "expiration_epoch": 663,
+    "drep_yes_pct_of_decisive": 18.82661838558432,
+    "drep_participation_pct": 51.15203903445342
+   },
+   {
+    "id": 160,
+    "type": "TreasuryWithdrawals",
+    "withdrawal_ada": 22000000.0,
+    "expiration_epoch": 668,
+    "drep_yes_pct_of_decisive": 7.489574849810111,
+    "drep_participation_pct": 3.144197274055967
+   }
+  ],
+  "decided_counts": {
+   "enacted": 1,
+   "expired": 6,
+   "dropped": 0
+  }
+ },
+ "monetary": {
+  "decay_per_epoch_pct": 0.16148699432226854,
+  "half_life_years": 5.871063650267911,
+  "treasury_accrual_per_epoch_ada": 3670153.7411179543
+ },
+ "transcript": [
+  {
+   "heading": "Cold open",
+   "text": "Cardano does not keep account balances the way a bank does. It keeps something closer to a pile of banknotes. Here is how that works, how fees are set, and the fee formula checked against last epoch's real transactions."
+  },
+  {
+   "heading": "Banknotes, not balances",
+   "text": "A bank account is a single balance that goes up and down. Cardano instead tracks unspent transaction outputs, or UTxOs: separate chunks of ADA and tokens, each sitting at an address. An output is one chunk of ADA that a transaction leaves at an address; the next transaction to spend it uses it up whole. A UTxO, or unspent transaction output, is one separate chunk of ADA or tokens sitting at an address. Your wallet balance is simply the total of the chunks your keys control. Bitcoin works the same way; Ethereum uses balances."
+  },
+  {
+   "heading": "Spending one",
+   "text": "A transaction consumes whole UTxOs and creates new ones, like paying with a twenty and getting change. Spend part of a chunk and the rest comes back to you as a new UTxO, the change output. Every UTxO can be spent exactly once, which is how the chain stops the same ADA being spent twice."
+  },
+  {
+   "heading": "Paying with a fifty",
+   "text": "Say your wallet holds two UTxOs: one of fifty ADA and one of thirty. You pay a friend forty. The transaction spends the whole fifty-ADA chunk, sends forty to your friend as a new UTxO, and returns the rest, minus the fee, to you as change. Your thirty-ADA chunk is untouched. Once it lands, the fifty-ADA chunk no longer exists: it has been spent, once and for all."
+  },
+  {
+   "heading": "How fees are set",
+   "text": "A Cardano fee is a fixed base amount plus a charge per byte of transaction size, and extra for any smart-contract work, all set by protocol parameters. A protocol parameter is one of Cardano's adjustable settings, changed by governance vote. There is no bidding war, so the fee is known before you sign, and a transaction that would fail is normally rejected before it costs you anything."
+  },
+  {
+   "heading": "No bidding war",
+   "text": "Compare that with a chain where fees are an auction. When one popular event floods it, people bid against each other for space, and a simple payment can suddenly cost many times what it did an hour earlier. On Cardano the formula does not change with demand, so the same transaction costs the same whether the chain is quiet or busy. When blocks are full, transactions wait their turn instead of outbidding each other."
+  },
+  {
+   "heading": "Predictable by design",
+   "text": "Knowing the fee before you sign makes Cardano predictable to use. The UTxO model also explains things beginners find strange: a wallet sending change back to itself, or every token needing a little ADA beside it, because every UTxO must carry some."
+  },
+  {
+   "heading": "The fee formula, checked",
+   "text": "That is how it works on paper. Here is the chain today. An epoch is Cardano's five-day cycle; rewards and votes are counted epoch by epoch. Here are the real numbers from epoch 661. The base fee is 0.155381 ADA, plus 0.000044 ADA for every byte. The median transaction was 401 bytes, so the formula gives 0.173 ADA. The median transaction actually paid 0.178 ADA. Anything above the formula pays for extras, chiefly smart-contract work, which 23.7 percent of transactions ran."
+  },
+  {
+   "heading": "The short version",
+   "text": "So, in short. Cardano tracks separate unspent chunks called UTxOs, each spent exactly once, and a fee known before you sign."
+  },
+  {
+   "heading": "",
+   "text": "No new claim today: a lesson explains how something works, and calls are made and scored in the Monday, Wednesday and Friday episodes. That is Cardano transactions, explained. Next time: Who actually runs Cardano? Every lesson of Crypto from Zero is in the playlist linked below, in order, and every Monday, Wednesday and Friday this channel measures Cardano straight from the chain."
+  }
+ ],
+ "_note": "Compact record of the figures used in this episode."
+}
