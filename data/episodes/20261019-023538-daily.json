@@ -1,0 +1,151 @@
+{
+ "episode_id": "20261019-023538-daily",
+ "mode": "daily",
+ "published": "2026-10-19T08:10:35+00:00",
+ "video_url": "https://youtu.be/AJ7FUX24_IE",
+ "title": "Cardano (ADA) News Today: Development \u2014 391 commits to core open-source projects last week",
+ "data_generated_at": "2026-10-19T07:30:01+00:00",
+ "claim": {
+  "metric": "ada_price_usd",
+  "horizon_days": 7,
+  "op": "<",
+  "threshold": 0.2491,
+  "text": "ADA closes below $0.2491, a week from now, 12.5 percent above where it is today",
+  "subject": null,
+  "quality": {
+   "verdict": "ok",
+   "p_change": 0.84,
+   "p_level": 0.72,
+   "days": 40,
+   "retuned_from": 0.2074
+  }
+ },
+ "market": {
+  "ada_usd": 0.22141225739190618,
+  "source": "coingecko",
+  "cross_checked": true,
+  "change_24h_pct": 1.0497916775252758
+ },
+ "indigo": {
+  "tvl_usd": 3790428.0,
+  "indy_price_usd": 0.106876
+ },
+ "loan_book": {
+  "positions": 284,
+  "debt_usd": 1788174.1337652078,
+  "collateral_ada": 16807459.762897003,
+  "book_ratio": 2.081104707230535,
+  "price_10pct_at_risk_usd": 0.17369507509380383,
+  "price_50pct_at_risk_usd": 0.1433765197021785,
+  "decoded_utxos": 308,
+  "validator_utxos": 311
+ },
+ "coverage": {
+  "iADA": {
+   "decoded_iasset": 233.450484,
+   "chain_supply_iasset": 233.450484,
+   "coverage_pct": 100.0
+  },
+  "iBTC": {
+   "decoded_iasset": 5.057820999999998,
+   "chain_supply_iasset": 5.057821,
+   "coverage_pct": 99.99999999999997
+  },
+  "iETH": {
+   "decoded_iasset": 35.226497,
+   "chain_supply_iasset": 35.226497,
+   "coverage_pct": 100.0
+  },
+  "iEUR": {
+   "decoded_iasset": 68.387277,
+   "chain_supply_iasset": 68.387277,
+   "coverage_pct": 100.0
+  },
+  "iJPY": {
+   "decoded_iasset": 76826.95787399999,
+   "chain_supply_iasset": 76826.957874,
+   "coverage_pct": 99.99999999999997
+  },
+  "iSOL": {
+   "decoded_iasset": 72.937766,
+   "chain_supply_iasset": 72.937766,
+   "coverage_pct": 100.0
+  },
+  "iUSD": {
+   "decoded_iasset": 1290052.5145620005,
+   "chain_supply_iasset": 1362236.3617,
+   "coverage_pct": 94.70107764206809
+  },
+  "_worst_pct": 94.70107764206809
+ },
+ "governance": {
+  "epoch": 662,
+  "open_actions": [
+   {
+    "id": 159,
+    "type": "InfoAction",
+    "withdrawal_ada": null,
+    "expiration_epoch": 663,
+    "drep_yes_pct_of_decisive": 18.82661838558432,
+    "drep_participation_pct": 52.50485630847338
+   },
+   {
+    "id": 160,
+    "type": "TreasuryWithdrawals",
+    "withdrawal_ada": 22000000.0,
+    "expiration_epoch": 668,
+    "drep_yes_pct_of_decisive": 4.8566958795073365,
+    "drep_participation_pct": 4.848708136322479
+   },
+   {
+    "id": 161,
+    "type": "TreasuryWithdrawals",
+    "withdrawal_ada": 940000.0,
+    "expiration_epoch": 669,
+    "drep_yes_pct_of_decisive": 99.07704946483555,
+    "drep_participation_pct": 0.28970727314910516
+   }
+  ],
+  "decided_counts": {
+   "enacted": 1,
+   "expired": 6,
+   "dropped": 0
+  }
+ },
+ "monetary": {
+  "decay_per_epoch_pct": 0.16148699432226854,
+  "half_life_years": 5.871063650267911,
+  "treasury_accrual_per_epoch_ada": 3670153.7411179543
+ },
+ "transcript": [
+  {
+   "heading": "Cold open",
+   "text": "391 changes landed in Cardano's core open-source code last week, across the node, the ledger, Plutus, Hydra, Mithril and more. Here is who is building, project by project."
+  },
+  {
+   "heading": "Last week's calls",
+   "text": "First, the scorecard. We said Cardano's seven-day average is below 28.5 thousand transactions a day on October 18, 2.9 percent below this week's. It measured 31,357, so we got that one wrong. That puts the running record at 16 right, 11 wrong, 1 void."
+  },
+  {
+   "heading": "Who is building",
+   "text": "Who is building Cardano? Across 15 of the core open-source projects, the node, the ledger, Plutus, Hydra, Mithril and more, 391 commits landed on the main branches in the week starting October 11th. The twelve weeks before averaged 360 a week. The busiest was Consensus, with 85. In the last thirty days these projects shipped 9 releases across 5 of them. A commit is one recorded change to the code. It counts work, not how important the work is. Why it matters: code is the one part of a blockchain's future you can watch being made, commit by commit."
+  },
+  {
+   "heading": "ADA",
+   "text": "Also today. ADA is at 22.1 cents, up 0.7 percent on the day \u2014 down 12.5 percent on the week and down 0.1 percent over thirty days. Since the last episode it has moved down 3.9 percent."
+  },
+  {
+   "heading": "What the dollars do",
+   "text": "One more thing. A stablecoin is meant to be a dollar you can spend. So when Cardano's dollars moved over the last 24 hours, where did they go? Mostly into smart contracts. Even USDA, the one most often sent to an ordinary wallet, sent only 14.8 percent of its movement to wallets, and DJED just 0.5 percent. The rest went to contracts: trading pools, lending markets and order books. Of the contract-bound movement whose transaction named itself, 90 percent said it was Minswap. These are shares of movement, not amounts. One swap creates several outputs, so the totals behind them overstate what changed hands, which is why this segment never quotes a turnover figure. An output is one chunk of ADA that a transaction leaves at an address; the next transaction to spend it uses it up whole."
+  },
+  {
+   "heading": "Today's claim",
+   "text": "Now the prediction. Today's claim: ADA closes below $0.2491, a week from now, 12.5 percent above where it is today. It stands at 22.1 cents as this is recorded. One caution: an earlier call on this same measurement is still open, resolving October 20th, so one large move could decide both. We'll score it on October 26, automatically, against the same measurement \u2014 and if it's wrong, it stays on the board as wrong. Think I've got it wrong? Reply yes or no under the first comment, or put a number on it: join the Forecast League on our website."
+  },
+  {
+   "heading": "",
+   "text": "Running record: 16 right, 11 wrong, with 1 void. Every call we make is scored in public, the wrong ones included. New here? Start with the guide linked below. See you Wednesday."
+  }
+ ],
+ "_note": "Compact record of the figures used in this episode."
+}
