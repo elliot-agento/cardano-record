@@ -1,0 +1,133 @@
+{
+ "episode_id": "20261021-023538-daily",
+ "mode": "daily",
+ "published": "2026-10-21T08:17:45+00:00",
+ "video_url": "https://youtu.be/29iKQV8vtog",
+ "title": "Cardano (ADA) News Today: DeFi lending \u2014 $18.21M deposited in Liqwid's lending markets",
+ "data_generated_at": "2026-10-21T07:30:01+00:00",
+ "claim": null,
+ "market": {
+  "ada_usd": 0.2248273510498947,
+  "source": "coingecko",
+  "cross_checked": true,
+  "change_24h_pct": 3.7625482059175606
+ },
+ "indigo": {
+  "tvl_usd": 3764739.0,
+  "indy_price_usd": 0.122073
+ },
+ "loan_book": {
+  "positions": 288,
+  "debt_usd": 1795454.9389886735,
+  "collateral_ada": 16855420.492789004,
+  "book_ratio": 2.110640293963829,
+  "price_10pct_at_risk_usd": 0.17370216300031982,
+  "price_50pct_at_risk_usd": 0.14338237041134622,
+  "decoded_utxos": 315,
+  "validator_utxos": 319
+ },
+ "coverage": {
+  "iADA": {
+   "decoded_iasset": 233.450484,
+   "chain_supply_iasset": 233.450484,
+   "coverage_pct": 100.0
+  },
+  "iBTC": {
+   "decoded_iasset": 5.057821,
+   "chain_supply_iasset": 5.057821,
+   "coverage_pct": 100.0
+  },
+  "iETH": {
+   "decoded_iasset": 35.231686999999994,
+   "chain_supply_iasset": 35.226597,
+   "coverage_pct": 100.01444930942378
+  },
+  "iEUR": {
+   "decoded_iasset": 68.387277,
+   "chain_supply_iasset": 68.387277,
+   "coverage_pct": 100.0
+  },
+  "iJPY": {
+   "decoded_iasset": 76826.95787400001,
+   "chain_supply_iasset": 76826.957874,
+   "coverage_pct": 100.00000000000003
+  },
+  "iSOL": {
+   "decoded_iasset": 72.950698,
+   "chain_supply_iasset": 72.950698,
+   "coverage_pct": 100.0
+  },
+  "iUSD": {
+   "decoded_iasset": 1295686.4985630002,
+   "chain_supply_iasset": 1341732.624981,
+   "coverage_pct": 96.56815929189678
+  },
+  "_worst_pct": 96.56815929189678
+ },
+ "governance": {
+  "epoch": 662,
+  "open_actions": [
+   {
+    "id": 159,
+    "type": "InfoAction",
+    "withdrawal_ada": null,
+    "expiration_epoch": 663,
+    "drep_yes_pct_of_decisive": 20.98913724228298,
+    "drep_participation_pct": 58.84381031612297
+   },
+   {
+    "id": 160,
+    "type": "TreasuryWithdrawals",
+    "withdrawal_ada": 22000000.0,
+    "expiration_epoch": 668,
+    "drep_yes_pct_of_decisive": 0.9981911920154016,
+    "drep_participation_pct": 25.33998648643612
+   },
+   {
+    "id": 161,
+    "type": "TreasuryWithdrawals",
+    "withdrawal_ada": 940000.0,
+    "expiration_epoch": 669,
+    "drep_yes_pct_of_decisive": 1.5943687797312416,
+    "drep_participation_pct": 22.141020910432236
+   }
+  ],
+  "decided_counts": {
+   "enacted": 1,
+   "expired": 6,
+   "dropped": 0
+  }
+ },
+ "monetary": {
+  "decay_per_epoch_pct": 0.16148699432226854,
+  "half_life_years": 5.871063650267911,
+  "treasury_accrual_per_epoch_ada": 3670153.7411179543
+ },
+ "transcript": [
+  {
+   "heading": "Cold open",
+   "text": "People have deposited 18.21 million dollars into Liqwid, Cardano's largest lending market, across 34 markets. What they earn depends on what borrowers want most \u2014 and right now it is dollars."
+  },
+  {
+   "heading": "Last week's calls",
+   "text": "First, the scorecard. We said ADA closes above $0.2278 on October 20. It measured $0.2160, so we got that one wrong. That puts the running record at 16 right, 12 wrong, 1 void."
+  },
+  {
+   "heading": "What credit costs here",
+   "text": "Liqwid works like an on-chain savings and loans desk: depositors lend into a pool and earn interest, and borrowers pay it, posting collateral first. Collateral is what someone locks up to back what they owe or have minted; if its value stops covering that, it goes to whoever pays off the debt. Liqwid, the largest lending market on Cardano, holds 18.21 million dollars of user deposits against 10.76 million dollars of loans across 34 markets. ADA deposits there earn 3.1 percent, with only 42 percent of the pool borrowed. DJED, a stablecoin built to stay worth one dollar, earns its depositors 22.4 percent, with 90 percent borrowed. Only 344.1 thousand dollars of that pool is not already lent out. The rate is that high because the pool is nearly empty of spare dollars, which is also why so little can earn it. The demand on this venue is for dollars, not for ADA, and the gap between those two numbers is how strongly. Why it matters: the rates tell you what people on Cardano actually want to borrow, which no price chart shows."
+  },
+  {
+   "heading": "ADA",
+   "text": "Also today. ADA is at 22.5 cents, up 3.4 percent on the day \u2014 down 4.3 percent on the week and down 3.2 percent over thirty days. Since the last episode it has moved up 1.5 percent."
+  },
+  {
+   "heading": "Who is building: Mithril",
+   "text": "One more thing. Who is building Cardano. Today: Mithril, and the team behind it, Teragone Factory. When a new computer joins Cardano, it normally has to download and check the network's entire history, which Mithril's own documentation puts at over a day. Mithril is a shortcut. Stake pools, the independent operators who run Cardano's network, vouch for a snapshot of the chain together, so a newcomer can start from that snapshot in under twenty minutes. Right now about 210 stake pools take part. Recently finished: making the snapshots faster to check. Next on their list: sharing the snapshots over a peer-to-peer network, so no single server has to host them. Last quarter they finished everything on their public plan. Why it matters: the easier it is to run your own copy of Cardano, the more people can check the network for themselves instead of trusting someone else's."
+  },
+  {
+   "heading": "",
+   "text": "Running record: 16 right, 12 wrong, with 1 void. No new claim today: no call on today's figures was likely enough to be worth making, and a guess would not test anything. Every call we make is scored in public, the wrong ones included. New here? Start with the guide linked below. The full liquidation map is free on our site, linked below. See you Friday."
+  }
+ ],
+ "_note": "Compact record of the figures used in this episode."
+}
