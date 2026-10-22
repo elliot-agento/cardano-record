@@ -1,0 +1,157 @@
+{
+ "episode_id": "2026-10-22-explainer",
+ "mode": "explainer",
+ "published": "2026-10-22T18:20:34+00:00",
+ "video_url": "https://youtu.be/uMHuyClIxE8",
+ "title": "Who runs Cardano? Nodes, relays and stake pools explained | Crypto from Zero #7",
+ "data_generated_at": "2026-10-22T17:30:02+00:00",
+ "claim": null,
+ "market": {
+  "ada_usd": 0.21105815400659747,
+  "source": "coingecko",
+  "cross_checked": true,
+  "change_24h_pct": -7.556233150309133
+ },
+ "indigo": {
+  "tvl_usd": 3658962.0,
+  "indy_price_usd": 0.115097
+ },
+ "loan_book": {
+  "positions": 288,
+  "debt_usd": 1784283.092756324,
+  "collateral_ada": 16835420.492789004,
+  "book_ratio": 1.9914176094354492,
+  "price_10pct_at_risk_usd": 0.17189657146469248,
+  "price_50pct_at_risk_usd": 0.14338409560133422,
+  "decoded_utxos": 315,
+  "validator_utxos": 319
+ },
+ "coverage": {
+  "iADA": {
+   "decoded_iasset": 233.450484,
+   "chain_supply_iasset": 233.450484,
+   "coverage_pct": 100.0
+  },
+  "iBTC": {
+   "decoded_iasset": 5.057821000000001,
+   "chain_supply_iasset": 5.057821,
+   "coverage_pct": 100.00000000000003
+  },
+  "iETH": {
+   "decoded_iasset": 35.231686999999994,
+   "chain_supply_iasset": 35.231687,
+   "coverage_pct": 99.99999999999997
+  },
+  "iEUR": {
+   "decoded_iasset": 68.387277,
+   "chain_supply_iasset": 68.387277,
+   "coverage_pct": 100.0
+  },
+  "iJPY": {
+   "decoded_iasset": 76826.957874,
+   "chain_supply_iasset": 76826.957874,
+   "coverage_pct": 100.0
+  },
+  "iSOL": {
+   "decoded_iasset": 72.950698,
+   "chain_supply_iasset": 72.950698,
+   "coverage_pct": 100.0
+  },
+  "iUSD": {
+   "decoded_iasset": 1297718.2406829998,
+   "chain_supply_iasset": 1341291.842101,
+   "coverage_pct": 96.75137057795368
+  },
+  "_worst_pct": 96.75137057795368
+ },
+ "governance": {
+  "epoch": 663,
+  "open_actions": [
+   {
+    "id": 160,
+    "type": "TreasuryWithdrawals",
+    "withdrawal_ada": 22000000.0,
+    "expiration_epoch": 668,
+    "drep_yes_pct_of_decisive": 0.9824293320006193,
+    "drep_participation_pct": 26.922603053778495
+   },
+   {
+    "id": 162,
+    "type": "TreasuryWithdrawals",
+    "withdrawal_ada": 9600000.0,
+    "expiration_epoch": 669,
+    "drep_yes_pct_of_decisive": 85.47526967941734,
+    "drep_participation_pct": 3.41704261829366
+   },
+   {
+    "id": 161,
+    "type": "TreasuryWithdrawals",
+    "withdrawal_ada": 940000.0,
+    "expiration_epoch": 669,
+    "drep_yes_pct_of_decisive": 1.8592417257147993,
+    "drep_participation_pct": 23.84680882721382
+   }
+  ],
+  "decided_counts": {
+   "enacted": 1,
+   "expired": 6,
+   "dropped": 0
+  }
+ },
+ "monetary": {
+  "decay_per_epoch_pct": 0.1613936439454955,
+  "half_life_years": 5.874462229755792,
+  "treasury_accrual_per_epoch_ada": 3685941.8877151012
+ },
+ "transcript": [
+  {
+   "heading": "Cold open",
+   "text": "There is no Cardano company server. The chain runs on computers operated by thousands of independent people. Here is how that works, and how many stake pools are running it today."
+  },
+  {
+   "heading": "Nodes",
+   "text": "A node is a computer running the Cardano software and keeping its own full copy of the ledger. Every node checks every block against the rules for itself, rather than trusting anyone else's copy. Anyone can run one, and wallets, exchanges and explorers all rely on nodes."
+  },
+  {
+   "heading": "Checking for itself",
+   "text": "Here is what checking for itself means. When a new block arrives, a node does not ask anyone whether it is valid. It re-checks every signature, fee, script and spend in it against its own copy of the ledger. If a block tried to spend a UTxO that no longer exists, every honest node would spot it on its own and throw the block away, whatever the pool that made it claimed. A UTxO, or unspent transaction output, is one separate chunk of ADA or tokens sitting at an address."
+  },
+  {
+   "heading": "Relays and block producers",
+   "text": "A stake pool is usually several nodes working together. Its block producer holds the keys that make blocks, and is kept away from the open internet. Its relays sit in front, passing blocks and transactions to and from the rest of the network. The people who run them are stake pool operators."
+  },
+  {
+   "heading": "Why so many",
+   "text": "The more independent operators make blocks, the harder it is for any one of them, or any one company or country, to censor transactions or stop the chain. That is what decentralisation means in practice: no single off switch."
+  },
+  {
+   "heading": "Two ways to run a network",
+   "text": "Picture two networks. In one, a single company runs every server, and one court order, one outage or one bad decision can halt every payment. In the other, blocks come from many independent operators in dozens of countries, and switching any one of them off changes almost nothing. Cardano is designed to be the second."
+  },
+  {
+   "heading": "Only as spread out as its operators",
+   "text": "Decentralisation is not a slogan; it is what makes a chain hard to censor or stop. It also means the network is only as spread out as its operators really are, which is why this channel counts how many pools actually made blocks, not just how many exist."
+  },
+  {
+   "heading": "Stake accounts",
+   "text": "That is how it works on paper. Here is the chain today. The number of stake accounts is 1,302,627 in the epoch 664 snapshot, down 599 an epoch on average since epoch 656."
+  },
+  {
+   "heading": "What staking actually paid",
+   "text": "Now what staking actually paid. In epoch 661, 4.4 million ADA went to delegators against 18.21 billion ADA of delegated stake \u2014 a realized return of 1.77 percent annualised. Pool owners' own ADA is left out of that: the protocol pays it through the operator's reward, not as a delegator. The whole reward pot, operators included, came to 2.12 percent of all stake. Of what delegated stake earned, operators kept 14.1 percent in fees. That average hides the figure that matters. A delegator in pools holding under one million ADA realised 0.49 percent. In pools of twenty to fifty million ADA, 1.90 percent \u2014 3.9 times as much."
+  },
+  {
+   "heading": "Why the bottom row pays less",
+   "text": "Two things pull the bottom down together: the flat fee every pool takes each epoch, which is a rounding error against fifty million of stake and most of the reward against five hundred thousand, and blocks that never came. Small pools often go a whole epoch without one. At the top, the gap closes through the margin, the percentage cut an operator takes on top of that fee, and saturation, the size past which a pool's rewards stop growing with its stake. Scale matters before anyone reads too much into the bottom row: those 1,751 pools hold 0.8 percent of the ADA staked. And of 2,671 pools holding stake, 929 were paid a leader reward for the epoch. 1,742 were not."
+  },
+  {
+   "heading": "The short version",
+   "text": "So, in short. Nodes each keep and check a full copy of the ledger. Stake pools run block producers behind relays, and many independent operators mean no single off switch."
+  },
+  {
+   "heading": "",
+   "text": "No new claim today: a lesson explains how something works, and calls are made and scored in the Monday, Wednesday and Friday episodes. That is nodes and stake pools, explained. Next time: How much can a blockchain carry, and how do Leios and Hydra add more? Every lesson of Crypto from Zero is in the playlist linked below, in order, and every Monday, Wednesday and Friday this channel measures Cardano straight from the chain."
+  }
+ ],
+ "_note": "Compact record of the figures used in this episode."
+}
