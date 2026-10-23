@@ -1,0 +1,151 @@
+{
+ "episode_id": "20261023-071547-daily",
+ "mode": "daily",
+ "published": "2026-10-23T12:47:23+00:00",
+ "video_url": "https://youtu.be/uyY4Vo7WeAU",
+ "title": "Cardano (ADA) News Today: RealFi \u2014 5.40M USDr outstanding",
+ "data_generated_at": "2026-10-23T12:12:01+00:00",
+ "claim": {
+  "metric": "ada_price_usd",
+  "horizon_days": 7,
+  "op": "<",
+  "threshold": 0.2483,
+  "text": "ADA closes below $0.2483, a week from now, 15 percent above where it is today",
+  "subject": null,
+  "quality": {
+   "verdict": "ok",
+   "p_change": 0.88,
+   "p_level": 0.74,
+   "days": 44,
+   "retuned_from": 0.2098
+  }
+ },
+ "market": {
+  "ada_usd": 0.21595043138092612,
+  "source": "coingecko",
+  "cross_checked": true,
+  "change_24h_pct": 0.049054649766162396
+ },
+ "indigo": {
+  "tvl_usd": 3667122.0,
+  "indy_price_usd": 0.115961
+ },
+ "loan_book": {
+  "positions": 287,
+  "debt_usd": 1786858.2746091469,
+  "collateral_ada": 16830619.801145002,
+  "book_ratio": 2.0340614911166583,
+  "price_10pct_at_risk_usd": 0.17233899077033596,
+  "price_50pct_at_risk_usd": 0.14338659526437345,
+  "decoded_utxos": 315,
+  "validator_utxos": 319
+ },
+ "coverage": {
+  "iADA": {
+   "decoded_iasset": 233.450484,
+   "chain_supply_iasset": 233.450484,
+   "coverage_pct": 100.0
+  },
+  "iBTC": {
+   "decoded_iasset": 5.0578210000000015,
+   "chain_supply_iasset": 5.057821,
+   "coverage_pct": 100.00000000000004
+  },
+  "iETH": {
+   "decoded_iasset": 35.231686999999994,
+   "chain_supply_iasset": 35.231687,
+   "coverage_pct": 99.99999999999997
+  },
+  "iEUR": {
+   "decoded_iasset": 68.38727699999998,
+   "chain_supply_iasset": 68.387277,
+   "coverage_pct": 99.99999999999997
+  },
+  "iJPY": {
+   "decoded_iasset": 76826.957874,
+   "chain_supply_iasset": 76826.957874,
+   "coverage_pct": 100.0
+  },
+  "iSOL": {
+   "decoded_iasset": 72.982183,
+   "chain_supply_iasset": 72.982183,
+   "coverage_pct": 100.0
+  },
+  "iUSD": {
+   "decoded_iasset": 1298580.2422969996,
+   "chain_supply_iasset": 1341857.86241,
+   "coverage_pct": 96.77479848459708
+  },
+  "_worst_pct": 96.77479848459708
+ },
+ "governance": {
+  "epoch": 663,
+  "open_actions": [
+   {
+    "id": 160,
+    "type": "TreasuryWithdrawals",
+    "withdrawal_ada": 22000000.0,
+    "expiration_epoch": 668,
+    "drep_yes_pct_of_decisive": 0.9780016308251158,
+    "drep_participation_pct": 27.036555135590294
+   },
+   {
+    "id": 162,
+    "type": "TreasuryWithdrawals",
+    "withdrawal_ada": 9600000.0,
+    "expiration_epoch": 669,
+    "drep_yes_pct_of_decisive": 85.68878740150669,
+    "drep_participation_pct": 3.533662379447515
+   },
+   {
+    "id": 161,
+    "type": "TreasuryWithdrawals",
+    "withdrawal_ada": 940000.0,
+    "expiration_epoch": 669,
+    "drep_yes_pct_of_decisive": 1.9794777387015114,
+    "drep_participation_pct": 23.960760909025627
+   }
+  ],
+  "decided_counts": {
+   "enacted": 1,
+   "expired": 6,
+   "dropped": 0
+  }
+ },
+ "monetary": {
+  "decay_per_epoch_pct": 0.1613936439454955,
+  "half_life_years": 5.874462229755792,
+  "treasury_accrual_per_epoch_ada": 3685941.8877151012
+ },
+ "transcript": [
+  {
+   "heading": "Cold open",
+   "text": "RealFi went live on Cardano on October 1st, and 5.40 million USDr, its dollar token, are outstanding. Here is where they sit, read off the chain."
+  },
+  {
+   "heading": "Last week's calls",
+   "text": "First, the scorecard. We said Cardano's dollar stablecoins total more than $65.54M on October 23, 1.2 percent above October 16's level, measured as the median of the last three days. It measured $63.38M, so we got that one wrong. That puts the running record at 16 right, 13 wrong, 1 void."
+  },
+  {
+   "heading": "RealFi, on the chain",
+   "text": "RealFi, the dollar protocol that went live on Cardano on October 1st, measured from the chain. 5.40 million USDr, its dollar token, are outstanding, and every one is accounted for on the chain. 4.31 million of them sit in smart contracts and 1.08 million in 58 wallets. sUSDr, the receipt for USDr deposited into RealFi, stands at 2.94 million, against 2.51 million on launch day. The numbers count every USDr and sUSDr ever created or destroyed, read off the chain; nothing here comes from RealFi's own dashboard. Why it matters: this counts every USDr in existence and where it sits. It does not show what backs them; that is RealFi's to prove."
+  },
+  {
+   "heading": "ADA",
+   "text": "Also today. ADA is at 21.6 cents, down 0.3 percent on the day \u2014 down 14.0 percent over thirty days and down 6.7 percent on the week. Since the last episode it has moved down 3.9 percent. That is 2.4 percent above the bottom of its thirty-day range, 21.1 cents."
+  },
+  {
+   "heading": "What a transaction costs",
+   "text": "One more thing. What does it cost to use Cardano? In epoch 662, a plain transfer, with no smart contract and no new token, paid a median fee of 0.18 ADA (about 4 cents). A transaction that ran a smart contract, the kind decentralised finance runs on, paid a median 0.575 ADA. Minting or burning a token, 0.40. Plain transfers were 36 percent of the 156.1 thousand transactions in the epoch, and smart-contract ones 37 percent. Fees are set by a formula, not an auction: a fixed base plus a charge per byte, plus a charge for computing when a contract runs. So a busy day does not push them up."
+  },
+  {
+   "heading": "Today's claim",
+   "text": "Now the prediction. Today's claim: ADA closes below $0.2483, a week from now, 15 percent above where it is today. It stands at 21.6 cents as this is recorded. One caution: an earlier call on this same measurement is still open, resolving October 26th, so one large move could decide both. We'll score it on October 30, automatically, against the same measurement \u2014 and if it's wrong, it stays on the board as wrong. Think I've got it wrong? Reply yes or no under the first comment, or put a number on it: join the Forecast League on our website."
+  },
+  {
+   "heading": "",
+   "text": "Running record: 16 right, 13 wrong, with 1 void. Every call we make is scored in public, the wrong ones included. New here? Start with the guide linked below. See you Monday."
+  }
+ ],
+ "_note": "Compact record of the figures used in this episode."
+}
