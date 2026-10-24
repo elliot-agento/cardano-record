@@ -1,0 +1,189 @@
+{
+ "episode_id": "2026-10-24-special",
+ "mode": "special",
+ "published": "2026-10-24T17:52:01+00:00",
+ "video_url": "https://youtu.be/a0Cps933_fY",
+ "title": "Crypto slang explained: FUD, FOMO, HODL, rug pulls and what to ask instead",
+ "data_generated_at": "2026-10-24T17:00:01+00:00",
+ "claim": null,
+ "market": {
+  "ada_usd": 0.20483903077946622,
+  "source": "coingecko",
+  "cross_checked": true,
+  "change_24h_pct": -5.183080820427111
+ },
+ "indigo": {
+  "tvl_usd": 3508772.0,
+  "indy_price_usd": 0.112276
+ },
+ "loan_book": {
+  "positions": 290,
+  "debt_usd": 1777115.382250377,
+  "collateral_ada": 16814060.245287,
+  "book_ratio": 1.9380710101956087,
+  "price_10pct_at_risk_usd": 0.1693449569457773,
+  "price_50pct_at_risk_usd": 0.14338087757472803,
+  "decoded_utxos": 319,
+  "validator_utxos": 323
+ },
+ "coverage": {
+  "iADA": {
+   "decoded_iasset": 233.450484,
+   "chain_supply_iasset": 233.450484,
+   "coverage_pct": 100.0
+  },
+  "iBTC": {
+   "decoded_iasset": 5.0578210000000015,
+   "chain_supply_iasset": 5.057821,
+   "coverage_pct": 100.00000000000004
+  },
+  "iETH": {
+   "decoded_iasset": 35.23168699999999,
+   "chain_supply_iasset": 35.231687,
+   "coverage_pct": 99.99999999999996
+  },
+  "iEUR": {
+   "decoded_iasset": 68.387277,
+   "chain_supply_iasset": 68.387277,
+   "coverage_pct": 100.0
+  },
+  "iJPY": {
+   "decoded_iasset": 76826.95787400001,
+   "chain_supply_iasset": 76826.957874,
+   "coverage_pct": 100.00000000000003
+  },
+  "iSOL": {
+   "decoded_iasset": 72.98523800000001,
+   "chain_supply_iasset": 72.985238,
+   "coverage_pct": 100.00000000000003
+  },
+  "iUSD": {
+   "decoded_iasset": 1303156.5437500002,
+   "chain_supply_iasset": 1340941.479328,
+   "coverage_pct": 97.18220845872145
+  },
+  "_worst_pct": 97.18220845872145
+ },
+ "governance": {
+  "epoch": 663,
+  "open_actions": [
+   {
+    "id": 160,
+    "type": "TreasuryWithdrawals",
+    "withdrawal_ada": 22000000.0,
+    "expiration_epoch": 668,
+    "drep_yes_pct_of_decisive": 0.7960311340861101,
+    "drep_participation_pct": 27.327342376703022
+   },
+   {
+    "id": 162,
+    "type": "TreasuryWithdrawals",
+    "withdrawal_ada": 9600000.0,
+    "expiration_epoch": 669,
+    "drep_yes_pct_of_decisive": 87.19559137222257,
+    "drep_participation_pct": 5.056872565860726
+   },
+   {
+    "id": 161,
+    "type": "TreasuryWithdrawals",
+    "withdrawal_ada": 940000.0,
+    "expiration_epoch": 669,
+    "drep_yes_pct_of_decisive": 5.876186944192382,
+    "drep_participation_pct": 25.03057931680181
+   }
+  ],
+  "decided_counts": {
+   "enacted": 1,
+   "expired": 6,
+   "dropped": 0
+  }
+ },
+ "monetary": {
+  "decay_per_epoch_pct": 0.1613936439454955,
+  "half_life_years": 5.874462229755792,
+  "treasury_accrual_per_epoch_ada": 3685941.8877151012
+ },
+ "transcript": [
+  {
+   "heading": "Cold open",
+   "text": "Crypto has a language of its own. FUD, FOMO, HODL, rug pull. Some of these words name real dangers. Many were built to push a feeling, not to describe a fact. Here is what they mean, where they came from, and the plain question to ask instead of reacting to the mood."
+  },
+  {
+   "heading": "A language for feelings",
+   "text": "Every community has its slang, and most of crypto's is harmless fun. But listen closely and a lot of it does one job: it tells you how to feel. Afraid. Left behind. Loyal. Clever. A feeling arrives faster than a fact, and in a market, a feeling can be worth money to whoever planted it. So for each word we will do four things. Say what it means. Say where it came from, as far as anyone can tell. Name the feeling it pushes. And swap it for a question that can actually be checked. The words come in four families: words about feelings, words about belonging, words about timing, and words that warn."
+  },
+  {
+   "heading": "FUD",
+   "text": "First, FUD. It stands for fear, uncertainty and doubt. The phrase is older than computers, but in tech it is usually traced to the nineteen-seventies. The Jargon File, a long-running dictionary of hacker slang, says Gene Amdahl used it after leaving IBM to build rival machines, for the doubts he said IBM's salespeople planted in customers' minds. In crypto, FUD has become a label for bad news. And that is the trap. Calling something FUD tells you to stop listening, whether the worry is false or true. Some criticism is wrong. Some is right. The word cannot tell you which. The question instead: what does the data actually show, and who is saying it?"
+  },
+  {
+   "heading": "FOMO",
+   "text": "Next, FOMO: the fear of missing out. The term was popularised by Patrick McGinnis, who says he coined it in a 2004 humour column for The Harbus, Harvard Business School's student paper. It was about parties, not money. In a market it is the feeling that everyone else is getting rich and the window is closing. Scammers know it well. Their messages say \u201clast chance\u201d and \u201cact now\u201d, because a deadline stops people from checking. Real opportunities rarely vanish in an hour. Pressure to decide fast is information in itself. The question instead: what would I check if the price were flat? And if I wait a week, what do I actually lose?"
+  },
+  {
+   "heading": "Diamond hands, paper hands",
+   "text": "Then a pair. Diamond hands means holding on whatever happens. Paper hands means selling at the first wobble. Dictionary.com traces them to Reddit's WallStreetBets forum, and they spread everywhere during the GameStop frenzy of early 2021. Notice what they do. They turn a money decision into a test of character. Diamond is pride. Paper is shame. Neither one says anything about the asset. The question instead: did the facts change, or only the mood?"
+  },
+  {
+   "heading": "HODL",
+   "text": "Now the words about belonging, starting with the most famous typo in crypto. As it is widely reported, in December 2013, as Bitcoin's price fell sharply, a user on the Bitcointalk forum posted a rambling message titled, I AM HODLING. He meant holding. He was explaining that he was bad at trading, so he would stop trying. The forum loved the typo, and it stuck. Later, people turned it into a phrase: hold on for dear life. It began as an honest joke about not chasing the swings. Today it is often a badge of loyalty, and loyalty is a feeling, not a reason. The question instead: what exactly am I holding, and why?"
+  },
+  {
+   "heading": "WAGMI, NGMI and the moon",
+   "text": "WAGMI means we're all gonna make it. NGMI means not gonna make it. Both spread through crypto and NFT circles around 2021. An NFT is a token minted as one of a kind. Together they draw a line around a group. Inside, everyone wins. Outside, you are the one who did not believe. Then there is the most famous promise of all: \u201cto the moon\u201d, usually with a rocket next to it. Look at what that promise leaves out. No number. No date. No way to measure it. Which means nobody can ever be shown to be wrong. The person who says it most often has a name of their own: a moonboy. Someone who only ever calls the price up, and files every doubt under FUD. It is mostly used as a put-down, sometimes worn as a badge. The question instead: make it where, by when, and measured how?"
+  },
+  {
+   "heading": "Ape in, degen, alpha, DYOR",
+   "text": "Four more you will hear in the same breath. To ape in is to buy fast, without checking. Degen, short for degenerate, is what people call themselves when they gamble and know it. Both make recklessness sound like a personality. Alpha is borrowed from finance, where it means a return above a benchmark. In crypto chats it means a secret edge. Ask the obvious question: if it is really an edge, why is a stranger giving it away? And DYOR: do your own research. That is good advice. But listen for when it is said. Often it comes at the end of a pitch, and it moves all the responsibility to you. The question instead: what did I check myself, and where?"
+  },
+  {
+   "heading": "Bitcoin dominance",
+   "text": "Next, the words about timing. They try to tell you what season it is. Start with Bitcoin dominance: bitcoin's share of the value of all crypto added together. When it falls, other coins are growing faster than bitcoin, or falling more slowly. And it is not one number. Today CoinGecko reports 59.6 percent and CoinPaprika reports 57.5 percent, because each one adds up a different list of coins. Stablecoins are in that total too, and they hold dollars, not bets. Take the two biggest out, and CoinGecko's figure says bitcoin is 65.8 percent of the rest. The question instead: whose number, counting which coins?"
+  },
+  {
+   "heading": "Alt season, memecoin season",
+   "text": "Alt season is the name for a stretch when altcoins, meaning every coin that is not bitcoin, beat bitcoin. One widely used index, published by the site Blockchaincenter, calls it alt season when three quarters of the top fifty coins have done better than bitcoin over ninety days. Memecoin season is the same idea for joke tokens: new ones launch faster than anyone can check them, and the stories are all about the few that multiplied. Both words describe an average, and an average hides who lost. For every token in those stories, many more faded. Seasons like these are when the warning words later in this video do their work. Here is a check anyone can run. Over the last ninety days, according to CoinGecko's daily prices, ADA rose 24 percent and bitcoin rose 25 percent. One coin trailing bitcoin is a fact. It is not a season. The question instead: how many coins beat bitcoin, and how many fell?"
+  },
+  {
+   "heading": "The Bitcoin cycle",
+   "text": "Then the biggest timing story of all: the Bitcoin cycle, also called the four-year cycle. It starts with a rule written into Bitcoin itself. Miners are paid in new bitcoin, and every two hundred and ten thousand blocks, roughly every four years, that payment halves. Since the halving of April 2024, it has been three point one two five bitcoin a block. So new supply shrinks in steps. Bitcoin now adds less than one percent a year, and the total can never pass twenty-one million. The cycle story says the price follows those steps: the peaks of 2013, 2017 and 2021 each came about a year to a year and a half after a halving. But that is three examples, and each one also lined up with other things, from interest rates to new kinds of buyers. Three examples make a pattern, not a law. Cardano has no halving. New ADA comes from a reserve, and a share of what is left is paid out every epoch, so new supply shrinks smoothly instead of in steps. Crypto from Zero, this channel's beginner course, has a full lesson on market cycles coming up. The question instead: is this a rule in the code, or a story about the price?"
+  },
+  {
+   "heading": "Shill",
+   "text": "Now the words that warn, and these ones are worth keeping. A shill is an old word from fairgrounds and con games: someone in the crowd pretending to be a happy customer, who is really working for the seller. In crypto it means someone promoting a coin while hiding that they own it, or that they are paid to talk about it. The question instead: do they hold it, are they paid, and did they say so? This channel's own answer is in every description: it is not affiliated with any project it covers, its data services are disclosed, and no number here is for sale."
+  },
+  {
+   "heading": "Whale",
+   "text": "A whale is a very large holder. The word comes from casinos, where it meant the biggest gamblers. Whale alerts tell you a big amount moved. They cannot tell you who moved it, or why. An exchange moving customers' coins between its own wallets looks exactly the same as one person selling. That is why this channel does not use the word for wallets it measures. A wallet is not a person, and the chain does not say who owns one. What the chain can show is size. On Cardano's staking record, 1.3 million wallets stake, and the median one holds about 31 ADA. The question instead: is that a person, or an exchange? And does anyone actually know?"
+  },
+  {
+   "heading": "Rug pull, pump and dump",
+   "text": "A rug pull is when the people behind a project take the money and vanish, as in pulling the rug out from under everyone standing on it. A pump and dump is older than crypto. Promoters push a price up with hype, then sell into the buyers they attracted. America's Securities and Exchange Commission has published warnings about it, including about meme coins. Both depend on one thing: someone else being able to move the money, or make more of the token, without you. On Cardano, part of that can be checked. Every token's minting rules are public. Anyone can look up whether more can be minted, and who can mint it. The question instead: who can move the money, and who can make more?"
+  },
+  {
+   "heading": "Exit liquidity, and rekt",
+   "text": "Exit liquidity is the bluntest phrase in crypto. To sell, you need a buyer. If someone needs to get out of a big position, they need new people to sell it to. Those people are the exit liquidity. So when a stranger is in a hurry for you to buy, it is fair to ask whose way out you would be. And rekt, a gamer's spelling of wrecked, is what the chats call the people left holding it at the end. The question instead: if I am buying, who is selling to me, and why now?"
+  },
+  {
+   "heading": "The opposite of hype",
+   "text": "If hype is a promise nobody can check, the opposite is a claim anyone can. That is how this channel makes predictions. Each one names a number, a date and the rule that settles it. It is logged before the fact, scored from the chain's own record, and published whether it was right or wrong. So far, 29 predictions have been settled. 16 were right and 13 were wrong, and 1 could not be scored. That is a hit rate of 55 percent. That is a small sample, so the honest floor on that rate is 38 percent. Not a promise. A record, misses included."
+  },
+  {
+   "heading": "Translate the mood",
+   "text": "Here is the whole episode on one screen. Pause it, or take a screenshot. Every word on the left pushes a feeling. Every question on the right can be checked."
+  },
+  {
+   "heading": "What this is not",
+   "text": "A few honest limits. Slang changes fast, and the same word can mean different things in different communities. These definitions describe how the words are used. They do not endorse them. The origins are as reported. Nobody keeps an official record of slang, and the sources disagree on the details. And most people who say these words are joking with friends, not running a scheme. The words are not the problem. Letting them decide for you is."
+  },
+  {
+   "heading": "Three questions to ask",
+   "text": "So, the next time a word in your feed makes your heart beat faster, ask three questions. One: what fact is this word standing in for? Two: who gains if I feel this way? Three: could anyone check it, and when? If nobody could ever check it, it is a mood, not information."
+  },
+  {
+   "heading": "",
+   "text": "The words will change, and new ones will arrive next month. The questions stay the same. None of this is advice to buy, hold or avoid anything. Ask the three questions the next time a word in your feed tells you how to feel."
+  }
+ ],
+ "_note": "Compact record of the figures used in this episode."
+}
