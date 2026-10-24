@@ -1,0 +1,165 @@
+{
+ "episode_id": "2026-10-24-explainer",
+ "mode": "explainer",
+ "published": "2026-10-24T13:31:40+00:00",
+ "video_url": "https://youtu.be/OEKJ70G7S64",
+ "title": "How blockchains scale: Cardano's block limits, Leios and Hydra | Crypto from Zero #8",
+ "data_generated_at": "2026-10-24T12:40:01+00:00",
+ "claim": null,
+ "market": {
+  "ada_usd": 0.20881256389631972,
+  "source": "coingecko",
+  "cross_checked": true,
+  "change_24h_pct": -3.5515620804923
+ },
+ "indigo": {
+  "tvl_usd": 3552646.0,
+  "indy_price_usd": 0.112733
+ },
+ "loan_book": {
+  "positions": 290,
+  "debt_usd": 1782120.1837259037,
+  "collateral_ada": 16790060.245287,
+  "book_ratio": 1.9673058864425503,
+  "price_10pct_at_risk_usd": 0.17115533968646382,
+  "price_50pct_at_risk_usd": 0.1433909006830972,
+  "decoded_utxos": 319,
+  "validator_utxos": 323
+ },
+ "coverage": {
+  "iADA": {
+   "decoded_iasset": 233.450484,
+   "chain_supply_iasset": 233.450484,
+   "coverage_pct": 100.0
+  },
+  "iBTC": {
+   "decoded_iasset": 5.0578210000000015,
+   "chain_supply_iasset": 5.057821,
+   "coverage_pct": 100.00000000000004
+  },
+  "iETH": {
+   "decoded_iasset": 35.231687,
+   "chain_supply_iasset": 35.231687,
+   "coverage_pct": 100.0
+  },
+  "iEUR": {
+   "decoded_iasset": 68.387277,
+   "chain_supply_iasset": 68.387277,
+   "coverage_pct": 100.0
+  },
+  "iJPY": {
+   "decoded_iasset": 76826.957874,
+   "chain_supply_iasset": 76826.957874,
+   "coverage_pct": 100.0
+  },
+  "iSOL": {
+   "decoded_iasset": 72.984818,
+   "chain_supply_iasset": 72.984818,
+   "coverage_pct": 100.0
+  },
+  "iUSD": {
+   "decoded_iasset": 1303088.024945001,
+   "chain_supply_iasset": 1343852.977155,
+   "coverage_pct": 96.96656160286965
+  },
+  "_worst_pct": 96.96656160286965
+ },
+ "governance": {
+  "epoch": 663,
+  "open_actions": [
+   {
+    "id": 160,
+    "type": "TreasuryWithdrawals",
+    "withdrawal_ada": 22000000.0,
+    "expiration_epoch": 668,
+    "drep_yes_pct_of_decisive": 0.8016160843224472,
+    "drep_participation_pct": 27.149160134304
+   },
+   {
+    "id": 162,
+    "type": "TreasuryWithdrawals",
+    "withdrawal_ada": 9600000.0,
+    "expiration_epoch": 669,
+    "drep_yes_pct_of_decisive": 87.19559137222257,
+    "drep_participation_pct": 5.056872565860726
+   },
+   {
+    "id": 161,
+    "type": "TreasuryWithdrawals",
+    "withdrawal_ada": 940000.0,
+    "expiration_epoch": 669,
+    "drep_yes_pct_of_decisive": 5.876186944192382,
+    "drep_participation_pct": 25.03057931680181
+   }
+  ],
+  "decided_counts": {
+   "enacted": 1,
+   "expired": 6,
+   "dropped": 0
+  }
+ },
+ "monetary": {
+  "decay_per_epoch_pct": 0.1613936439454955,
+  "half_life_years": 5.874462229755792,
+  "treasury_accrual_per_epoch_ada": 3685941.8877151012
+ },
+ "transcript": [
+  {
+   "heading": "Cold open",
+   "text": "Every blockchain can only fit so much into each block. Here is what limits Cardano's, how a planned upgrade called Leios adds room, and how layer 2 systems like Hydra handle more off the main chain."
+  },
+  {
+   "heading": "What a block can hold",
+   "text": "A new Cardano block arrives about every 20 seconds, and each one has two kinds of limit. One is size: how many bytes of transactions fit. The other is computing: how much smart-contract work, measured in steps and memory, all the scripts in a block may use. A block can run out of either one first."
+  },
+  {
+   "heading": "Pillows and bricks",
+   "text": "Imagine a delivery van with two limits: how much space it has, and how much weight it can carry. A van full of pillows runs out of space long before weight; a van of bricks hits its weight limit long before it is full. A Cardano block is the same: simple payments use up size first, while busy smart-contract transactions use up computing first."
+  },
+  {
+   "heading": "Why it matters",
+   "text": "How close blocks run to those limits shows how much room the network has. Mostly empty blocks mean headroom. Blocks that are often full mean transactions wait their turn. And the limits are not fixed: they are protocol parameters, and a governance vote can raise them. A protocol parameter is one of Cardano's adjustable settings, changed by governance vote."
+  },
+  {
+   "heading": "Raising the ceiling: Leios",
+   "text": "Raising the limits only goes so far, because every block still has to reach every node in time. Ouroboros Leios is a planned change to how Cardano makes blocks that adds room another way. Alongside an ordinary block, a pool can announce a much larger bundle of extra transactions, called an endorser block. A committee of the largest stake pools checks it and votes, and once enough stake has voted, a later block certifies it and those transactions join the chain. Blocks are still made and secured the way they are today. Leios runs on a public test network, and is planned for the next hard fork, called Dijkstra, which still needs testing and a governance vote before it reaches the main chain."
+  },
+  {
+   "heading": "Layer 2",
+   "text": "Leios grows the main chain itself. The other way to grow leaves the main chain, called layer 1, as it is. A layer 2 moves activity off the main chain while still relying on it for security. Participants transact among themselves, quickly and cheaply, and only the results are settled back on layer 1. If anything goes wrong, the main chain is the final judge."
+  },
+  {
+   "heading": "Running a tab",
+   "text": "Think of a bar tab. Instead of paying for every drink with a separate card payment, a group opens a tab, orders all evening, and settles the total once at the end. The bar is still paid in full; there are just far fewer card payments. A layer 2 works the same way: many small transactions within a group, and one settlement on the main chain."
+  },
+  {
+   "heading": "Hydra and partner chains",
+   "text": "Cardano's main layer 2 design is Hydra. A group opens a Hydra head, locks funds into it, transacts among themselves at high speed, and then closes it, settling the final balances back on Cardano. Separately, partner chains such as Midnight run their own networks while connecting to Cardano."
+  },
+  {
+   "heading": "A game in a Hydra head",
+   "text": "Say the players of a game trade items with each other thousands of times an hour. Doing each trade on Cardano would mean waiting for a block and paying a fee every time. With a Hydra head, the players lock their funds once, trade inside the head almost instantly, and when the session ends, only the final balances are written back to Cardano."
+  },
+  {
+   "heading": "Scale without a bigger base",
+   "text": "A chain that puts every transaction on its main layer has to choose between staying easy for ordinary operators to run and handling more activity. Layer 2 is how chains try to have both. It brings trade-offs of its own, such as participants needing to stay online, which is why it suits some uses better than others."
+  },
+  {
+   "heading": "How full is Cardano, actually?",
+   "text": "That is how it works on paper. Here is what the chain recorded. Over the last 2.3 hours Cardano produced 400 blocks. By size those blocks ran 6.3 percent full. By the execution budget \u2014 the compute ceiling that caps what a block is allowed to do \u2014 they ran 4.4 percent full. The compute ceiling comes in two parts: steps, the processing time contracts are allowed, and memory, the working space they may use. Those are the averages. The peaks are the figure that matters: the busiest block in that window used 60.0 percent of the chain's compute ceiling, against 57.5 percent of its size ceiling. The limit this chain came closest to was the compute budget's steps."
+  },
+  {
+   "heading": "Inside one transaction",
+   "text": "A script is a smart contract running inside a transaction, and 68 percent of blocks carried at least one. Each transaction has its own, smaller budget. The median script transaction used 6.1 percent of its memory allowance and 3.0 percent of its steps \u2014 in this window, contracts came closer to their memory allowance than to their time limit. Both can be true: measured against one transaction's allowance, a block's steps budget is smaller than its memory budget, so a block of heavy contracts fills up on steps first, while each contract on its own comes closer to its memory limit. The heaviest on memory used 57.7 percent of its allowance; the heaviest on steps, 41.6 percent. The median fee across all 2,339 transactions was 0.206 ADA, about 4 cents."
+  },
+  {
+   "heading": "The short version",
+   "text": "So, in short. Cardano blocks are limited by size and by smart-contract computing, and a governance vote can raise those limits. Leios is a planned upgrade that adds room with extra bundles of transactions that stake pools certify, and layer two systems like Hydra move activity off the main chain."
+  },
+  {
+   "heading": "",
+   "text": "No new claim today: a lesson explains how something works, and calls are made and scored in the Monday, Wednesday and Friday episodes. That is scaling, block limits and Hydra, explained. Next time: What is a hard fork, and how does Cardano upgrade? Every lesson of Crypto from Zero is in the playlist linked below, in order, and every Monday, Wednesday and Friday this channel measures Cardano straight from the chain."
+  }
+ ],
+ "_note": "Compact record of the figures used in this episode."
+}
