@@ -1,0 +1,225 @@
+{
+ "episode_id": "2026-10-26-special",
+ "mode": "special",
+ "published": "2026-10-26T13:17:46+00:00",
+ "video_url": "https://youtu.be/zfllXBfMo1c",
+ "title": "Cardano governance & treasury: 3 votes closed, 2 new proposals, treasury recap (Oct 26)",
+ "data_generated_at": "2026-10-26T12:15:47+00:00",
+ "claim": null,
+ "market": {
+  "ada_usd": 0.20460578945103908,
+  "source": "coingecko",
+  "cross_checked": true,
+  "change_24h_pct": 0.16850486726859715
+ },
+ "indigo": {
+  "tvl_usd": 3422402.0,
+  "indy_price_usd": 0.120107
+ },
+ "loan_book": {
+  "positions": 290,
+  "debt_usd": 1777706.267416443,
+  "collateral_ada": 16814060.245287,
+  "book_ratio": 1.9352207580187204,
+  "price_10pct_at_risk_usd": 0.16935862625764447,
+  "price_50pct_at_risk_usd": 0.14339245109877446,
+  "decoded_utxos": 319,
+  "validator_utxos": 323
+ },
+ "coverage": {
+  "iADA": {
+   "decoded_iasset": 233.450484,
+   "chain_supply_iasset": 233.450484,
+   "coverage_pct": 100.0
+  },
+  "iBTC": {
+   "decoded_iasset": 5.0578210000000015,
+   "chain_supply_iasset": 5.057821,
+   "coverage_pct": 100.00000000000004
+  },
+  "iETH": {
+   "decoded_iasset": 35.231687,
+   "chain_supply_iasset": 35.231687,
+   "coverage_pct": 100.0
+  },
+  "iEUR": {
+   "decoded_iasset": 68.387277,
+   "chain_supply_iasset": 68.387277,
+   "coverage_pct": 100.0
+  },
+  "iJPY": {
+   "decoded_iasset": 76826.95787400001,
+   "chain_supply_iasset": 76826.957874,
+   "coverage_pct": 100.00000000000003
+  },
+  "iSOL": {
+   "decoded_iasset": 72.98523800000001,
+   "chain_supply_iasset": 72.985238,
+   "coverage_pct": 100.00000000000003
+  },
+  "iUSD": {
+   "decoded_iasset": 1302229.5494980009,
+   "chain_supply_iasset": 1355734.485076,
+   "coverage_pct": 96.05343552391827
+  },
+  "_worst_pct": 96.05343552391827
+ },
+ "governance": {
+  "epoch": 663,
+  "open_actions": [
+   {
+    "id": 160,
+    "type": "TreasuryWithdrawals",
+    "withdrawal_ada": 22000000.0,
+    "expiration_epoch": 668,
+    "drep_yes_pct_of_decisive": 1.1819962124076167,
+    "drep_participation_pct": 29.079208375942745
+   },
+   {
+    "id": 162,
+    "type": "TreasuryWithdrawals",
+    "withdrawal_ada": 9600000.0,
+    "expiration_epoch": 669,
+    "drep_yes_pct_of_decisive": 69.79892469371183,
+    "drep_participation_pct": 6.621297310992552
+   },
+   {
+    "id": 161,
+    "type": "TreasuryWithdrawals",
+    "withdrawal_ada": 940000.0,
+    "expiration_epoch": 669,
+    "drep_yes_pct_of_decisive": 6.570319971509134,
+    "drep_participation_pct": 28.050943102275
+   }
+  ],
+  "decided_counts": {
+   "enacted": 1,
+   "expired": 6,
+   "dropped": 0
+  }
+ },
+ "monetary": {
+  "decay_per_epoch_pct": 0.1613936439454955,
+  "half_life_years": 5.874462229755792,
+  "treasury_accrual_per_epoch_ada": 3685941.8877151012
+ },
+ "transcript": [
+  {
+   "heading": "Cold open",
+   "text": "Three votes closed on Cardano's governance: two did not, one poll closed. Two new proposals are up for a vote. It is also time for our six-epoch look at the treasury. Here is how each vote ended, then what is new: its terms, who it touches, and who decides."
+  },
+  {
+   "heading": "Vote closed (1/3)",
+   "text": "The poll \u201cShould stakePoolTargetNum (k) be raised from 500 to 1000? (SPO poll)\u201d has closed. An info action changes nothing on the chain and is never enacted; its answer is the tally itself. DReps: 44 for, 38 against, 50 abstaining \u2014 weighted by stake, yes holds 17 percent of the DRep power that voted yes or no. 64.8 percent of all registered DRep voting power voted on it. Stake pools: 26 for, 48 against, 1 abstaining \u2014 weighted by pool stake, yes holds 10 percent of the stake that voted yes or no. The Constitutional Committee: 1 yes, 0 no, 1 abstaining. The title is the proposers' own words."
+  },
+  {
+   "heading": "Vote closed (2/3)",
+   "text": "Next. \u201cReduce minPoolCost to 75 ada\u201d did not pass. Its voting window ended without it reaching the thresholds it needed. DReps: 88 for, 37 against, 19 abstaining \u2014 weighted by stake, yes holds 75 percent of the DRep power that voted yes or no. 70.3 percent of all registered DRep voting power voted on it. The Constitutional Committee: 5 yes, 0 no. The title is the proposers' own words."
+  },
+  {
+   "heading": "Vote closed (3/3)",
+   "text": "Next. \u201cWithdraw 11,787,063 ada for the OpenZeppelin Stack administered by Intersect\u201d did not pass. Its voting window ended without it reaching the thresholds it needed. It asked the treasury for 11.8 million ADA, and none of it will be paid. DReps: 16 for, 95 against, 19 abstaining \u2014 weighted by stake, yes holds 7 percent of the DRep power that voted yes or no. 62.7 percent of all registered DRep voting power voted on it. The Constitutional Committee: 5 yes, 0 no. The title is the proposers' own words."
+  },
+  {
+   "heading": "The proposal",
+   "text": "Now, what is new. On October 15, 2026, a new proposal went up for a vote on Cardano. Its proposers call it \u201cCardano Strategic Copper Reserve | \u20b322M RWA Tokenization\u201d. It is a treasury withdrawal. A treasury withdrawal asks to pay ADA out of Cardano's on-chain treasury to the addresses it names. Voting closes when epoch 668 begins, on November 15."
+  },
+  {
+   "heading": "In their words",
+   "text": "Here is how the proposers summarise it, in their own words: \u201cTokenization of real-world assets (RWAs) offers Cardano an opportunity to connect blockchain infrastructure with the physical economy. The Cardano Strategic Copper Reserve requests a one-time \u20b322,000,000 Treasury Withdrawal to Toto Finance Inc., U.S.-based recipient and accountable administrator, to acquire independently verified COMEX Grade 1 copper cathodes in a COMEX-approved U.S. warehouse and tokenize the metal as CuTT.\u201d That text is theirs, not ours. The document was fetched and its bytes checked against the hash the ledger recorded, so it is the version that was actually submitted."
+  },
+  {
+   "heading": "The money",
+   "text": "The money: 22 million ADA, about 4.50 million dollars at today's price. That is 1.59 percent of the 1.39 billion ADA the treasury holds. The treasury takes in about 269.1 million ADA a year, so this would equal 8.2 percent of a year's income."
+  },
+  {
+   "heading": "Why they say it is needed",
+   "text": "In the proposers' words: \u201cThe next phase of blockchain adoption is the tokenization of real-world assets (RWAs): making independently verifiable claims on physical and financial assets available to programmable networks. For Cardano, the strategic opportunity is to demonstrate real economic utility through tangible assets, transparent financial reporting and reusable tokenization infrastructure.\u201d That is their case, not this channel's."
+  },
+  {
+   "heading": "What it would do",
+   "text": "In plain terms, the proposal says the ADA would go to Toto Finance, a U.S. company, which would buy physical copper, keep it in a U.S. warehouse, and issue a token called CuTT, one per pound, on Ethereum and bridged to Cardano. It says 66.93 percent of the money buys copper, which would be held for 18 to 24 months and then sold, with the net proceeds and any unused budget sent back to the treasury by month 36. It also says the treasury could get back less than the 22 million ADA it pays out. By its own illustration, at today's ADA price and with every fee used, copper bought at 6.73 dollars a pound would have to sell for about 10.06 dollars for the treasury to get its 22 million ADA back. The proposal lists copper prices, ADA's price and the bridge among its risks. For scale: of the 70 treasury withdrawals Cardano has passed, 11 asked for more."
+  },
+  {
+   "heading": "How the money is held",
+   "text": "On the ledger, the payout goes to an account controlled by a single key. The proposal itself says that account is controlled by Toto Finance and is not independent escrow, and that the independent oversight firm it prefers has not been engaged yet. What would show it worked: independent attestations that the warehouse holds the pounds CuTT says it does, CuTT on Cardano matching that, and ADA arriving back in the treasury by month 36."
+  },
+  {
+   "heading": "Who decides",
+   "text": "Who decides? DReps: yes votes must reach 67 percent of active DRep voting power. Abstentions are left out; power that does not vote counts against it. And the Constitutional Committee: 66.7 percent of its members must find it constitutional. Stake pools do not vote on this type of proposal. Voting closes when epoch 668 begins, on November 15."
+  },
+  {
+   "heading": "Votes so far",
+   "text": "It is early, and votes can change until it closes. Here is the tally so far. DReps: 3 for, 62 against, 2 abstaining \u2014 weighted by stake, yes holds 1 percent of the DRep power that voted yes or no. 29.1 percent of all registered DRep voting power has voted on it. The Constitutional Committee: 0 yes, 2 no. Counted the way Cardano's rules count it, with DRep power that has not voted counting as no, yes holds 0.3 percent of the DRep vote. It needs 67 percent. To get there, about 95 percent of the 3.60 billion ADA of DRep power that has not voted would have to vote yes. The Constitutional Committee has 0 yes of 7 seats; it needs 5. So on today's votes it would not pass if counted now, with 5 epochs left to vote. Votes can change until it closes."
+  },
+  {
+   "heading": "The proposal",
+   "text": "Next, another new proposal. On October 18, 2026, a new proposal went up for a vote on Cardano. Its proposers call it \u201cAURORA: Open infrastructure for bringing real credit markets to Cardano\u201d. It is a treasury withdrawal. A treasury withdrawal asks to pay ADA out of Cardano's on-chain treasury to the addresses it names. Voting closes when epoch 669 begins, on November 20."
+  },
+  {
+   "heading": "In their words",
+   "text": "Here is how the proposers summarise it, in their own words: \u201cAURORA will give Cardano builders shared infrastructure for finding, comparing and verifying individual credit opportunities across compatible lending implementations. Today, each application must build much of this infrastructure separately, increasing integration costs and fragmenting market information.\u201d That text is theirs, not ours. The document was fetched and its bytes checked against the hash the ledger recorded, so it is the version that was actually submitted."
+  },
+  {
+   "heading": "The money",
+   "text": "The money: 940 thousand ADA, about 192.3 thousand dollars at today's price. That is 0.07 percent of the 1.39 billion ADA the treasury holds. The treasury takes in about 269.1 million ADA a year, so this would equal 0.3 percent of a year's income."
+  },
+  {
+   "heading": "Why they say it is needed",
+   "text": "In the proposers' words: \u201cCardano\u2019s eUTxO architecture is well suited to credit markets built around individual financial agreements. Rather than requiring lending activity to begin in shared liquidity pools, individual credit opportunities can exist as distinct Loan Request UTxOs, each with its own terms, state and lifecycle.\u201d That is their case, not this channel's. A UTxO, or unspent transaction output, is one separate chunk of ADA or tokens sitting at an address. A liquidity pool is a pot of two tokens that traders swap against; the people who fill it earn the trading fees."
+  },
+  {
+   "heading": "What it would do",
+   "text": "In plain terms, the proposal says a team called Fairway would build open-source standards and software that let apps find and compare individual loan requests across different Cardano lending protocols. It does not lend anything itself; lending stays with those protocols. It says delivery takes about five months, in four milestones. Who it touches, it says: lending apps, wallets and lenders that choose to adopt its format. No protocol has to. For scale: of the 70 treasury withdrawals Cardano has passed, 42 asked for more."
+  },
+  {
+   "heading": "How the money is held",
+   "text": "On the ledger, the payout goes to a script that needs 3 of 5 signatures to spend it. The proposal says the people building it hold none of those keys, that payments to Fairway are released milestone by milestone, and that independent audits follow the second and fourth milestones. What would show it worked: the code published under its open licence, the end-to-end demonstration on testnet it promises, and then lending apps on mainnet actually publishing loan requests in its format."
+  },
+  {
+   "heading": "Who decides",
+   "text": "Who decides? DReps: yes votes must reach 67 percent of active DRep voting power. Abstentions are left out; power that does not vote counts against it. And the Constitutional Committee: 66.7 percent of its members must find it constitutional. Stake pools do not vote on this type of proposal. Voting closes when epoch 669 begins, on November 20."
+  },
+  {
+   "heading": "Votes so far",
+   "text": "It is early, and votes can change until it closes. Here is the tally so far. DReps: 10 for, 28 against, 6 abstaining \u2014 weighted by stake, yes holds 7 percent of the DRep power that voted yes or no. 28.1 percent of all registered DRep voting power has voted on it. The Constitutional Committee: 0 yes, 2 no. Counted the way Cardano's rules count it, with DRep power that has not voted counting as no, yes holds 1.6 percent of the DRep vote. It needs 67 percent. To get there, about 90 percent of the 3.65 billion ADA of DRep power that has not voted would have to vote yes. The Constitutional Committee has 0 yes of 7 seats; it needs 5. So on today's votes it would not pass if counted now, with 6 epochs left to vote. Votes can change until it closes."
+  },
+  {
+   "heading": "All open asks together",
+   "text": "Taken together, three treasury withdrawals are open for a vote right now, asking for 32.5 million ADA in all. That is 2.35 percent of the treasury, and 12.1 percent of what it takes in over a year, if every one of them passed."
+  },
+  {
+   "heading": "The treasury, last 6 epochs",
+   "text": "Now the treasury over the last six epochs, about 30 days. It holds 1.39 billion ADA, about 283.52 million dollars. That is 22 million ADA more than six epochs ago. Nothing was paid out in that time; the balance moved only with the treasury's share of each epoch's new supply."
+  },
+  {
+   "heading": "Where the money went",
+   "text": "These are the most recent days the treasury paid out, and how much. The largest was July 9, when 120 million ADA was paid out across 1 withdrawal. Payouts arrive in lumps, when a vote is enacted, not as a steady drip."
+  },
+  {
+   "heading": "What passed",
+   "text": "Over the last ninety days 7 actions reached an outcome: 1 enacted, 6 expired without passing; the table shows the latest 6 of them. Each row gives DRep votes for, against and abstaining, by count and by voting power, and the yes share of the power that voted yes or no, with abstains left out of it. A high yes share can still expire: to pass, the yes vote has to reach a set share of all active DRep voting power, abstentions aside, so a DRep that does not vote counts against it, and where stake pools or the committee also vote, each has its own threshold to clear. The last column gives the stake pools' yes share by stake, then the committee's votes for and against, where either body voted. One of the expired was an info action, which records a vote but can never be enacted."
+  },
+  {
+   "heading": "What is being asked for (2/3)",
+   "text": "Next, a request for 9.6 million ADA, which its proposers call \u201cPFMS: Bringing Government Scale Adoption to Cardano by Trivolve Tech\u201d, with 6 epochs left to vote. DReps: 16 for, 8 against, 2 abstaining \u2014 weighted by stake, yes holds 70 percent of the DRep power that voted yes or no. 6.6 percent of all registered DRep voting power has voted on it. The Constitutional Committee: 1 yes, 0 no. Counted the way Cardano's rules count it, with DRep power that has not voted counting as no, yes holds 4.6 percent of the DRep vote. It needs 67 percent. To get there, about 69 percent of the 4.80 billion ADA of DRep power that has not voted would have to vote yes. The Constitutional Committee has 1 yes of 7 seats; it needs 5. So on today's votes it would not pass if counted now, with 6 epochs left to vote. Votes can change until it closes."
+  },
+  {
+   "heading": "The treasury, as a rate",
+   "text": "Now the longer view. The treasury takes in 3.7 million ADA every epoch \u2014 269.1 million a year \u2014 as its cut of each epoch's rewards: the new ADA released from the reserve, plus transaction fees. Over the last 195 days governance enacted 29 withdrawals totalling 447.3 million ADA. That is 3.1 times what came in over the same window, and the balance fell 231.7 million ADA. That outflow is lumpy rather than steady: the single largest epoch was 29 percent of it."
+  },
+  {
+   "heading": "What the balance covers",
+   "text": "Held against that observed rate, the current balance covers 233 more epochs of spending \u2014 1165 days at the pace of the last 195. That is arithmetic on what has already happened, not a schedule. If the treasury's income keeps shrinking along with the reserve, that falls to 213 epochs \u2014 an assumption, not a measurement. Inflow, outflow and the balance reconcile to within 5.2 percent of the balance."
+  },
+  {
+   "heading": "Following the treasury's money",
+   "text": "And after the vote. Since Cardano's on-chain governance began paying out, 78 treasury withdrawals have been enacted, sending 804.4 million ADA to 17 recipients. 15 of those recipients are smart contracts \u2014 treasury vaults that hold the money and release it under their own rules \u2014 and they received 752.1 million ADA. Of that, 37.9 million ADA, about 5 percent, is still inside those vaults today. The other 95 percent has moved out. Moved out means the ADA left the vault. The chain does not say what it was used for \u2014 that part is up to the recipients to report. It is the first step in following public money from a vote to the work it was approved for. Why it matters: these votes decide how Cardano is run and how its shared treasury is spent, and every one of them is recorded on the chain."
+  },
+  {
+   "heading": "",
+   "text": "No new claim today: a special reports one event as measured, and calls are made and scored in the Monday, Wednesday and Friday episodes. This channel reports the votes and takes no side on any proposal. How a vote would end on today's votes is arithmetic, not a forecast. This episode comes back when votes close or new ones go up. That is the news as it happened, measured on the chain. The full treasury and voting data is free on our site, linked below."
+  }
+ ],
+ "_note": "Compact record of the figures used in this episode."
+}
