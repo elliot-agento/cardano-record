@@ -1,0 +1,145 @@
+{
+ "episode_id": "2026-10-27-explainer",
+ "mode": "explainer",
+ "published": "2026-10-27T18:15:50+00:00",
+ "video_url": "https://youtu.be/Luo_UZy-MA4",
+ "title": "What is a hard fork? How Cardano upgrades without splitting the chain | Crypto from Zero #9",
+ "data_generated_at": "2026-10-27T17:30:01+00:00",
+ "claim": null,
+ "market": {
+  "ada_usd": 0.20550822331256913,
+  "source": "coingecko",
+  "cross_checked": true,
+  "change_24h_pct": -0.4009442309483533
+ },
+ "indigo": {
+  "tvl_usd": 3451192.0,
+  "indy_price_usd": 0.101153
+ },
+ "loan_book": {
+  "positions": 291,
+  "debt_usd": 1773465.6762702141,
+  "collateral_ada": 16782900.245286997,
+  "book_ratio": 1.9447932134185273,
+  "price_10pct_at_risk_usd": 0.17041415604805243,
+  "price_50pct_at_risk_usd": 0.14340189056878624,
+  "decoded_utxos": 322,
+  "validator_utxos": 326
+ },
+ "coverage": {
+  "iADA": {
+   "decoded_iasset": 233.450484,
+   "chain_supply_iasset": 233.450484,
+   "coverage_pct": 100.0
+  },
+  "iBTC": {
+   "decoded_iasset": 5.057821000000002,
+   "chain_supply_iasset": 5.057821,
+   "coverage_pct": 100.00000000000004
+  },
+  "iETH": {
+   "decoded_iasset": 35.231686999999994,
+   "chain_supply_iasset": 35.231687,
+   "coverage_pct": 99.99999999999997
+  },
+  "iEUR": {
+   "decoded_iasset": 68.387277,
+   "chain_supply_iasset": 68.387277,
+   "coverage_pct": 100.0
+  },
+  "iJPY": {
+   "decoded_iasset": 76826.957874,
+   "chain_supply_iasset": 76826.957874,
+   "coverage_pct": 100.0
+  },
+  "iSOL": {
+   "decoded_iasset": 73.015707,
+   "chain_supply_iasset": 73.015707,
+   "coverage_pct": 100.0
+  },
+  "iUSD": {
+   "decoded_iasset": 1295872.2129730005,
+   "chain_supply_iasset": 1350157.926858,
+   "coverage_pct": 95.97930636075073
+  },
+  "_worst_pct": 95.97930636075073
+ },
+ "governance": {
+  "epoch": 664,
+  "open_actions": [
+   {
+    "id": 160,
+    "type": "TreasuryWithdrawals",
+    "withdrawal_ada": 22000000.0,
+    "expiration_epoch": 668,
+    "drep_yes_pct_of_decisive": 1.0384793334040368,
+    "drep_participation_pct": 31.43883864386876
+   },
+   {
+    "id": 162,
+    "type": "TreasuryWithdrawals",
+    "withdrawal_ada": 9600000.0,
+    "expiration_epoch": 669,
+    "drep_yes_pct_of_decisive": 72.4198601889499,
+    "drep_participation_pct": 8.060815295144305
+   },
+   {
+    "id": 161,
+    "type": "TreasuryWithdrawals",
+    "withdrawal_ada": 940000.0,
+    "expiration_epoch": 669,
+    "drep_yes_pct_of_decisive": 10.928764535810952,
+    "drep_participation_pct": 30.033320992109076
+   }
+  ],
+  "decided_counts": {
+   "enacted": 1,
+   "expired": 6,
+   "dropped": 0
+  }
+ },
+ "monetary": {
+  "decay_per_epoch_pct": 0.16128960970961392,
+  "half_life_years": 5.878254408491344,
+  "treasury_accrual_per_epoch_ada": 3685941.8877151012
+ },
+ "transcript": [
+  {
+   "heading": "Cold open",
+   "text": "A hard fork sounds like a split, and on some chains it has been one. On Cardano it is a scheduled upgrade, voted on-chain. Here is the difference, and what governance has decided recently."
+  },
+  {
+   "heading": "Changing the rules",
+   "text": "Every node follows the same rules for what counts as a valid block. A soft fork tightens those rules, so old nodes still accept the new blocks. A hard fork changes them in a way old nodes reject, so everyone must upgrade. If some refuse, the chain can split in two, which is how Bitcoin Cash and Ethereum Classic began."
+  },
+  {
+   "heading": "A new rulebook",
+   "text": "Think of a board game whose rulebook changes. A soft fork is like banning a move: players with the old rulebook can keep playing, because every game under the new rules is still legal under the old ones. A hard fork adds a new kind of move. Players with the old rulebook see it as cheating, so everyone has to update, or end up playing a different game."
+  },
+  {
+   "heading": "How Cardano does it",
+   "text": "Cardano runs hard forks as scheduled upgrades. Node software that knows the new rules ships first; the switch happens only at an epoch boundary, once a hard fork governance action is ratified by DReps, stake pools and the constitutional committee. Its most recent one, in July 2026, moved the chain to protocol version eleven."
+  },
+  {
+   "heading": "An upgrade, step by step",
+   "text": "Here is what that looks like in practice. Weeks ahead, pool operators install node software that understands both the old and the new rules. Nothing changes yet. A governance action proposes the switch, and the committee, stake pools and DReps vote. Once it is ratified, every node moves to the new rules together, at the same epoch boundary. There is no race and no split, because everyone is ready before the switch."
+  },
+  {
+   "heading": "Changing without splitting",
+   "text": "Every chain has to change eventually, to add features or fix problems. How it changes decides who has a say, and whether its community stays together. Cardano puts each upgrade to an on-chain vote and gives everyone time to prepare, which is how it has upgraded many times without splitting."
+  },
+  {
+   "heading": "What passed",
+   "text": "That is how it works on paper. Here is what the chain recorded. Over the last ninety days 7 actions reached an outcome: 1 enacted, 6 expired without passing; the table shows the latest 6 of them. Each row gives DRep votes for, against and abstaining, by count and by voting power, and the yes share of the power that voted yes or no, with abstains left out of it. A high yes share can still expire: to pass, the yes vote has to reach a set share of all active DRep voting power, abstentions aside, so a DRep that does not vote counts against it, and where stake pools or the committee also vote, each has its own threshold to clear. The last column gives the stake pools' yes share by stake, then the committee's votes for and against, where either body voted. One of the expired was an info action, which records a vote but can never be enacted."
+  },
+  {
+   "heading": "The short version",
+   "text": "So, in short. A hard fork changes the rules every node must follow; Cardano schedules them through a governance vote and switches at an epoch boundary."
+  },
+  {
+   "heading": "",
+   "text": "No new claim today: a lesson explains how something works, and calls are made and scored in the Monday, Wednesday and Friday episodes. That is hard forks, explained. Next time: What does a crypto wallet actually hold, and what does a hardware wallet add? Every lesson of Crypto from Zero is in the playlist linked below, in order, and every Monday, Wednesday and Friday this channel measures Cardano straight from the chain."
+  }
+ ],
+ "_note": "Compact record of the figures used in this episode."
+}
