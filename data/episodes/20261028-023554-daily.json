@@ -1,0 +1,151 @@
+{
+ "episode_id": "20261028-023554-daily",
+ "mode": "daily",
+ "published": "2026-10-28T08:14:48+00:00",
+ "video_url": "https://youtu.be/TMNAyCkdIzU",
+ "title": "Cardano (ADA) News Today: PRIME \u2014 106.8M ADA paused in treasury",
+ "data_generated_at": "2026-10-28T07:30:01+00:00",
+ "claim": {
+  "metric": "ada_price_usd",
+  "horizon_days": 7,
+  "op": "<",
+  "threshold": 0.2457,
+  "text": "ADA closes below $0.2457, a week from now, a bar set 19.5 percent above where it is today",
+  "subject": null,
+  "quality": {
+   "verdict": "ok",
+   "p_change": 0.92,
+   "p_level": 0.69,
+   "days": 45,
+   "retuned_from": 0.1966
+  }
+ },
+ "market": {
+  "ada_usd": 0.20560784770934465,
+  "source": "coingecko",
+  "cross_checked": true,
+  "change_24h_pct": 0.8326560937021431
+ },
+ "indigo": {
+  "tvl_usd": 3494969.0,
+  "indy_price_usd": 0.101895
+ },
+ "loan_book": {
+  "positions": 291,
+  "debt_usd": 1773125.1986026298,
+  "collateral_ada": 16783243.245286997,
+  "book_ratio": 1.9461493886417875,
+  "price_10pct_at_risk_usd": 0.1687246765857104,
+  "price_50pct_at_risk_usd": 0.14340631023415057,
+  "decoded_utxos": 321,
+  "validator_utxos": 325
+ },
+ "coverage": {
+  "iADA": {
+   "decoded_iasset": 233.450484,
+   "chain_supply_iasset": 233.450484,
+   "coverage_pct": 100.0
+  },
+  "iBTC": {
+   "decoded_iasset": 5.0578210000000015,
+   "chain_supply_iasset": 5.057821,
+   "coverage_pct": 100.00000000000004
+  },
+  "iETH": {
+   "decoded_iasset": 35.231687,
+   "chain_supply_iasset": 35.231687,
+   "coverage_pct": 100.0
+  },
+  "iEUR": {
+   "decoded_iasset": 68.387277,
+   "chain_supply_iasset": 68.387277,
+   "coverage_pct": 100.0
+  },
+  "iJPY": {
+   "decoded_iasset": 76826.95787400001,
+   "chain_supply_iasset": 76826.957874,
+   "coverage_pct": 100.00000000000003
+  },
+  "iSOL": {
+   "decoded_iasset": 73.015707,
+   "chain_supply_iasset": 73.015707,
+   "coverage_pct": 100.0
+  },
+  "iUSD": {
+   "decoded_iasset": 1296064.7538259996,
+   "chain_supply_iasset": 1350350.467711,
+   "coverage_pct": 95.97987965472245
+  },
+  "_worst_pct": 95.97987965472245
+ },
+ "governance": {
+  "epoch": 664,
+  "open_actions": [
+   {
+    "id": 160,
+    "type": "TreasuryWithdrawals",
+    "withdrawal_ada": 22000000.0,
+    "expiration_epoch": 668,
+    "drep_yes_pct_of_decisive": 1.0384793334040368,
+    "drep_participation_pct": 31.43883864386876
+   },
+   {
+    "id": 162,
+    "type": "TreasuryWithdrawals",
+    "withdrawal_ada": 9600000.0,
+    "expiration_epoch": 669,
+    "drep_yes_pct_of_decisive": 72.4198601889499,
+    "drep_participation_pct": 8.060815295144305
+   },
+   {
+    "id": 161,
+    "type": "TreasuryWithdrawals",
+    "withdrawal_ada": 940000.0,
+    "expiration_epoch": 669,
+    "drep_yes_pct_of_decisive": 10.928764535810952,
+    "drep_participation_pct": 30.033320992109076
+   }
+  ],
+  "decided_counts": {
+   "enacted": 1,
+   "expired": 6,
+   "dropped": 0
+  }
+ },
+ "monetary": {
+  "decay_per_epoch_pct": 0.16128960970961392,
+  "half_life_years": 5.878254408491344,
+  "treasury_accrual_per_epoch_ada": 3685941.8877151012
+ },
+ "transcript": [
+  {
+   "heading": "Cold open",
+   "text": "A 106.8 million ADA payout to Cardano PRIME, a DeFi program paid for by Cardano's treasury, was due on September 30th. Since September 28th it has been marked paused. Here is what the chain shows about the program's money, and what it does not."
+  },
+  {
+   "heading": "Calls that resolved",
+   "text": "First, the scorecard. We said Cardano's dollar stablecoins total more than $68.81M on October 27, 2.9 percent above September 27's level, measured as the median of the last three days. It measured $63.19M, so we got that one wrong. We said ADA closes below $0.2491 on October 26, 12.5 percent above where it was on October 19. It measured $0.2021, so we got that one right. That puts the running record at 17 right, 14 wrong, 1 void."
+  },
+  {
+   "heading": "Cardano PRIME, followed on the chain",
+   "text": "Cardano's treasury is a pool of ADA that holders govern together; withdrawals from it are voted on and paid automatically when approved. Cardano PRIME is a twelve-month DeFi program paid for by Cardano's treasury. An on-chain vote sent it 120 million ADA, paid out on August 17th, and its stated aim is about 200 million dollars of new DeFi value on Cardano. Here is where that money is, read off the chain. 12 million ADA has been released to the program so far. 106.8 million ADA sits in the contract that pays it out, on a payout that was due September 30th and is marked paused, the contract's word for a payout its oversight signers have held. The chain does not say why. PRIME's own proposal keeps most of its budget back until an independent group reviews the program's first four months. Pausing is a normal tool in this contract: 4 other funded projects paid through it have a paused payout too. PRIME's is the largest, 98 percent of all the paused ADA. 240 thousand ADA is scheduled for August 2027 and 960 thousand ADA never left the treasury contract. Meanwhile Cardano DeFi as a whole, as DefiLlama counts it, holds 57.7 million dollars, against 60 million on August 17th, while ADA's price went from 17.5 cents to 20.4 cents. That is the whole chain, not PRIME's own count, which its review group keeps. We will keep measuring it against the program's own goal. Why it matters: treasury money belongs to every ADA holder, and following it after the vote is how holders see what their votes paid for."
+  },
+  {
+   "heading": "ADA",
+   "text": "Also today. ADA is at 20.6 cents, up 1.2 percent on the day \u2014 down 15.2 percent over thirty days and down 7.8 percent on the week. Since the last episode it has moved down 4.8 percent. That is 2.2 percent above the bottom of its thirty-day range, 20.1 cents."
+  },
+  {
+   "heading": "Who is building: Aiken",
+   "text": "One more thing. Who is building Cardano. Today: Aiken, the language many Cardano apps are written in. Every app on Cardano, from a token swap to an NFT marketplace, runs on small programs called smart contracts, the rules that decide who can move what. An NFT is a token minted as one of a kind. Aiken is a programming language made just for writing those rules, and its makers describe it as small and easy to learn. It's open source and has been built in the open since 2022, by about fifty contributors. According to EMURGO, one of Cardano's founding companies, many of Cardano's best-known apps use it. Why it matters: the rules that guard ADA inside an app are only as good as the code they're written in. A clearer language makes those rules easier to write, and easier to check for mistakes."
+  },
+  {
+   "heading": "Today's claim",
+   "text": "Now the prediction. Today's claim: ADA closes below $0.2457, a week from now, a bar set 19.5 percent above where it is today. It stands at 20.6 cents as this is recorded. One caution: an earlier call on this same measurement is still open, resolving October 30th, so one large move could decide both. We'll score it on November 4, automatically, against the same measurement \u2014 and if it's wrong, it stays on the board as wrong. Think I've got it wrong? Reply yes or no under the first comment, or put a number on it: join the Forecast League on our website."
+  },
+  {
+   "heading": "",
+   "text": "Running record: 17 right, 14 wrong, with 1 void. Every call we make is scored in public, the wrong ones included. New here? Start with the guide linked below. See you Friday."
+  }
+ ],
+ "_note": "Compact record of the figures used in this episode."
+}
