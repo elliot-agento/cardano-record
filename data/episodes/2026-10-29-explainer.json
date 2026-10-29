@@ -1,0 +1,169 @@
+{
+ "episode_id": "2026-10-29-explainer",
+ "mode": "explainer",
+ "published": "2026-10-29T23:06:48+00:00",
+ "video_url": "https://youtu.be/4qcpkPimXaQ",
+ "title": "Crypto wallets explained: seed phrases, keys and hardware wallets | Crypto from Zero #10",
+ "data_generated_at": "2026-10-29T22:15:45+00:00",
+ "claim": null,
+ "market": {
+  "ada_usd": 0.1918045389568539,
+  "source": "coingecko",
+  "cross_checked": true,
+  "change_24h_pct": -6.791726839833953
+ },
+ "indigo": {
+  "tvl_usd": 3452357.0,
+  "indy_price_usd": 0.090364
+ },
+ "loan_book": {
+  "positions": 290,
+  "debt_usd": 1761344.1587982893,
+  "collateral_ada": 16867838.049998,
+  "book_ratio": 1.8368516364150596,
+  "price_10pct_at_risk_usd": 0.16875821311916148,
+  "price_50pct_at_risk_usd": 0.1434348143665489,
+  "decoded_utxos": 320,
+  "validator_utxos": 324
+ },
+ "coverage": {
+  "iADA": {
+   "decoded_iasset": 233.45048400000002,
+   "chain_supply_iasset": 233.450484,
+   "coverage_pct": 100.00000000000003
+  },
+  "iBTC": {
+   "decoded_iasset": 5.059629999999999,
+   "chain_supply_iasset": 5.05963,
+   "coverage_pct": 99.99999999999997
+  },
+  "iETH": {
+   "decoded_iasset": 35.231687,
+   "chain_supply_iasset": 35.231687,
+   "coverage_pct": 100.0
+  },
+  "iEUR": {
+   "decoded_iasset": 68.387277,
+   "chain_supply_iasset": 68.387277,
+   "coverage_pct": 100.0
+  },
+  "iJPY": {
+   "decoded_iasset": 76826.957874,
+   "chain_supply_iasset": 76826.957874,
+   "coverage_pct": 100.0
+  },
+  "iSOL": {
+   "decoded_iasset": 73.015707,
+   "chain_supply_iasset": 73.015707,
+   "coverage_pct": 100.0
+  },
+  "iUSD": {
+   "decoded_iasset": 1297805.3901270006,
+   "chain_supply_iasset": 1343188.529009,
+   "coverage_pct": 96.62123835173884
+  },
+  "_worst_pct": 96.62123835173884
+ },
+ "governance": {
+  "epoch": 664,
+  "open_actions": [
+   {
+    "id": 160,
+    "type": "TreasuryWithdrawals",
+    "withdrawal_ada": 22000000.0,
+    "expiration_epoch": 668,
+    "drep_yes_pct_of_decisive": 0.8295224130085176,
+    "drep_participation_pct": 50.67019977409175
+   },
+   {
+    "id": 162,
+    "type": "TreasuryWithdrawals",
+    "withdrawal_ada": 9600000.0,
+    "expiration_epoch": 669,
+    "drep_yes_pct_of_decisive": 81.51073802691238,
+    "drep_participation_pct": 21.297938284679464
+   },
+   {
+    "id": 161,
+    "type": "TreasuryWithdrawals",
+    "withdrawal_ada": 940000.0,
+    "expiration_epoch": 669,
+    "drep_yes_pct_of_decisive": 10.384719180031594,
+    "drep_participation_pct": 42.79151327871708
+   },
+   {
+    "id": 163,
+    "type": "InfoAction",
+    "withdrawal_ada": null,
+    "expiration_epoch": 671,
+    "drep_yes_pct_of_decisive": 78.7706959521685,
+    "drep_participation_pct": 23.3711100600497
+   }
+  ],
+  "decided_counts": {
+   "enacted": 1,
+   "expired": 5,
+   "dropped": 0
+  }
+ },
+ "monetary": {
+  "decay_per_epoch_pct": 0.16128960970961392,
+  "half_life_years": 5.878254408491344,
+  "treasury_accrual_per_epoch_ada": 3685941.8877151012
+ },
+ "transcript": [
+  {
+   "heading": "Cold open",
+   "text": "A crypto wallet doesn't hold any coins. Here is what it actually holds, why the seed phrase matters more than anything else, and what a hardware wallet adds."
+  },
+  {
+   "heading": "What a wallet holds",
+   "text": "Your ADA lives on the blockchain, not in your wallet. What the wallet holds is a private key: a secret number that lets you sign transactions spending that ADA. From the private key comes a public address, which you can share so people can pay you. The address says where; only the key can move what is there."
+  },
+  {
+   "heading": "A box in a public vault",
+   "text": "Think of a safe deposit box in a public vault. Everyone can see the box, and anyone can drop something in through its slot: the slot is your address. Only your key opens it. If you lose the phone your wallet app was on, the box is still there, untouched. You just need the key again, which is where the seed phrase comes in."
+  },
+  {
+   "heading": "The seed phrase",
+   "text": "Most wallets create your keys from a list of fifteen or twenty-four words, called a seed phrase or recovery phrase. Anyone with those words can rebuild your wallet and move everything in it, from any device. No real support team ever needs them. Write them down offline and never type them into a website."
+  },
+  {
+   "heading": "A new phone, or a stranger",
+   "text": "Here is the seed phrase at work. Your phone breaks. On a new one, you install a wallet that supports the same standard and type in your words. It rebuilds exactly the same keys, finds your addresses on the chain, and shows your full balance again. Now imagine a stranger typing those same words on their phone: they would see exactly the same thing, and could move all of it."
+  },
+  {
+   "heading": "Who holds the keys",
+   "text": "With a self-custody wallet, like a browser wallet or a hardware device, you hold the keys. On an exchange, the exchange holds them and pools many customers' coins in its own wallets; you hold a claim on it. Both are common, and the trade-off is control versus convenience."
+  },
+  {
+   "heading": "Keys off the internet",
+   "text": "Holding your own keys raises one practical question: where do they live? A hardware wallet is a small device that keeps your private keys inside it. A transaction is sent to the device, signed there once you confirm it on the device's own screen, and only the signature comes back. Even if your computer is infected, the keys never touch it."
+  },
+  {
+   "heading": "The attack it stops",
+   "text": "Here is the attack a hardware wallet stops. Malware on a computer quietly swaps the address you pasted, so a payment meant for a friend goes to a thief. With a hardware wallet, the device shows the real destination on its own screen before you confirm. If it does not match the address you meant, you reject it, and the malware gets nothing."
+  },
+  {
+   "heading": "Planning ahead",
+   "text": "A backup has to survive fire, theft and time, and someone you trust may one day need to find it. There is a real tension: the more copies exist, the easier one is to steal, and the fewer exist, the easier they all are to lose. There is no reset button, which makes this the part worth thinking through first."
+  },
+  {
+   "heading": "No password reset",
+   "text": "In crypto there is no bank to call and no password reset. Whoever has the keys, or the words that rebuild them, has the coins. That makes understanding a wallet the most practical lesson in this course."
+  },
+  {
+   "heading": "Where the ADA went",
+   "text": "That is how it works on paper. Here is what the chain recorded. There are 30 addresses on Cardano that behave unlike anything else on the chain: no smart contract governs them, and between them they took 2.9 million separate incoming payments in a month and a half. That is the shape of a wallet holding coins for a lot of people at once. Who runs them is not something the ledger records, so this segment does not say \u2014 what it can measure is which way the ADA is moving. In the 7 days to October 24, a net 3.5 million ADA moved into those wallets. Measured against every other 7-day stretch in the last quarter, that sits at the 52nd percentile \u2014 the typical week over that period moved 3 million ADA, so this one is about a typical week, inside the range the chain has already shown. The biggest single day ran the other way: on Wednesday, October 21, a net 19.2 million ADA moved out of those wallets, so the rest of the week brought in about 22.6 million ADA. What that means for the price is not something this measurement can tell you, and this channel is not going to pretend otherwise."
+  },
+  {
+   "heading": "The short version",
+   "text": "So, in short. A wallet holds keys, not coins, and the seed phrase rebuilds those keys. A hardware wallet signs on its own device so the keys never touch your computer, and the seed phrase, kept offline, is the real backup."
+  },
+  {
+   "heading": "",
+   "text": "No new claim today: a lesson explains how something works, and calls are made and scored in the Monday, Wednesday and Friday episodes. That is wallets, seed phrases and hardware wallets, explained. Next time: How do exchanges work, and who holds your coins? Every lesson of Crypto from Zero is in the playlist linked below, in order, and every Monday, Wednesday and Friday this channel measures Cardano straight from the chain."
+  }
+ ],
+ "_note": "Compact record of the figures used in this episode."
+}
