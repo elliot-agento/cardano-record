@@ -1,0 +1,141 @@
+{
+ "episode_id": "20261030-034707-daily",
+ "mode": "daily",
+ "published": "2026-10-30T10:02:33+00:00",
+ "video_url": "https://youtu.be/0W7Sv5O6p5k",
+ "title": "Cardano (ADA) News Today: Development \u2014 569 commits to core open-source projects",
+ "data_generated_at": "2026-10-30T08:41:36+00:00",
+ "claim": null,
+ "market": {
+  "ada_usd": 0.19194293393374726,
+  "source": "coingecko",
+  "cross_checked": true,
+  "change_24h_pct": -3.273951479920536
+ },
+ "indigo": {
+  "tvl_usd": 3238650.0,
+  "indy_price_usd": 0.092619
+ },
+ "loan_book": {
+  "positions": 287,
+  "debt_usd": 1750822.04883625,
+  "collateral_ada": 16863264.592347994,
+  "book_ratio": 1.8487227092598024,
+  "price_10pct_at_risk_usd": 0.16873113605018183,
+  "price_50pct_at_risk_usd": 0.14341180040894114,
+  "decoded_utxos": 317,
+  "validator_utxos": 321
+ },
+ "coverage": {
+  "iADA": {
+   "decoded_iasset": 233.45048400000002,
+   "chain_supply_iasset": 233.450484,
+   "coverage_pct": 100.00000000000003
+  },
+  "iBTC": {
+   "decoded_iasset": 4.991218000000001,
+   "chain_supply_iasset": 4.991218,
+   "coverage_pct": 100.00000000000003
+  },
+  "iETH": {
+   "decoded_iasset": 35.231686999999994,
+   "chain_supply_iasset": 35.231687,
+   "coverage_pct": 99.99999999999997
+  },
+  "iEUR": {
+   "decoded_iasset": 68.38727699999998,
+   "chain_supply_iasset": 68.387277,
+   "coverage_pct": 99.99999999999997
+  },
+  "iJPY": {
+   "decoded_iasset": 76826.957874,
+   "chain_supply_iasset": 76826.957874,
+   "coverage_pct": 100.0
+  },
+  "iSOL": {
+   "decoded_iasset": 72.039651,
+   "chain_supply_iasset": 72.039651,
+   "coverage_pct": 100.0
+  },
+  "iUSD": {
+   "decoded_iasset": 1297953.0425969993,
+   "chain_supply_iasset": 1340833.936398,
+   "coverage_pct": 96.80192359120956
+  },
+  "_worst_pct": 96.80192359120956
+ },
+ "governance": {
+  "epoch": 664,
+  "open_actions": [
+   {
+    "id": 160,
+    "type": "TreasuryWithdrawals",
+    "withdrawal_ada": 22000000.0,
+    "expiration_epoch": 668,
+    "drep_yes_pct_of_decisive": 0.8293774509819296,
+    "drep_participation_pct": 50.67661488174474
+   },
+   {
+    "id": 162,
+    "type": "TreasuryWithdrawals",
+    "withdrawal_ada": 9600000.0,
+    "expiration_epoch": 669,
+    "drep_yes_pct_of_decisive": 83.10468514453252,
+    "drep_participation_pct": 24.079439793622605
+   },
+   {
+    "id": 161,
+    "type": "TreasuryWithdrawals",
+    "withdrawal_ada": 940000.0,
+    "expiration_epoch": 669,
+    "drep_yes_pct_of_decisive": 10.365572919357112,
+    "drep_participation_pct": 42.83975717580098
+   },
+   {
+    "id": 163,
+    "type": "InfoAction",
+    "withdrawal_ada": null,
+    "expiration_epoch": 671,
+    "drep_yes_pct_of_decisive": 78.7706959521685,
+    "drep_participation_pct": 23.37124380433751
+   }
+  ],
+  "decided_counts": {
+   "enacted": 0,
+   "expired": 5,
+   "dropped": 0
+  }
+ },
+ "monetary": {
+  "decay_per_epoch_pct": 0.16128960970961392,
+  "half_life_years": 5.878254408491344,
+  "treasury_accrual_per_epoch_ada": 3685941.8877151012
+ },
+ "transcript": [
+  {
+   "heading": "Cold open",
+   "text": "569 changes landed in Cardano's core open-source code in the week starting October 11th, 56 percent above the twelve-week average, led by the Consensus, Mithril and Plutus projects. Here is who is building, project by project."
+  },
+  {
+   "heading": "Last week's calls",
+   "text": "First, the scorecard. We said ADA closes below $0.2483 on October 30, 15 percent above where it was on October 23. It measured $0.1934, so we got that one right. That puts the running record at 18 right, 14 wrong, 1 void."
+  },
+  {
+   "heading": "Who is building",
+   "text": "Who is building Cardano? Across 15 of the core open-source projects, 569 commits landed on the main branches in the week starting October 11th, led by Consensus, the code that decides which blocks count; Mithril, certified snapshots for syncing the chain fast; and Plutus, the smart-contract language. That is the latest week whose count has settled. Commits are dated by when they were written, so the most recent week keeps growing for a while after it ends. The twelve weeks before averaged 365 a week. Consensus had 158, Mithril 103 and Plutus 63. In the last thirty days these projects shipped 14 releases across 8 of them. A commit is one recorded change to the code. It counts work, not how important the work is. Why it matters: every change to these projects is public, so the work going into Cardano can be counted rather than taken on trust."
+  },
+  {
+   "heading": "ADA",
+   "text": "Also today. ADA is at 19.2 cents, down 3.3 percent on the day \u2014 down 21.6 percent over thirty days and down 11.4 percent on the week. Since the last episode it has moved down 6.6 percent. That is 2.8 percent above the bottom of its thirty-day range, 18.7 cents."
+  },
+  {
+   "heading": "ADA Handles",
+   "text": "One more thing. ADA Handles are readable names, a dollar sign and a word, that stand in for a long wallet address. 272.1 thousand of them have been registered on Cardano. New ones are coming more slowly: 137 were minted in the third quarter of 2026, against 2,786 a year earlier and 21,496 in the first quarter of 2023, the first quarter this count covers, and its highest. 46.2 thousand of the total use the newer CIP-68 format, a standard that lets a Handle carry details its owner can update, and the rest are the original kind."
+  },
+  {
+   "heading": "",
+   "text": "Running record: 18 right, 14 wrong, with 1 void. No new claim today: commit and release counts follow a few teams' release schedules, so a call on them would be a guess about their calendars; ADA Handle registrations are counted by quarter, so no new reading would arrive in time to score a call; and the one call left, on ADA's price, would be decided by the same move as a call already open. Every call we make is scored in public, the wrong ones included. New here? Start with the guide linked below. See you Monday."
+  }
+ ],
+ "_note": "Compact record of the figures used in this episode."
+}
