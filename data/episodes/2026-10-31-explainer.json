@@ -1,0 +1,153 @@
+{
+ "episode_id": "2026-10-31-explainer",
+ "mode": "explainer",
+ "published": "2026-10-31T13:24:07+00:00",
+ "video_url": "https://youtu.be/8lK9WmFOQUs",
+ "title": "Crypto exchanges vs wallets: how people get into and out of crypto | Crypto from Zero #11",
+ "data_generated_at": "2026-10-31T12:40:02+00:00",
+ "claim": null,
+ "market": {
+  "ada_usd": 0.19306653838043392,
+  "source": "coingecko",
+  "cross_checked": true,
+  "change_24h_pct": -0.007632193462232738
+ },
+ "indigo": {
+  "tvl_usd": 3255273.0,
+  "indy_price_usd": 0.093991
+ },
+ "loan_book": {
+  "positions": 287,
+  "debt_usd": 1736442.0746843466,
+  "collateral_ada": 16799410.088738002,
+  "book_ratio": 1.8678446001462938,
+  "price_10pct_at_risk_usd": 0.17000531679340047,
+  "price_50pct_at_risk_usd": 0.14334841570913182,
+  "decoded_utxos": 318,
+  "validator_utxos": 322
+ },
+ "coverage": {
+  "iADA": {
+   "decoded_iasset": 233.450484,
+   "chain_supply_iasset": 233.450484,
+   "coverage_pct": 100.0
+  },
+  "iBTC": {
+   "decoded_iasset": 4.8140149999999995,
+   "chain_supply_iasset": 4.814015,
+   "coverage_pct": 99.99999999999997
+  },
+  "iETH": {
+   "decoded_iasset": 35.23168699999999,
+   "chain_supply_iasset": 35.231687,
+   "coverage_pct": 99.99999999999996
+  },
+  "iEUR": {
+   "decoded_iasset": 68.387277,
+   "chain_supply_iasset": 68.387277,
+   "coverage_pct": 100.0
+  },
+  "iJPY": {
+   "decoded_iasset": 76826.95787400001,
+   "chain_supply_iasset": 76826.957874,
+   "coverage_pct": 100.00000000000003
+  },
+  "iSOL": {
+   "decoded_iasset": 72.039651,
+   "chain_supply_iasset": 72.039651,
+   "coverage_pct": 100.0
+  },
+  "iUSD": {
+   "decoded_iasset": 1303091.2225239996,
+   "chain_supply_iasset": 1345972.116325,
+   "coverage_pct": 96.81413208483983
+  },
+  "_worst_pct": 96.81413208483983
+ },
+ "governance": {
+  "epoch": 664,
+  "open_actions": [
+   {
+    "id": 160,
+    "type": "TreasuryWithdrawals",
+    "withdrawal_ada": 22000000.0,
+    "expiration_epoch": 668,
+    "drep_yes_pct_of_decisive": 0.8193775855004132,
+    "drep_participation_pct": 51.12462507998753
+   },
+   {
+    "id": 162,
+    "type": "TreasuryWithdrawals",
+    "withdrawal_ada": 9600000.0,
+    "expiration_epoch": 669,
+    "drep_yes_pct_of_decisive": 61.13181813755274,
+    "drep_participation_pct": 34.00405438465683
+   },
+   {
+    "id": 161,
+    "type": "TreasuryWithdrawals",
+    "withdrawal_ada": 940000.0,
+    "expiration_epoch": 669,
+    "drep_yes_pct_of_decisive": 10.192116910526797,
+    "drep_participation_pct": 43.28508325018008
+   },
+   {
+    "id": 163,
+    "type": "InfoAction",
+    "withdrawal_ada": null,
+    "expiration_epoch": 671,
+    "drep_yes_pct_of_decisive": 80.42722626934611,
+    "drep_participation_pct": 26.994598341189967
+   }
+  ],
+  "decided_counts": {
+   "enacted": 0,
+   "expired": 5,
+   "dropped": 0
+  }
+ },
+ "monetary": {
+  "decay_per_epoch_pct": 0.16128960970961392,
+  "half_life_years": 5.878254408491344,
+  "treasury_accrual_per_epoch_ada": 3685941.8877151012
+ },
+ "transcript": [
+  {
+   "heading": "Cold open",
+   "text": "Most people buy their first crypto on an exchange. What they often do not realise is who is actually holding it afterwards. Here is how exchanges work, and how they differ from a wallet."
+  },
+  {
+   "heading": "The on-ramp",
+   "text": "Most people first get crypto through a centralised exchange: a company that swaps ordinary money for crypto, usually after checking your identity. The exchange is the on-ramp from bank money, and the off-ramp back to it."
+  },
+  {
+   "heading": "A first purchase",
+   "text": "Here is a typical first purchase. Someone opens an account, uploads an identity document and links a bank account. They send a hundred euros from the bank, the exchange credits their account, and they buy ADA at the exchange's price, minus a fee. At that point they own a balance on the exchange's books, not yet ADA in a wallet of their own."
+  },
+  {
+   "heading": "Who holds the coins",
+   "text": "Coins you leave on an exchange are held in the exchange's own wallets; what you have is its promise to pay you. You can usually withdraw them to a wallet of your own, and then only your keys can move them. When the exchange FTX failed in 2022, its customers could not withdraw, and repayment took years."
+  },
+  {
+   "heading": "The coat check",
+   "text": "Think of the difference between a coat you are wearing and a coat at a coat check. At the coat check you hold a ticket, and you get your coat back as long as the business is open and honest. Leave coins on an exchange and you hold its ticket. Withdraw them to your own wallet, and the coat is back on your shoulders."
+  },
+  {
+   "heading": "Exchange or DEX",
+   "text": "A decentralised exchange, or DEX, is different: it is a set of smart contracts you use straight from your own wallet, with no account and no company holding your coins. A DEX cannot usually take bank money, which is why most people still start at a centralised one."
+  },
+  {
+   "heading": "A claim or the keys",
+   "text": "Some of the largest losses in crypto were not failures of a blockchain at all, but of companies holding customers' coins. Knowing when you hold a claim and when you hold the keys is the difference between trusting a company and trusting yourself, and both come with risks."
+  },
+  {
+   "heading": "The short version",
+   "text": "So, in short. A centralised exchange is the on-ramp from bank money, but it holds any coins you leave with it. A DEX trades straight from your own wallet."
+  },
+  {
+   "heading": "",
+   "text": "No new claim today: a lesson explains how something works, and calls are made and scored in the Monday, Wednesday and Friday episodes. That is exchanges and wallets, explained. Next time: How do crypto scams actually work? Every lesson of Crypto from Zero is in the playlist linked below, in order, and every Monday, Wednesday and Friday this channel measures Cardano straight from the chain."
+  }
+ ],
+ "_note": "Compact record of the figures used in this episode."
+}
