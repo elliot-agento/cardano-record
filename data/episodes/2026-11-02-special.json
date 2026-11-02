@@ -1,0 +1,177 @@
+{
+ "episode_id": "2026-11-02-special",
+ "mode": "special",
+ "published": "2026-11-02T14:17:23+00:00",
+ "video_url": "https://youtu.be/h8NbPBbYFto",
+ "title": "Cardano governance & treasury: a 9.6M ADA treasury ask goes to a vote (Nov 2)",
+ "data_generated_at": "2026-11-02T13:15:56+00:00",
+ "claim": null,
+ "market": {
+  "ada_usd": 0.19027001268765456,
+  "source": "coingecko",
+  "cross_checked": true,
+  "change_24h_pct": -1.6570132245328197
+ },
+ "indigo": {
+  "tvl_usd": 3221722.0,
+  "indy_price_usd": 0.092038
+ },
+ "loan_book": {
+  "positions": 287,
+  "debt_usd": 1748173.1066227967,
+  "collateral_ada": 16808497.483807005,
+  "book_ratio": 1.8294258259599425,
+  "price_10pct_at_risk_usd": 0.17008975736099596,
+  "price_50pct_at_risk_usd": 0.14456644816995498,
+  "decoded_utxos": 318,
+  "validator_utxos": 322
+ },
+ "coverage": {
+  "iADA": {
+   "decoded_iasset": 234.826842,
+   "chain_supply_iasset": 234.826842,
+   "coverage_pct": 100.0
+  },
+  "iBTC": {
+   "decoded_iasset": 4.844017,
+   "chain_supply_iasset": 4.844017,
+   "coverage_pct": 100.0
+  },
+  "iETH": {
+   "decoded_iasset": 35.252826000000006,
+   "chain_supply_iasset": 35.252826,
+   "coverage_pct": 100.00000000000003
+  },
+  "iEUR": {
+   "decoded_iasset": 68.38727699999998,
+   "chain_supply_iasset": 68.387277,
+   "coverage_pct": 99.99999999999997
+  },
+  "iJPY": {
+   "decoded_iasset": 77315.506151,
+   "chain_supply_iasset": 77315.506151,
+   "coverage_pct": 100.0
+  },
+  "iSOL": {
+   "decoded_iasset": 72.30240900000001,
+   "chain_supply_iasset": 72.302409,
+   "coverage_pct": 100.00000000000003
+  },
+  "iUSD": {
+   "decoded_iasset": 1310483.02067,
+   "chain_supply_iasset": 1349484.975254,
+   "coverage_pct": 97.10986374067195
+  },
+  "_worst_pct": 97.10986374067195
+ },
+ "governance": {
+  "epoch": 665,
+  "open_actions": [
+   {
+    "id": 160,
+    "type": "TreasuryWithdrawals",
+    "withdrawal_ada": 22000000.0,
+    "expiration_epoch": 668,
+    "drep_yes_pct_of_decisive": 0.8453037282223073,
+    "drep_participation_pct": 52.335483411742835
+   },
+   {
+    "id": 162,
+    "type": "TreasuryWithdrawals",
+    "withdrawal_ada": 9600000.0,
+    "expiration_epoch": 669,
+    "drep_yes_pct_of_decisive": 60.08289143067967,
+    "drep_participation_pct": 34.784242219644455
+   },
+   {
+    "id": 161,
+    "type": "TreasuryWithdrawals",
+    "withdrawal_ada": 940000.0,
+    "expiration_epoch": 669,
+    "drep_yes_pct_of_decisive": 10.132184824438394,
+    "drep_participation_pct": 43.66358730314743
+   },
+   {
+    "id": 163,
+    "type": "InfoAction",
+    "withdrawal_ada": null,
+    "expiration_epoch": 671,
+    "drep_yes_pct_of_decisive": 81.33361960064084,
+    "drep_participation_pct": 27.17611246297969
+   }
+  ],
+  "decided_counts": {
+   "enacted": 0,
+   "expired": 5,
+   "dropped": 0
+  }
+ },
+ "monetary": {
+  "decay_per_epoch_pct": 0.1612847698045261,
+  "half_life_years": 5.8784309482101245,
+  "treasury_accrual_per_epoch_ada": 3670153.7411179543
+ },
+ "transcript": [
+  {
+   "heading": "Cold open",
+   "text": "A 9.6 million ADA treasury ask is now up for a vote, one of two new proposals. Here is what each one would do, what its terms mean, who it touches and who decides."
+  },
+  {
+   "heading": "The proposal",
+   "text": "On October 21, 2026, a new proposal went up for a vote on Cardano. Its proposers call it \u201cPFMS: Bringing Government Scale Adoption to Cardano by Trivolve Tech\u201d. It is a treasury withdrawal. A treasury withdrawal asks to pay ADA out of Cardano's on-chain treasury to the addresses it names. Voting closes when epoch 669 begins, on November 20."
+  },
+  {
+   "heading": "In their words",
+   "text": "Here is how Trivolve Tech, Cardano Foundation summarise it: \u201cThis proposal requests a milestone gated treasury withdrawal of 9,600,000 ADA to fund the design, development and deployment of the Police Force Management System (PFMS). PFMS is an evidentiary management system for police forces developed by Trivolve Tech, built as an open source evidence layer for policing and justice systems globally, with an Indian state government as its first deployment.\u201d The document was fetched and its bytes checked against the hash the ledger recorded, so it is the version that was actually submitted."
+  },
+  {
+   "heading": "The money",
+   "text": "The money: 9.6 million ADA, about 1.83 million dollars at today's price. That is 0.69 percent of the 1.39 billion ADA the treasury holds. The treasury takes in about 267.9 million ADA a year, so this would equal 3.6 percent of a year's income."
+  },
+  {
+   "heading": "Why they say it is needed",
+   "text": "They write: \u201cThis proposal transforms Cardano into an integral component of a state government\u2019s criminal justice system, with the potential to exponentially benefit Cardano adoption. The Police Force Management System (PFMS), developed by Trivolve Tech, is a state scale infrastructure layer that secures the entire chain of evidence across five distinct stages: Pre-Crime Evidence, Crime Investigation (FMS), Evidence Storage Facility (Malkhana), Prosecution, and the Courts.\u201d"
+  },
+  {
+   "heading": "What it would do",
+   "text": "In plain terms, the proposal says Trivolve Tech would build open-source software that records fingerprints of police evidence on Cardano, so a court can check a record was not changed. It says no evidence or personal data goes on the chain, only the fingerprints, and that the first deployment is the Indian state of Telangana. It says the state government pays the transaction fees after launch, and that 70 percent of revenue from a paid verification service would go back to the treasury. For scale: of the 70 treasury withdrawal proposals Cardano has passed, 20 asked for more."
+  },
+  {
+   "heading": "How the money is held",
+   "text": "On the ledger, the payout goes to an account controlled by a single key. The proposal names the Cardano Foundation as administrator and says the funds are held in its multi-signature wallet. It says 1.8 million ADA is paid at kickoff, and the other four payments only after an independent assurer verifies each milestone. What would show it worked: their own target is more than 1.5 million mainnet transactions in the first year. Their existing evidence app, they say, does about 11,000 a month today."
+  },
+  {
+   "heading": "Who decides",
+   "text": "Who decides? DReps: yes votes must reach 67 percent of active DRep voting power. Abstentions are left out; power that does not vote counts against it. And the Constitutional Committee: 66.7 percent of its members must find it constitutional. Stake pools do not vote on this type of proposal. Voting closes when epoch 669 begins, on November 20."
+  },
+  {
+   "heading": "Votes so far",
+   "text": "It is early, and votes can change until it closes. Here is the tally so far. DReps: 28 for, 31 against, 6 abstaining \u2014 weighted by stake, yes holds 60 percent of the DRep power that voted yes or no. 34.8 percent of all registered DRep voting power has voted on it. The Constitutional Committee: 1 yes, 0 no. Counted the way Cardano's rules count it, with DRep power that has not voted counting as no, yes holds 21.4 percent of the DRep vote. It needs 67 percent. To get there, about 74 percent of the 3.18 billion ADA of DRep power that has not voted would have to vote yes. The Constitutional Committee has 1 yes of 7 seats; it needs 5. So on today's votes it would not pass if counted now, with 4 epochs left to vote. Votes can change until it closes."
+  },
+  {
+   "heading": "The proposal",
+   "text": "Next, another new proposal. On October 28, 2026, a new proposal went up for a vote on Cardano. Its proposers call it \u201cState of the Cardano Developer Ecosystem - 2026 Survey\u201d. It is an info action. An info action changes nothing on chain. It records how DReps, stake pools and the committee feel about a question, and it can never be enacted. Voting closes when epoch 671 begins, on November 30."
+  },
+  {
+   "heading": "In their words",
+   "text": "Here is how Cardano Foundation summarises it: \u201cThe State of the Cardano Developer Ecosystem survey is back for 2026! If you build on Cardano, we'd love to hear from you: it takes about 15 minutes. If you don't build on Cardano yourself, you surely know someone who does, so please pass it on. There's nothing to vote on here.\u201d The document was fetched and its bytes checked against the hash the ledger recorded, so it is the version that was actually submitted."
+  },
+  {
+   "heading": "Who decides",
+   "text": "Who decides? Nobody, in the usual sense. DReps, stake pools and the committee can all answer, but an info action cannot pass or fail. The tally is the result. Voting closes when epoch 671 begins, on November 30."
+  },
+  {
+   "heading": "Votes so far",
+   "text": "It is early, and votes can change until it closes. Here is the tally so far. DReps: 3 for, 2 against, 23 abstaining \u2014 weighted by stake, yes holds 81 percent of the DRep power that voted yes or no. 27.2 percent of all registered DRep voting power has voted on it. Stake pools: 0 for, 1 against \u2014 weighted by pool stake, yes holds 0 percent of the stake that voted yes or no. The Constitutional Committee has not voted on it yet."
+  },
+  {
+   "heading": "All open asks together",
+   "text": "Taken together, three treasury withdrawals are open for a vote right now, asking for 32.5 million ADA in all. That is 2.34 percent of the treasury, and 12.1 percent of what it takes in over a year, if every one of them passed. Why it matters: these votes decide how Cardano is run and how its shared treasury is spent, and every one of them is recorded on the chain."
+  },
+  {
+   "heading": "",
+   "text": "No new claim today: a special reports one event as measured, and calls are made and scored in the Monday, Wednesday and Friday episodes. This channel reports the votes and takes no side on any proposal. How a vote would end on today's votes is arithmetic, not a forecast. This episode comes back when votes close or new ones go up. That is the news as it happened, measured on the chain. The full treasury and voting data is free on our site, linked below."
+  }
+ ],
+ "_note": "Compact record of the figures used in this episode."
+}
