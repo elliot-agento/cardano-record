@@ -1,0 +1,153 @@
+{
+ "episode_id": "2026-11-03-explainer",
+ "mode": "explainer",
+ "published": "2026-11-03T19:11:47+00:00",
+ "video_url": "https://youtu.be/ho0RBiErKvs",
+ "title": "Crypto scams explained: the tricks that steal coins, and how they work | Crypto from Zero #12",
+ "data_generated_at": "2026-11-03T18:30:01+00:00",
+ "claim": null,
+ "market": {
+  "ada_usd": 0.1896464130156134,
+  "source": "coingecko",
+  "cross_checked": true,
+  "change_24h_pct": 0.9248548737410169
+ },
+ "indigo": {
+  "tvl_usd": 3207325.0,
+  "indy_price_usd": 0.089991
+ },
+ "loan_book": {
+  "positions": 283,
+  "debt_usd": 1746881.9628356912,
+  "collateral_ada": 16811963.189280003,
+  "book_ratio": 1.82515394996804,
+  "price_10pct_at_risk_usd": 0.17007637620932248,
+  "price_50pct_at_risk_usd": 0.14455507496559586,
+  "decoded_utxos": 313,
+  "validator_utxos": 317
+ },
+ "coverage": {
+  "iADA": {
+   "decoded_iasset": 234.826842,
+   "chain_supply_iasset": 234.826842,
+   "coverage_pct": 100.0
+  },
+  "iBTC": {
+   "decoded_iasset": 4.842059,
+   "chain_supply_iasset": 4.842059,
+   "coverage_pct": 100.0
+  },
+  "iETH": {
+   "decoded_iasset": 35.252826000000006,
+   "chain_supply_iasset": 35.252826,
+   "coverage_pct": 100.00000000000003
+  },
+  "iEUR": {
+   "decoded_iasset": 68.387277,
+   "chain_supply_iasset": 68.387277,
+   "coverage_pct": 100.0
+  },
+  "iJPY": {
+   "decoded_iasset": 77315.50615100001,
+   "chain_supply_iasset": 77315.506151,
+   "coverage_pct": 100.00000000000003
+  },
+  "iSOL": {
+   "decoded_iasset": 72.30240900000001,
+   "chain_supply_iasset": 72.302409,
+   "coverage_pct": 100.00000000000003
+  },
+  "iUSD": {
+   "decoded_iasset": 1309512.5580550001,
+   "chain_supply_iasset": 1348514.512639,
+   "coverage_pct": 97.10778384522727
+  },
+  "_worst_pct": 97.10778384522727
+ },
+ "governance": {
+  "epoch": 665,
+  "open_actions": [
+   {
+    "id": 160,
+    "type": "TreasuryWithdrawals",
+    "withdrawal_ada": 22000000.0,
+    "expiration_epoch": 668,
+    "drep_yes_pct_of_decisive": 0.7944779090403009,
+    "drep_participation_pct": 55.6527641508035
+   },
+   {
+    "id": 162,
+    "type": "TreasuryWithdrawals",
+    "withdrawal_ada": 9600000.0,
+    "expiration_epoch": 669,
+    "drep_yes_pct_of_decisive": 48.25720753491732,
+    "drep_participation_pct": 43.79080643413416
+   },
+   {
+    "id": 161,
+    "type": "TreasuryWithdrawals",
+    "withdrawal_ada": 940000.0,
+    "expiration_epoch": 669,
+    "drep_yes_pct_of_decisive": 10.145605520986582,
+    "drep_participation_pct": 43.69545363041293
+   },
+   {
+    "id": 163,
+    "type": "InfoAction",
+    "withdrawal_ada": null,
+    "expiration_epoch": 671,
+    "drep_yes_pct_of_decisive": 98.68214015140157,
+    "drep_participation_pct": 30.955053892283885
+   }
+  ],
+  "decided_counts": {
+   "enacted": 0,
+   "expired": 5,
+   "dropped": 0
+  }
+ },
+ "monetary": {
+  "decay_per_epoch_pct": 0.1612847698045261,
+  "half_life_years": 5.8784309482101245,
+  "treasury_accrual_per_epoch_ada": 3670153.7411179543
+ },
+ "transcript": [
+  {
+   "heading": "Cold open",
+   "text": "A crypto payment cannot be reversed, which makes it a favourite target. Almost every scam uses one of a handful of tricks. Here is how they work."
+  },
+  {
+   "heading": "What every scam needs",
+   "text": "Almost every crypto theft works by getting you to do one of two things: reveal your seed phrase, or sign a transaction you did not mean to. No wallet, exchange or support team ever needs your seed phrase, and a payment on a blockchain cannot be recalled by anyone once it is made."
+  },
+  {
+   "heading": "The common tricks",
+   "text": "Fake support agents answer your question in public, then message you privately. Giveaway scams promise to double any coins you send. Phishing sites copy a real wallet or exchange down to the logo. Surprise tokens appear in your wallet with a link to claim them. Each one relies on urgency, or on a promise too good to be true."
+  },
+  {
+   "heading": "A fake support scam, step by step",
+   "text": "Here is a common one. Someone posts in a public chat that their wallet is not syncing. Within minutes, a stranger replies privately, friendly and helpful, calling themselves support. They send a link to a page that looks official and asks for the seed phrase to re-sync the wallet. Minutes after the words are typed in, every coin is gone, and nothing can bring them back."
+  },
+  {
+   "heading": "Before you sign",
+   "text": "On Cardano, a transaction spends exactly what it lists, and your wallet shows what will leave before you approve it. There are no standing spending permissions of the kind some other chains use, so the habit that stops most tricks is simple: read what is leaving, every time, before signing."
+  },
+  {
+   "heading": "What the preview catches",
+   "text": "Here is what reading before signing catches. A site promises a free token and asks you to connect and approve a claim. Your wallet's preview shows that the transaction would send out all of your ADA and tokens, and bring back one worthless token. Declining costs nothing. Approving costs everything in that wallet."
+  },
+  {
+   "heading": "No fraud department",
+   "text": "On a blockchain, a sent payment cannot be recalled, and there is no fraud department. Scammers know that, which is why crypto attracts them. The good news is that almost every trick needs one of the same two things from you, so a couple of habits stop most of them."
+  },
+  {
+   "heading": "The short version",
+   "text": "So, in short. Nearly every theft needs your seed phrase or your signature. Nobody legitimate asks for the first, and reading what leaves protects the second."
+  },
+  {
+   "heading": "",
+   "text": "No new claim today: a lesson explains how something works, and calls are made and scored in the Monday, Wednesday and Friday episodes. That is crypto scams, explained. Next time: How do you read a blockchain explorer? Every lesson of Crypto from Zero is in the playlist linked below, in order, and every Monday, Wednesday and Friday this channel measures Cardano straight from the chain."
+  }
+ ],
+ "_note": "Compact record of the figures used in this episode."
+}
