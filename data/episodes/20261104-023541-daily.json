@@ -1,0 +1,159 @@
+{
+ "episode_id": "20261104-023541-daily",
+ "mode": "daily",
+ "published": "2026-11-04T09:04:55+00:00",
+ "video_url": "https://youtu.be/kGyZh8Dt_U8",
+ "title": "Cardano (ADA) News Today: How many transactions \u2014 27k average",
+ "data_generated_at": "2026-11-04T08:30:02+00:00",
+ "claim": {
+  "metric": "tx_7d_avg_org",
+  "horizon_days": 7,
+  "op": ">",
+  "threshold": 25600.0,
+  "text": "Cardano's seven-day average is above 25.6 thousand transactions a day seven days from now, a bar set 5.1 percent below this week's",
+  "subject": null,
+  "quality": {
+   "verdict": "ok",
+   "p_change": 0.55,
+   "p_level": 1.0,
+   "days": 26,
+   "retuned_from": 27800.0
+  }
+ },
+ "market": {
+  "ada_usd": 0.19160880999371804,
+  "source": "coingecko",
+  "cross_checked": true,
+  "change_24h_pct": 2.796699715377179
+ },
+ "indigo": {
+  "tvl_usd": 3130734.0,
+  "indy_price_usd": 0.091164
+ },
+ "loan_book": {
+  "positions": 283,
+  "debt_usd": 1750158.3459616615,
+  "collateral_ada": 16812163.189280003,
+  "book_ratio": 1.8406097879949768,
+  "price_10pct_at_risk_usd": 0.17006288149838242,
+  "price_50pct_at_risk_usd": 0.14454360524243348,
+  "decoded_utxos": 313,
+  "validator_utxos": 317
+ },
+ "coverage": {
+  "iADA": {
+   "decoded_iasset": 234.826842,
+   "chain_supply_iasset": 234.826842,
+   "coverage_pct": 100.0
+  },
+  "iBTC": {
+   "decoded_iasset": 4.842059,
+   "chain_supply_iasset": 4.842059,
+   "coverage_pct": 100.0
+  },
+  "iETH": {
+   "decoded_iasset": 35.25302400000001,
+   "chain_supply_iasset": 35.253024,
+   "coverage_pct": 100.00000000000003
+  },
+  "iEUR": {
+   "decoded_iasset": 68.38727699999998,
+   "chain_supply_iasset": 68.387277,
+   "coverage_pct": 99.99999999999997
+  },
+  "iJPY": {
+   "decoded_iasset": 77315.50615100001,
+   "chain_supply_iasset": 77315.506151,
+   "coverage_pct": 100.00000000000003
+  },
+  "iSOL": {
+   "decoded_iasset": 72.30240900000001,
+   "chain_supply_iasset": 72.302409,
+   "coverage_pct": 100.00000000000003
+  },
+  "iUSD": {
+   "decoded_iasset": 1309438.4849900003,
+   "chain_supply_iasset": 1348440.439574,
+   "coverage_pct": 97.10762496886247
+  },
+  "_worst_pct": 97.10762496886247
+ },
+ "governance": {
+  "epoch": 665,
+  "open_actions": [
+   {
+    "id": 160,
+    "type": "TreasuryWithdrawals",
+    "withdrawal_ada": 22000000.0,
+    "expiration_epoch": 668,
+    "drep_yes_pct_of_decisive": 0.794100107715416,
+    "drep_participation_pct": 55.67259166474477
+   },
+   {
+    "id": 162,
+    "type": "TreasuryWithdrawals",
+    "withdrawal_ada": 9600000.0,
+    "expiration_epoch": 669,
+    "drep_yes_pct_of_decisive": 48.23507501299332,
+    "drep_participation_pct": 43.81063394807544
+   },
+   {
+    "id": 161,
+    "type": "TreasuryWithdrawals",
+    "withdrawal_ada": 940000.0,
+    "expiration_epoch": 669,
+    "drep_yes_pct_of_decisive": 10.138174633404951,
+    "drep_participation_pct": 43.715281144354215
+   },
+   {
+    "id": 163,
+    "type": "InfoAction",
+    "withdrawal_ada": null,
+    "expiration_epoch": 671,
+    "drep_yes_pct_of_decisive": 98.68214015140157,
+    "drep_participation_pct": 30.955053892283885
+   }
+  ],
+  "decided_counts": {
+   "enacted": 0,
+   "expired": 5,
+   "dropped": 0
+  }
+ },
+ "monetary": {
+  "decay_per_epoch_pct": 0.1612847698045261,
+  "half_life_years": 5.8784309482101245,
+  "treasury_accrual_per_epoch_ada": 3670153.7411179543
+ },
+ "transcript": [
+  {
+   "heading": "Cold open",
+   "text": "Cardano carried 27 thousand transactions a day over the past week, 4 percent more than the week before."
+  },
+  {
+   "heading": "Last week's calls",
+   "text": "First, the scorecard. We said ADA closes below $0.2457 on November 4, a bar set 19.5 percent above where it was on October 28. It measured $0.1916, so we got that one right. That puts the running record at 19 right, 14 wrong, 1 void."
+  },
+  {
+   "heading": "Transactions a day",
+   "text": "How much is Cardano actually used? Over the past seven days the chain carried 27 thousand transactions a day on average. That is 4 percent more than the week before. That works out to 0.31 transactions a second on average, and the busiest minute of the week ran at 2.0 a second. One Cardano transaction can carry many payments at once, so a count of transactions is a floor on activity, not a ceiling. The number of wallets transacting, counted by stake key, averaged 6.7 thousand a day, 6 percent more than the week before. A transaction here is anything recorded on the chain, from a payment to a swap to a vote, so this counts activity, not people. Why it matters: transactions are the plainest record of whether a chain is being used."
+  },
+  {
+   "heading": "ADA",
+   "text": "Also today. ADA is at 19.2 cents, up 2.3 percent on the day \u2014 down 29.3 percent over thirty days and down 7.2 percent on the week. That is 3.4 percent above the bottom of its thirty-day range, 18.5 cents."
+  },
+  {
+   "heading": "Who is building: Ada Handle",
+   "text": "One more thing. Who is building Cardano. Today: Ada Handle, from the team at Kora Labs. A Cardano address is a string of about a hundred letters and numbers, and it's easy to get one wrong. An Ada Handle is a short name, a dollar sign followed by a word, that points to your address, so people can send you ADA using the name instead. About 270,000 handles have been created so far. Each handle is a token that sits in its owner's own wallet, so you hold the name yourself. Why it matters: sending ADA to a name instead of a long code means fewer costly typos, and that makes Cardano a little easier for the next new holder."
+  },
+  {
+   "heading": "Today's claim",
+   "text": "Now the prediction. Today's claim: Cardano's seven-day average is above 25.6 thousand transactions a day seven days from now, a bar set 5.1 percent below this week's. It stands at 26,965 as this is recorded. We'll score it on November 11, automatically, against the same measurement \u2014 and if it's wrong, it stays on the board as wrong. Think I've got it wrong? Reply yes or no under the first comment, or put a number on it: join the Forecast League on our website."
+  },
+  {
+   "heading": "",
+   "text": "Running record: 19 right, 14 wrong, with 1 void. Every call we make is scored in public, the wrong ones included. New here? Start with the guide linked below. See you Friday."
+  }
+ ],
+ "_note": "Compact record of the figures used in this episode."
+}
