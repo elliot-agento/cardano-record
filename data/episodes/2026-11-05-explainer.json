@@ -1,0 +1,157 @@
+{
+ "episode_id": "2026-11-05-explainer",
+ "mode": "explainer",
+ "published": "2026-11-05T19:18:14+00:00",
+ "video_url": "https://youtu.be/8097b3ng1MA",
+ "title": "How to read a blockchain explorer: transactions, blocks and addresses | Crypto from Zero #13",
+ "data_generated_at": "2026-11-05T18:30:01+00:00",
+ "claim": null,
+ "market": {
+  "ada_usd": 0.18183788057309588,
+  "source": "coingecko",
+  "cross_checked": true,
+  "change_24h_pct": -7.058824145922328
+ },
+ "indigo": {
+  "tvl_usd": 3180191.0,
+  "indy_price_usd": 0.083745
+ },
+ "loan_book": {
+  "positions": 284,
+  "debt_usd": 1738260.3413707323,
+  "collateral_ada": 16843393.517093,
+  "book_ratio": 1.7619725342129255,
+  "price_10pct_at_risk_usd": 0.17007473284626845,
+  "price_50pct_at_risk_usd": 0.14455367820212545,
+  "decoded_utxos": 314,
+  "validator_utxos": 318
+ },
+ "coverage": {
+  "iADA": {
+   "decoded_iasset": 234.826842,
+   "chain_supply_iasset": 234.826842,
+   "coverage_pct": 100.0
+  },
+  "iBTC": {
+   "decoded_iasset": 4.842059000000001,
+   "chain_supply_iasset": 4.842059,
+   "coverage_pct": 100.00000000000003
+  },
+  "iETH": {
+   "decoded_iasset": 35.24465700000001,
+   "chain_supply_iasset": 35.244657,
+   "coverage_pct": 100.00000000000004
+  },
+  "iEUR": {
+   "decoded_iasset": 68.387277,
+   "chain_supply_iasset": 68.387277,
+   "coverage_pct": 100.0
+  },
+  "iJPY": {
+   "decoded_iasset": 77315.506151,
+   "chain_supply_iasset": 77315.506151,
+   "coverage_pct": 100.0
+  },
+  "iSOL": {
+   "decoded_iasset": 72.30240900000001,
+   "chain_supply_iasset": 72.302409,
+   "coverage_pct": 100.00000000000003
+  },
+  "iUSD": {
+   "decoded_iasset": 1310458.8001149998,
+   "chain_supply_iasset": 1349619.611281,
+   "coverage_pct": 97.09838158554686
+  },
+  "_worst_pct": 97.09838158554686
+ },
+ "governance": {
+  "epoch": 665,
+  "open_actions": [
+   {
+    "id": 160,
+    "type": "TreasuryWithdrawals",
+    "withdrawal_ada": 22000000.0,
+    "expiration_epoch": 668,
+    "drep_yes_pct_of_decisive": 0.7470504527268105,
+    "drep_participation_pct": 58.29858199812325
+   },
+   {
+    "id": 162,
+    "type": "TreasuryWithdrawals",
+    "withdrawal_ada": 9600000.0,
+    "expiration_epoch": 669,
+    "drep_yes_pct_of_decisive": 51.123767076321556,
+    "drep_participation_pct": 46.56047420756389
+   },
+   {
+    "id": 161,
+    "type": "TreasuryWithdrawals",
+    "withdrawal_ada": 940000.0,
+    "expiration_epoch": 669,
+    "drep_yes_pct_of_decisive": 9.068758078882729,
+    "drep_participation_pct": 49.08574372619554
+   },
+   {
+    "id": 163,
+    "type": "InfoAction",
+    "withdrawal_ada": null,
+    "expiration_epoch": 671,
+    "drep_yes_pct_of_decisive": 98.77562267421749,
+    "drep_participation_pct": 32.72418832382459
+   }
+  ],
+  "decided_counts": {
+   "enacted": 0,
+   "expired": 5,
+   "dropped": 0
+  }
+ },
+ "monetary": {
+  "decay_per_epoch_pct": 0.1612847698045261,
+  "half_life_years": 5.8784309482101245,
+  "treasury_accrual_per_epoch_ada": 3670153.7411179543
+ },
+ "transcript": [
+  {
+   "heading": "Cold open",
+   "text": "Every Cardano transaction ever made is public, and a block explorer lets anyone read it. Here is how to read one, and what a typical transaction looked like last epoch."
+  },
+  {
+   "heading": "A window into the ledger",
+   "text": "A block explorer is a website that reads the blockchain and shows it in plain view. Paste in a transaction ID and it shows what was spent, what was created, the fee, and the block it landed in. Cardanoscan, Cexplorer and AdaStat are three of them, and because they read the same chain, they should all agree."
+  },
+  {
+   "heading": "Reading a transaction",
+   "text": "Inputs are the UTxOs being spent. Outputs are the new ones created, usually including change back to the sender. An output is one chunk of ADA that a transaction leaves at an address; the next transaction to spend it uses it up whole. Then come the fee, the block and epoch it landed in, and optional metadata, a note anyone can attach. If a smart contract ran, you will also see its redeemer, the data the spender passed to it."
+  },
+  {
+   "heading": "Checking a payment yourself",
+   "text": "Say a friend tells you they sent you fifty ADA. You paste the transaction ID into an explorer. You see one input from their address, holding eighty ADA, and two outputs: fifty to your address, and the rest, minus a fee of a fraction of an ADA, back to their own address as change. You also see the block, the epoch and the time. The payment is on the chain, whether or not your wallet has refreshed yet."
+  },
+  {
+   "heading": "What it cannot tell you",
+   "text": "An explorer shows addresses, not people. Several addresses may belong to one person, one address may hold thousands of people's coins at an exchange, and the labels some explorers add are their own guesses. An address is a location, not an identity."
+  },
+  {
+   "heading": "A fact, and a guess",
+   "text": "Here is how a label can mislead. An explorer tags an address as a big exchange. Someone posts that the exchange is dumping ADA, because a lot left that address. In fact, it may have been the exchange moving coins between its own wallets, or paying out many customers' withdrawals. The movement is a fact; the story attached to it is a guess."
+  },
+  {
+   "heading": "Don't trust the screenshot",
+   "text": "An explorer lets anyone check a payment, a token's supply or a project's claims without trusting whoever made them. It is also the simplest defence against a scammer's screenshot: if a transaction is not on the chain, it did not happen."
+  },
+  {
+   "heading": "A typical transaction",
+   "text": "That is how it works on paper. Here is what the chain recorded. Here is what an explorer would have shown you across all of epoch 664, 138,147 transactions in all. The median transaction was 687 bytes and paid 0.19 ADA in fees. On average each one spent 2.6 inputs and created 2.4 outputs, the change output usually among them. 35.7 percent of them ran a smart contract, and 29.7 percent carried metadata, the optional note field an explorer shows at the bottom of a transaction."
+  },
+  {
+   "heading": "The short version",
+   "text": "So, in short. An explorer shows each transaction's inputs, outputs, fee and block, but it shows addresses, never people."
+  },
+  {
+   "heading": "",
+   "text": "No new claim today: a lesson explains how something works, and calls are made and scored in the Monday, Wednesday and Friday episodes. That is block explorers, explained. Next time: What are tokens on Cardano, and what do market cap and FDV really measure? Every lesson of Crypto from Zero is in the playlist linked below, in order, and every Monday, Wednesday and Friday this channel measures Cardano straight from the chain."
+  }
+ ],
+ "_note": "Compact record of the figures used in this episode."
+}
