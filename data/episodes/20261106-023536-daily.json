@@ -1,0 +1,158 @@
+{
+ "episode_id": "20261106-023536-daily",
+ "mode": "daily",
+ "published": "2026-11-06T09:09:11+00:00",
+ "video_url": "https://youtu.be/OsFqwi02ujk",
+ "title": "Cardano (ADA) News Today: How much DEX volume today? $1.56M and pool depth",
+ "data_generated_at": "2026-11-06T08:30:01+00:00",
+ "claim": {
+  "metric": "cnt_price_ada_night",
+  "horizon_days": 7,
+  "op": ">",
+  "threshold": 0.1865,
+  "text": "one NIGHT token is worth more than 0.1865 ADA seven days from now, a bar set 13.5 percent below where it is today",
+  "subject": null,
+  "quality": {
+   "verdict": "ok",
+   "p_change": 1.0,
+   "p_level": 0.49,
+   "days": 45,
+   "retuned_from": 0.2242,
+   "borrowed": true
+  },
+  "borrowed": true,
+  "week_ago": 0.19978018661604174
+ },
+ "market": {
+  "ada_usd": 0.1835515937895542,
+  "source": "coingecko",
+  "cross_checked": true,
+  "change_24h_pct": -7.858014369584973
+ },
+ "indigo": {
+  "tvl_usd": 3130113.0,
+  "indy_price_usd": 0.084588
+ },
+ "loan_book": {
+  "positions": 285,
+  "debt_usd": 1734886.9495452438,
+  "collateral_ada": 16845493.517093,
+  "book_ratio": 1.7822585984893806,
+  "price_10pct_at_risk_usd": 0.17006793517250246,
+  "price_50pct_at_risk_usd": 0.14454790057290537,
+  "decoded_utxos": 316,
+  "validator_utxos": 320
+ },
+ "coverage": {
+  "iADA": {
+   "decoded_iasset": 234.826842,
+   "chain_supply_iasset": 234.826842,
+   "coverage_pct": 100.0
+  },
+  "iBTC": {
+   "decoded_iasset": 4.842059,
+   "chain_supply_iasset": 4.842059,
+   "coverage_pct": 100.0
+  },
+  "iETH": {
+   "decoded_iasset": 35.244657,
+   "chain_supply_iasset": 35.244657,
+   "coverage_pct": 100.0
+  },
+  "iEUR": {
+   "decoded_iasset": 68.387277,
+   "chain_supply_iasset": 68.387277,
+   "coverage_pct": 100.0
+  },
+  "iJPY": {
+   "decoded_iasset": 77315.50615100001,
+   "chain_supply_iasset": 77315.506151,
+   "coverage_pct": 100.00000000000003
+  },
+  "iSOL": {
+   "decoded_iasset": 72.302409,
+   "chain_supply_iasset": 72.302409,
+   "coverage_pct": 100.0
+  },
+  "iUSD": {
+   "decoded_iasset": 1311055.2284489986,
+   "chain_supply_iasset": 1348777.923209,
+   "coverage_pct": 97.20319452810647
+  },
+  "_worst_pct": 97.20319452810647
+ },
+ "governance": {
+  "epoch": 666,
+  "open_actions": [
+   {
+    "id": 160,
+    "type": "TreasuryWithdrawals",
+    "withdrawal_ada": 22000000.0,
+    "expiration_epoch": 668,
+    "drep_yes_pct_of_decisive": 0.7329619054167775,
+    "drep_participation_pct": 58.95448552161183
+   },
+   {
+    "id": 162,
+    "type": "TreasuryWithdrawals",
+    "withdrawal_ada": 9600000.0,
+    "expiration_epoch": 669,
+    "drep_yes_pct_of_decisive": 49.90336235560541,
+    "drep_participation_pct": 47.253661982310504
+   },
+   {
+    "id": 161,
+    "type": "TreasuryWithdrawals",
+    "withdrawal_ada": 940000.0,
+    "expiration_epoch": 669,
+    "drep_yes_pct_of_decisive": 9.054546444187693,
+    "drep_participation_pct": 48.811930763507966
+   },
+   {
+    "id": 163,
+    "type": "InfoAction",
+    "withdrawal_ada": null,
+    "expiration_epoch": 671,
+    "drep_yes_pct_of_decisive": 99.00381321616281,
+    "drep_participation_pct": 33.46508081345226
+   }
+  ],
+  "decided_counts": {
+   "enacted": 0,
+   "expired": 5,
+   "dropped": 0
+  }
+ },
+ "monetary": {
+  "decay_per_epoch_pct": 0.1612338102505051,
+  "half_life_years": 5.880290385249123,
+  "treasury_accrual_per_epoch_ada": 3664494.376591921
+ },
+ "transcript": [
+  {
+   "heading": "Cold open",
+   "text": "1.56 million dollars changed hands on Cardano's decentralised exchanges in twenty-four hours, 23 percent above the past week's daily pace. Here is how much of the market's depth actually did the trading."
+  },
+  {
+   "heading": "Liquidity that works",
+   "text": "A decentralised exchange lets people swap tokens straight from their wallets, against pools of tokens that other people have deposited. Take one venue, Splash, where every pool can be counted: 1,167 pools are listed, 473 of them hold more than a thousand dollars of depth, and 462 of those 473 did no trade at all today. Across every venue, 1.56 million dollars changed hands in twenty-four hours, against 1.27 million dollars a day averaged over the past week \u2014 23 percent above that pace. On Splash itself, 1.72 percent of the dollars sitting in those pools changed hands. Depth on a screen and depth you can actually trade against are not the same measurement. Why it matters: volume measured against depth is the test of whether liquidity is being used, or is only sitting there."
+  },
+  {
+   "heading": "ADA",
+   "text": "Also today. ADA is at 18.4 cents, down 6.8 percent on the day \u2014 down 28.3 percent over thirty days and down 4.6 percent on the week. Since the last episode it has moved down 4.2 percent. That is 1.6 percent above the bottom of its thirty-day range, 18.1 cents."
+  },
+  {
+   "heading": "Who stakes, by wallet size",
+   "text": "One more thing. 1.3 million wallets stake ADA, about as many as a year ago. Most are small: 1 million hold under a thousand ADA, and the typical staking wallet holds 31 ADA. Over the last six epochs, the biggest change was among wallets holding between one thousand and ten thousand ADA: 1,960 fewer. The largest 309 wallets, over ten million ADA each, hold 47.0 percent of staked ADA, up from 43.5 percent a year ago. Of those wallets, 66 are stake pool operators' own accounts, and they make up most of that rise. A wallet is not a person: one holder can run many, and one wallet can hold coins for many people."
+  },
+  {
+   "heading": "Today's claim",
+   "text": "Now the prediction. Today's claim: one NIGHT token is worth more than 0.1865 ADA seven days from now, a bar set 13.5 percent below where it is today. It stands at 0.2156 ADA as this is recorded, against 0.1998 ADA a week ago. We'll score it on November 13, automatically, against the same measurement \u2014 and if it's wrong, it stays on the board as wrong. Think I've got it wrong? Reply yes or no under the first comment, or put a number on it: join the Forecast League on our website."
+  },
+  {
+   "heading": "",
+   "text": "Running record: 19 right, 14 wrong, with 1 void. Every call we make is scored in public, the wrong ones included. New here? Start with the guide linked below. See you Monday."
+  }
+ ],
+ "_note": "Compact record of the figures used in this episode."
+}

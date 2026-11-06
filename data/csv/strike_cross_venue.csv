@@ -1,6 +1,6 @@
 market,gap_vs_okx_bps,gap_vs_hyperliquid_bps,strike_funding_ann_pct,okx_funding_ann_pct
-ADA-USD,20.36,8.8,92.64,-18.44
-XRP-USD,-8.92,-12.97,10.95,-2.58
-ETH-USD,-8.03,-10.2,6.55,0.23
-SOL-USD,-9.12,-12.69,1.04,-4.11
-BTC-USD,-9.67,-15.55,8.39,10.95
+BTC-USD,-12.07,-14.54,10.95,2.27
+SOL-USD,-15.61,-18.12,3.89,5.08
+ETH-USD,-13.3,-16.57,1.05,-0.52
+XRP-USD,-14.64,-18.01,10.95,10.95
+ADA-USD,2.17,-8.17,10.95,4.27
