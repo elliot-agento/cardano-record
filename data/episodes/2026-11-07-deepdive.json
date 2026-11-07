@@ -1,0 +1,157 @@
+{
+ "episode_id": "2026-11-07-deepdive",
+ "mode": "deepdive",
+ "published": "2026-11-07T15:19:18+00:00",
+ "video_url": "https://youtu.be/iLCuTcMzvPM",
+ "title": "Indigo Protocol deep dive (November 2026): the CDP book, decoded from the chain",
+ "data_generated_at": "2026-11-07T14:34:01+00:00",
+ "claim": null,
+ "market": {
+  "ada_usd": 0.1825056755970598,
+  "source": "coingecko",
+  "cross_checked": true,
+  "change_24h_pct": -2.863525773089943
+ },
+ "indigo": {
+  "tvl_usd": 3090989.0,
+  "indy_price_usd": 0.084067
+ },
+ "loan_book": {
+  "positions": 285,
+  "debt_usd": 1736598.1791062325,
+  "collateral_ada": 16845663.517093,
+  "book_ratio": 1.7703745391752648,
+  "price_10pct_at_risk_usd": 0.1700702299220516,
+  "price_50pct_at_risk_usd": 0.14454985097719134,
+  "decoded_utxos": 316,
+  "validator_utxos": 320
+ },
+ "coverage": {
+  "iADA": {
+   "decoded_iasset": 234.826842,
+   "chain_supply_iasset": 234.826842,
+   "coverage_pct": 100.0
+  },
+  "iBTC": {
+   "decoded_iasset": 4.842059,
+   "chain_supply_iasset": 4.842059,
+   "coverage_pct": 100.0
+  },
+  "iETH": {
+   "decoded_iasset": 35.244657000000004,
+   "chain_supply_iasset": 35.244657,
+   "coverage_pct": 100.00000000000003
+  },
+  "iEUR": {
+   "decoded_iasset": 68.387277,
+   "chain_supply_iasset": 68.387277,
+   "coverage_pct": 100.0
+  },
+  "iJPY": {
+   "decoded_iasset": 77315.506151,
+   "chain_supply_iasset": 77315.506151,
+   "coverage_pct": 100.0
+  },
+  "iSOL": {
+   "decoded_iasset": 72.30240900000001,
+   "chain_supply_iasset": 72.302409,
+   "coverage_pct": 100.00000000000003
+  },
+  "iUSD": {
+   "decoded_iasset": 1310843.6880779995,
+   "chain_supply_iasset": 1348566.382838,
+   "coverage_pct": 97.20275581238984
+  },
+  "_worst_pct": 97.20275581238984
+ },
+ "governance": {
+  "epoch": 666,
+  "open_actions": [
+   {
+    "id": 160,
+    "type": "TreasuryWithdrawals",
+    "withdrawal_ada": 22000000.0,
+    "expiration_epoch": 668,
+    "drep_yes_pct_of_decisive": 0.7321397092174806,
+    "drep_participation_pct": 59.005328187354586
+   },
+   {
+    "id": 162,
+    "type": "TreasuryWithdrawals",
+    "withdrawal_ada": 9600000.0,
+    "expiration_epoch": 669,
+    "drep_yes_pct_of_decisive": 48.20481402849842,
+    "drep_participation_pct": 49.26133933153199
+   },
+   {
+    "id": 161,
+    "type": "TreasuryWithdrawals",
+    "withdrawal_ada": 940000.0,
+    "expiration_epoch": 669,
+    "drep_yes_pct_of_decisive": 9.050876832972431,
+    "drep_participation_pct": 49.000020471047215
+   },
+   {
+    "id": 163,
+    "type": "InfoAction",
+    "withdrawal_ada": null,
+    "expiration_epoch": 671,
+    "drep_yes_pct_of_decisive": 99.09861435598764,
+    "drep_participation_pct": 34.04075085399244
+   }
+  ],
+  "decided_counts": {
+   "enacted": 0,
+   "expired": 5,
+   "dropped": 0
+  }
+ },
+ "monetary": {
+  "decay_per_epoch_pct": 0.1612338102505051,
+  "half_life_years": 5.880290385249123,
+  "treasury_accrual_per_epoch_ada": 3664494.376591921
+ },
+ "transcript": [
+  {
+   "heading": "Cold open",
+   "text": "ADA would have to fall about 7 percent before a tenth of the debt in Indigo's synthetic-asset positions could be liquidated. Here is what that distance means."
+  },
+  {
+   "heading": "This month's deep dive",
+   "text": "Once a month, this channel takes one subject and goes through all of it. This month: Indigo's CDP book, decoded position by position, and how much room it has. There are six parts, listed here, and each one is measured from the chain or labelled with its source."
+  },
+  {
+   "heading": "Indigo's CDPs",
+   "text": "Indigo is a synthetics platform: to mint a synthetic asset like iUSD or iBTC, you lock ADA in a collateralised debt position, a CDP. Right now 285 open CDPs whose risk moves with ADA hold 3.07 million dollars of ADA against 1.74 million dollars of minted synthetics. That is a collateral ratio of 1.77 to one across them. Collateral is what someone locks up to back what they owe or have minted; if its value stops covering that, it goes to whoever pays off the debt. 11 more open CDPs are left out of these totals: 4 whose debt is in ADA and 7 iSOL positions without a verified price. Measured in ADA rather than dollars, the collateral behind it has not moved since the last episode, and the number of open positions has not changed \u2014 so whatever the market did today, the CDP holders themselves sat still."
+  },
+  {
+   "heading": "How far can ADA fall?",
+   "text": "Ten percent of that debt enters the liquidation band once ADA reaches 17.0 cents \u2014 a drop of 6.8 percent from here. Liquidation means a position is closed automatically because its collateral no longer covers what it owes. Half the book needs ADA at 14.5 cents, which is 20.8 percent below today. The weakest positions \u2014 6 of them, 10.1 thousand dollars of debt \u2014 are already inside the liquidation band at today's price. The book behind them is untouched at this price. For scale, and measured rather than asserted: the worst thirty days ADA had in the past year took it down 42.6 percent. A fall of 20.8 percent or more inside thirty days happened 73 times across 335 rolling windows \u2014 about 12 independent months of history. The nearer level, 6.8 percent, happened 137 times. Why it matters: it is a stress test run on the real positions, one by one: how much room Cardano's synthetics platform has before a price drop turns into forced selling."
+  },
+  {
+   "heading": "What counts as a big move here",
+   "text": "Part two: how rare a fall that size is. Every distance this channel quotes \u2014 how far ADA would have to fall, how far it has come \u2014 needs a yardstick, so here is ADA's own. Over the past year the middle thirty-day move, ignoring direction, was 11.8 percent, and the largest fall in any thirty-day window was 42.6 percent. Thirty-day volatility today is 70 percent annualised, above 31 percent of the past year's readings. ADA is trading 19.6 percent below its own fifty-day average, and 69.2 percent below its highest point of the past year, set on November 11, 2025. Both are true at the same time, which is why one distance on its own is not a reading. Over the same ninety days ADA moved down 8.4 percent and bitcoin up 16.9 percent. Both are printed under the chart; no reading of them is offered. One year of daily closes is the whole sample \u2014 335 rolling windows, about 12 independent months. It is short, and it is what there is."
+  },
+  {
+   "heading": "The liquidation floor, over time",
+   "text": "Part three: the floor over time. One number worth tracking episode to episode is the price at which half of Indigo's CDP book would be at risk. Across the last 59 days it has risen 26.4 percent, from 11.4 cents to 14.5 cents. A higher floor means less room: at the first reading half the book needed ADA to fall to 11.4 cents, and today 14.5 cents does it. This moves when CDP holders add or remove collateral, and with the prices of the synthetics they minted, but not when the ADA price moves \u2014 so it reads on what they are doing and what they owe, not on ADA's market."
+  },
+  {
+   "heading": "Closest to the line",
+   "text": "Part four: the positions closest to the line. The book as a whole is one number; the CDPs inside it are not all in the same place. These are the positions sitting closest to the line. The nearest one holds 8.5 thousand dollars of debt against 52,368 ADA, and is already inside the liquidation band at today's price. 4 positions carry enough debt to matter here. 4 smaller positions, each under 1,000 dollars of debt, hold 551.62 dollars between them and are left out."
+  },
+  {
+   "heading": "Scoring our own cascade",
+   "text": "Part five: checking our own model. This channel regularly publishes how far ADA would have to fall before part of Indigo's book is at risk. This is what happened when we checked. Taking 40 pairs of archived snapshots \u2014 the curve one episode published, against what the book actually looked like at that price days later \u2014 the median error was 0.0 positions. 92.5 percent of them landed within a single position, and 90 percent were exact. The worst single pair spanned a 19.3 percent rise over 545 hours. It called 1 position at risk, and 3 were. None of the 40 pairs was a price fall. So the calibration has not yet been tested under stress. The method has a limit worth naming. The curve asks what happens to today's positions at a different price, holding those positions still. CDP holders do not hold still \u2014 they add collateral and they close, which is exactly what a cascade cannot see coming. Across these pairs the book itself moved by a median of 9 positions. So the number stands for the moves it has seen, and so does its limit."
+  },
+  {
+   "heading": "Cross-check",
+   "text": "Part six: checking our own numbers. The cross-check is unchanged since the last episode: 6 of 7 assets reconcile exactly, and iUSD still accounts for 97.20 percent of what was minted, so position-derived iUSD figures remain a floor."
+  },
+  {
+   "heading": "",
+   "text": "No new claim today: a deep dive explains how the figures are built rather than forecasting where they go, and calls are made and scored in the Monday, Wednesday and Friday episodes. That is this month's deep dive. The full data behind every figure is linked below, and the regular episode is out Monday, Wednesday and Friday mornings."
+  }
+ ],
+ "_note": "Compact record of the figures used in this episode."
+}
