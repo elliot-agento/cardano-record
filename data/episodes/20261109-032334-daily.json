@@ -1,0 +1,162 @@
+{
+ "episode_id": "20261109-032334-daily",
+ "mode": "daily",
+ "published": "2026-11-09T09:58:48+00:00",
+ "video_url": "https://youtu.be/frCeM0IRuCE",
+ "title": "Cardano (ADA) News Today: On-chain data \u2014 Nov 9",
+ "data_generated_at": "2026-11-09T09:18:40+00:00",
+ "claim": {
+  "metric": "fee_script_median_ada",
+  "horizon_days": 7,
+  "op": "<",
+  "threshold": 0.515,
+  "text": "the median fee for a transaction that runs a smart contract is under 0.515 ADA in the newest complete epoch seven days from now",
+  "subject": null,
+  "quality": {
+   "verdict": "ok",
+   "p_change": 0.83,
+   "p_level": 0.76,
+   "days": 21,
+   "retuned_from": 0.492,
+   "borrowed": true
+  },
+  "borrowed": true,
+  "week_ago": 0.412827
+ },
+ "market": {
+  "ada_usd": 0.17542865765508722,
+  "source": "coingecko",
+  "cross_checked": true,
+  "change_24h_pct": -2.340825787134302
+ },
+ "indigo": {
+  "tvl_usd": 2946141.0,
+  "indy_price_usd": 0.079624
+ },
+ "loan_book": {
+  "positions": 282,
+  "debt_usd": 1705865.363512849,
+  "collateral_ada": 16699359.604889989,
+  "book_ratio": 1.7173373126896088,
+  "price_10pct_at_risk_usd": 0.17007092057034,
+  "price_50pct_at_risk_usd": 0.14340865042733783,
+  "decoded_utxos": 315,
+  "validator_utxos": 319
+ },
+ "coverage": {
+  "iADA": {
+   "decoded_iasset": 234.826842,
+   "chain_supply_iasset": 234.826842,
+   "coverage_pct": 100.0
+  },
+  "iBTC": {
+   "decoded_iasset": 4.843415000000001,
+   "chain_supply_iasset": 4.843415,
+   "coverage_pct": 100.00000000000003
+  },
+  "iETH": {
+   "decoded_iasset": 35.244657000000004,
+   "chain_supply_iasset": 35.244657,
+   "coverage_pct": 100.00000000000003
+  },
+  "iEUR": {
+   "decoded_iasset": 68.387277,
+   "chain_supply_iasset": 68.387277,
+   "coverage_pct": 100.0
+  },
+  "iJPY": {
+   "decoded_iasset": 77315.506151,
+   "chain_supply_iasset": 77315.506151,
+   "coverage_pct": 100.0
+  },
+  "iSOL": {
+   "decoded_iasset": 70.933672,
+   "chain_supply_iasset": 70.933672,
+   "coverage_pct": 100.0
+  },
+  "iUSD": {
+   "decoded_iasset": 1292006.7016689996,
+   "chain_supply_iasset": 1343654.042312,
+   "coverage_pct": 96.15620248839264
+  },
+  "_worst_pct": 96.15620248839264
+ },
+ "governance": {
+  "epoch": 666,
+  "open_actions": [
+   {
+    "id": 160,
+    "type": "TreasuryWithdrawals",
+    "withdrawal_ada": 22000000.0,
+    "expiration_epoch": 668,
+    "drep_yes_pct_of_decisive": 0.7164176767022723,
+    "drep_participation_pct": 59.999992757678974
+   },
+   {
+    "id": 162,
+    "type": "TreasuryWithdrawals",
+    "withdrawal_ada": 9600000.0,
+    "expiration_epoch": 669,
+    "drep_yes_pct_of_decisive": 49.696163831973024,
+    "drep_participation_pct": 53.450737220370634
+   },
+   {
+    "id": 161,
+    "type": "TreasuryWithdrawals",
+    "withdrawal_ada": 940000.0,
+    "expiration_epoch": 669,
+    "drep_yes_pct_of_decisive": 8.841529393808715,
+    "drep_participation_pct": 49.73281154596975
+   },
+   {
+    "id": 163,
+    "type": "InfoAction",
+    "withdrawal_ada": null,
+    "expiration_epoch": 671,
+    "drep_yes_pct_of_decisive": 99.11150675689835,
+    "drep_participation_pct": 37.49017527334576
+   }
+  ],
+  "decided_counts": {
+   "enacted": 0,
+   "expired": 5,
+   "dropped": 0
+  }
+ },
+ "monetary": {
+  "decay_per_epoch_pct": 0.1612338102505051,
+  "half_life_years": 5.880290385249123,
+  "treasury_accrual_per_epoch_ada": 3664494.376591921
+ },
+ "transcript": [
+  {
+   "heading": "Cold open",
+   "text": "You can trade oil, gold and Nvidia on Cardano now. Strike Finance lists 34 perpetual contracts, and 20 of them track things outside crypto."
+  },
+  {
+   "heading": "What Strike lists",
+   "text": "A perpetual contract lets you bet on a price going up or down without owning the thing itself, and with no expiry date. Cardano has a perpetuals market: Strike Finance lists 34 contracts. Not all of it is crypto. 20 of those contracts track things outside crypto, like oil, gold and Nvidia."
+  },
+  {
+   "heading": "What a crowded position costs",
+   "text": "A funding rate is the rent one side pays the other for staying where it is. Betting the price goes up is called a long, betting it goes down a short. Strike charges a resting rate of about 11 percent a year, which longs pay even when nothing is lopsided. A rate well above that, or shorts paying, says which way the crowd is leaning without anyone having to guess. On ADA itself, longs are paying shorts 86 percent annualised \u2014 so it is the long side that is crowded here today. The NIGHT contract sits at that resting rate, so it shows no lean either way. The extreme today is SKHYNIX, where longs are paying 308 percent annualised to keep the position on. A number like that is not a forecast \u2014 it is the cost of a crowded trade, and it is being paid hourly. Across the board, 20 markets have longs paying, 8 of them at just the resting rate; 4 have shorts paying, and 10 are flat, and every flat one is a market outside crypto. One caveat worth stating: this shows the rate, not the size behind it. It is what a position costs, not how much money is standing on either side. Why it matters: the funding rates show which side is paying to stay in, market by market, and where nobody is paying at all."
+  },
+  {
+   "heading": "ADA",
+   "text": "Also today. ADA is at 17.5 cents, down 2.6 percent on the day \u2014 down 31.6 percent over thirty days and down 8.3 percent on the week. Since the last episode it has moved down 4.4 percent. That is 1.9 percent above the bottom of its thirty-day range, 17.2 cents."
+  },
+  {
+   "heading": "Who carried the trading",
+   "text": "One more thing. Which exchanges carried Cardano's trading last week? According to an independent indexer that decodes the exchanges from its own node, 47.8 million ADA was swapped across 14 exchanges in the seven days to Sunday, about 8.39 million dollars at today's price. A second tracker, counting separately, has 8.62 million dollars for the week; the indexer's figure is 3 percent less, so the total holds up. The indexer credits Minswap V2 with 63 percent of it, and Dano Finance with 16 percent. Counting only the exchanges the indexer shows trading in both weeks, volume was 5 percent higher than the week before."
+  },
+  {
+   "heading": "Today's claim",
+   "text": "Now the prediction. Today's claim: the median fee for a transaction that runs a smart contract is under 0.515 ADA in the newest complete epoch seven days from now. It stands at 0.4727 as this is recorded, against 0.4128 a week ago. We'll score it on November 16, automatically, against the same measurement \u2014 and if it's wrong, it stays on the board as wrong. Think I've got it wrong? Reply yes or no under the first comment, or put a number on it: join the Forecast League on our website."
+  },
+  {
+   "heading": "",
+   "text": "Running record: 19 right, 14 wrong, with 1 void. Every call we make is scored in public, the wrong ones included. New here? Start with the guide linked below. Strike's market data is free on our site, linked below. See you Wednesday."
+  }
+ ],
+ "_note": "Compact record of the figures used in this episode."
+}
