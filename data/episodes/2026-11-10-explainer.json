@@ -1,0 +1,169 @@
+{
+ "episode_id": "2026-11-10-explainer",
+ "mode": "explainer",
+ "published": "2026-11-10T20:11:55+00:00",
+ "video_url": "https://youtu.be/zjJYxooDGXQ",
+ "title": "Market cap vs FDV vs what you can actually sell: crypto tokens explained | Crypto from Zero #14",
+ "data_generated_at": "2026-11-10T19:26:39+00:00",
+ "claim": null,
+ "market": {
+  "ada_usd": 0.17294640385212773,
+  "source": "coingecko",
+  "cross_checked": true,
+  "change_24h_pct": -3.0199353591887563
+ },
+ "indigo": {
+  "tvl_usd": 2878063.0,
+  "indy_price_usd": 0.078339
+ },
+ "loan_book": {
+  "positions": 281,
+  "debt_usd": 1697987.403076853,
+  "collateral_ada": 16712159.95216399,
+  "book_ratio": 1.7021963526295314,
+  "price_10pct_at_risk_usd": 0.17008155488203586,
+  "price_50pct_at_risk_usd": 0.14145034740705503,
+  "decoded_utxos": 314,
+  "validator_utxos": 318
+ },
+ "coverage": {
+  "iADA": {
+   "decoded_iasset": 234.826842,
+   "chain_supply_iasset": 234.826842,
+   "coverage_pct": 100.0
+  },
+  "iBTC": {
+   "decoded_iasset": 4.843415,
+   "chain_supply_iasset": 4.843415,
+   "coverage_pct": 100.0
+  },
+  "iETH": {
+   "decoded_iasset": 35.244657000000004,
+   "chain_supply_iasset": 35.244657,
+   "coverage_pct": 100.00000000000003
+  },
+  "iEUR": {
+   "decoded_iasset": 68.387277,
+   "chain_supply_iasset": 68.387277,
+   "coverage_pct": 100.0
+  },
+  "iJPY": {
+   "decoded_iasset": 77315.506151,
+   "chain_supply_iasset": 77315.506151,
+   "coverage_pct": 100.0
+  },
+  "iSOL": {
+   "decoded_iasset": 70.933672,
+   "chain_supply_iasset": 70.933672,
+   "coverage_pct": 100.0
+  },
+  "iUSD": {
+   "decoded_iasset": 1291534.456885,
+   "chain_supply_iasset": 1336982.790186,
+   "coverage_pct": 96.60067925820665
+  },
+  "_worst_pct": 96.60067925820665
+ },
+ "governance": {
+  "epoch": 666,
+  "open_actions": [
+   {
+    "id": 160,
+    "type": "TreasuryWithdrawals",
+    "withdrawal_ada": 22000000.0,
+    "expiration_epoch": 668,
+    "drep_yes_pct_of_decisive": 0.7164176767022723,
+    "drep_participation_pct": 59.999992757678974
+   },
+   {
+    "id": 162,
+    "type": "TreasuryWithdrawals",
+    "withdrawal_ada": 9600000.0,
+    "expiration_epoch": 669,
+    "drep_yes_pct_of_decisive": 47.46360059215578,
+    "drep_participation_pct": 54.987063594002514
+   },
+   {
+    "id": 161,
+    "type": "TreasuryWithdrawals",
+    "withdrawal_ada": 940000.0,
+    "expiration_epoch": 669,
+    "drep_yes_pct_of_decisive": 8.705900079716676,
+    "drep_participation_pct": 50.21556161767807
+   },
+   {
+    "id": 163,
+    "type": "InfoAction",
+    "withdrawal_ada": null,
+    "expiration_epoch": 671,
+    "drep_yes_pct_of_decisive": 99.11150675689835,
+    "drep_participation_pct": 37.864171111104206
+   }
+  ],
+  "decided_counts": {
+   "enacted": 0,
+   "expired": 5,
+   "dropped": 0
+  }
+ },
+ "monetary": {
+  "decay_per_epoch_pct": 0.1612338102505051,
+  "half_life_years": 5.880290385249123,
+  "treasury_accrual_per_epoch_ada": 3664494.376591921
+ },
+ "transcript": [
+  {
+   "heading": "Cold open",
+   "text": "Every token has a market cap, and many have a much bigger fully diluted value. Here is how both are worked out, and why neither is what the tokens could actually be sold for."
+  },
+  {
+   "heading": "Tokens are built in",
+   "text": "On Cardano, tokens are native: the ledger itself tracks them, the same way it tracks ADA, so holding or sending one does not need a smart contract. Anyone can create a token with a minting policy, the rule that says who can make more of it, and when. That is why there are so many."
+  },
+  {
+   "heading": "Minting one takes minutes",
+   "text": "Here is how easy creating one is. Someone writes a minting policy that says only their key can mint, and only until the end of this month. They mint one billion tokens with a name and a logo. From that moment, any Cardano wallet can hold and send them. Nothing in that process says whether the token is useful, valuable or honest."
+  },
+  {
+   "heading": "Two ways to add it up",
+   "text": "Once a token exists, people want to know what it is worth, and two numbers usually answer. Market cap multiplies a token's price by the number in circulation today. Fully diluted value multiplies the same price by the maximum that can ever exist. When most of a supply is still locked, the two can be far apart, and the gap is future supply that has not reached the market yet."
+  },
+  {
+   "heading": "The arithmetic",
+   "text": "Here is the arithmetic. A token trades at ten cents. One hundred million are circulating, and one billion can ever exist. Its market cap is ten million dollars; its fully diluted value is one hundred million. The gap, ninety million dollars at today's price, is supply that has not reached the market yet."
+  },
+  {
+   "heading": "Paper value vs exit value",
+   "text": "A token's market cap is its price times its supply. But that price is set by the last trade, in a pool that may hold only a few thousand dollars. A better question is how much could actually be sold before the price falls 10 percent. That is exit value, and for most tokens it is a small fraction of the market cap."
+  },
+  {
+   "heading": "The gap, in numbers",
+   "text": "Here is the gap in numbers. Say a token trades at one cent, and one billion exist: its market cap is ten million dollars. But its only pool holds fifty thousand dollars of ADA. Selling even a small share of the supply would drain that pool and push the price far down, long before anything like ten million could be raised."
+  },
+  {
+   "heading": "One number, many questions",
+   "text": "Headlines rank tokens by market cap, and projects often quote whichever number looks best. Knowing what goes into each figure, and that neither says what could actually be sold, turns one impressive number back into the questions it hides."
+  },
+  {
+   "heading": "Paper value vs exit value, on the chain",
+   "text": "That is how it works on paper. Here is what the chain recorded. Across Cardano's native tokens the paper figure is 799.80 million dollars. In Cardano's own on-chain trading pools, the amount that could be sold before moving the price ten percent is 278.1 thousand dollars; trading on exchanges off the chain is not counted here. That is 0.03 percent of the stated value. USDCx and USDM can also be bridged out or redeemed with the issuer off the chain, and that route is not measured here either. That covers 45 tokens whose decimals and pool depth could both be verified on chain; 68 more were excluded because their supply figures are not trustworthy. A token's decimals say where the decimal point goes in its on-chain amounts; get them wrong and every price is off by a factor of ten or more. Pool depth is how much is sitting in a token's trading pools, which sets how much can be sold before the price drops. These market caps are upper bounds \u2014 no treasury or vesting exclusions are applied unless a token's float could be verified, the total adds up the same figures, and the table says which is which. A token's float is the part of its supply that is actually in circulation, not locked up or held back."
+  },
+  {
+   "heading": "Who holds it",
+   "text": "Underneath the prices, the holder distributions. NIGHT is held by 67.4 thousand wallets. Contracts, pools and reserves are left out, so these shares are out of the NIGHT held in ordinary wallets: 62.6 percent of all NIGHT. The top ten wallets hold 45.3 percent of that, which is 28.4 percent of all NIGHT. Its Nakamoto coefficient is 14 \u2014 that many wallets together hold more than half of the wallet-held NIGHT. These are aggregate figures from the chain; no individual wallet is identified here."
+  },
+  {
+   "heading": "Tokens on Cardano, ADA included",
+   "text": "Here is how CoinGecko ranks everything on Cardano by market cap, ADA included, top seven on screen. ADA itself accounts for about 88% of all top-fifty market cap combined. The stablecoins add another 1.0%. Everything else is 43 tokens worth about 813.87 million dollars combined, and most of that is NIGHT. One thing about that ranking worth saying out loud: it counts only the supply that is circulating. NIGHT is 69 percent circulating, so the rest \u2014 locked, unvested or not yet claimed \u2014 is not in the number on screen. Counting every unit that exists, it is 997.35 million dollars, and that total supply is one we can check: our own read of the chain agrees with it. 4 of the top seven, marked with a warning sign, traded less than a fiftieth of their market cap in the last 24 hours. These are CoinGecko's figures, not this channel's, so they differ from the liquidity table before: NIGHT's market cap there is lower because our own count of its circulating supply differs from CoinGecko's, and our total there covers only the tokens whose pool depth we could verify, not CoinGecko's top fifty."
+  },
+  {
+   "heading": "The short version",
+   "text": "So, in short. Tokens on Cardano are native to the ledger. Market cap counts the tokens in circulation, fully diluted value counts every token that can ever exist, and both can be far larger than what could actually be sold."
+  },
+  {
+   "heading": "",
+   "text": "No new claim today: a lesson explains how something works, and calls are made and scored in the Monday, Wednesday and Friday episodes. That is tokens, market cap and FDV, explained. Next time: What is an NFT, and what do you actually own? Every lesson of Crypto from Zero is in the playlist linked below, in order, and every Monday, Wednesday and Friday this channel measures Cardano straight from the chain."
+  }
+ ],
+ "_note": "Compact record of the figures used in this episode."
+}
