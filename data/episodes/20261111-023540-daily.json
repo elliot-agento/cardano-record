@@ -1,0 +1,162 @@
+{
+ "episode_id": "20261111-023540-daily",
+ "mode": "daily",
+ "published": "2026-11-11T09:11:29+00:00",
+ "video_url": "https://youtu.be/HTI52ATKinY",
+ "title": "Cardano (ADA) News Today: DeFi lending \u2014 $16.43M deposited in Liqwid's lending markets",
+ "data_generated_at": "2026-11-11T08:30:02+00:00",
+ "claim": {
+  "metric": "surf_ada_pools_deposits_ada",
+  "horizon_days": 7,
+  "op": ">",
+  "threshold": 7060000.0,
+  "text": "deposits in Surf's ADA-lending pools are above 7.06 million ADA seven days from now, against 7.31 million today",
+  "subject": null,
+  "quality": {
+   "verdict": "ok",
+   "p_change": 0.93,
+   "p_level": 0.62,
+   "days": 40,
+   "retuned_from": 7360000.0,
+   "borrowed": true
+  },
+  "borrowed": true,
+  "week_ago": 7342865.32
+ },
+ "market": {
+  "ada_usd": 0.17483194225076668,
+  "source": "coingecko",
+  "cross_checked": true,
+  "change_24h_pct": -2.316540331099375
+ },
+ "indigo": {
+  "tvl_usd": 3004756.0,
+  "indy_price_usd": 0.08171
+ },
+ "loan_book": {
+  "positions": 281,
+  "debt_usd": 1701044.7065562448,
+  "collateral_ada": 17057380.508872993,
+  "book_ratio": 1.7531432022818685,
+  "price_10pct_at_risk_usd": 0.16638035203803023,
+  "price_50pct_at_risk_usd": 0.131336295476905,
+  "decoded_utxos": 314,
+  "validator_utxos": 318
+ },
+ "coverage": {
+  "iADA": {
+   "decoded_iasset": 234.826842,
+   "chain_supply_iasset": 234.826842,
+   "coverage_pct": 100.0
+  },
+  "iBTC": {
+   "decoded_iasset": 4.843415,
+   "chain_supply_iasset": 4.843415,
+   "coverage_pct": 100.0
+  },
+  "iETH": {
+   "decoded_iasset": 35.24465700000001,
+   "chain_supply_iasset": 35.244657,
+   "coverage_pct": 100.00000000000004
+  },
+  "iEUR": {
+   "decoded_iasset": 68.387277,
+   "chain_supply_iasset": 68.387277,
+   "coverage_pct": 100.0
+  },
+  "iJPY": {
+   "decoded_iasset": 77315.506151,
+   "chain_supply_iasset": 77315.506151,
+   "coverage_pct": 100.0
+  },
+  "iSOL": {
+   "decoded_iasset": 70.933672,
+   "chain_supply_iasset": 70.933672,
+   "coverage_pct": 100.0
+  },
+  "iUSD": {
+   "decoded_iasset": 1292038.4448739996,
+   "chain_supply_iasset": 1337486.778175,
+   "coverage_pct": 96.60196018064457
+  },
+  "_worst_pct": 96.60196018064457
+ },
+ "governance": {
+  "epoch": 667,
+  "open_actions": [
+   {
+    "id": 160,
+    "type": "TreasuryWithdrawals",
+    "withdrawal_ada": 22000000.0,
+    "expiration_epoch": 668,
+    "drep_yes_pct_of_decisive": 0.7619568481956165,
+    "drep_participation_pct": 60.19941283049195
+   },
+   {
+    "id": 162,
+    "type": "TreasuryWithdrawals",
+    "withdrawal_ada": 9600000.0,
+    "expiration_epoch": 669,
+    "drep_yes_pct_of_decisive": 47.182115149551464,
+    "drep_participation_pct": 55.23350054629667
+   },
+   {
+    "id": 161,
+    "type": "TreasuryWithdrawals",
+    "withdrawal_ada": 940000.0,
+    "expiration_epoch": 669,
+    "drep_yes_pct_of_decisive": 8.699949959184076,
+    "drep_participation_pct": 50.43184220189967
+   },
+   {
+    "id": 163,
+    "type": "InfoAction",
+    "withdrawal_ada": null,
+    "expiration_epoch": 671,
+    "drep_yes_pct_of_decisive": 99.11601808430173,
+    "drep_participation_pct": 37.86462694507852
+   }
+  ],
+  "decided_counts": {
+   "enacted": 0,
+   "expired": 5,
+   "dropped": 0
+  }
+ },
+ "monetary": {
+  "decay_per_epoch_pct": 0.1612672788892766,
+  "half_life_years": 5.879069032796348,
+  "treasury_accrual_per_epoch_ada": 3664494.376591921
+ },
+ "transcript": [
+  {
+   "heading": "Cold open",
+   "text": "People have deposited 16.43 million dollars into Liqwid, Cardano's largest lending market, across 34 markets. What they earn depends on what borrowers want most \u2014 and right now it is dollars."
+  },
+  {
+   "heading": "Last week's calls",
+   "text": "First, the scorecard. We said Cardano's seven-day average is above 25.6 thousand transactions a day on November 11, a bar set 5.1 percent below this week's. It measured 23,857, so we got that one wrong. That puts the running record at 19 right, 15 wrong, 1 void."
+  },
+  {
+   "heading": "What credit costs here",
+   "text": "Liqwid works like an on-chain savings and loans desk: depositors lend into a pool and earn interest, and borrowers pay it, posting collateral first. Liqwid, the largest lending market on Cardano, holds 16.43 million dollars of user deposits against 10.05 million dollars of loans across 34 markets. ADA deposits there earn 3.0 percent, with only 41 percent of the pool borrowed. WANUSDT, a dollar stablecoin, earns its depositors 22.8 percent, with 89 percent borrowed. Only 51.4 thousand dollars of that pool is still available to borrow. The rate is that high because the pool is nearly fully lent out, and new deposits would bring it down. The demand on this venue is for dollars, not for ADA, and the gap between those two numbers is how strongly. Why it matters: the rates tell you what people on Cardano actually want to borrow, which no price chart shows."
+  },
+  {
+   "heading": "ADA",
+   "text": "Also today. ADA is at 17.5 cents, down 2.5 percent on the day \u2014 down 30.4 percent over thirty days and down 8.3 percent on the week. That is 1.6 percent above the bottom of its thirty-day range, 17.2 cents."
+  },
+  {
+   "heading": "Who is building: Cardanoscan",
+   "text": "One more thing. Who is building Cardano. Today: Cardanoscan, a search engine for the Cardano chain, from the team at Strica. Everything that happens on Cardano is written to a public record, but in its raw form it's a wall of code. A block explorer like Cardanoscan turns that record into pages anyone can read. Look up a transaction, an address or a block, and you can see what happened, when, and where the ADA went. Strica is a company that works only on Cardano, and much of its code is shared publicly on GitHub, going back to 2021. Why it matters: you don't have to take anyone's word for it. With an explorer, any ADA holder can check for themselves that a payment arrived, and that's the whole point of a public blockchain."
+  },
+  {
+   "heading": "Today's claim",
+   "text": "Now the prediction. Today's claim: deposits in Surf's ADA-lending pools are above 7.06 million ADA seven days from now, against 7.31 million today. It stands at 7,314,711 as this is recorded, against 7,342,865 a week ago. We'll score it on November 18, automatically, against the same measurement \u2014 and if it's wrong, it stays on the board as wrong. Think I've got it wrong? Reply yes or no under the first comment, or put a number on it: join the Forecast League on our website."
+  },
+  {
+   "heading": "",
+   "text": "Running record: 19 right, 15 wrong, with 1 void. Every call we make is scored in public, the wrong ones included. New here? Start with the guide linked below. The full liquidation map is free on our site, linked below. See you Friday."
+  }
+ ],
+ "_note": "Compact record of the figures used in this episode."
+}
