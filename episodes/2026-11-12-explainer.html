@@ -1,0 +1,65 @@
+<!doctype html><html lang="en"><head><base href="/"><link rel="canonical" href="https://cardanorecord.com/episodes/2026-11-12-explainer.html">
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>What is an NFT? What you actually own, explained on Cardano | Crypto from Zero #15 — The Cardano Record</title>
+<meta name="description" content="An NFT is a token that is one of a kind. What surprises most people is what owning one does, and does not, include. Here is how they work, and how many…">
+<meta name="color-scheme" content="light dark"><meta name="theme-color" content="#FAF8F4" media="(prefers-color-scheme: light)"><meta name="theme-color" content="#0E1420" media="(prefers-color-scheme: dark)"><link rel="icon" href="favicon.png"><link rel="apple-touch-icon" href="apple-touch-icon.png"><link rel="preload" href="fonts/newsreader.woff2" as="font" type="font/woff2" crossorigin><script>try{var t=localStorage.getItem('cr-theme');if(t==='light'||t==='dark')document.documentElement.setAttribute('data-theme',t)}catch(e){}</script><link rel="stylesheet" href="_style.css?v=20261005"><script src="_site.js?v=20261005" defer></script>
+<style>
+.wrap{max-width:880px}
+.pill.s{display:inline-block;font:700 10.5px/1 var(--mono);letter-spacing:.12em;padding:6px 0;
+  border-radius:4px;border:1.5px solid currentColor;background:transparent;margin:3px 16px 0 0;width:62px;
+  text-align:center;flex:none;align-self:flex-start}
+.pill.hit{color:var(--hit);background:var(--hit-tint)}
+.pill.miss{color:var(--miss);background:var(--miss-tint)}
+.pill.void{color:var(--void);background:var(--void-tint)}
+.pill.open{color:var(--accent);background:var(--accent-tint)}
+.mono{font-family:var(--mono);font-size:12.5px;color:var(--muted)}
+.sum{display:flex;align-items:baseline;gap:36px;flex-wrap:wrap;margin:26px 0 4px}
+.sum .n{font:700 48px/1 var(--mono);letter-spacing:-.04em;color:var(--ink)}
+.sum .l{font:600 11px/1 var(--mono);letter-spacing:.14em;text-transform:uppercase;color:var(--dim);margin-top:10px}
+.tally{color:var(--muted);font-size:14.5px;margin:16px 0 0}
+.tally b{color:var(--ink);font-family:var(--mono)}
+details.how{margin:20px 0 0;border:1px solid var(--line);border-radius:var(--r);padding:12px 16px;background:var(--surface)}
+details.how summary{cursor:pointer;color:var(--link);font-weight:600;font-size:14px}
+details.how p{font-size:14.5px;margin:12px 0 0}
+.chips{display:flex;gap:8px;flex-wrap:wrap;margin:34px 0 4px}
+.chips button{font:600 13px/1 var(--sans);color:var(--muted);background:var(--surface);
+  border:1px solid var(--line-strong);border-radius:999px;padding:8px 14px;cursor:pointer}
+.chips button[aria-pressed="true"]{color:var(--on-accent);border-color:var(--accent);background:var(--accent)}
+.chips button span{font-family:var(--mono);opacity:.7;margin-left:6px}
+section>h2{padding-bottom:10px;border-bottom:2px solid var(--ink);margin-bottom:0}
+.c{display:flex;padding:15px 0;border-bottom:1px solid var(--line)}
+.c .b{min-width:0}
+.c .t{color:var(--ink);font-size:15.5px;line-height:1.5}
+.c .m{color:var(--dim);font:500 12.5px/1.6 var(--mono);margin-top:5px}
+.c .m a{color:var(--muted)}
+.c .why{color:var(--muted);font-size:13px;margin-top:6px;border-left:2px solid var(--line-strong);padding-left:10px}
+.c details{display:inline} .c details summary{display:inline;cursor:pointer;color:var(--muted);text-decoration:underline dotted}
+.c details[open] code{display:block;margin-top:6px;width:fit-content;max-width:100%;overflow-wrap:anywhere}
+details.wk{margin-top:6px}
+details.wk>summary{cursor:pointer;list-style:none;padding:16px 0 8px;font:600 11.5px/1.3 var(--mono);letter-spacing:.14em;
+  text-transform:uppercase;color:var(--muted);border-bottom:1px solid var(--line)}
+details.wk>summary::before{content:"▸ ";color:var(--dim)} details.wk[open]>summary::before{content:"▾ "}
+details.wk>summary::-webkit-details-marker{display:none}
+.empty{color:var(--dim);font-size:14px;padding:14px 0}
+.ep{display:flex;gap:16px;padding:13px 0;border-bottom:1px solid var(--line);align-items:baseline}
+.ep .d{flex:none;width:104px;font-family:var(--mono);font-size:13px;color:var(--dim)} .ep .t{flex:1;min-width:0;color:var(--ink)} .ep .x{flex:none;font-size:13px}
+@media (max-width:560px){.ep{flex-wrap:wrap;gap:4px 14px} .ep .d{width:auto} .ep .t{flex-basis:100%;order:3}
+  .pill.s{width:52px;margin-right:12px} .sum .n{font-size:40px}}
+</style><script data-goatcounter="https://cardanorecord.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script></head><body><nav class="nav"><div class="in"><a class="brand" href="index.html"><span class="mk"><img src="ellie-avatar.jpg" alt="" width="30" height="30"></span><span class="wm">The Cardano Record</span></a><div class="links" id="navlinks"><a class="l" href="scoreboard.html">Scoreboard</a><a class="l on" aria-current="page" href="episodes.html">Episodes</a><details class="dd"><summary>Dashboards</summary><div class="ddm"><a href="risk.html">Lending risk<span>Indigo CDP book, liquidation map, Liqwid</span></a><a href="governance.html">Governance<span>Stake-weighted votes and the treasury</span></a><a href="strike.html">Strike Finance<span>Volume, cross-venue gaps, funding</span></a></div></details><a class="l mob" href="risk.html">Lending risk</a><a class="l mob" href="governance.html">Governance</a><a class="l mob" href="strike.html">Strike Finance</a><a class="l" href="league.html">League</a><a class="l" href="ask.html">Ask Ellie</a><a class="l" href="services.html">Services</a></div><div class="tools"><button class="iconbtn themebtn" type="button" data-mode="auto" aria-label="Theme"><svg data-i="auto" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="8.5"/><path d="M12 3.5v17a8.5 8.5 0 0 0 0-17z" fill="currentColor" stroke="none"/></svg><svg data-i="light" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><circle cx="12" cy="12" r="4"/><path d="M12 2.5v2.5M12 19v2.5M4.6 4.6l1.8 1.8M17.6 17.6l1.8 1.8M2.5 12H5M19 12h2.5M4.6 19.4l1.8-1.8M17.6 6.4l1.8-1.8"/></svg><svg data-i="dark" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"><path d="M20 14.5A8 8 0 0 1 9.5 4a8 8 0 1 0 10.5 10.5z"/></svg></button><a class="cta" href="https://forms.gle/BsqdFgrS8jUHGkBc8">Join<span class="long"> the waitlist</span></a><button class="iconbtn menubtn" type="button" aria-label="Menu" aria-controls="navlinks" aria-expanded="false"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M4 7h16M4 12h16M4 17h16"/></svg></button></div></div></nav><div class="wrap">
+<header><div class="bar"></div><h1>What is an NFT? What you actually own, explained on Cardano | Crypto from Zero #15</h1>
+<div class="tag">Nov 12 · explainer</div></header>
+<div style="position:relative;padding-top:56.25%;margin:22px 0;border-radius:var(--r);overflow:hidden"><iframe src="https://www.youtube-nocookie.com/embed/tV0E5TmMfWg" title="What is an NFT? What you actually own, explained on Cardano | Crypto from Zero #15" style="position:absolute;inset:0;width:100%;height:100%;border:0" loading="lazy" allow="encrypted-media; picture-in-picture" allowfullscreen></iframe></div>
+<p><a href="https://youtu.be/tV0E5TmMfWg">Watch on YouTube</a> ·
+<a href="data/episodes/2026-11-12-explainer.json">the figures on screen (JSON)</a> ·
+<a href="scoreboard.html">every claim and how it resolved</a></p>
+<section class="transcript"><h2 style="font-size:13px;letter-spacing:.14em;text-transform:uppercase">Transcript</h2><h2>Cold open</h2><p>An NFT is a token that is one of a kind. What surprises most people is what owning one does, and does not, include. Here is how they work, and how many were minted last epoch.</p><h2>One of one</h2><p>Most tokens are interchangeable: one ADA is as good as any other. An NFT, a non-fungible token, is one of a kind. On Cardano it is simply a native token minted with a quantity of one. Every token has a minting policy, the rule that says who can create it and until when. Usually an NFT&#x27;s policy is then locked, so no more can be made, but that is the creator&#x27;s choice, and it can be checked on the chain.</p><h2>Coins and seats</h2><p>Swap your coin for someone else&#x27;s and neither of you notices. Swap your front-row concert seat for one at the back, and you notice straight away. Coins are interchangeable, which is what fungible means. Seats are not: each one is different. That is the whole idea behind the name non-fungible.</p><h2>What you own</h2><p>Owning an NFT means owning that token on the ledger. The picture or file it points to is usually stored somewhere else, often on a file network called IPFS, and the token only says where. Copyright in the artwork does not come with the token unless the creator grants it separately.</p><h2>The ticket, not the concert</h2><p>Think of a concert ticket. It proves you have a seat; it is not the concert, and it does not give you the band&#x27;s songs. An NFT is similar: it proves you hold one specific token, which points to an image or a file. If that file is kept somewhere that goes offline, the token still exists, but it points to nothing.</p><h2>Two standards</h2><p>Cardano has two main NFT standards. CIP-25 writes a token&#x27;s details into the metadata of the transaction that mints it. CIP-68 keeps them in a separate reference token held at a smart contract, so other contracts can read them and they can be updated later.</p><h2>More than pictures</h2><p>NFTs are used for art, and also for tickets, memberships, game items and ADA Handles, the readable names people use instead of long addresses. Knowing what the token really proves, and what it does not, is the difference between knowing what you own and assuming it.</p><h2>What got minted</h2><p>That is how it works on paper. Here is what the chain recorded. In epoch 666, the last complete one, 2,386 tokens were minted with a quantity of exactly one, under 263 different minting policies. That is the usual shape of an NFT, though a quantity of one alone does not prove a policy is closed. That leaves out 329 CIP-68 reference tokens, which hold an NFT&#x27;s details at a smart contract rather than in anyone&#x27;s wallet. 284 of those 2,386 were CIP-68 tokens, the newer standard that keeps a token&#x27;s details on the chain where they can be updated. Across every kind of token there were 3,553 mint events, and separately 1,174 burns.</p><h2>The short version</h2><p>So, in short. An NFT is a native token minted as a quantity of one, usually under a locked policy. You own the token; the file and the copyright usually live elsewhere.</p><h2></h2><p>No new claim today: a lesson explains how something works, and calls are made and scored in the Monday, Wednesday and Friday episodes. That is NFTs, explained. Next time: What is a token for, and how does its supply work? Every lesson of Crypto from Zero is in the playlist linked below, in order, and every Monday, Wednesday and Friday this channel measures Cardano straight from the chain.</p></section>
+<p class="meta">Every figure is computed from a Cardano node we run ourselves. Not financial advice.
+Want the next one? <a href="https://www.youtube.com/@CardanoRecord">Follow the channel</a>.</p>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "VideoObject", "name": "What is an NFT? What you actually own, explained on Cardano | Crypto from Zero #15", "description": "An NFT is a token that is one of a kind. What surprises most people is what owning one does, and does not, include. Here is how they work, and how many\u2026", "uploadDate": "2026-11-12T20:06:58+00:00", "thumbnailUrl": "https://i.ytimg.com/vi/tV0E5TmMfWg/hqdefault.jpg", "embedUrl": "https://www.youtube.com/embed/tV0E5TmMfWg", "contentUrl": "https://youtu.be/tV0E5TmMfWg", "publisher": {"@type": "Organization", "name": "The Cardano Record", "url": "https://cardanorecord.com"}}</script>
+<footer><p><a href="index.html">← The Cardano Record</a> ·
+<a href="scoreboard.html">Scoreboard</a> · <a href="episodes.html">Episodes</a> ·
+<a href="privacy.html">Privacy</a></p>
+<p>Follow: <a href="https://www.youtube.com/@CardanoRecord" rel="me">YouTube</a> · <a href="https://www.tiktok.com/@cardanorecord" rel="me">TikTok</a> · <a href="https://x.com/CardanoRecord" rel="me">X</a> · <a href="https://www.instagram.com/elliecardanorecord/" rel="me">Instagram</a> · <a href="https://www.threads.com/@elliecardanorecord" rel="me">Threads</a> · <a href="https://www.facebook.com/1375794832283968" rel="me">Facebook</a></p>
+<p class="meta" style="margin-top:10px">Updated 2026-11-12 17:20 ·
+measured on-chain, scored in public</p></footer>
+</div></body></html>

@@ -1,0 +1,157 @@
+{
+ "episode_id": "2026-11-12-explainer",
+ "mode": "explainer",
+ "published": "2026-11-12T20:06:58+00:00",
+ "video_url": "https://youtu.be/tV0E5TmMfWg",
+ "title": "What is an NFT? What you actually own, explained on Cardano | Crypto from Zero #15",
+ "data_generated_at": "2026-11-12T19:21:43+00:00",
+ "claim": null,
+ "market": {
+  "ada_usd": 0.17212084590015878,
+  "source": "coingecko",
+  "cross_checked": true,
+  "change_24h_pct": -2.9719557592343233
+ },
+ "indigo": {
+  "tvl_usd": 2944947.0,
+  "indy_price_usd": 0.076475
+ },
+ "loan_book": {
+  "positions": 282,
+  "debt_usd": 1684190.4065399237,
+  "collateral_ada": 17090130.508874,
+  "book_ratio": 1.7465766984000295,
+  "price_10pct_at_risk_usd": 0.16637622796189944,
+  "price_50pct_at_risk_usd": 0.13133304003914062,
+  "decoded_utxos": 315,
+  "validator_utxos": 319
+ },
+ "coverage": {
+  "iADA": {
+   "decoded_iasset": 234.826842,
+   "chain_supply_iasset": 234.826842,
+   "coverage_pct": 100.0
+  },
+  "iBTC": {
+   "decoded_iasset": 4.847452,
+   "chain_supply_iasset": 4.847452,
+   "coverage_pct": 100.0
+  },
+  "iETH": {
+   "decoded_iasset": 35.24465700000001,
+   "chain_supply_iasset": 35.244657,
+   "coverage_pct": 100.00000000000004
+  },
+  "iEUR": {
+   "decoded_iasset": 68.387277,
+   "chain_supply_iasset": 68.387277,
+   "coverage_pct": 100.0
+  },
+  "iJPY": {
+   "decoded_iasset": 77315.506151,
+   "chain_supply_iasset": 77315.506151,
+   "coverage_pct": 100.0
+  },
+  "iSOL": {
+   "decoded_iasset": 71.436672,
+   "chain_supply_iasset": 71.436672,
+   "coverage_pct": 100.0
+  },
+  "iUSD": {
+   "decoded_iasset": 1287087.5614099996,
+   "chain_supply_iasset": 1330371.460928,
+   "coverage_pct": 96.74648015315904
+  },
+  "_worst_pct": 96.74648015315904
+ },
+ "governance": {
+  "epoch": 667,
+  "open_actions": [
+   {
+    "id": 160,
+    "type": "TreasuryWithdrawals",
+    "withdrawal_ada": 22000000.0,
+    "expiration_epoch": 668,
+    "drep_yes_pct_of_decisive": 0.7308136424766054,
+    "drep_participation_pct": 62.18358745027683
+   },
+   {
+    "id": 162,
+    "type": "TreasuryWithdrawals",
+    "withdrawal_ada": 9600000.0,
+    "expiration_epoch": 669,
+    "drep_yes_pct_of_decisive": 45.9130581897467,
+    "drep_participation_pct": 56.80097552972547
+   },
+   {
+    "id": 161,
+    "type": "TreasuryWithdrawals",
+    "withdrawal_ada": 940000.0,
+    "expiration_epoch": 669,
+    "drep_yes_pct_of_decisive": 8.294627155804296,
+    "drep_participation_pct": 51.99019650534845
+   },
+   {
+    "id": 163,
+    "type": "InfoAction",
+    "withdrawal_ada": null,
+    "expiration_epoch": 671,
+    "drep_yes_pct_of_decisive": 99.11694375428345,
+    "drep_participation_pct": 37.910607364440175
+   }
+  ],
+  "decided_counts": {
+   "enacted": 0,
+   "expired": 5,
+   "dropped": 0
+  }
+ },
+ "monetary": {
+  "decay_per_epoch_pct": 0.1612672788892766,
+  "half_life_years": 5.879069032796348,
+  "treasury_accrual_per_epoch_ada": 3664494.376591921
+ },
+ "transcript": [
+  {
+   "heading": "Cold open",
+   "text": "An NFT is a token that is one of a kind. What surprises most people is what owning one does, and does not, include. Here is how they work, and how many were minted last epoch."
+  },
+  {
+   "heading": "One of one",
+   "text": "Most tokens are interchangeable: one ADA is as good as any other. An NFT, a non-fungible token, is one of a kind. On Cardano it is simply a native token minted with a quantity of one. Every token has a minting policy, the rule that says who can create it and until when. Usually an NFT's policy is then locked, so no more can be made, but that is the creator's choice, and it can be checked on the chain."
+  },
+  {
+   "heading": "Coins and seats",
+   "text": "Swap your coin for someone else's and neither of you notices. Swap your front-row concert seat for one at the back, and you notice straight away. Coins are interchangeable, which is what fungible means. Seats are not: each one is different. That is the whole idea behind the name non-fungible."
+  },
+  {
+   "heading": "What you own",
+   "text": "Owning an NFT means owning that token on the ledger. The picture or file it points to is usually stored somewhere else, often on a file network called IPFS, and the token only says where. Copyright in the artwork does not come with the token unless the creator grants it separately."
+  },
+  {
+   "heading": "The ticket, not the concert",
+   "text": "Think of a concert ticket. It proves you have a seat; it is not the concert, and it does not give you the band's songs. An NFT is similar: it proves you hold one specific token, which points to an image or a file. If that file is kept somewhere that goes offline, the token still exists, but it points to nothing."
+  },
+  {
+   "heading": "Two standards",
+   "text": "Cardano has two main NFT standards. CIP-25 writes a token's details into the metadata of the transaction that mints it. CIP-68 keeps them in a separate reference token held at a smart contract, so other contracts can read them and they can be updated later."
+  },
+  {
+   "heading": "More than pictures",
+   "text": "NFTs are used for art, and also for tickets, memberships, game items and ADA Handles, the readable names people use instead of long addresses. Knowing what the token really proves, and what it does not, is the difference between knowing what you own and assuming it."
+  },
+  {
+   "heading": "What got minted",
+   "text": "That is how it works on paper. Here is what the chain recorded. In epoch 666, the last complete one, 2,386 tokens were minted with a quantity of exactly one, under 263 different minting policies. That is the usual shape of an NFT, though a quantity of one alone does not prove a policy is closed. That leaves out 329 CIP-68 reference tokens, which hold an NFT's details at a smart contract rather than in anyone's wallet. 284 of those 2,386 were CIP-68 tokens, the newer standard that keeps a token's details on the chain where they can be updated. Across every kind of token there were 3,553 mint events, and separately 1,174 burns."
+  },
+  {
+   "heading": "The short version",
+   "text": "So, in short. An NFT is a native token minted as a quantity of one, usually under a locked policy. You own the token; the file and the copyright usually live elsewhere."
+  },
+  {
+   "heading": "",
+   "text": "No new claim today: a lesson explains how something works, and calls are made and scored in the Monday, Wednesday and Friday episodes. That is NFTs, explained. Next time: What is a token for, and how does its supply work? Every lesson of Crypto from Zero is in the playlist linked below, in order, and every Monday, Wednesday and Friday this channel measures Cardano straight from the chain."
+  }
+ ],
+ "_note": "Compact record of the figures used in this episode."
+}
