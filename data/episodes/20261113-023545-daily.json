@@ -1,0 +1,159 @@
+{
+ "episode_id": "20261113-023545-daily",
+ "mode": "daily",
+ "published": "2026-11-13T09:09:20+00:00",
+ "video_url": "https://youtu.be/KlyafH8gNe4",
+ "title": "Cardano (ADA) News Today: 5.5k wallets sending a transaction a day",
+ "data_generated_at": "2026-11-13T08:30:02+00:00",
+ "claim": {
+  "metric": "wallets_senders_7d_avg",
+  "horizon_days": 7,
+  "op": ">",
+  "threshold": 5068.0,
+  "text": "Cardano's seven-day average of wallets sending a transaction is above 5,068 a day seven days from now, a bar set 8 percent below this week's",
+  "subject": null,
+  "quality": {
+   "verdict": "ok",
+   "p_change": 0.75,
+   "p_level": 0.82,
+   "days": 34,
+   "retuned_from": 5680.0
+  }
+ },
+ "market": {
+  "ada_usd": 0.16993303731272402,
+  "source": "coingecko",
+  "cross_checked": true,
+  "change_24h_pct": -1.7528438314400965
+ },
+ "indigo": {
+  "tvl_usd": 2910052.0,
+  "indy_price_usd": 0.074708
+ },
+ "loan_book": {
+  "positions": 281,
+  "debt_usd": 1662742.3726686295,
+  "collateral_ada": 17045671.508873995,
+  "book_ratio": 1.7420754893549548,
+  "price_10pct_at_risk_usd": 0.16636908204438003,
+  "price_50pct_at_risk_usd": 0.13132739923887007,
+  "decoded_utxos": 317,
+  "validator_utxos": 321
+ },
+ "coverage": {
+  "iADA": {
+   "decoded_iasset": 234.82684200000003,
+   "chain_supply_iasset": 234.826842,
+   "coverage_pct": 100.00000000000003
+  },
+  "iBTC": {
+   "decoded_iasset": 4.847452,
+   "chain_supply_iasset": 4.847452,
+   "coverage_pct": 100.0
+  },
+  "iETH": {
+   "decoded_iasset": 35.244657000000004,
+   "chain_supply_iasset": 35.244657,
+   "coverage_pct": 100.00000000000003
+  },
+  "iEUR": {
+   "decoded_iasset": 68.38727699999998,
+   "chain_supply_iasset": 68.387277,
+   "coverage_pct": 99.99999999999997
+  },
+  "iJPY": {
+   "decoded_iasset": 77315.506151,
+   "chain_supply_iasset": 77315.506151,
+   "coverage_pct": 100.0
+  },
+  "iSOL": {
+   "decoded_iasset": 71.436672,
+   "chain_supply_iasset": 71.436672,
+   "coverage_pct": 100.0
+  },
+  "iUSD": {
+   "decoded_iasset": 1294977.6793399982,
+   "chain_supply_iasset": 1337433.055874,
+   "coverage_pct": 96.82560735675419
+  },
+  "_worst_pct": 96.82560735675419
+ },
+ "governance": {
+  "epoch": 667,
+  "open_actions": [
+   {
+    "id": 160,
+    "type": "TreasuryWithdrawals",
+    "withdrawal_ada": 22000000.0,
+    "expiration_epoch": 668,
+    "drep_yes_pct_of_decisive": 0.7308136424766054,
+    "drep_participation_pct": 62.18358745027683
+   },
+   {
+    "id": 162,
+    "type": "TreasuryWithdrawals",
+    "withdrawal_ada": 9600000.0,
+    "expiration_epoch": 669,
+    "drep_yes_pct_of_decisive": 45.9130581897467,
+    "drep_participation_pct": 56.80097552972547
+   },
+   {
+    "id": 161,
+    "type": "TreasuryWithdrawals",
+    "withdrawal_ada": 940000.0,
+    "expiration_epoch": 669,
+    "drep_yes_pct_of_decisive": 8.294627155804296,
+    "drep_participation_pct": 51.99019650534845
+   },
+   {
+    "id": 163,
+    "type": "InfoAction",
+    "withdrawal_ada": null,
+    "expiration_epoch": 671,
+    "drep_yes_pct_of_decisive": 99.11694375428345,
+    "drep_participation_pct": 37.910607364440175
+   }
+  ],
+  "decided_counts": {
+   "enacted": 0,
+   "expired": 4,
+   "dropped": 0
+  }
+ },
+ "monetary": {
+  "decay_per_epoch_pct": 0.1612672788892766,
+  "half_life_years": 5.879069032796348,
+  "treasury_accrual_per_epoch_ada": 3664494.376591921
+ },
+ "transcript": [
+  {
+   "heading": "Cold open",
+   "text": "5.5 thousand wallets a day sent a transaction on Cardano over the past week, 3 percent more than the week before. Here is how many keep coming back."
+  },
+  {
+   "heading": "Last week's calls",
+   "text": "First, the scorecard. We said one NIGHT token is worth more than 0.1865 ADA on November 13, a bar set 13.5 percent below where it was on November 6. It measured 0.2569 ADA, so we got that one right. That puts the running record at 20 right, 15 wrong, 1 void."
+  },
+  {
+   "heading": "Wallets using Cardano",
+   "text": "How many wallets actually use Cardano? Over the past week, 5.5 thousand wallets a day sent at least one transaction, 3 percent more than the week before. Over thirty days, 90 thousand different wallets sent something, 16 percent fewer than the thirty days before. Of the wallets active in the thirty days before that, 21 percent came back. A wallet here is a stake key. One person can hold several, and an exchange can hold thousands of customers behind one, so this counts wallets, not people. Why it matters: wallets that send are the closest the chain gets to counting who actually uses it."
+  },
+  {
+   "heading": "ADA",
+   "text": "Also today. ADA is at 17.0 cents, down 1.6 percent on the day \u2014 down 27.6 percent over thirty days and down 7.2 percent on the week. Since the last episode it has moved down 2.8 percent. That is 1.6 percent above the bottom of its thirty-day range, 16.7 cents."
+  },
+  {
+   "heading": "Closest to the line",
+   "text": "One more thing. The book as a whole is one number; the CDPs inside it are not all in the same place. These are the positions sitting closest to the line. The nearest one holds 30.3 thousand dollars of debt against 207,923 ADA, and is already inside the liquidation band at today's price. Liquidation means a position is closed automatically because its collateral no longer covers what it owes. 5 positions carry enough debt to matter here. 3 smaller positions, each under 1,000 dollars of debt, hold 745.26 dollars between them and are left out."
+  },
+  {
+   "heading": "Today's claim",
+   "text": "Now the prediction. Today's claim: Cardano's seven-day average of wallets sending a transaction is above 5,068 a day seven days from now, a bar set 8 percent below this week's. It stands at 5,509 as this is recorded. We'll score it on November 20, automatically, against the same measurement \u2014 and if it's wrong, it stays on the board as wrong. Think I've got it wrong? Reply yes or no under the first comment, or put a number on it: join the Forecast League on our website."
+  },
+  {
+   "heading": "",
+   "text": "Running record: 20 right, 15 wrong, with 1 void. Every call we make is scored in public, the wrong ones included. New here? Start with the guide linked below. The full liquidation map is free on our site, linked below. See you Monday."
+  }
+ ],
+ "_note": "Compact record of the figures used in this episode."
+}
