@@ -1,0 +1,173 @@
+{
+ "episode_id": "2026-11-14-special",
+ "mode": "special",
+ "published": "2026-11-14T20:44:55+00:00",
+ "video_url": "https://youtu.be/NoE2ZXeeVZY",
+ "title": "Can tokens tie money back to something real? Fiat, scarcity and tokenization",
+ "data_generated_at": "2026-11-14T19:39:28+00:00",
+ "claim": null,
+ "market": {
+  "ada_usd": 0.15447239932469242,
+  "source": "coingecko",
+  "cross_checked": true,
+  "change_24h_pct": -10.084578572216255
+ },
+ "indigo": {
+  "tvl_usd": 2779138.0,
+  "indy_price_usd": 0.064545
+ },
+ "loan_book": {
+  "positions": 280,
+  "debt_usd": 1632415.4338207785,
+  "collateral_ada": 17159755.378886998,
+  "book_ratio": 1.6237953466277324,
+  "price_10pct_at_risk_usd": 0.16391228124301185,
+  "price_50pct_at_risk_usd": 0.127876280176188,
+  "decoded_utxos": 317,
+  "validator_utxos": 321
+ },
+ "coverage": {
+  "iADA": {
+   "decoded_iasset": 234.826842,
+   "chain_supply_iasset": 234.826842,
+   "coverage_pct": 100.0
+  },
+  "iBTC": {
+   "decoded_iasset": 4.848242,
+   "chain_supply_iasset": 4.848242,
+   "coverage_pct": 100.0
+  },
+  "iETH": {
+   "decoded_iasset": 35.244657,
+   "chain_supply_iasset": 35.244657,
+   "coverage_pct": 100.0
+  },
+  "iEUR": {
+   "decoded_iasset": 68.387277,
+   "chain_supply_iasset": 68.387277,
+   "coverage_pct": 100.0
+  },
+  "iJPY": {
+   "decoded_iasset": 76998.59121099999,
+   "chain_supply_iasset": 76998.591211,
+   "coverage_pct": 99.99999999999997
+  },
+  "iSOL": {
+   "decoded_iasset": 71.436672,
+   "chain_supply_iasset": 71.436672,
+   "coverage_pct": 100.0
+  },
+  "iUSD": {
+   "decoded_iasset": 1285541.7162819994,
+   "chain_supply_iasset": 1326325.100807,
+   "coverage_pct": 96.92508386517108
+  },
+  "_worst_pct": 96.92508386517108
+ },
+ "governance": {
+  "epoch": 667,
+  "open_actions": [
+   {
+    "id": 160,
+    "type": "TreasuryWithdrawals",
+    "withdrawal_ada": 22000000.0,
+    "expiration_epoch": 668,
+    "drep_yes_pct_of_decisive": 0.6755129974965832,
+    "drep_participation_pct": 66.71130634209243
+   },
+   {
+    "id": 162,
+    "type": "TreasuryWithdrawals",
+    "withdrawal_ada": 9600000.0,
+    "expiration_epoch": 669,
+    "drep_yes_pct_of_decisive": 45.91221732813453,
+    "drep_participation_pct": 56.80200403638831
+   },
+   {
+    "id": 161,
+    "type": "TreasuryWithdrawals",
+    "withdrawal_ada": 940000.0,
+    "expiration_epoch": 669,
+    "drep_yes_pct_of_decisive": 8.294371049309108,
+    "drep_participation_pct": 51.9912250120113
+   },
+   {
+    "id": 163,
+    "type": "InfoAction",
+    "withdrawal_ada": null,
+    "expiration_epoch": 671,
+    "drep_yes_pct_of_decisive": 99.1236418736272,
+    "drep_participation_pct": 38.06873191578022
+   }
+  ],
+  "decided_counts": {
+   "enacted": 0,
+   "expired": 4,
+   "dropped": 0
+  }
+ },
+ "monetary": {
+  "decay_per_epoch_pct": 0.1612672788892766,
+  "half_life_years": 5.879069032796348,
+  "treasury_accrual_per_epoch_ada": 3664494.376591921
+ },
+ "transcript": [
+  {
+   "heading": "Cold open",
+   "text": "In August 1971, the US dollar stopped being exchangeable for gold. At almost the same moment, by one widely cited count, humanity began using more of nature each year than the planet can renew. Some people think one caused the other, and that tokens could tie money back to something scarce. Others think it is a coincidence with a story attached. Here are both sides, what tokenization can really do, and what it can't."
+  },
+  {
+   "heading": "Two lines, one moment",
+   "text": "On August 15, 1971, President Nixon closed the window that let other governments swap dollars for gold. From then on, the supply of dollars was limited by policy, not by metal. US M2, a broad count of money, was about 685 billion dollars that month, according to the Federal Reserve. In September 2026 it was about 23.4 trillion, roughly 34 times as much. The Global Footprint Network says that in the early 1970s, humanity began using more each year than nature renews in a year. It calls this overshoot. This year, by its count, Earth Overshoot Day fell on July 30: the day we had used up a year's worth. Two lines, bending at the same time. That is where the argument starts."
+  },
+  {
+   "heading": "What \"Earths\" measures",
+   "text": "An Earth here is the Global Footprint Network's estimate of the land and sea it takes to grow what we use and absorb our waste, against what the planet regrows in a year. According to its 2026 count, humanity as a whole uses about 1.73 Earths. The average hides huge gaps. If everyone lived like the average American, it would take about 5.1 Earths. Like the average person in India, about three quarters of one. It is an estimate built on many assumptions. A 2013 paper in PLoS Biology, Does the Shoe Fit?, argues the global overshoot comes almost entirely from how carbon emissions are counted, and the method's creators dispute that. Treat it as a rough gauge, not a meter reading."
+  },
+  {
+   "heading": "The case, and an unexpected ally",
+   "text": "Here is the argument at its strongest. When money can be created freely, saving loses value and borrowing gets cheap. That rewards spending now over saving for later. Economists call it time preference. In his 2018 book, The Bitcoin Standard, Saifedean Ammous says fiat money pushes people toward short-lived goods and debt-funded spending. Now the surprise. Ecological economists, from almost the opposite end of politics, reach a similar diagnosis. Herman Daly said an economy must eventually stop growing in material terms. Richard Douthwaite, in The Ecology of Money, said money created as debt with interest needs growth to stay afloat. Two camps that rarely agree on anything. Here, their diagnosis overlaps."
+  },
+  {
+   "heading": "The rebuttal",
+   "text": "Now the case against, as strong as the case for. Since 1970, world population has more than doubled, from about 3.7 billion to roughly 8.2 billion, according to the United Nations. Cheap oil, factories across Asia and new technology drove consumption, and none of them needed fiat money to happen. Economies on gold also cleared forests and fouled rivers. And under the Soviet Union's planned economy, irrigation for cotton cost the Aral Sea almost 90 percent of its water, according to a University of Hamburg review. Even the debt-money worry is disputed. A 2015 study by Tim Jackson and Peter Victor found that credit and interest alone do not force an economy to grow. Most economists see the gold standard as a cause of depression, not a cure. Barry Eichengreen's 1992 book, Golden Fetters, argues it helped spread the Great Depression. And there is a trap in scarce money. If money only gains value, why spend it, lend it, or build anything new? Supporters reply that prices falling because things get cheaper to make is healthy. Economists still argue where that line sits."
+  },
+  {
+   "heading": "What a token is",
+   "text": "Suppose you did want money tied to something scarce. This is where tokens come in, so first, what one is. A token is an entry on a shared ledger that says who holds how much of something. The something can be native to the chain, like ADA. Or it can be a claim on something outside it: a dollar in a bank, a bar of gold, a slice of land. Tokenization means the second kind: a claim on a real-world asset, on a ledger anyone can check."
+  },
+  {
+   "heading": "What tokenizing changes",
+   "text": "Three things change when an asset becomes a token. Settlement. Since May 28, 2024, US stock trades settle one business day later, according to the SEC. On a ledger, the trade and the settlement are the same event. Hours and size. A ledger never closes, and an asset can be split into far smaller slices. A smaller slice does not make the asset any cheaper. Rules. Who may hold it, and when it can move, can be written into the token and travel with it. On Cardano, tokens are native: the ledger tracks them the way it tracks ADA, and holding one needs no contract. A public minting policy says who may create them. 11.2 million kinds of token have been created on Cardano so far, under 233.3 thousand minting policies, measured from this channel's copy of the chain."
+  },
+  {
+   "heading": "Three ways to tie money to something scarce",
+   "text": "There are three different routes, and they are often confused. One: backed by a scarce asset. Each token is a claim on something physical, like gold in a vault or a plot of land. Two: scarce by rule. The supply is capped by the protocol, with nothing behind it. ADA's maximum is 45 billion. Bitcoin's is 21 million. Three: tradeable rights to scarce resources, like water, energy or a season's fishing catch. And one look-alike that is none of these: a token that follows a price without owning anything. Indigo's synthetic assets follow prices, backed by 17.2 million ADA locked as collateral on Cardano, not by the things they track. So ask any of them one question: if the issuer disappeared, what would you actually own?"
+  },
+  {
+   "heading": "Real examples, not promises",
+   "text": "Here are working examples, with their limits. Gold. Paxos says each PAXG token is backed by an ounce of a specific vaulted bar, and holders can look up the bar's serial number. Land. Georgia, the country, began recording land titles with a blockchain-backed registry in 2016, and Cointelegraph reported over 100,000 titles in its first year. Water. Australia's Murray-Darling Basin trades rights to water: a finite resource, priced by its scarcity. The ACCC, Australia's competition regulator, reported trades worth more than 1.8 billion Australian dollars a year. Energy. In a 2019 trial in Fremantle, Western Australia, Powerledger says 48 households traded rooftop solar power with their neighbours. Fish. New Zealand in 1986, and Iceland from 1990, capped each year's catch and let holders trade their quota: scarcity markets built long before blockchains. And on Cardano: since 2022, the Cardano Foundation says, bottles of Georgian wine from Bolnisi carry tags recorded on the chain, so buyers can check where the wine came from."
+  },
+  {
+   "heading": "What tokenization can't fix",
+   "text": "Now the correction to the hopeful version. Tokenizing an asset does not make money scarce. The biggest tokenized category today is funds holding US government debt: about 14.2 billion dollars on November 6, according to rwa.xyz. That is under a twentieth of one percent of the 32.2 trillion dollars of marketable Treasury debt the US Treasury reports. And a tokenized Treasury bill is still government debt. A gold token is only as good as the vault. Legal title to land still lives in a registry and a court. And a chain cannot see the world. Someone has to report that the bar, the water, or the building is still there. That someone is a point of trust the ledger does not remove. Tokens can make the link between money and scarce things visible and checkable. Whether to tie a whole economy's money to them is a political choice, not a technical one."
+  },
+  {
+   "heading": "Cardano, measured",
+   "text": "Two facts about Cardano bear on this. They are facts, not claims about value. Supply. ADA has a fixed maximum of 45 billion. About 37.56 billion ADA is in circulation, and 6.01 billion ADA is still in the reserve, released a little each epoch at a slowing pace, measured from this channel's copy of the chain. Energy. Cardano runs on proof of stake, so making blocks does not need mining machines racing to burn electricity. The Crypto Carbon Ratings Institute estimated its use at about 705 megawatt hours a year, from May 2024 data."
+  },
+  {
+   "heading": "What it does not mean",
+   "text": "This special does not say fiat caused overshoot, or that it didn't. The timing lines up, and that alone proves nothing. The Earths figure is an estimate with a disputed method. Outside figures are as reported by their sources, on the dates shown, and rules on tokenized assets differ by country. And nothing here says any token, ADA included, is safe, good, or a better store of value."
+  },
+  {
+   "heading": "Three questions to ask",
+   "text": "So, the next time someone says tokens will tie money back to something real, ask three questions. One: real how? Backed by an asset, capped by a rule, or a right to a resource? And if the issuer vanished, what would you own? Two: who tells the chain the scarce thing still exists? Three: if money only ever gained value, what would you stop buying, and what would stop getting built?"
+  },
+  {
+   "heading": "",
+   "text": "Two lines bent in 1971. Whether one bent the other is still an open argument, with serious people on both sides. Tokens can make money's link to scarce things faster, visible and checkable. They can't settle the argument for us. None of this is advice to buy, hold or avoid anything."
+  }
+ ],
+ "_note": "Compact record of the figures used in this episode."
+}
