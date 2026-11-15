@@ -1,0 +1,165 @@
+{
+ "episode_id": "2026-11-14-explainer",
+ "mode": "explainer",
+ "published": "2026-11-15T00:02:59+00:00",
+ "video_url": "https://youtu.be/wbosgJIKsEs",
+ "title": "Tokenomics explained: what a token is for, supply, and ADA's 45 billion cap | Crypto from Zero #16",
+ "data_generated_at": "2026-11-14T23:16:07+00:00",
+ "claim": null,
+ "market": {
+  "ada_usd": 0.14567561513433555,
+  "source": "coingecko",
+  "cross_checked": true,
+  "change_24h_pct": -13.538233668598213
+ },
+ "indigo": {
+  "tvl_usd": 2670320.0,
+  "indy_price_usd": 0.061626
+ },
+ "loan_book": {
+  "positions": 273,
+  "debt_usd": 1304883.553866814,
+  "collateral_ada": 14988073.807247996,
+  "book_ratio": 1.673250356385845,
+  "price_10pct_at_risk_usd": 0.13762736053832697,
+  "price_50pct_at_risk_usd": 0.11470341527867933,
+  "decoded_utxos": 310,
+  "validator_utxos": 314
+ },
+ "coverage": {
+  "iADA": {
+   "decoded_iasset": 234.826842,
+   "chain_supply_iasset": 234.826842,
+   "coverage_pct": 100.0
+  },
+  "iBTC": {
+   "decoded_iasset": 4.846805999999999,
+   "chain_supply_iasset": 4.846806,
+   "coverage_pct": 99.99999999999997
+  },
+  "iETH": {
+   "decoded_iasset": 35.244657000000004,
+   "chain_supply_iasset": 35.244657,
+   "coverage_pct": 100.00000000000003
+  },
+  "iEUR": {
+   "decoded_iasset": 68.387277,
+   "chain_supply_iasset": 68.387277,
+   "coverage_pct": 100.0
+  },
+  "iJPY": {
+   "decoded_iasset": 76998.59121099999,
+   "chain_supply_iasset": 76998.591211,
+   "coverage_pct": 99.99999999999997
+  },
+  "iSOL": {
+   "decoded_iasset": 71.436672,
+   "chain_supply_iasset": 71.436672,
+   "coverage_pct": 100.0
+  },
+  "iUSD": {
+   "decoded_iasset": 969801.9390250002,
+   "chain_supply_iasset": 1057513.282909,
+   "coverage_pct": 91.70588726387207
+  },
+  "_worst_pct": 91.70588726387207
+ },
+ "governance": {
+  "epoch": 667,
+  "open_actions": [
+   {
+    "id": 160,
+    "type": "TreasuryWithdrawals",
+    "withdrawal_ada": 22000000.0,
+    "expiration_epoch": 668,
+    "drep_yes_pct_of_decisive": 0.6755129974965832,
+    "drep_participation_pct": 66.71130634209243
+   },
+   {
+    "id": 162,
+    "type": "TreasuryWithdrawals",
+    "withdrawal_ada": 9600000.0,
+    "expiration_epoch": 669,
+    "drep_yes_pct_of_decisive": 45.91221732813453,
+    "drep_participation_pct": 56.80200403638831
+   },
+   {
+    "id": 161,
+    "type": "TreasuryWithdrawals",
+    "withdrawal_ada": 940000.0,
+    "expiration_epoch": 669,
+    "drep_yes_pct_of_decisive": 8.294371049309108,
+    "drep_participation_pct": 51.9912250120113
+   },
+   {
+    "id": 163,
+    "type": "InfoAction",
+    "withdrawal_ada": null,
+    "expiration_epoch": 671,
+    "drep_yes_pct_of_decisive": 99.1236418736272,
+    "drep_participation_pct": 38.06873191578022
+   }
+  ],
+  "decided_counts": {
+   "enacted": 0,
+   "expired": 4,
+   "dropped": 0
+  }
+ },
+ "monetary": {
+  "decay_per_epoch_pct": 0.1612672788892766,
+  "half_life_years": 5.879069032796348,
+  "treasury_accrual_per_epoch_ada": 3664494.376591921
+ },
+ "transcript": [
+  {
+   "heading": "Cold open",
+   "text": "How many tokens exist, how many more are coming, and what holding one actually does, matter as much as the price. Here is how to read a token's supply, where ADA's stands, and the main kinds of token."
+  },
+  {
+   "heading": "Four supply questions",
+   "text": "Tokenomics is the economics of a token's supply, and four questions cover most of it: how many exist now, how many can ever exist, how fast new ones are released, and who received them at the start."
+  },
+  {
+   "heading": "ADA's supply",
+   "text": "ADA has a hard cap of 45 billion. Most of it was distributed at launch, and the rest sat in a reserve. Each epoch, 0.3 percent of whatever remains in the reserve is released to pay staking rewards and fund the treasury, so new issuance shrinks over time rather than stopping all at once."
+  },
+  {
+   "heading": "Why the release shrinks",
+   "text": "Here is why the release shrinks. Picture a reserve that pays out a small fixed share of whatever it still holds, every period. The first payment is the largest. Each one after is a little smaller, because it is a share of a smaller remainder, so the flow tapers off over decades instead of stopping on a set date. Rewards nobody earns go back into the reserve, which slows it further."
+  },
+  {
+   "heading": "Other patterns",
+   "text": "Bitcoin halves its issuance about every four years. Some tokens burn a share of their fees, removing supply. Many newer tokens set aside large allocations for teams and investors that unlock on a schedule, and each unlock adds supply to the market whether or not anyone is buying."
+  },
+  {
+   "heading": "An unlock calendar",
+   "text": "Picture a token where only a fifth of the supply trades today, and the rest belongs to its team and early investors, unlocking in monthly slices over four years. Even if nobody new buys, more tokens become sellable every month. That is why an unlock calendar is part of any honest reading of a token."
+  },
+  {
+   "heading": "What a token is for",
+   "text": "Supply is half the story. The other half is what holding a token actually does. A memecoin does nothing by design: no protocol and no cash flow, just a community and a price. A governance token gives a vote on how a protocol is run. A fee-sharing token passes holders a share of what a protocol earns. A utility token pays for something, the way NIGHT generates DUST to pay fees on Midnight. Stablecoins and wrapped tokens, later in this module, are claims on something else. A wrapped token stands for a coin locked on another chain. Many tokens mix several of these."
+  },
+  {
+   "heading": "Two tokens, side by side",
+   "text": "Compare two well-known Cardano tokens. SNEK is a memecoin: holding it pays nothing by itself, and any return on it comes from someone else's pool or lending market. MIN, the token of the Minswap exchange, can be staked for a share of the exchange's trading fees, paid in ADA, and it carries a vote in the Minswap DAO. Whether sharing revenue makes a token more like a share in a business is a question the law is still working through, and the regulation module of this course comes back to it."
+  },
+  {
+   "heading": "Same price, different token",
+   "text": "A price only says what one token costs. Tokenomics says how many there are, how many are coming, and who holds them. Two tokens at the same price can be completely different propositions once those are known."
+  },
+  {
+   "heading": "Where the rewards come from",
+   "text": "That is how it works on paper. Here is what the chain recorded. Staking rewards are not created from nothing. They are paid out of Cardano's reserve, which now holds 6.01 billion ADA. That reserve is drawn down by a fixed fraction every epoch \u2014 measured over the last 39 epochs, 0.161 percent per epoch, or about 10 million ADA. At that rate the reserve halves roughly every 5.9 years. It does not run out on a date, it decays, and as it shrinks a larger share of rewards has to come from transaction fees instead. The treasury meanwhile accrues about 3.7 million ADA per epoch, and paid out 389.6 million ADA across 26 enacted withdrawals in the same window."
+  },
+  {
+   "heading": "The short version",
+   "text": "So, in short. Tokenomics asks how many tokens exist, how many can, how fast new ones arrive and who got them first. ADA is capped, with new issuance from a shrinking reserve. And a token can be a memecoin, a vote, a share of fees, or a way to pay for something."
+  },
+  {
+   "heading": "",
+   "text": "No new claim today: a lesson explains how something works, and calls are made and scored in the Monday, Wednesday and Friday episodes. That is tokenomics, explained. Next time: What is a token burn, and how can anyone tell a real one from a declared one? Every lesson of Crypto from Zero is in the playlist linked below, in order, and every Monday, Wednesday and Friday this channel measures Cardano straight from the chain."
+  }
+ ],
+ "_note": "Compact record of the figures used in this episode."
+}
