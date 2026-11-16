@@ -1,0 +1,121 @@
+{
+ "episode_id": "2026-11-16-special",
+ "mode": "special",
+ "published": "2026-11-16T10:23:03+00:00",
+ "video_url": "https://youtu.be/Wbj4TdCWkhg",
+ "title": "Cardano vote result: Cardano Strategic Copper Reserve | \u20b322M RWA Tokenization did not pass",
+ "data_generated_at": "2026-11-16T08:30:02+00:00",
+ "claim": null,
+ "market": {
+  "ada_usd": 0.15209484635505194,
+  "source": "coingecko",
+  "cross_checked": true,
+  "change_24h_pct": 0.7103889592909955
+ },
+ "indigo": {
+  "tvl_usd": 2281337.0,
+  "indy_price_usd": 0.069111
+ },
+ "loan_book": {
+  "positions": 274,
+  "debt_usd": 1289308.6838354573,
+  "collateral_ada": 14860763.456512993,
+  "book_ratio": 1.753067797475231,
+  "price_10pct_at_risk_usd": 0.13763319198326124,
+  "price_50pct_at_risk_usd": 0.11338080951417663,
+  "decoded_utxos": 312,
+  "validator_utxos": 316
+ },
+ "coverage": {
+  "iADA": {
+   "decoded_iasset": 234.826842,
+   "chain_supply_iasset": 234.826842,
+   "coverage_pct": 100.0
+  },
+  "iBTC": {
+   "decoded_iasset": 4.8470949999999995,
+   "chain_supply_iasset": 4.847095,
+   "coverage_pct": 99.99999999999997
+  },
+  "iETH": {
+   "decoded_iasset": 35.244657000000004,
+   "chain_supply_iasset": 35.244657,
+   "coverage_pct": 100.00000000000003
+  },
+  "iEUR": {
+   "decoded_iasset": 68.387277,
+   "chain_supply_iasset": 68.387277,
+   "coverage_pct": 100.0
+  },
+  "iJPY": {
+   "decoded_iasset": 76027.851603,
+   "chain_supply_iasset": 76027.851603,
+   "coverage_pct": 100.0
+  },
+  "iSOL": {
+   "decoded_iasset": 71.43667199999999,
+   "chain_supply_iasset": 71.436672,
+   "coverage_pct": 99.99999999999997
+  },
+  "iUSD": {
+   "decoded_iasset": 985700.3326380003,
+   "chain_supply_iasset": 1139333.45818,
+   "coverage_pct": 86.51552585953043
+  },
+  "_worst_pct": 86.51552585953043
+ },
+ "governance": {
+  "epoch": 668,
+  "open_actions": [
+   {
+    "id": 162,
+    "type": "TreasuryWithdrawals",
+    "withdrawal_ada": 9600000.0,
+    "expiration_epoch": 669,
+    "drep_yes_pct_of_decisive": 46.06932759691858,
+    "drep_participation_pct": 57.68874635977025
+   },
+   {
+    "id": 161,
+    "type": "TreasuryWithdrawals",
+    "withdrawal_ada": 940000.0,
+    "expiration_epoch": 669,
+    "drep_yes_pct_of_decisive": 8.32706909147816,
+    "drep_participation_pct": 53.26325723942116
+   },
+   {
+    "id": 163,
+    "type": "InfoAction",
+    "withdrawal_ada": null,
+    "expiration_epoch": 671,
+    "drep_yes_pct_of_decisive": 99.11458593933709,
+    "drep_participation_pct": 39.2012200693477
+   }
+  ],
+  "decided_counts": {
+   "enacted": 0,
+   "expired": 4,
+   "dropped": 0
+  }
+ },
+ "monetary": {
+  "decay_per_epoch_pct": 0.1611602988010774,
+  "half_life_years": 5.882974778508378,
+  "treasury_accrual_per_epoch_ada": 3656502.2450859547
+ },
+ "transcript": [
+  {
+   "heading": "Cold open",
+   "text": "A vote has closed on Cardano: \u201cCardano Strategic Copper Reserve | \u20b322M RWA Tokenization\u201d did not pass. Here is what happened, and who decided."
+  },
+  {
+   "heading": "Vote closed",
+   "text": "\u201cCardano Strategic Copper Reserve | \u20b322M RWA Tokenization\u201d ran out of time without passing. It asked the treasury for 22 million ADA, and none of it will be paid. DReps: 5 for, 126 against, 8 abstaining \u2014 weighted by stake, yes holds 1 percent of the DRep power that voted yes or no. 68.2 percent of all registered DRep voting power voted on it. The Constitutional Committee: 0 yes, 3 no. To pass, yes votes had to reach 67 percent of all active DRep voting power, and DReps that did not vote count as no. Counted that way, yes reached about 1 percent, short of the bar. Why it matters: these votes decide how Cardano is run and how its shared treasury is spent, and every one of them is recorded on the chain."
+  },
+  {
+   "heading": "",
+   "text": "No new claim today: this governance episode reports the votes as counted rather than forecasting them. Calls are made in the regular episode, and every one is scored on the scoreboard linked below. This channel reports the votes and takes no side on any proposal. How a vote would end on today's votes is arithmetic, not a forecast. This episode comes back when votes close or new ones go up. That is the news as it happened, measured on the chain. The full treasury and voting data is free on our site, linked below."
+  }
+ ],
+ "_note": "Compact record of the figures used in this episode."
+}
