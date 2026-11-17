@@ -1,0 +1,185 @@
+{
+ "episode_id": "2026-11-17-explainer",
+ "mode": "explainer",
+ "published": "2026-11-17T19:23:14+00:00",
+ "video_url": "https://youtu.be/6eC12IaCS58",
+ "title": "Crypto token burns explained: real vs declared, with SNEK and MIN | Crypto from Zero #17",
+ "data_generated_at": "2026-11-17T18:30:01+00:00",
+ "claim": null,
+ "market": {
+  "ada_usd": 0.15274051855248372,
+  "source": "coingecko",
+  "cross_checked": true,
+  "change_24h_pct": -0.6660150645252836
+ },
+ "indigo": {
+  "tvl_usd": 2325231.0,
+  "indy_price_usd": 0.073118
+ },
+ "loan_book": {
+  "positions": 271,
+  "debt_usd": 1280332.3905532656,
+  "collateral_ada": 14875286.377658997,
+  "book_ratio": 1.7745852340410722,
+  "price_10pct_at_risk_usd": 0.13762607344697386,
+  "price_50pct_at_risk_usd": 0.11337494533711881,
+  "decoded_utxos": 310,
+  "validator_utxos": 314
+ },
+ "coverage": {
+  "iADA": {
+   "decoded_iasset": 437.326842,
+   "chain_supply_iasset": 437.326842,
+   "coverage_pct": 100.0
+  },
+  "iBTC": {
+   "decoded_iasset": 4.848957999999999,
+   "chain_supply_iasset": 4.848958,
+   "coverage_pct": 99.99999999999997
+  },
+  "iETH": {
+   "decoded_iasset": 35.191328000000006,
+   "chain_supply_iasset": 35.191328,
+   "coverage_pct": 100.00000000000003
+  },
+  "iEUR": {
+   "decoded_iasset": 75.66981599999998,
+   "chain_supply_iasset": 75.669816,
+   "coverage_pct": 99.99999999999997
+  },
+  "iJPY": {
+   "decoded_iasset": 76027.851603,
+   "chain_supply_iasset": 76027.851603,
+   "coverage_pct": 100.0
+  },
+  "iSOL": {
+   "decoded_iasset": 76.06720200000001,
+   "chain_supply_iasset": 76.067202,
+   "coverage_pct": 100.00000000000003
+  },
+  "iUSD": {
+   "decoded_iasset": 980099.3729450004,
+   "chain_supply_iasset": 1147612.119343,
+   "coverage_pct": 85.40336551221685
+  },
+  "_worst_pct": 85.40336551221685
+ },
+ "governance": {
+  "epoch": 668,
+  "open_actions": [
+   {
+    "id": 162,
+    "type": "TreasuryWithdrawals",
+    "withdrawal_ada": 9600000.0,
+    "expiration_epoch": 669,
+    "drep_yes_pct_of_decisive": 44.716731420886234,
+    "drep_participation_pct": 63.581645761566364
+   },
+   {
+    "id": 161,
+    "type": "TreasuryWithdrawals",
+    "withdrawal_ada": 940000.0,
+    "expiration_epoch": 669,
+    "drep_yes_pct_of_decisive": 7.927330852675951,
+    "drep_participation_pct": 55.210105399224176
+   },
+   {
+    "id": 163,
+    "type": "InfoAction",
+    "withdrawal_ada": null,
+    "expiration_epoch": 671,
+    "drep_yes_pct_of_decisive": 99.2298846315862,
+    "drep_participation_pct": 40.7519502947772
+   },
+   {
+    "id": 165,
+    "type": "TreasuryWithdrawals",
+    "withdrawal_ada": 600000.0,
+    "expiration_epoch": 675,
+    "drep_yes_pct_of_decisive": 99.99995238757111,
+    "drep_participation_pct": 1.9651907029331184
+   },
+   {
+    "id": 164,
+    "type": "TreasuryWithdrawals",
+    "withdrawal_ada": 24995775.0,
+    "expiration_epoch": 675,
+    "drep_yes_pct_of_decisive": 29.16314828524843,
+    "drep_participation_pct": 4.639089209922095
+   }
+  ],
+  "decided_counts": {
+   "enacted": 0,
+   "expired": 4,
+   "dropped": 0
+  }
+ },
+ "monetary": {
+  "decay_per_epoch_pct": 0.1611602988010774,
+  "half_life_years": 5.882974778508378,
+  "treasury_accrual_per_epoch_ada": 3656502.2450859547
+ },
+ "transcript": [
+  {
+   "heading": "Cold open",
+   "text": "A token burn is supposed to take tokens out of existence for good. Here is how burns work on Cardano, how to tell a real one from a declared one, and what two well-known tokens, SNEK and MIN, actually show."
+  },
+  {
+   "heading": "What burning means",
+   "text": "Burning a token means removing it for good. Projects do it to shrink supply: some burn a share of their fees, some buy tokens on the market and burn them, and some burn allocations they no longer need. On its own, a burn only changes the count; what the rest are worth depends on everything else."
+  },
+  {
+   "heading": "Two ways to burn on Cardano",
+   "text": "On Cardano there are two ways. A true burn is a mint with a negative amount, and the ledger's count goes down. That needs the token's minting policy to allow it, and most large tokens locked theirs at launch, so for them a true burn is impossible. The other way is to send tokens to an address nobody can ever spend from. The ledger still counts them, but they can never move again."
+  },
+  {
+   "heading": "Two burns, side by side",
+   "text": "Here is the difference in practice. Project A's minting policy is still open. It burns ten million tokens with a negative mint, and the ledger's total supply drops by exactly ten million. Project B locked its policy at launch. It sends ten million tokens to a burn address instead. The total on the ledger stays the same, but those ten million can never move again."
+  },
+  {
+   "heading": "Proven or declared",
+   "text": "A burn address is only as good as its code. If the code is public, it can be checked: this channel decoded the burn address most used on Cardano, and whatever anyone sends it, its answer is always no. If the code has never been revealed, the burn is only declared. It may well be real, but nobody outside can prove it. And a wallet labelled burn that someone holds the keys to is not a burn at all."
+  },
+  {
+   "heading": "A supply that can never change",
+   "text": "Take SNEK, a meme coin and one of the most widely held tokens on Cardano. All 76.7 billion SNEK were minted in a single transaction on the 26th of April 2023. The minting policy was a time lock that closed about half an hour later. Since then nobody can create more SNEK, and nobody can destroy any either, because destroying a token also needs its minting policy. The ledger will count the same supply forever."
+  },
+  {
+   "heading": "How a SNEK burn works",
+   "text": "So a SNEK burn cannot destroy anything. Instead, tokens are sent to the address named burnsnek, and that address is a tiny smart contract. This channel decoded that contract: whatever is sent to it, and whatever anyone asks of it, its answer is always no. Tokens sent there can never move again. The ADA Handle that names the address is locked inside it too, so it can never be pointed anywhere else."
+  },
+  {
+   "heading": "A policy that is still open",
+   "text": "MIN, the token of the Minswap exchange, is the opposite case. Unlike most large tokens, MIN's minting policy was never time-locked. It needs just one key's signature, so whoever holds that key can still mint new MIN, or burn it. That power has been used both ways: five billion were minted in the first year, and in January 2024 two billion were destroyed outright, cutting the maximum supply to three billion."
+  },
+  {
+   "heading": "Why one key matters",
+   "text": "Here is why a single key matters. With a closed policy, the supply rules are final, and nobody has to trust anyone about them. With a one-key policy, whoever holds that key could mint more MIN tomorrow. It has been used to shrink the supply, but the same key could expand it, so holders are trusting the key holder's intentions as well as the code."
+  },
+  {
+   "heading": "Scarcity you can check",
+   "text": "A burn announcement sounds like scarcity. Whether it is real depends on mechanics anyone can check: did the count fall, or can the address truly never spend? And even a real burn only changes a count; on its own, it does not make anything worth more."
+  },
+  {
+   "heading": "Burns, by how provable they are",
+   "text": "That is how it works on paper. Here is what the chain recorded. Among the 12 tokens this channel has checked, 4 burns stand out, and they are not all the same kind. STUFF: 4.82 billion, 48.2 percent, sent to a declared burn wallet whose code has never been revealed. MIN: 2.00 billion, 40.0 percent, destroyed outright by its minting policy. MIN: 549.6 million, 18.3 percent, sent to a burn address whose code is public. SNEK: 1.48 billion, 1.9 percent, sent to a burn address whose code is public. That public burn address is shared: 32,093 different tokens and NFTs have been sent to it."
+  },
+  {
+   "heading": "Every SNEK burned, by year",
+   "text": "Every SNEK ever sent to that address adds up to 1.48 billion, across 1,997 separate deposits: 1.93 percent of the supply, gone for good. The biggest year was 2023, with 1.03 billion burned, against 37.1 million so far in 2026. In the last ninety days, 11.6 million arrived. 497 million of the total came straight from the buyback wallet, and it currently holds 4.5 million SNEK that has not been sent to the burn address."
+  },
+  {
+   "heading": "Every MIN burned, by year",
+   "text": "Every MIN ever sent to that address adds up to 549.6 million, across 98 separate deposits: 18.32 percent of the supply, gone for good. The biggest year was 2025, with 501.8 million burned, against 47.8 million so far in 2026. In the last ninety days, 10.4 million arrived."
+  },
+  {
+   "heading": "The short version",
+   "text": "So, in short. A true burn lowers the ledger's count, while a burn address only locks tokens away, and public code is what proves it. SNEK's supply can never change, so its burns are locked transfers. MIN's policy is still a single key, so its supply depends on a decision."
+  },
+  {
+   "heading": "",
+   "text": "No new claim today: a lesson explains how something works, and calls are made and scored in the Monday, Wednesday and Friday episodes. That is token burns, SNEK and MIN, explained. Next time: What is a stablecoin, and how do the different designs hold their dollar? Every lesson of Crypto from Zero is in the playlist linked below, in order, and every Monday, Wednesday and Friday this channel measures Cardano straight from the chain."
+  }
+ ],
+ "_note": "Compact record of the figures used in this episode."
+}
