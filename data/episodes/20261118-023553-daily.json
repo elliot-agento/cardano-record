@@ -1,0 +1,170 @@
+{
+ "episode_id": "20261118-023553-daily",
+ "mode": "daily",
+ "published": "2026-11-18T09:07:13+00:00",
+ "video_url": "https://youtu.be/8gjqulWMCN0",
+ "title": "Cardano (ADA) News Today: How many staking keys net 209 this epoch?",
+ "data_generated_at": "2026-11-18T08:30:01+00:00",
+ "claim": {
+  "metric": "cnt_price_ada_min",
+  "horizon_days": 7,
+  "op": ">",
+  "threshold": 1.558,
+  "text": "100 MIN tokens are worth more than 1.558 ADA seven days from now, a bar set 9.5 percent below where it is today",
+  "subject": null,
+  "quality": {
+   "verdict": "ok",
+   "p_change": 0.97,
+   "p_level": 0.48,
+   "days": 45,
+   "retuned_from": 1.852,
+   "borrowed": true
+  },
+  "borrowed": true,
+  "week_ago": 1.4961147075696033
+ },
+ "market": {
+  "ada_usd": 0.1546572231259006,
+  "source": "coingecko",
+  "cross_checked": true,
+  "change_24h_pct": 1.2375881100806823
+ },
+ "indigo": {
+  "tvl_usd": 2292140.0,
+  "indy_price_usd": 0.075894
+ },
+ "loan_book": {
+  "positions": 271,
+  "debt_usd": 1292164.4397583758,
+  "collateral_ada": 15021791.377658995,
+  "book_ratio": 1.7979356723976723,
+  "price_10pct_at_risk_usd": 0.13762687323029926,
+  "price_50pct_at_risk_usd": 0.11337560419040532,
+  "decoded_utxos": 310,
+  "validator_utxos": 314
+ },
+ "coverage": {
+  "iADA": {
+   "decoded_iasset": 437.326842,
+   "chain_supply_iasset": 437.326842,
+   "coverage_pct": 100.0
+  },
+  "iBTC": {
+   "decoded_iasset": 4.848958,
+   "chain_supply_iasset": 4.848958,
+   "coverage_pct": 100.0
+  },
+  "iETH": {
+   "decoded_iasset": 35.191328000000006,
+   "chain_supply_iasset": 35.191328,
+   "coverage_pct": 100.00000000000003
+  },
+  "iEUR": {
+   "decoded_iasset": 75.669816,
+   "chain_supply_iasset": 75.669816,
+   "coverage_pct": 100.0
+  },
+  "iJPY": {
+   "decoded_iasset": 76027.851603,
+   "chain_supply_iasset": 76027.851603,
+   "coverage_pct": 100.0
+  },
+  "iSOL": {
+   "decoded_iasset": 76.06720200000001,
+   "chain_supply_iasset": 76.067202,
+   "coverage_pct": 100.00000000000003
+  },
+  "iUSD": {
+   "decoded_iasset": 987551.2443090006,
+   "chain_supply_iasset": 1154068.134388,
+   "coverage_pct": 85.57131202939739
+  },
+  "_worst_pct": 85.57131202939739
+ },
+ "governance": {
+  "epoch": 668,
+  "open_actions": [
+   {
+    "id": 162,
+    "type": "TreasuryWithdrawals",
+    "withdrawal_ada": 9600000.0,
+    "expiration_epoch": 669,
+    "drep_yes_pct_of_decisive": 45.00434586395554,
+    "drep_participation_pct": 65.92711458322242
+   },
+   {
+    "id": 161,
+    "type": "TreasuryWithdrawals",
+    "withdrawal_ada": 940000.0,
+    "expiration_epoch": 669,
+    "drep_yes_pct_of_decisive": 7.431780815484533,
+    "drep_participation_pct": 57.567220104781136
+   },
+   {
+    "id": 163,
+    "type": "InfoAction",
+    "withdrawal_ada": null,
+    "expiration_epoch": 671,
+    "drep_yes_pct_of_decisive": 99.2298846315862,
+    "drep_participation_pct": 42.79592179445707
+   },
+   {
+    "id": 165,
+    "type": "TreasuryWithdrawals",
+    "withdrawal_ada": 600000.0,
+    "expiration_epoch": 675,
+    "drep_yes_pct_of_decisive": 99.99995287240728,
+    "drep_participation_pct": 1.9853857678600442
+   },
+   {
+    "id": 164,
+    "type": "TreasuryWithdrawals",
+    "withdrawal_ada": 24995775.0,
+    "expiration_epoch": 675,
+    "drep_yes_pct_of_decisive": 28.41640913612027,
+    "drep_participation_pct": 6.782078326360226
+   }
+  ],
+  "decided_counts": {
+   "enacted": 0,
+   "expired": 4,
+   "dropped": 0
+  }
+ },
+ "monetary": {
+  "decay_per_epoch_pct": 0.1611602988010774,
+  "half_life_years": 5.882974778508378,
+  "treasury_accrual_per_epoch_ada": 3656502.2450859547
+ },
+ "transcript": [
+  {
+   "heading": "Cold open",
+   "text": "In epoch 667, 870 stake keys were registered on Cardano and 661 were given up. Here is which way that has been running."
+  },
+  {
+   "heading": "Calls that resolved",
+   "text": "First, the scorecard. We said deposits in Surf's ADA-lending pools are above 7.06 million ADA on November 18, against 7.31 million today. It measured 7,377,214, so we got that one right. We said the median fee for a transaction that runs a smart contract is under 0.515 ADA in the newest complete epoch on November 16. It measured 0.5438, so we got that one wrong. That puts the running record at 21 right, 16 wrong, 1 void."
+  },
+  {
+   "heading": "Stake keys in and out",
+   "text": "A stake key is what a wallet registers to stake its ADA or delegate its vote, with a two ADA deposit it gets back when it leaves. In epoch 667, 870 were registered and 661 were given up, 209 more joined than left that epoch. Over the last 6 epochs, 1,471 more left than joined in all. Why it matters: a stake key is how a wallet joins staking and governance, so the net is a plain count of who is joining and who is leaving."
+  },
+  {
+   "heading": "ADA",
+   "text": "Also today. ADA is at 15.5 cents, up 1.2 percent on the day \u2014 down 29.9 percent over thirty days and down 11.4 percent on the week. Since the last episode it has moved down 9.0 percent."
+  },
+  {
+   "heading": "Who is building: Hydra",
+   "text": "One more thing. Who is building Cardano. Today: Hydra, and the team behind it at Input Output. A Hydra head is like a shared tab that a small group opens next to Cardano's main chain. They put some funds in, pay each other back and forth quickly and cheaply inside it, and at the end only the final result is written back to the main chain, as Input Output describes it. This month the team released a new version. It has been built in the open since 2021, by more than fifty contributors. Why it matters: the main chain can only fit so much at once. Moving busy back-and-forth activity into small side groups leaves room on the main chain, and can make tiny payments cheap enough to be practical."
+  },
+  {
+   "heading": "Today's claim",
+   "text": "Now the prediction. Today's claim: 100 MIN tokens are worth more than 1.558 ADA seven days from now, a bar set 9.5 percent below where it is today. It stands at 1.722 ADA as this is recorded, against 1.496 ADA a week ago. We'll score it on November 25, automatically, against the same measurement \u2014 and if it's wrong, it stays on the board as wrong. Think I've got it wrong? Reply yes or no under the first comment, or put a number on it: join the Forecast League on our website."
+  },
+  {
+   "heading": "",
+   "text": "Running record: 21 right, 16 wrong, with 1 void. Every call we make is scored in public, the wrong ones included. New here? Start with the guide linked below. See you Friday."
+  }
+ ],
+ "_note": "Compact record of the figures used in this episode."
+}
