@@ -1,0 +1,185 @@
+{
+ "episode_id": "2026-11-19-explainer",
+ "mode": "explainer",
+ "published": "2026-11-19T20:13:13+00:00",
+ "video_url": "https://youtu.be/5EdTNnrK6jU",
+ "title": "Stablecoins explained: backed vs algorithmic, and Cardano's coins | Crypto from Zero #18",
+ "data_generated_at": "2026-11-19T19:26:28+00:00",
+ "claim": null,
+ "market": {
+  "ada_usd": 0.15293721155352152,
+  "source": "coingecko",
+  "cross_checked": true,
+  "change_24h_pct": 1.0102375677122817
+ },
+ "indigo": {
+  "tvl_usd": 2346219.0,
+  "indy_price_usd": 0.076287
+ },
+ "loan_book": {
+  "positions": 272,
+  "debt_usd": 1286450.2968962397,
+  "collateral_ada": 15071791.377658995,
+  "book_ratio": 1.7917814251952333,
+  "price_10pct_at_risk_usd": 0.1376200898206012,
+  "price_50pct_at_risk_usd": 0.11220293180582062,
+  "decoded_utxos": 311,
+  "validator_utxos": 315
+ },
+ "coverage": {
+  "iADA": {
+   "decoded_iasset": 635.712444,
+   "chain_supply_iasset": 635.712444,
+   "coverage_pct": 100.0
+  },
+  "iBTC": {
+   "decoded_iasset": 4.848957999999999,
+   "chain_supply_iasset": 4.848958,
+   "coverage_pct": 99.99999999999997
+  },
+  "iETH": {
+   "decoded_iasset": 35.199894,
+   "chain_supply_iasset": 35.199894,
+   "coverage_pct": 100.0
+  },
+  "iEUR": {
+   "decoded_iasset": 75.669816,
+   "chain_supply_iasset": 75.669816,
+   "coverage_pct": 100.0
+  },
+  "iJPY": {
+   "decoded_iasset": 76027.851603,
+   "chain_supply_iasset": 76027.851603,
+   "coverage_pct": 100.0
+  },
+  "iSOL": {
+   "decoded_iasset": 76.06720200000001,
+   "chain_supply_iasset": 76.067202,
+   "coverage_pct": 100.00000000000003
+  },
+  "iUSD": {
+   "decoded_iasset": 992688.8261310003,
+   "chain_supply_iasset": 1155225.71621,
+   "coverage_pct": 85.93029156135465
+  },
+  "_worst_pct": 85.93029156135465
+ },
+ "governance": {
+  "epoch": 668,
+  "open_actions": [
+   {
+    "id": 162,
+    "type": "TreasuryWithdrawals",
+    "withdrawal_ada": 9600000.0,
+    "expiration_epoch": 669,
+    "drep_yes_pct_of_decisive": 49.45723352903763,
+    "drep_participation_pct": 71.13994171906764
+   },
+   {
+    "id": 161,
+    "type": "TreasuryWithdrawals",
+    "withdrawal_ada": 940000.0,
+    "expiration_epoch": 669,
+    "drep_yes_pct_of_decisive": 7.30314036653655,
+    "drep_participation_pct": 62.4493898598227
+   },
+   {
+    "id": 163,
+    "type": "InfoAction",
+    "withdrawal_ada": null,
+    "expiration_epoch": 671,
+    "drep_yes_pct_of_decisive": 99.23195154320818,
+    "drep_participation_pct": 43.660317478881865
+   },
+   {
+    "id": 165,
+    "type": "TreasuryWithdrawals",
+    "withdrawal_ada": 600000.0,
+    "expiration_epoch": 675,
+    "drep_yes_pct_of_decisive": 99.74859936829526,
+    "drep_participation_pct": 3.0399938205711856
+   },
+   {
+    "id": 164,
+    "type": "TreasuryWithdrawals",
+    "withdrawal_ada": 24995775.0,
+    "expiration_epoch": 675,
+    "drep_yes_pct_of_decisive": 24.68868188047745,
+    "drep_participation_pct": 7.83291927668409
+   }
+  ],
+  "decided_counts": {
+   "enacted": 0,
+   "expired": 4,
+   "dropped": 0
+  }
+ },
+ "monetary": {
+  "decay_per_epoch_pct": 0.1611602988010774,
+  "half_life_years": 5.882974778508378,
+  "treasury_accrual_per_epoch_ada": 3656502.2450859547
+ },
+ "transcript": [
+  {
+   "heading": "Cold open",
+   "text": "A stablecoin is a token built to stay worth one dollar. Here is how the different designs hold that dollar, what happened when one of them failed, and what the new US law requires."
+  },
+  {
+   "heading": "Cash on a blockchain",
+   "text": "A stablecoin is a token built to stay worth one dollar. On a blockchain it plays the part of cash: what people move into when they want to step out of ADA, what they lend and borrow, and what they pay with. The hard part is keeping it at a dollar, and there are two main ways of doing it."
+  },
+  {
+   "heading": "Stepping out of ADA",
+   "text": "Here is a stablecoin in use. Someone holding ADA knows they will need dollars next month. Instead of going through a bank, they swap into a stablecoin on the chain and keep it in their own wallet, where it stays near one dollar while ADA moves. When the time comes, they swap back, or pay with it directly."
+  },
+  {
+   "heading": "Three ways to hold a dollar",
+   "text": "There are three broad designs. A reserve-backed coin is issued by a company holding cash or short-term government debt, one dollar for every token. A crypto-backed coin is secured by more crypto than it is worth, so the extra absorbs price swings. An algorithmic coin relies mostly on code and incentives, often a second token it can mint, instead of a full reserve."
+  },
+  {
+   "heading": "When the backing is the coin itself",
+   "text": "The best-known algorithmic coin was TerraUSD. It was held at a dollar by swapping it for its sister token, LUNA, whose value depended on confidence in TerraUSD. In May 2022 that loop ran in reverse: selling one pushed down the other, and TerraUSD lost its dollar and fell to almost nothing within days. The lesson most designs took from it is that the backing has to be worth something on its own."
+  },
+  {
+   "heading": "Where Cardano's coins sit",
+   "text": "USDM, USDA and USDCx are reserve-backed. DJED calls itself an algorithmic stablecoin, but unlike TerraUSD it keeps a reserve of ADA, and its code only issues more DJED while that reserve is worth at least four times what is in circulation. iUSD is minted against ADA locked on Indigo. DJED and iUSD are both crypto-backed: the backing is real, but its value moves with ADA."
+  },
+  {
+   "heading": "Each design under stress",
+   "text": "Here is each design on a bad day. If many holders of a reserve-backed coin want out at once, the issuer has to pay out real dollars, and what matters is whether the reserve is really there and easy to sell. If ADA falls sharply, a crypto-backed coin's backing shrinks, and what matters is whether there was enough extra, and whether collateral can be sold fast enough to cover every coin."
+  },
+  {
+   "heading": "The GENIUS Act",
+   "text": "In July 2025 the United States passed the GENIUS Act, its first law for payment stablecoins. It takes effect on January 18, 2027 at the latest. From then, only a permitted issuer may issue one: a bank subsidiary, a nonbank licensed by a federal regulator, or a state-licensed issuer, which moves to federal oversight above ten billion dollars in circulation. Every token will have to be backed one for one by cash, bank deposits, Treasury bills maturing within ninety three days, or funds holding only those."
+  },
+  {
+   "heading": "What the rules require",
+   "text": "Once the Act is in force, issuers must publish their reserves every month, checked by an accounting firm and signed off by their executives. They may not pay holders interest. They may not claim the coin is backed by the US government or insured by the FDIC. They must be able to freeze coins under a lawful order. In a bankruptcy, holders are paid first. And a payment stablecoin is not treated as a security or a commodity."
+  },
+  {
+   "heading": "The worst day decides",
+   "text": "A stablecoin that loses its dollar can take savings, loans and whole protocols with it, as TerraUSD showed. The design, and now the law, decide how much a holder has to trust, and what happens on the worst day."
+  },
+  {
+   "heading": "The dollars we can measure",
+   "text": "That is how it works on paper. Here is what the chain recorded. How many dollars actually exist on Cardano. 49.60 million dollars across the 4 issuers we can measure today. USDA is not in that figure, so it is a floor rather than the whole. That is down 13.8 percent over ninety days, and down 17.8 percent over thirty. This week alone it is down 2.3 percent. One limit on the chart: the total begins when every counted issuer exists - USDCx first minted on 2026-02-18. Before that date this would be a different basket of issuers, not a smaller number."
+  },
+  {
+   "heading": "Who issued them",
+   "text": "Issuer by issuer, and how each figure is arrived at. Over ninety days the total fell, but one issuer grew: USDM: 1.9 million more issued than redeemed, up 19.6 percent. The other three shrank. Over the same ninety days USDCx is 19.3 percent lower, DJED is 55.0 percent lower, iUSD is 27.1 percent lower. Weighted by supply, the issuer that grew holds 24 percent of it, and the ones that shrank 76 percent between them. DJED and SHEN work differently from the rest. They mint their entire supply cap once, at launch, into a vault, and issue by releasing from it. Their mint history therefore records nothing at all, however much is being issued or redeemed. So DJED is measured as the cap minus what that vault still holds: 1.00 trillion minted at launch, of which all but 992.7 thousand has never left the vault. That remainder is the real circulating supply. That subtraction is the reason this segment can exist. Reporting the headline figure instead would overstate it by six orders of magnitude. SHEN is tracked here but kept out of the dollar total. It is Djed's reserve token, not a dollar, and it trades near ten cents. Where a second independent measurement exists, the two agree: 3 of these are checked against the tokens actually sitting in trading pools, and the widest disagreement is 0.38 percent."
+  },
+  {
+   "heading": "DJED: its peg and its yield",
+   "text": "DJED, one of the dollar stablecoins on Cardano, is trading at 0.9779 dollars \u2014 2.21 percent below its peg, the one-dollar price it is built to hold. On Liqwid, a lending market on Cardano, people lending out DJED are being paid 25.5 percent, on about 85.7 thousand dollars of room left in that market, with 97 percent of it already borrowed. So lenders are paid 25.5 percent on a coin trading 2.21 percent under its dollar. Both numbers are on the screen; the reading is yours."
+  },
+  {
+   "heading": "The short version",
+   "text": "So, in short. Stablecoins hold a dollar with reserves an issuer keeps, with more crypto than they are worth, or mostly with code. From January 2027 the GENIUS Act lets only fully reserved coins from permitted issuers be US payment stablecoins."
+  },
+  {
+   "heading": "",
+   "text": "No new claim today: a lesson explains how something works, and calls are made and scored in the Monday, Wednesday and Friday episodes. That is stablecoins, explained. Next time: How do bridges bring bitcoin and ether to Cardano? Every lesson of Crypto from Zero is in the playlist linked below, in order, and every Monday, Wednesday and Friday this channel measures Cardano straight from the chain."
+  }
+ ],
+ "_note": "Compact record of the figures used in this episode."
+}
