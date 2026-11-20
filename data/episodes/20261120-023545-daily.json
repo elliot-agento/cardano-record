@@ -1,0 +1,169 @@
+{
+ "episode_id": "20261120-023545-daily",
+ "mode": "daily",
+ "published": "2026-11-20T09:15:06+00:00",
+ "video_url": "https://youtu.be/vZ1QkDGJ8a8",
+ "title": "Cardano (ADA) News Today: How 40 DeFi Markets Traded on Strike",
+ "data_generated_at": "2026-11-20T08:30:02+00:00",
+ "claim": {
+  "metric": "iusd_supply",
+  "horizon_days": 7,
+  "op": ">",
+  "threshold": 1120631.0,
+  "text": "iUSD supply is above 1,120,631, a week from now",
+  "subject": null,
+  "quality": {
+   "verdict": "ok",
+   "p_change": 0.81,
+   "p_level": 0.98,
+   "days": 45,
+   "borrowed": true
+  },
+  "borrowed": true,
+  "week_ago": 1326095.46974
+ },
+ "market": {
+  "ada_usd": 0.15019688175632243,
+  "source": "coingecko",
+  "cross_checked": true,
+  "change_24h_pct": -2.448238615796202
+ },
+ "indigo": {
+  "tvl_usd": 2256659.0,
+  "indy_price_usd": 0.077847
+ },
+ "loan_book": {
+  "positions": 272,
+  "debt_usd": 1281888.9252943299,
+  "collateral_ada": 15076473.377658995,
+  "book_ratio": 1.7664863503572754,
+  "price_10pct_at_risk_usd": 0.1376172365285369,
+  "price_50pct_at_risk_usd": 0.11141671824822756,
+  "decoded_utxos": 311,
+  "validator_utxos": 315
+ },
+ "coverage": {
+  "iADA": {
+   "decoded_iasset": 635.712444,
+   "chain_supply_iasset": 635.712444,
+   "coverage_pct": 100.0
+  },
+  "iBTC": {
+   "decoded_iasset": 4.848957999999999,
+   "chain_supply_iasset": 4.848958,
+   "coverage_pct": 99.99999999999997
+  },
+  "iETH": {
+   "decoded_iasset": 35.199894,
+   "chain_supply_iasset": 35.199894,
+   "coverage_pct": 100.0
+  },
+  "iEUR": {
+   "decoded_iasset": 75.669816,
+   "chain_supply_iasset": 75.669816,
+   "coverage_pct": 100.0
+  },
+  "iJPY": {
+   "decoded_iasset": 76027.851603,
+   "chain_supply_iasset": 76027.851603,
+   "coverage_pct": 100.0
+  },
+  "iSOL": {
+   "decoded_iasset": 76.06720200000001,
+   "chain_supply_iasset": 76.067202,
+   "coverage_pct": 100.00000000000003
+  },
+  "iUSD": {
+   "decoded_iasset": 992752.1157250003,
+   "chain_supply_iasset": 1155289.005804,
+   "coverage_pct": 85.93106233484102
+  },
+  "_worst_pct": 85.93106233484102
+ },
+ "governance": {
+  "epoch": 668,
+  "open_actions": [
+   {
+    "id": 162,
+    "type": "TreasuryWithdrawals",
+    "withdrawal_ada": 9600000.0,
+    "expiration_epoch": 669,
+    "drep_yes_pct_of_decisive": 49.46328856936942,
+    "drep_participation_pct": 71.14753519516877
+   },
+   {
+    "id": 161,
+    "type": "TreasuryWithdrawals",
+    "withdrawal_ada": 940000.0,
+    "expiration_epoch": 669,
+    "drep_yes_pct_of_decisive": 7.301695389622746,
+    "drep_participation_pct": 62.456983335923844
+   },
+   {
+    "id": 163,
+    "type": "InfoAction",
+    "withdrawal_ada": null,
+    "expiration_epoch": 671,
+    "drep_yes_pct_of_decisive": 99.23195154320818,
+    "drep_participation_pct": 43.84504627024255
+   },
+   {
+    "id": 165,
+    "type": "TreasuryWithdrawals",
+    "withdrawal_ada": 600000.0,
+    "expiration_epoch": 675,
+    "drep_yes_pct_of_decisive": 99.74922763504598,
+    "drep_participation_pct": 3.047587296672328
+   },
+   {
+    "id": 164,
+    "type": "TreasuryWithdrawals",
+    "withdrawal_ada": 24995775.0,
+    "expiration_epoch": 675,
+    "drep_yes_pct_of_decisive": 24.807631940245518,
+    "drep_participation_pct": 7.840512752785234
+   }
+  ],
+  "decided_counts": {
+   "enacted": 0,
+   "expired": 4,
+   "dropped": 0
+  }
+ },
+ "monetary": {
+  "decay_per_epoch_pct": 0.1611602988010774,
+  "half_life_years": 5.882974778508378,
+  "treasury_accrual_per_epoch_ada": 3656502.2450859547
+ },
+ "transcript": [
+  {
+   "heading": "Cold open",
+   "text": "14.71 million dollars changed hands on Strike Finance, Cardano's perpetuals venue, in the last day, across 40 markets, as Strike reports it. Here is how its prices hold up against the biggest exchanges."
+  },
+  {
+   "heading": "Last week's calls",
+   "text": "First, the scorecard. We said Cardano's seven-day average of wallets sending a transaction is above 5,068 a day on November 20, a bar set 8 percent below this week's. It measured 5,650, so we got that one right. That puts the running record at 22 right, 16 wrong, 1 void."
+  },
+  {
+   "heading": "Cardano's perps venue, measured",
+   "text": "Strike Finance, Cardano's perpetuals venue, traded 14.71 million dollars across 40 markets in the last 24 hours. ADA traded 2.63 million dollars of that. Its prices track the big exchanges closely: across the majors, the median gap to the same contract on OKX was 13.1 hundredths of a percent. The quoted spread on ADA was about 4 hundredths of a percent. A market's volume and the gap to other venues say whether it is a real place to trade, which a funding rate alone cannot. Why it matters: volume and a tight gap to the big venues are what make a market real, not the number of contracts listed."
+  },
+  {
+   "heading": "ADA",
+   "text": "Also today. ADA is at 15.0 cents, down 2.4 percent on the day \u2014 down 33.0 percent over thirty days and down 11.9 percent on the week. Since the last episode it has moved down 2.9 percent. That is 4.5 percent above the bottom of its thirty-day range, 14.4 cents."
+  },
+  {
+   "heading": "DJED: its peg and its yield",
+   "text": "One more thing. DJED, one of the dollar stablecoins on Cardano, is trading 1.76 to 2.31 percent below its peg, the one-dollar price it is built to hold. That is two readings: a scan of 6 trading pools, and DJED's reserve monitor, read November 20, 08:28 UTC. On Liqwid, a lending market on Cardano, people lending out DJED are being paid 25.5 percent, on about 85.5 thousand dollars of room left in that market, with 97 percent of it already borrowed. So lenders are paid 25.5 percent on a coin trading 1.76 to 2.31 percent under its dollar. Both numbers are on the screen; the reading is yours."
+  },
+  {
+   "heading": "Today's claim",
+   "text": "Now the prediction. Today's claim: iUSD supply is above 1,120,631, a week from now. It stands at 1,155,289 as this is recorded, against 1,326,095 a week ago. We'll score it on November 27, automatically, against the same measurement \u2014 and if it's wrong, it stays on the board as wrong. Think I've got it wrong? Reply yes or no under the first comment, or put a number on it: join the Forecast League on our website."
+  },
+  {
+   "heading": "",
+   "text": "Running record: 22 right, 16 wrong, with 1 void. Every call we make is scored in public, the wrong ones included. New here? Start with the guide linked below. Strike's market data is free on our site, linked below. See you Monday."
+  }
+ ],
+ "_note": "Compact record of the figures used in this episode."
+}
