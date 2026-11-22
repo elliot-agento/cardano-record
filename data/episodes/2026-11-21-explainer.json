@@ -1,0 +1,141 @@
+{
+ "episode_id": "2026-11-21-explainer",
+ "mode": "explainer",
+ "published": "2026-11-22T02:06:22+00:00",
+ "video_url": "https://youtu.be/8PgUcV8snuo",
+ "title": "Crypto bridges explained: how bitcoin and ether get onto Cardano | Crypto from Zero #19",
+ "data_generated_at": "2026-11-22T00:42:11+00:00",
+ "claim": null,
+ "market": {
+  "ada_usd": 0.14432281735681873,
+  "source": "coingecko",
+  "cross_checked": true,
+  "change_24h_pct": 1.0362114448420179
+ },
+ "indigo": {
+  "tvl_usd": 2226932.0,
+  "indy_price_usd": 0.076203
+ },
+ "loan_book": {
+  "positions": 272,
+  "debt_usd": 1273413.3738517817,
+  "collateral_ada": 15745191.531341994,
+  "book_ratio": 1.7844876206636207,
+  "price_10pct_at_risk_usd": 0.13761676580860618,
+  "price_50pct_at_risk_usd": 0.1110682024288529,
+  "decoded_utxos": 310,
+  "validator_utxos": 314
+ },
+ "coverage": {
+  "iADA": {
+   "decoded_iasset": 635.712444,
+   "chain_supply_iasset": 635.712444,
+   "coverage_pct": 100.0
+  },
+  "iBTC": {
+   "decoded_iasset": 4.869076,
+   "chain_supply_iasset": 4.869076,
+   "coverage_pct": 100.0
+  },
+  "iETH": {
+   "decoded_iasset": 35.199894,
+   "chain_supply_iasset": 35.199894,
+   "coverage_pct": 100.0
+  },
+  "iEUR": {
+   "decoded_iasset": 73.00090999999999,
+   "chain_supply_iasset": 73.00091,
+   "coverage_pct": 99.99999999999997
+  },
+  "iJPY": {
+   "decoded_iasset": 76027.851603,
+   "chain_supply_iasset": 76027.851603,
+   "coverage_pct": 100.0
+  },
+  "iSOL": {
+   "decoded_iasset": 70.933672,
+   "chain_supply_iasset": 70.933672,
+   "coverage_pct": 100.0
+  },
+  "iUSD": {
+   "decoded_iasset": 994357.8700360002,
+   "chain_supply_iasset": 1154960.280919,
+   "coverage_pct": 86.0945511688758
+  },
+  "_worst_pct": 86.0945511688758
+ },
+ "governance": {
+  "epoch": 669,
+  "open_actions": [
+   {
+    "id": 163,
+    "type": "InfoAction",
+    "withdrawal_ada": null,
+    "expiration_epoch": 671,
+    "drep_yes_pct_of_decisive": 99.27603879345064,
+    "drep_participation_pct": 44.61867939026192
+   },
+   {
+    "id": 165,
+    "type": "TreasuryWithdrawals",
+    "withdrawal_ada": 600000.0,
+    "expiration_epoch": 675,
+    "drep_yes_pct_of_decisive": 99.8788607168854,
+    "drep_participation_pct": 12.624734949650326
+   },
+   {
+    "id": 164,
+    "type": "TreasuryWithdrawals",
+    "withdrawal_ada": 24995775.0,
+    "expiration_epoch": 675,
+    "drep_yes_pct_of_decisive": 16.121114755864784,
+    "drep_participation_pct": 19.140698927042276
+   }
+  ],
+  "decided_counts": {
+   "enacted": 0,
+   "expired": 6,
+   "dropped": 0
+  }
+ },
+ "monetary": {
+  "decay_per_epoch_pct": 0.1611085735784057,
+  "half_life_years": 5.884865079609812,
+  "treasury_accrual_per_epoch_ada": 3648257.887458086
+ },
+ "transcript": [
+  {
+   "heading": "Cold open",
+   "text": "Blockchains cannot talk to each other directly, yet you can hold bitcoin and ether on Cardano. Here is how bridges do it, what they ask you to trust, and which way bridged value moved this week."
+  },
+  {
+   "heading": "Lock here, mint there",
+   "text": "A bridge moves value between chains by locking and minting. You lock coins on the original chain, and the bridge mints a matching wrapped token on Cardano. A wrapped token stands for a coin locked on another chain. To go back, the wrapped token is burned and the original is released. The coin never really travels; a claim on it does."
+  },
+  {
+   "heading": "A cloakroom in two buildings",
+   "text": "Think of a cloakroom that spans two buildings. You leave your coat in building A and get a ticket that works in building B, where it can be traded as if it were the coat. But if someone empties the cloakroom in A, every ticket in B is suddenly worth nothing, even though nothing in B has changed."
+  },
+  {
+   "heading": "What you are trusting",
+   "text": "The wrapped token is worth something only while the locked coins are really there. Some bridges rely on a company or a group of signers to hold them; others use smart contracts and proofs on both chains. Bridges have been among the most attacked systems in crypto, and from Cardano alone you can see the wrapped supply, but not the reserve behind it."
+  },
+  {
+   "heading": "Trusting the other side",
+   "text": "Wrapped bitcoin, wrapped ether and some stablecoins reach Cardano through bridges. Each one asks its holders to trust whoever holds the reserve on the other chain, and several of the largest thefts in crypto history were bridges. That is why the reserve question matters so much."
+  },
+  {
+   "heading": "What crossed the bridge",
+   "text": "That is how it works on paper. Here is what the chain recorded. Assets that came from another chain are the one part of Cardano where you can see value actually crossing a boundary, because a bridged token only exists here while something is held somewhere else. Over 7 days, 6 of the 19 assets from the 3 mint-and-burn bridges we track saw any mint or burn. The other 13 had none at all. Rosen's rsERG is left out of those counts: it was last minted in 2023, and the bridge pays out of a reserve made up front, so mints and burns cannot show how much crosses. The largest move was USDT, whose outstanding amount on Cardano shrank 21.02 percent across 14 mints and 18 burns. Every tracked asset whose supply changed shrank: more was burned on the way out than minted on the way in. Two things this deliberately does not do. It does not put these in dollars, because the decimal places on a bridged token are not something we have verified \u2014 and it does not tell you the collateral is really locked on the other side, because that is not visible from Cardano. What the ledger settles is how much is represented here, and that is what you just heard."
+  },
+  {
+   "heading": "The short version",
+   "text": "So, in short. Bridges lock coins on one chain and mint wrapped versions on another, so a wrapped token is only as good as the reserve behind it."
+  },
+  {
+   "heading": "",
+   "text": "No new claim today: a lesson explains how something works, and calls are made and scored in the Monday, Wednesday and Friday episodes. That is bridges and wrapped tokens, explained. Next time: What is a smart contract? Every lesson of Crypto from Zero is in the playlist linked below, in order, and every Monday, Wednesday and Friday this channel measures Cardano straight from the chain."
+  }
+ ],
+ "_note": "Compact record of the figures used in this episode."
+}
