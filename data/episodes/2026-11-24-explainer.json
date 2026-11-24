@@ -1,0 +1,146 @@
+{
+ "episode_id": "2026-11-24-explainer",
+ "mode": "explainer",
+ "published": "2026-11-24T20:19:31+00:00",
+ "video_url": "https://youtu.be/Lgcx5ov109U",
+ "title": "What is a smart contract? Cardano validators explained | Crypto from Zero #20",
+ "data_generated_at": "2026-11-24T19:28:02+00:00",
+ "claim": null,
+ "market": {
+  "ada_usd": 0.14479111991002888,
+  "source": "coingecko",
+  "cross_checked": true,
+  "change_24h_pct": -2.678236650883474
+ },
+ "indigo": {
+  "tvl_usd": 2339275.0,
+  "indy_price_usd": 0.079855
+ },
+ "loan_book": {
+  "positions": 274,
+  "debt_usd": 1274634.3111233837,
+  "collateral_ada": 15667805.922597995,
+  "book_ratio": 1.779772556151089,
+  "price_10pct_at_risk_usd": 0.1376170534704192,
+  "price_50pct_at_risk_usd": 0.11106843459591692,
+  "decoded_utxos": 314,
+  "validator_utxos": 318
+ },
+ "coverage": {
+  "iADA": {
+   "decoded_iasset": 2835.322011,
+   "chain_supply_iasset": 2835.322011,
+   "coverage_pct": 100.0
+  },
+  "iBTC": {
+   "decoded_iasset": 4.869076,
+   "chain_supply_iasset": 4.869076,
+   "coverage_pct": 100.0
+  },
+  "iETH": {
+   "decoded_iasset": 35.199894,
+   "chain_supply_iasset": 35.199894,
+   "coverage_pct": 100.0
+  },
+  "iEUR": {
+   "decoded_iasset": 73.00090999999999,
+   "chain_supply_iasset": 73.00091,
+   "coverage_pct": 99.99999999999997
+  },
+  "iJPY": {
+   "decoded_iasset": 73053.184174,
+   "chain_supply_iasset": 73053.184174,
+   "coverage_pct": 100.0
+  },
+  "iSOL": {
+   "decoded_iasset": 70.450734,
+   "chain_supply_iasset": 70.450734,
+   "coverage_pct": 100.0
+  },
+  "iUSD": {
+   "decoded_iasset": 997665.848423,
+   "chain_supply_iasset": 1178101.483761,
+   "coverage_pct": 100.0,
+   "stableswap_iasset": 180435.635338
+  },
+  "_worst_pct": 99.99999999999997
+ },
+ "governance": {
+  "epoch": 669,
+  "open_actions": [
+   {
+    "id": 163,
+    "type": "InfoAction",
+    "withdrawal_ada": null,
+    "expiration_epoch": 671,
+    "drep_yes_pct_of_decisive": 99.5560683116957,
+    "drep_participation_pct": 51.14338586456414
+   },
+   {
+    "id": 165,
+    "type": "TreasuryWithdrawals",
+    "withdrawal_ada": 600000.0,
+    "expiration_epoch": 675,
+    "drep_yes_pct_of_decisive": 99.86499023694184,
+    "drep_participation_pct": 26.982550332977112
+   },
+   {
+    "id": 164,
+    "type": "TreasuryWithdrawals",
+    "withdrawal_ada": 24995775.0,
+    "expiration_epoch": 675,
+    "drep_yes_pct_of_decisive": 10.630834933108709,
+    "drep_participation_pct": 39.010511307458415
+   }
+  ],
+  "decided_counts": {
+   "enacted": 0,
+   "expired": 6,
+   "dropped": 0
+  }
+ },
+ "monetary": {
+  "decay_per_epoch_pct": 0.1611085735784057,
+  "half_life_years": 5.884865079609812,
+  "treasury_accrual_per_epoch_ada": 3648257.887458086
+ },
+ "transcript": [
+  {
+   "heading": "Cold open",
+   "text": "Every DEX, lending market and stablecoin on Cardano runs on smart contracts. Here is what one actually is, how Cardano's version works, and how the chain's smart-contract work was spread across its latest few hundred blocks."
+  },
+  {
+   "heading": "Rules that run themselves",
+   "text": "A smart contract is a program stored on the blockchain that enforces rules without anyone in the middle. Lock coins under a contract and they can only be moved by a transaction that satisfies its rules: pay back the loan, give the pool its fair swap, wait until the deadline."
+  },
+  {
+   "heading": "A vending machine",
+   "text": "Think of a vending machine. Put in the right coins, press the button, and the snack drops, with no shopkeeper deciding whether to serve you. A smart contract is a vending machine for digital assets: lock tokens under it, and they only come out when someone meets its exact conditions."
+  },
+  {
+   "heading": "Cardano's version: validators",
+   "text": "On Cardano, a contract is usually a validator: a script that answers yes or no when someone tries to spend a UTxO locked under it. The UTxO carries a datum, the contract's stored state. The spender supplies a redeemer, their reason for spending. The validator checks both against the transaction, and if it says no, nothing moves."
+  },
+  {
+   "heading": "A savings lock",
+   "text": "Here is a simple validator: a savings lock. Someone locks one hundred ADA under a validator whose datum says: only my key, and not before the first of January. In March, a stranger tries to spend it, and the validator says no: wrong key. In December the owner tries: no, too early. In January the owner tries again, with the right key after the date, and the validator says yes."
+  },
+  {
+   "heading": "Code, and only code",
+   "text": "Every DEX swap, loan and stablecoin mint in Cardano's DeFi is a smart contract saying yes or no. A DEX, or decentralised exchange, lets people swap tokens straight from their wallets. Understanding that the rules are code, and only code, is the key to both what DeFi can do and what can go wrong."
+  },
+  {
+   "heading": "Who is using the compute?",
+   "text": "That is how it works on paper. Here is what the chain recorded. Every Cardano block has a budget for smart-contract computing. This is who used it. Across the last 400 blocks, about 2.2 hours, 160 different validators ran at least once, between them 1,275 executions. The busiest single validator accounted for 21.2 percent of every execution step spent on Cardano in that window. The top five together, 55.3 percent. Put the other way: it takes 4 validators to reach half of all the compute this chain did. Those executions paid 64 ADA in script fees. These are validator hashes, not protocol names. Which script belongs to which application is not something the chain records, and this channel does not guess at it."
+  },
+  {
+   "heading": "The short version",
+   "text": "So, in short. A smart contract is a program the chain enforces; on Cardano, a validator approves or refuses each attempt to spend what it guards."
+  },
+  {
+   "heading": "",
+   "text": "No new claim today: a lesson explains how something works, and calls are made and scored in the Monday, Wednesday and Friday episodes. That is smart contracts, explained. Next time: What is DeFi, and what is it made of? Every lesson of Crypto from Zero is in the playlist linked below, in order, and every Monday, Wednesday and Friday this channel measures Cardano straight from the chain."
+  }
+ ],
+ "_note": "Compact record of the figures used in this episode."
+}
