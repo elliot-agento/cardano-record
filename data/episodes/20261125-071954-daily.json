@@ -1,0 +1,159 @@
+{
+ "episode_id": "20261125-071954-daily",
+ "mode": "daily",
+ "published": "2026-11-25T13:53:24+00:00",
+ "video_url": "https://youtu.be/eexFmzrUlMI",
+ "title": "Cardano (ADA) News Today: 1.5M ADA idle for over three years moved in a day",
+ "data_generated_at": "2026-11-25T13:15:59+00:00",
+ "claim": {
+  "metric": "cnt_price_ada_min",
+  "horizon_days": 7,
+  "op": "<",
+  "threshold": 0.01705,
+  "text": "one MIN token \u2014 MIN is the token of the Minswap exchange \u2014 is worth less than 0.01705 ADA seven days from now, a bar set 1 percent above where it is today",
+  "subject": null,
+  "quality": {
+   "verdict": "ok",
+   "p_change": 0.7,
+   "p_level": 0.87,
+   "days": 45,
+   "retuned_from": 0.01637,
+   "borrowed": true
+  },
+  "borrowed": true,
+  "week_ago": 0.01721547008082205
+ },
+ "market": {
+  "ada_usd": 0.13935425418520342,
+  "source": "coingecko",
+  "cross_checked": true,
+  "change_24h_pct": -3.2497363203530076
+ },
+ "indigo": {
+  "tvl_usd": 2227609.0,
+  "indy_price_usd": 0.077048
+ },
+ "loan_book": {
+  "positions": 279,
+  "debt_usd": 1267716.1621616296,
+  "collateral_ada": 15681249.921772996,
+  "book_ratio": 1.723768263563278,
+  "price_10pct_at_risk_usd": 0.1376170644814503,
+  "price_50pct_at_risk_usd": 0.11043658842197183,
+  "decoded_utxos": 320,
+  "validator_utxos": 324
+ },
+ "coverage": {
+  "iADA": {
+   "decoded_iasset": 2835.322011,
+   "chain_supply_iasset": 2835.322011,
+   "coverage_pct": 100.0
+  },
+  "iBTC": {
+   "decoded_iasset": 4.869076,
+   "chain_supply_iasset": 4.869076,
+   "coverage_pct": 100.0
+  },
+  "iETH": {
+   "decoded_iasset": 35.199894,
+   "chain_supply_iasset": 35.199894,
+   "coverage_pct": 100.0
+  },
+  "iEUR": {
+   "decoded_iasset": 73.00090999999999,
+   "chain_supply_iasset": 73.00091,
+   "coverage_pct": 99.99999999999997
+  },
+  "iJPY": {
+   "decoded_iasset": 73053.184174,
+   "chain_supply_iasset": 73053.184174,
+   "coverage_pct": 100.0
+  },
+  "iSOL": {
+   "decoded_iasset": 70.450734,
+   "chain_supply_iasset": 70.450734,
+   "coverage_pct": 100.0
+  },
+  "iUSD": {
+   "decoded_iasset": 997780.4662940002,
+   "chain_supply_iasset": 1178216.101632,
+   "coverage_pct": 100.00000000000003,
+   "stableswap_iasset": 180435.635338
+  },
+  "_worst_pct": 99.99999999999997
+ },
+ "governance": {
+  "epoch": 669,
+  "open_actions": [
+   {
+    "id": 163,
+    "type": "InfoAction",
+    "withdrawal_ada": null,
+    "expiration_epoch": 671,
+    "drep_yes_pct_of_decisive": 99.5560683116957,
+    "drep_participation_pct": 52.40401826564055
+   },
+   {
+    "id": 165,
+    "type": "TreasuryWithdrawals",
+    "withdrawal_ada": 600000.0,
+    "expiration_epoch": 675,
+    "drep_yes_pct_of_decisive": 99.86870086750692,
+    "drep_participation_pct": 27.43251650178066
+   },
+   {
+    "id": 164,
+    "type": "TreasuryWithdrawals",
+    "withdrawal_ada": 24995775.0,
+    "expiration_epoch": 675,
+    "drep_yes_pct_of_decisive": 12.86511109062613,
+    "drep_participation_pct": 40.31643645526176
+   }
+  ],
+  "decided_counts": {
+   "enacted": 0,
+   "expired": 6,
+   "dropped": 0
+  }
+ },
+ "monetary": {
+  "decay_per_epoch_pct": 0.1611085735784057,
+  "half_life_years": 5.884865079609812,
+  "treasury_accrual_per_epoch_ada": 3648257.887458086
+ },
+ "transcript": [
+  {
+   "heading": "Cold open",
+   "text": "1.5 million ADA that had not moved in more than three years moved in the last day. Here is how long all the ADA that moved had been sitting still."
+  },
+  {
+   "heading": "Last week's calls",
+   "text": "First, the scorecard. We said 100 MIN tokens are worth more than 1.558 ADA on November 25, a bar set 9.5 percent below where it was on November 18. It measured 1.682 ADA, so we got that one right. That puts the running record at 23 right, 16 wrong, 1 void."
+  },
+  {
+   "heading": "Old coins on the move",
+   "text": "How long had the ADA that moved today been sitting still? Of the 6.60 billion ADA in outputs spent over the last 24 hours, 98.2 percent had existed for under thirty days: the same coins circulating. 1.5 million ADA had sat untouched for more than three years before it moved, across 1,017 separate outputs. That is about 2 in every 10,000 of the ADA that has sat that long. By our own count, that is inside the range of the 51 earlier days we have recorded, 1 million to 23.1 million. That 6.60 billion counts a coin every time it is spent, so the same coins are counted many times over; about 13 percent of today's total came from a single keyholder. Moving is not selling. Coins shuffled between one holder's own addresses count here too."
+  },
+  {
+   "heading": "All the ADA, by how long it has sat",
+   "text": "Now step back from one day to all of it. As of Saturday's full count, of the 37.14 billion ADA sitting in wallets and contracts, 7.16 billion, 19.3 percent, has not moved in more than three years. Only 16.5 percent has moved in the last thirty days. That count takes each coin once, which is why it is smaller than the single day of spending, where busy coins are counted again and again. Long-unmoved ADA includes lost keys and exchange cold storage as well as patient holders; the chain cannot tell them apart, and this does not try. Why it matters: how long coins sit before they move separates the same coins circulating from holdings that had been left alone for years."
+  },
+  {
+   "heading": "ADA",
+   "text": "Also today. ADA is at 13.9 cents, down 4.2 percent on the day \u2014 down 31.4 percent over thirty days and down 8.8 percent on the week. Since the last episode it has moved down 7.2 percent. That is 3.4 percent above the bottom of its thirty-day range, 13.5 cents."
+  },
+  {
+   "heading": "Who is building: Liqwid",
+   "text": "One more thing. Who is building Cardano. Today: Liqwid, a lending app, and the team behind it, Liqwid Labs. Liqwid lets people borrow against their ADA without selling it. A borrower locks ADA in the app as security, called collateral, and borrows another token against it. If ADA's price falls so far that the collateral no longer covers the loan, anyone can repay that loan and take the collateral, according to Liqwid's docs. Liqwid Labs launched it on Cardano in February 2023, according to Liqwid's own blog. Why it matters: a loan secured by ADA is a basic money tool, and here its rules run on Cardano itself, where each loan and its collateral can be looked up. This isn't a recommendation to use it; like any app that holds funds, it carries risk."
+  },
+  {
+   "heading": "Today's claim",
+   "text": "Now the prediction. Today's claim: one MIN token \u2014 MIN is the token of the Minswap exchange \u2014 is worth less than 0.01705 ADA seven days from now, a bar set 1 percent above where it is today. It stands at 0.01688 ADA as this is recorded, against 0.01722 ADA a week ago. We'll score it on December 2, automatically, against the same measurement \u2014 and if it's wrong, it stays on the board as wrong. Think I've got it wrong? Reply yes or no under the first comment, or put a number on it: join the Forecast League on our website."
+  },
+  {
+   "heading": "",
+   "text": "Running record: 23 right, 16 wrong, with 1 void. Every call we make is scored in public, the wrong ones included. New here? Start with the guide linked below. See you Friday."
+  }
+ ],
+ "_note": "Compact record of the figures used in this episode."
+}
