@@ -1,0 +1,158 @@
+{
+ "episode_id": "2026-11-26-explainer",
+ "mode": "explainer",
+ "published": "2026-11-26T19:17:42+00:00",
+ "video_url": "https://youtu.be/dWrvYW-DFJw",
+ "title": "What is DeFi? Decentralised finance on Cardano, explained from zero | Crypto from Zero #21",
+ "data_generated_at": "2026-11-26T18:30:01+00:00",
+ "claim": null,
+ "market": {
+  "ada_usd": 0.1500831213840952,
+  "source": "coingecko",
+  "cross_checked": true,
+  "change_24h_pct": 3.7757912781976275
+ },
+ "indigo": {
+  "tvl_usd": 2349063.0,
+  "indy_price_usd": 0.084766
+ },
+ "loan_book": {
+  "positions": 279,
+  "debt_usd": 1278947.7559288694,
+  "collateral_ada": 15687815.801809995,
+  "book_ratio": 1.8409480389794157,
+  "price_10pct_at_risk_usd": 0.1376175861296017,
+  "price_50pct_at_risk_usd": 0.11106886449628232,
+  "decoded_utxos": 320,
+  "validator_utxos": 324
+ },
+ "coverage": {
+  "iADA": {
+   "decoded_iasset": 2835.322011,
+   "chain_supply_iasset": 2835.322011,
+   "coverage_pct": 100.0
+  },
+  "iBTC": {
+   "decoded_iasset": 4.8463579999999995,
+   "chain_supply_iasset": 4.846358,
+   "coverage_pct": 99.99999999999997
+  },
+  "iETH": {
+   "decoded_iasset": 35.199894,
+   "chain_supply_iasset": 35.199894,
+   "coverage_pct": 100.0
+  },
+  "iEUR": {
+   "decoded_iasset": 73.00090999999999,
+   "chain_supply_iasset": 73.00091,
+   "coverage_pct": 99.99999999999997
+  },
+  "iJPY": {
+   "decoded_iasset": 70861.514065,
+   "chain_supply_iasset": 70861.514065,
+   "coverage_pct": 100.0
+  },
+  "iSOL": {
+   "decoded_iasset": 70.450734,
+   "chain_supply_iasset": 70.450734,
+   "coverage_pct": 100.0
+  },
+  "iUSD": {
+   "decoded_iasset": 998973.0998050001,
+   "chain_supply_iasset": 1179344.273228,
+   "coverage_pct": 100.00000000000003,
+   "stableswap_iasset": 180371.173423
+  },
+  "_worst_pct": 99.99999999999997
+ },
+ "governance": {
+  "epoch": 670,
+  "open_actions": [
+   {
+    "id": 163,
+    "type": "InfoAction",
+    "withdrawal_ada": null,
+    "expiration_epoch": 671,
+    "drep_yes_pct_of_decisive": 99.57192427322767,
+    "drep_participation_pct": 52.62268268849303
+   },
+   {
+    "id": 165,
+    "type": "TreasuryWithdrawals",
+    "withdrawal_ada": 600000.0,
+    "expiration_epoch": 675,
+    "drep_yes_pct_of_decisive": 99.90014869188059,
+    "drep_participation_pct": 31.438217360378495
+   },
+   {
+    "id": 164,
+    "type": "TreasuryWithdrawals",
+    "withdrawal_ada": 24995775.0,
+    "expiration_epoch": 675,
+    "drep_yes_pct_of_decisive": 11.944685226908923,
+    "drep_participation_pct": 42.12588749153488
+   },
+   {
+    "id": 166,
+    "type": "TreasuryWithdrawals",
+    "withdrawal_ada": 3120000.0,
+    "expiration_epoch": 677,
+    "drep_yes_pct_of_decisive": null,
+    "drep_participation_pct": 0.0
+   }
+  ],
+  "decided_counts": {
+   "enacted": 0,
+   "expired": 6,
+   "dropped": 0
+  }
+ },
+ "monetary": {
+  "decay_per_epoch_pct": 0.16106740490666738,
+  "half_life_years": 5.886370458688565,
+  "treasury_accrual_per_epoch_ada": 3633350.1365759373
+ },
+ "transcript": [
+  {
+   "heading": "Cold open",
+   "text": "Swapping, lending and borrowing, with no bank and no account, just a wallet and some code. That is DeFi. Here is what it is made of, and how much is deposited on Cardano today."
+  },
+  {
+   "heading": "Finance without the firm",
+   "text": "DeFi, short for decentralised finance, is trading, lending and borrowing done by smart contracts instead of companies. There is no account to open: you connect a wallet, and the contract's rules decide what happens. The code is public, and anyone can check what it does."
+  },
+  {
+   "heading": "The building blocks",
+   "text": "The main pieces are decentralised exchanges for swapping, lending markets for borrowing against collateral, stablecoins for holding dollars, and synthetic assets that track outside prices. They connect to each other, so one protocol's token is often another's collateral."
+  },
+  {
+   "heading": "Four protocols, one wallet",
+   "text": "Here is how the pieces connect in one afternoon. Someone deposits ADA into a lending market and borrows stablecoins against it. They swap part of those stablecoins for another token on a DEX, and put the rest into a liquidity pool to earn fees. A liquidity pool is a pot of two tokens that traders swap against; the people who fill it earn the trading fees. Four protocols, one wallet, no accounts, and each step depends on the ones before it holding up."
+  },
+  {
+   "heading": "Measuring it",
+   "text": "The usual measure of size is total value locked: the dollar value of everything deposited in DeFi contracts. It is a useful rough gauge, but it moves with prices as much as with use, and the same dollar can be counted twice when one protocol deposits into another."
+  },
+  {
+   "heading": "Double counting in miniature",
+   "text": "Here is double counting in miniature. Someone deposits a thousand dollars of ADA into a lending market, and TVL counts one thousand. They borrow five hundred dollars of stablecoins and deposit them into a DEX pool, and TVL counts another five hundred. Fifteen hundred dollars is now counted, from one thousand dollars of real money."
+  },
+  {
+   "heading": "No safety net",
+   "text": "DeFi puts financial services in reach of anyone with a wallet, at any hour, under public rules. It also removes the safety nets of ordinary finance: no deposit insurance, no helpdesk, no reversals. Every later lesson in this module looks at one piece of it, and at what can go wrong."
+  },
+  {
+   "heading": "Cardano against the field",
+   "text": "That is how it works on paper. Here is what the chain recorded. Start with the whole chain. 44.44 million dollars is locked in Cardano applications today, which ranks it thirty-fourth of the 426 chains DefiLlama tracks. That is down 0.8 percent over the week and down 23.9 percent over thirty days. Those applications produced 378.8 thousand dollars in fees over the last thirty days. Scale that month across a year against the value locked and it comes to 10.37 percent \u2014 not a yield anyone earned, just a month's fees held up against today's deposits. 49 protocols are carrying it."
+  },
+  {
+   "heading": "The short version",
+   "text": "So, in short. DeFi is swapping, lending and stablecoins run by public smart contracts, and its size is usually measured by total value locked."
+  },
+  {
+   "heading": "",
+   "text": "No new claim today: a lesson explains how something works, and calls are made and scored in the Monday, Wednesday and Friday episodes. That is DeFi, explained. Next time: How does a DEX work, and what is impermanent loss? Every lesson of Crypto from Zero is in the playlist linked below, in order, and every Monday, Wednesday and Friday this channel measures Cardano straight from the chain."
+  }
+ ],
+ "_note": "Compact record of the figures used in this episode."
+}
