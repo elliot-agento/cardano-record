@@ -1,0 +1,160 @@
+{
+ "episode_id": "20261127-032246-daily",
+ "mode": "daily",
+ "published": "2026-11-27T09:58:49+00:00",
+ "video_url": "https://youtu.be/wtBoAhY6Sxk",
+ "title": "Cardano (ADA) News Today: On-chain data \u2014 Nov 27",
+ "data_generated_at": "2026-11-27T09:18:27+00:00",
+ "claim": {
+  "metric": "ada_price_usd",
+  "horizon_days": 7,
+  "op": ">",
+  "threshold": 0.139,
+  "text": "ADA closes above $0.1390, a week from now, a bar set 9 percent below where it is today",
+  "subject": null,
+  "quality": {
+   "verdict": "ok",
+   "p_change": 0.73,
+   "p_level": 1.0,
+   "days": 45,
+   "retuned_from": 0.1558
+  }
+ },
+ "market": {
+  "ada_usd": 0.15277792705882845,
+  "source": "coingecko",
+  "cross_checked": true,
+  "change_24h_pct": 2.5561907156428165
+ },
+ "indigo": {
+  "tvl_usd": 2400744.0,
+  "indy_price_usd": 0.084436
+ },
+ "loan_book": {
+  "positions": 280,
+  "debt_usd": 1285555.3584066646,
+  "collateral_ada": 15691015.801809995,
+  "book_ratio": 1.8647511769691707,
+  "price_10pct_at_risk_usd": 0.13761916348568287,
+  "price_50pct_at_risk_usd": 0.11107013755413611,
+  "decoded_utxos": 322,
+  "validator_utxos": 326
+ },
+ "coverage": {
+  "iADA": {
+   "decoded_iasset": 2835.322011,
+   "chain_supply_iasset": 2835.322011,
+   "coverage_pct": 100.0
+  },
+  "iBTC": {
+   "decoded_iasset": 4.8463579999999995,
+   "chain_supply_iasset": 4.846358,
+   "coverage_pct": 99.99999999999997
+  },
+  "iETH": {
+   "decoded_iasset": 35.199894,
+   "chain_supply_iasset": 35.199894,
+   "coverage_pct": 100.0
+  },
+  "iEUR": {
+   "decoded_iasset": 73.00090999999999,
+   "chain_supply_iasset": 73.00091,
+   "coverage_pct": 99.99999999999997
+  },
+  "iJPY": {
+   "decoded_iasset": 70861.514065,
+   "chain_supply_iasset": 70861.514065,
+   "coverage_pct": 100.0
+  },
+  "iSOL": {
+   "decoded_iasset": 70.960583,
+   "chain_supply_iasset": 70.960583,
+   "coverage_pct": 100.0
+  },
+  "iUSD": {
+   "decoded_iasset": 1000727.203848,
+   "chain_supply_iasset": 1183350.965183,
+   "coverage_pct": 100.0,
+   "stableswap_iasset": 182623.761335
+  },
+  "_worst_pct": 99.99999999999997
+ },
+ "governance": {
+  "epoch": 670,
+  "open_actions": [
+   {
+    "id": 163,
+    "type": "InfoAction",
+    "withdrawal_ada": null,
+    "expiration_epoch": 671,
+    "drep_yes_pct_of_decisive": 99.57192427322767,
+    "drep_participation_pct": 52.62268268849303
+   },
+   {
+    "id": 165,
+    "type": "TreasuryWithdrawals",
+    "withdrawal_ada": 600000.0,
+    "expiration_epoch": 675,
+    "drep_yes_pct_of_decisive": 99.900659790994,
+    "drep_participation_pct": 31.5433837302908
+   },
+   {
+    "id": 164,
+    "type": "TreasuryWithdrawals",
+    "withdrawal_ada": 24995775.0,
+    "expiration_epoch": 675,
+    "drep_yes_pct_of_decisive": 11.89944489595523,
+    "drep_participation_pct": 42.23112983672285
+   },
+   {
+    "id": 166,
+    "type": "TreasuryWithdrawals",
+    "withdrawal_ada": 3120000.0,
+    "expiration_epoch": 677,
+    "drep_yes_pct_of_decisive": 99.9763264973943,
+    "drep_participation_pct": 11.283212094871551
+   }
+  ],
+  "decided_counts": {
+   "enacted": 0,
+   "expired": 6,
+   "dropped": 0
+  }
+ },
+ "monetary": {
+  "decay_per_epoch_pct": 0.16106740490666738,
+  "half_life_years": 5.886370458688565,
+  "treasury_accrual_per_epoch_ada": 3633350.1365759373
+ },
+ "transcript": [
+  {
+   "heading": "Cold open",
+   "text": "6 of the 19 assets from the 3 mint-and-burn bridges we track saw a mint or burn in the last 7 days. The largest move: BTC, whose amount on Cardano shrank 12.50 percent."
+  },
+  {
+   "heading": "Last week's calls",
+   "text": "First, the scorecard. We said iUSD supply is above 1,120,631 on November 27. It measured 1,183,351, so we got that one right. That puts the running record at 24 right, 16 wrong, 1 void."
+  },
+  {
+   "heading": "What crossed the bridge",
+   "text": "Assets that came from another chain are the one part of Cardano where you can see value actually crossing a boundary, because a bridged token only exists here while something is held somewhere else. Over 7 days, 6 of the 19 assets from the 3 mint-and-burn bridges we track saw any mint or burn. The other 13 had none at all. Rosen's rsERG is left out of those counts: it was last minted in 2023, and the bridge pays out of a reserve made up front, so mints and burns cannot show how much crosses. The largest move was BTC, whose outstanding amount on Cardano shrank 12.50 percent across 1 mint and 20 burns. 2 grew and 4 shrank, so this was not a week with one direction to it. Two things this deliberately does not do. It does not put these in dollars, because the decimal places on a bridged token are not something we have verified \u2014 and it does not tell you the collateral is really locked on the other side, because that is not visible from Cardano. What the ledger settles is how much is represented here, and that is what you just heard. Why it matters: a bridged token only exists here while something is held on the other chain, so its supply is a direct reading of value crossing over."
+  },
+  {
+   "heading": "ADA",
+   "text": "Also today. ADA is at 15.3 cents, up 2.9 percent on the day \u2014 down 26.4 percent over thirty days and up 2.5 percent on the week. Since the last episode it has moved up 9.6 percent."
+  },
+  {
+   "heading": "Prediction markets",
+   "text": "One more thing. Prediction markets on Cardano. Bodega runs yes-or-no markets settled on chain, and according to an independent indexer's decode of its contracts, 9 are open right now, holding 19.1 thousand ADA. 2,600 ADA has changed hands in them so far. Results are written on the chain by the Bodega team itself. No independent oracle confirms them. An oracle is a service that writes outside data, such as prices, onto the chain. It is a small market today, and this is its size."
+  },
+  {
+   "heading": "Today's claim",
+   "text": "Now the prediction. Today's claim: ADA closes above $0.1390, a week from now, a bar set 9 percent below where it is today. It stands at 15.3 cents as this is recorded. We'll score it on December 4, automatically, against the same measurement \u2014 and if it's wrong, it stays on the board as wrong. Think I've got it wrong? Reply yes or no under the first comment, or put a number on it: join the Forecast League on our website."
+  },
+  {
+   "heading": "",
+   "text": "Running record: 24 right, 16 wrong, with 1 void. Every call we make is scored in public, the wrong ones included. New here? Start with the guide linked below. See you Monday."
+  }
+ ],
+ "_note": "Compact record of the figures used in this episode."
+}
